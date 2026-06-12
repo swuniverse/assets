@@ -1,0 +1,106 @@
+[
+  {
+    "kind": "building",
+    "label": "Rebel Baumaterialfabrik",
+    "slug": "rebel-baumaterialfabrik",
+    "contactSheet": "batch-3-generated-sheet-1.png",
+    "cellIndex": 0,
+    "ids": [61010100]
+  },
+  {
+    "kind": "building",
+    "label": "Imperiale Baumaterialfabrik",
+    "slug": "imperiale-baumaterialfabrik",
+    "contactSheet": "batch-3-generated-sheet-1.png",
+    "cellIndex": 1,
+    "ids": [61010300]
+  },
+  {
+    "kind": "building",
+    "label": "Rebel Farm",
+    "slug": "rebel-farm",
+    "contactSheet": "batch-3-generated-sheet-1.png",
+    "cellIndex": 2,
+    "ids": [21010100]
+  },
+  {
+    "kind": "building",
+    "label": "Imperiale Targfarm",
+    "slug": "imperiale-targfarm",
+    "contactSheet": "batch-3-generated-sheet-1.png",
+    "cellIndex": 3,
+    "ids": [21010300]
+  },
+  {
+    "kind": "building",
+    "label": "Rebel Häuser",
+    "slug": "rebel-hauser",
+    "contactSheet": "batch-3-generated-sheet-1.png",
+    "cellIndex": 4,
+    "ids": [11010100]
+  },
+  {
+    "kind": "building",
+    "label": "Imperiale Häuser",
+    "slug": "imperiale-hauser",
+    "contactSheet": "batch-3-generated-sheet-1.png",
+    "cellIndex": 5,
+    "ids": [11010300]
+  },
+  {
+    "kind": "building",
+    "label": "Rebel Lager",
+    "slug": "rebel-lager",
+    "contactSheet": "batch-3-generated-sheet-1.png",
+    "cellIndex": 6,
+    "ids": [81210100]
+  },
+  {
+    "kind": "building",
+    "label": "Imperiale Lager",
+    "slug": "imperiale-lager",
+    "contactSheet": "batch-3-generated-sheet-1.png",
+    "cellIndex": 7,
+    "ids": [81210300]
+  },
+  {
+    "kind": "building",
+    "label": "Rebel Solarzellen",
+    "slug": "rebel-solarzellen",
+    "contactSheet": "batch-3-generated-sheet-1.png",
+    "cellIndex": 8,
+    "ids": [31010100]
+  },
+  {
+    "kind": "building",
+    "label": "Imperiale Solarzellen",
+    "slug": "imperiale-solarzellen",
+    "contactSheet": "batch-3-generated-sheet-1.png",
+    "cellIndex": 9,
+    "ids": [31010300]
+  },
+  {
+    "kind": "resource",
+    "label": "Baumaterial",
+    "slug": "baumaterial",
+    "contactSheet": "batch-3-generated-sheet-1.png",
+    "cellIndex": 10,
+    "id": 2
+  },
+  {
+    "kind": "resource",
+    "label": "Wohnhäuser",
+    "slug": "wohnhauser",
+    "contactSheet": "batch-3-generated-sheet-1.png",
+    "cellIndex": 11,
+    "id": 1101
+  },
+  {
+    "kind": "resource",
+    "label": "Lebensstandard",
+    "slug": "lebensstandard",
+    "contactSheet": "batch-3-generated-sheet-1.png",
+    "cellIndex": 12,
+    "id": 1300
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "kind": "building",
+    "label": "Rebel Koloniezentrale",
+    "slug": "rebel-koloniezentrale",
+    "contactSheet": "batch-2-generated-sheet-1.png",
+    "cellIndex": 0,
+    "ids": [82010100]
+  },
+  {
+    "kind": "building",
+    "label": "Imperiale Koloniezentrale",
+    "slug": "imperiale-koloniezentrale",
+    "contactSheet": "batch-2-generated-sheet-1.png",
+    "cellIndex": 1,
+    "ids": [82010300]
+  },
+  {
+    "kind": "resource",
+    "label": "Doonium",
+    "slug": "doonium",
+    "contactSheet": "batch-2-generated-sheet-1.png",
+    "cellIndex": 2,
+    "id": null
+  },
+  {
+    "kind": "resource",
+    "label": "Hypermaterie",
+    "slug": "hypermaterie",
+    "contactSheet": "batch-2-generated-sheet-1.png",
+    "cellIndex": 3,
+    "id": null
+  }
+]

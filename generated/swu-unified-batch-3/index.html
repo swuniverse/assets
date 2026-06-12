@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SWU Unified Asset Icons — Batch 3 Review</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #05080d;
+      --panel: #0b111b;
+      --panel-2: #101a28;
+      --line: rgba(130, 180, 230, .22);
+      --line-hot: rgba(100, 210, 255, .56);
+      --text: #d9e7f2;
+      --muted: #7f93a6;
+      --cyan: #66d9ff;
+      --violet: #9e78ff;
+      --red: #f04b4b;
+      --blue: #8cc9ff;
+      --amber: #f7b35a;
+      --green: #7ee3a2;
+      --grid: rgba(108, 158, 210, .09);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 18% 8%, rgba(67, 142, 255, .16), transparent 28rem),
+        radial-gradient(circle at 83% 16%, rgba(158, 120, 255, .10), transparent 32rem),
+        linear-gradient(180deg, #060912 0%, var(--bg) 48%, #020409 100%);
+      color: var(--text);
+      font-family: ui-sans-serif, "Aptos", "Segoe UI", system-ui, sans-serif;
+      letter-spacing: .01em;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        linear-gradient(var(--grid) 1px, transparent 1px),
+        linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+      background-size: 48px 48px;
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,.8), transparent 78%);
+    }
+
+    main {
+      width: min(1320px, calc(100vw - 40px));
+      margin: 0 auto;
+      padding: 42px 0 56px;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 28px;
+      align-items: end;
+      margin-bottom: 28px;
+    }
+
+    .eyebrow {
+      color: var(--cyan);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: .22em;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      margin: 0;
+      font-family: "DIN Condensed", "Bahnschrift Condensed", "Aptos Display", sans-serif;
+      font-size: clamp(40px, 6vw, 78px);
+      line-height: .9;
+      text-transform: uppercase;
+      letter-spacing: .035em;
+      text-wrap: balance;
+    }
+
+    .status {
+      border: 1px solid var(--line);
+      background: color-mix(in srgb, var(--panel) 84%, transparent);
+      padding: 14px 16px;
+      min-width: 300px;
+      box-shadow: 0 0 0 1px rgba(255,255,255,.03) inset, 0 24px 70px rgba(0,0,0,.34);
+    }
+
+    .status strong {
+      display: block;
+      font-size: 13px;
+      color: var(--text);
+      text-transform: uppercase;
+      letter-spacing: .12em;
+      margin-bottom: 6px;
+    }
+
+    .status span { color: var(--muted); font-size: 13px; line-height: 1.45; display: block; }
+
+    .review-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 380px;
+      gap: 22px;
+      align-items: start;
+    }
+
+    .sheet-card, .manifest-card {
+      position: relative;
+      border: 1px solid var(--line);
+      background: linear-gradient(180deg, rgba(13, 22, 35, .92), rgba(5, 8, 13, .92));
+      box-shadow: 0 30px 100px rgba(0,0,0,.42), 0 0 0 1px rgba(255,255,255,.025) inset;
+      overflow: hidden;
+    }
+
+    .sheet-card::after, .manifest-card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border: 1px solid rgba(102, 217, 255, .08);
+      pointer-events: none;
+    }
+
+    .sheet-wrap {
+      padding: 26px;
+      display: grid;
+      place-items: center;
+      background:
+        radial-gradient(circle at center, rgba(102, 217, 255, .08), transparent 56%),
+        repeating-linear-gradient(135deg, rgba(255,255,255,.025) 0 1px, transparent 1px 13px);
+    }
+
+    .sheet {
+      width: min(100%, 980px);
+      aspect-ratio: 16 / 9;
+      object-fit: contain;
+      border: 1px solid rgba(102, 217, 255, .28);
+      box-shadow: 0 0 48px rgba(102, 217, 255, .10), 0 22px 60px rgba(0,0,0,.55);
+      background: #02050a;
+    }
+
+    .cells {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      border-top: 1px solid var(--line);
+      background: var(--line);
+    }
+
+    .cell {
+      padding: 15px 16px;
+      background: rgba(6, 10, 16, .94);
+      min-height: 128px;
+    }
+
+    .cell .n {
+      display: inline-flex;
+      width: 28px;
+      height: 28px;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--line-hot);
+      color: var(--cyan);
+      font-weight: 800;
+      margin-bottom: 12px;
+      font-size: 12px;
+    }
+
+    .cell h2 {
+      margin: 0 0 8px;
+      font-size: 17px;
+      line-height: 1.12;
+    }
+
+    .cell p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12.5px;
+      line-height: 1.42;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      margin-top: 12px;
+      color: #b6c9d9;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: .11em;
+    }
+
+    .dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--cyan);
+      box-shadow: 0 0 14px var(--cyan);
+      flex: none;
+    }
+
+    .dot.red { background: var(--red); box-shadow: 0 0 14px var(--red); }
+    .dot.blue { background: var(--blue); box-shadow: 0 0 14px var(--blue); }
+    .dot.amber { background: var(--amber); box-shadow: 0 0 14px var(--amber); }
+    .dot.green { background: var(--green); box-shadow: 0 0 14px var(--green); }
+    .dot.violet { background: var(--violet); box-shadow: 0 0 14px var(--violet); }
+
+    .manifest-card { padding: 20px; }
+
+    .manifest-card h2 {
+      margin: 0 0 14px;
+      font-family: "DIN Condensed", "Bahnschrift Condensed", sans-serif;
+      font-size: 32px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    dl { margin: 0; display: grid; gap: 12px; }
+    dt { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .15em; }
+    dd { margin: 4px 0 0; font-size: 14px; color: var(--text); word-break: break-word; }
+
+    .checks {
+      margin-top: 22px;
+      border-top: 1px solid var(--line);
+      padding-top: 18px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .check {
+      display: flex;
+      gap: 10px;
+      color: #bfd2df;
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .check b { color: var(--cyan); }
+
+    code {
+      font-family: "SF Mono", "Cascadia Code", monospace;
+      color: #dff7ff;
+      background: rgba(102,217,255,.08);
+      border: 1px solid rgba(102,217,255,.18);
+      padding: 2px 5px;
+    }
+
+    @media (max-width: 1100px) {
+      header, .review-grid { grid-template-columns: 1fr; }
+      .cells { grid-template-columns: repeat(2, 1fr); }
+    }
+
+    @media (max-width: 680px) {
+      main { width: min(100vw - 24px, 1320px); padding-top: 28px; }
+      .cells { grid-template-columns: 1fr; }
+      .sheet-wrap { padding: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <div class="eyebrow">SWU Unified Asset Icons · Batch 3</div>
+        <h1>Dreizehn Baumenü-Icons</h1>
+      </div>
+      <aside class="status">
+        <strong>Kontaktbogen</strong>
+        <span>1 Datei · 5×3 Raster · 13 genutzte Zellen · keine Varianten · GPT2-Quota respektiert</span>
+      </aside>
+    </header>
+
+    <section class="review-grid" aria-label="Batch 3 Review">
+      <article class="sheet-card">
+        <div class="sheet-wrap">
+          <img class="sheet" src="batch-3-generated-sheet-1.png" alt="Kontaktbogen mit dreizehn SWU Icons für Baumenü, Ressourcen und frühe Effekte" />
+        </div>
+        <div class="cells">
+          <section class="cell"><span class="n">0</span><h2>Rebel Baumaterialfabrik</h2><p>Modulare Frontier-Fabrik mit blau-weißen Utility-Lichtern.</p><span class="tag"><span class="dot"></span>building · 61010100</span></section>
+          <section class="cell"><span class="n">1</span><h2>Imperiale Baumaterialfabrik</h2><p>Angularer dunkler Industriekomplex mit roten Statuslichtern.</p><span class="tag"><span class="dot red"></span>building · 61010300</span></section>
+          <section class="cell"><span class="n">2</span><h2>Rebel Farm</h2><p>Pragmatische Hydroponik- und Agrarkuppeln für Frontier-Kolonien.</p><span class="tag"><span class="dot green"></span>building · 21010100</span></section>
+          <section class="cell"><span class="n">3</span><h2>Imperiale Targfarm</h2><p>Kontrollierter Agrar-/Livestock-Komplex mit Feed-Modulen.</p><span class="tag"><span class="dot red"></span>building · 21010300</span></section>
+          <section class="cell"><span class="n">4</span><h2>Rebel Häuser</h2><p>Modularer Habitat-Cluster mit warmen Siedlungsfenstern.</p><span class="tag"><span class="dot amber"></span>building · 11010100</span></section>
+          <section class="cell"><span class="n">5</span><h2>Imperiale Häuser</h2><p>Austere, kantige Wohnmodule mit rot-weißer Beleuchtung.</p><span class="tag"><span class="dot red"></span>building · 11010300</span></section>
+          <section class="cell"><span class="n">6</span><h2>Rebel Lager</h2><p>Praktischer Storage-Depot-Look mit Cargo-Modulen und Antennen.</p><span class="tag"><span class="dot blue"></span>building · 81210100</span></section>
+          <section class="cell"><span class="n">7</span><h2>Imperiale Lager</h2><p>Geordnete Supply-Bays aus dunklem Metall mit roten Markern.</p><span class="tag"><span class="dot red"></span>building · 81210300</span></section>
+          <section class="cell"><span class="n">8</span><h2>Rebel Solarzellen</h2><p>Kompaktes Power-Array mit blauen Energie-Glints.</p><span class="tag"><span class="dot"></span>building · 31010100</span></section>
+          <section class="cell"><span class="n">9</span><h2>Imperiale Solarzellen</h2><p>Symmetrisches dunkles Panel-Array mit roten Kontrollpylonen.</p><span class="tag"><span class="dot red"></span>building · 31010300</span></section>
+          <section class="cell"><span class="n">10</span><h2>Baumaterial</h2><p>Industrie-Crates, Paneele und Barren als kompaktes Supply-Icon.</p><span class="tag"><span class="dot amber"></span>resource · id 2</span></section>
+          <section class="cell"><span class="n">11</span><h2>Wohnhäuser</h2><p>Housing-Capacity-Icon als kompakter Habitat-Block.</p><span class="tag"><span class="dot blue"></span>resource · id 1101</span></section>
+          <section class="cell"><span class="n">12</span><h2>Lebensstandard</h2><p>Poliertes Amenities-Modul für zivile Versorgung und Wohlstand.</p><span class="tag"><span class="dot violet"></span>resource · id 1300</span></section>
+        </div>
+      </article>
+
+      <aside class="manifest-card">
+        <h2>Manifest</h2>
+        <dl>
+          <div><dt>PNG</dt><dd><code>batch-3-generated-sheet-1.png</code></dd></div>
+          <div><dt>JSON</dt><dd><code>generated-icons-batch-3.json</code></dd></div>
+          <div><dt>Runtime Crop</dt><dd>trim subject · max 240×240 · center on 256×256 transparent canvas</dd></div>
+          <div><dt>Layout</dt><dd>5×3, cellIndex 0–12, left-to-right/top-to-bottom; zwei leere Restzellen</dd></div>
+          <div><dt>Stil</dt><dd>Dunkler Sci‑Fi-Strategie-Iconstil, konsistent zu Batch 1/2</dd></div>
+        </dl>
+        <div class="checks">
+          <div class="check"><b>✓</b><span>Genau dreizehn requested Icons im Batch.</span></div>
+          <div class="check"><b>✓</b><span>Eine Image-Generation, keine Varianten, keine parallelen Requests.</span></div>
+          <div class="check"><b>✓</b><span>Manifest enthält kind, label, slug, contactSheet, cellIndex und ids/id.</span></div>
+        </div>
+      </aside>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,509 @@
+[
+  {
+    "kind": "building",
+    "label": "Admingebäude",
+    "slug": "admingebaude",
+    "outputFilename": "contact-sheet-batch-1-1.png",
+    "contactSheet": "contact-sheet-batch-1-1.png",
+    "cellIndex": 0,
+    "ids": [
+      1
+    ]
+  },
+  {
+    "kind": "building",
+    "label": "Akademie",
+    "slug": "akademie",
+    "outputFilename": "contact-sheet-batch-1-1.png",
+    "contactSheet": "contact-sheet-batch-1-1.png",
+    "cellIndex": 1,
+    "ids": [
+      51010100
+    ]
+  },
+  {
+    "kind": "building",
+    "label": "Ale Brauerei",
+    "slug": "ale-brauerei",
+    "outputFilename": "contact-sheet-batch-1-1.png",
+    "contactSheet": "contact-sheet-batch-1-1.png",
+    "cellIndex": 2,
+    "ids": [
+      22020200
+    ]
+  },
+  {
+    "kind": "building",
+    "label": "Algenfarm",
+    "slug": "algenfarm",
+    "outputFilename": "contact-sheet-batch-1-1.png",
+    "contactSheet": "contact-sheet-batch-1-1.png",
+    "cellIndex": 3,
+    "ids": [
+      21020100,
+      21020200
+    ]
+  },
+  {
+    "kind": "building",
+    "label": "Aluminiumwerk",
+    "slug": "aluminiumwerk",
+    "outputFilename": "contact-sheet-batch-1-1.png",
+    "contactSheet": "contact-sheet-batch-1-1.png",
+    "cellIndex": 4,
+    "ids": [
+      62020100,
+      62020200,
+      62020300,
+      62020400,
+      62020500
+    ]
+  },
+  {
+    "kind": "building",
+    "label": "Anti-Grav Trainingszentrum",
+    "slug": "anti-grav-trainingszentrum",
+    "outputFilename": "contact-sheet-batch-1-1.png",
+    "contactSheet": "contact-sheet-batch-1-1.png",
+    "cellIndex": 5,
+    "ids": [
+      21910300
+    ]
+  },
+  {
+    "kind": "building",
+    "label": "Arena",
+    "slug": "arena",
+    "outputFilename": "contact-sheet-batch-1-1.png",
+    "contactSheet": "contact-sheet-batch-1-1.png",
+    "cellIndex": 6,
+    "ids": [
+      24030300
+    ]
+  },
+  {
+    "kind": "building",
+    "label": "Athenaeum",
+    "slug": "athenaeum",
+    "outputFilename": "contact-sheet-batch-1-1.png",
+    "contactSheet": "contact-sheet-batch-1-1.png",
+    "cellIndex": 7,
+    "ids": [
+      45010200
+    ]
+  },
+  {
+    "kind": "building",
+    "label": "Ausbildungsstätte \"Physiotherapie\"",
+    "slug": "ausbildungsstatte-physiotherapie",
+    "outputFilename": "contact-sheet-batch-1-1.png",
+    "contactSheet": "contact-sheet-batch-1-1.png",
+    "cellIndex": 8,
+    "ids": [
+      25030500
+    ]
+  },
+  {
+    "kind": "building",
+    "label": "Bar",
+    "slug": "bar",
+    "outputFilename": "contact-sheet-batch-1-1.png",
+    "contactSheet": "contact-sheet-batch-1-1.png",
+    "cellIndex": 9,
+    "ids": [
+      22010500
+    ]
+  },
+  {
+    "kind": "building",
+    "label": "Bibliothek",
+    "slug": "bibliothek",
+    "outputFilename": "contact-sheet-batch-1-2.png",
+    "contactSheet": "contact-sheet-batch-1-2.png",
+    "cellIndex": 0,
+    "ids": [
+      24010200
+    ]
+  },
+  {
+    "kind": "building",
+    "label": "Blutwein Kelterei",
+    "slug": "blutwein-kelterei",
+    "outputFilename": "contact-sheet-batch-1-2.png",
+    "contactSheet": "contact-sheet-batch-1-2.png",
+    "cellIndex": 1,
+    "ids": [
+      22020300
+    ]
+  },
+  {
+    "kind": "building",
+    "label": "Börse",
+    "slug": "borse",
+    "outputFilename": "contact-sheet-batch-1-2.png",
+    "contactSheet": "contact-sheet-batch-1-2.png",
+    "cellIndex": 2,
+    "ids": [
+      24030500
+    ]
+  },
+  {
+    "kind": "building",
+    "label": "Börsenzentrum",
+    "slug": "borsenzentrum",
+    "outputFilename": "contact-sheet-batch-1-2.png",
+    "contactSheet": "contact-sheet-batch-1-2.png",
+    "cellIndex": 3,
+    "ids": [
+      45010500
+    ]
+  },
+  {
+    "kind": "building",
+    "label": "Brunnenplatz",
+    "slug": "brunnenplatz",
+    "outputFilename": "contact-sheet-batch-1-2.png",
+    "contactSheet": "contact-sheet-batch-1-2.png",
+    "cellIndex": 4,
+    "ids": [
+      24010400
+    ]
+  },
+  {
+    "kind": "building",
+    "label": "Campingplatz",
+    "slug": "campingplatz",
+    "outputFilename": "contact-sheet-batch-1-2.png",
+    "contactSheet": "contact-sheet-batch-1-2.png",
+    "cellIndex": 5,
+    "ids": [
+      24010100
+    ]
+  },
+  {
+    "kind": "building",
+    "label": "Denkmal",
+    "slug": "denkmal",
+    "outputFilename": "contact-sheet-batch-1-2.png",
+    "contactSheet": "contact-sheet-batch-1-2.png",
+    "cellIndex": 6,
+    "ids": [
+      24020400
+    ]
+  },
+  {
+    "kind": "building",
+    "label": "Deuterium-Pumpe",
+    "slug": "deuterium-pumpe",
+    "outputFilename": "contact-sheet-batch-1-2.png",
+    "contactSheet": "contact-sheet-batch-1-2.png",
+    "cellIndex": 7,
+    "ids": [
+      61040100,
+      61040200,
+      61040300,
+      61040400,
+      61040500
+    ]
+  },
+  {
+    "kind": "building",
+    "label": "Deuteriumsynthesizer",
+    "slug": "deuteriumsynthesizer",
+    "outputFilename": "contact-sheet-batch-1-2.png",
+    "contactSheet": "contact-sheet-batch-1-2.png",
+    "cellIndex": 8,
+    "ids": [
+      61020100,
+      61020200,
+      61020300,
+      61020400,
+      61020500
+    ]
+  },
+  {
+    "kind": "building",
+    "label": "Dilithium-Mine",
+    "slug": "dilithium-mine",
+    "outputFilename": "contact-sheet-batch-1-2.png",
+    "contactSheet": "contact-sheet-batch-1-2.png",
+    "cellIndex": 9,
+    "ids": [
+      61210100,
+      61210200,
+      61210300,
+      61210400,
+      61210500
+    ]
+  },
+  {
+    "kind": "resource",
+    "label": "Transparentes Aluminium",
+    "slug": "4-transparentes-aluminium",
+    "outputFilename": "contact-sheet-batch-1-3.png",
+    "contactSheet": "contact-sheet-batch-1-3.png",
+    "cellIndex": 0,
+    "id": 4
+  },
+  {
+    "kind": "resource",
+    "label": "Dilithium",
+    "slug": "8-dilithium",
+    "outputFilename": "contact-sheet-batch-1-3.png",
+    "contactSheet": "contact-sheet-batch-1-3.png",
+    "cellIndex": 1,
+    "id": 8
+  },
+  {
+    "kind": "resource",
+    "label": "Galazit-Erz",
+    "slug": "12-galazit-erz",
+    "outputFilename": "contact-sheet-batch-1-3.png",
+    "contactSheet": "contact-sheet-batch-1-3.png",
+    "cellIndex": 2,
+    "id": 12
+  },
+  {
+    "kind": "resource",
+    "label": "Nitrium-Erz",
+    "slug": "13-nitrium-erz",
+    "outputFilename": "contact-sheet-batch-1-3.png",
+    "contactSheet": "contact-sheet-batch-1-3.png",
+    "cellIndex": 3,
+    "id": 13
+  },
+  {
+    "kind": "resource",
+    "label": "Magnesit-Erz",
+    "slug": "14-magnesit-erz",
+    "outputFilename": "contact-sheet-batch-1-3.png",
+    "contactSheet": "contact-sheet-batch-1-3.png",
+    "cellIndex": 4,
+    "id": 14
+  },
+  {
+    "kind": "resource",
+    "label": "Kelbonit-Erz",
+    "slug": "15-kelbonit-erz",
+    "outputFilename": "contact-sheet-batch-1-3.png",
+    "contactSheet": "contact-sheet-batch-1-3.png",
+    "cellIndex": 5,
+    "id": 15
+  },
+  {
+    "kind": "resource",
+    "label": "Talgonit-Erz",
+    "slug": "16-talgonit-erz",
+    "outputFilename": "contact-sheet-batch-1-3.png",
+    "contactSheet": "contact-sheet-batch-1-3.png",
+    "cellIndex": 6,
+    "id": 16
+  },
+  {
+    "kind": "resource",
+    "label": "Tritanium-Erz",
+    "slug": "19-tritanium-erz",
+    "outputFilename": "contact-sheet-batch-1-3.png",
+    "contactSheet": "contact-sheet-batch-1-3.png",
+    "cellIndex": 7,
+    "id": 19
+  },
+  {
+    "kind": "resource",
+    "label": "Iridium",
+    "slug": "20-iridium",
+    "outputFilename": "contact-sheet-batch-1-3.png",
+    "contactSheet": "contact-sheet-batch-1-3.png",
+    "cellIndex": 8,
+    "id": 20
+  },
+  {
+    "kind": "resource",
+    "label": "Duranium",
+    "slug": "21-duranium",
+    "outputFilename": "contact-sheet-batch-1-3.png",
+    "contactSheet": "contact-sheet-batch-1-3.png",
+    "cellIndex": 9,
+    "id": 21
+  },
+  {
+    "kind": "resource",
+    "label": "Galazit",
+    "slug": "22-galazit",
+    "outputFilename": "contact-sheet-batch-1-4.png",
+    "contactSheet": "contact-sheet-batch-1-4.png",
+    "cellIndex": 0,
+    "id": 22
+  },
+  {
+    "kind": "resource",
+    "label": "Nitrium",
+    "slug": "23-nitrium",
+    "outputFilename": "contact-sheet-batch-1-4.png",
+    "contactSheet": "contact-sheet-batch-1-4.png",
+    "cellIndex": 1,
+    "id": 23
+  },
+  {
+    "kind": "resource",
+    "label": "Magnesit",
+    "slug": "24-magnesit",
+    "outputFilename": "contact-sheet-batch-1-4.png",
+    "contactSheet": "contact-sheet-batch-1-4.png",
+    "cellIndex": 2,
+    "id": 24
+  },
+  {
+    "kind": "resource",
+    "label": "Kelbonit",
+    "slug": "25-kelbonit",
+    "outputFilename": "contact-sheet-batch-1-4.png",
+    "contactSheet": "contact-sheet-batch-1-4.png",
+    "cellIndex": 3,
+    "id": 25
+  },
+  {
+    "kind": "resource",
+    "label": "Talgonit",
+    "slug": "26-talgonit",
+    "outputFilename": "contact-sheet-batch-1-4.png",
+    "contactSheet": "contact-sheet-batch-1-4.png",
+    "cellIndex": 4,
+    "id": 26
+  },
+  {
+    "kind": "resource",
+    "label": "Tritanium",
+    "slug": "29-tritanium",
+    "outputFilename": "contact-sheet-batch-1-4.png",
+    "contactSheet": "contact-sheet-batch-1-4.png",
+    "cellIndex": 5,
+    "id": 29
+  },
+  {
+    "kind": "resource",
+    "label": "Hochenergie-Plasma",
+    "slug": "32-hochenergie-plasma",
+    "outputFilename": "contact-sheet-batch-1-4.png",
+    "contactSheet": "contact-sheet-batch-1-4.png",
+    "cellIndex": 6,
+    "id": 32
+  },
+  {
+    "kind": "resource",
+    "label": "Isolineare Speicherchips",
+    "slug": "31-isolineare-speicherchips",
+    "outputFilename": "contact-sheet-batch-1-4.png",
+    "contactSheet": "contact-sheet-batch-1-4.png",
+    "cellIndex": 7,
+    "id": 31
+  },
+  {
+    "kind": "resource",
+    "label": "Nitrium-Schaltkreise",
+    "slug": "33-nitrium-schaltkreise",
+    "outputFilename": "contact-sheet-batch-1-4.png",
+    "contactSheet": "contact-sheet-batch-1-4.png",
+    "cellIndex": 8,
+    "id": 33
+  },
+  {
+    "kind": "resource",
+    "label": "Subraum-Feldspulen",
+    "slug": "34-subraum-feldspulen",
+    "outputFilename": "contact-sheet-batch-1-4.png",
+    "contactSheet": "contact-sheet-batch-1-4.png",
+    "cellIndex": 9,
+    "id": 34
+  },
+  {
+    "kind": "resource",
+    "label": "Metaphasen-Konverter",
+    "slug": "35-metaphasen-konverter",
+    "outputFilename": "contact-sheet-batch-1-5.png",
+    "contactSheet": "contact-sheet-batch-1-5.png",
+    "cellIndex": 0,
+    "id": 35
+  },
+  {
+    "kind": "resource",
+    "label": "Mikrodyne-Modulator",
+    "slug": "36-mikrodyne-modulator",
+    "outputFilename": "contact-sheet-batch-1-5.png",
+    "contactSheet": "contact-sheet-batch-1-5.png",
+    "cellIndex": 1,
+    "id": 36
+  },
+  {
+    "kind": "resource",
+    "label": "Chateau Picard",
+    "slug": "40-chateau-picard",
+    "outputFilename": "contact-sheet-batch-1-5.png",
+    "contactSheet": "contact-sheet-batch-1-5.png",
+    "cellIndex": 2,
+    "id": 40
+  },
+  {
+    "kind": "resource",
+    "label": "Bat'leth",
+    "slug": "41-bat-leth",
+    "outputFilename": "contact-sheet-batch-1-5.png",
+    "contactSheet": "contact-sheet-batch-1-5.png",
+    "cellIndex": 3,
+    "id": 41
+  },
+  {
+    "kind": "resource",
+    "label": "Container",
+    "slug": "42-container",
+    "outputFilename": "contact-sheet-batch-1-5.png",
+    "contactSheet": "contact-sheet-batch-1-5.png",
+    "cellIndex": 4,
+    "id": 42
+  },
+  {
+    "kind": "resource",
+    "label": "selbstdichtende Schaftbolzen",
+    "slug": "43-selbstdichtende-schaftbolzen",
+    "outputFilename": "contact-sheet-batch-1-5.png",
+    "contactSheet": "contact-sheet-batch-1-5.png",
+    "cellIndex": 5,
+    "id": 43
+  },
+  {
+    "kind": "resource",
+    "label": "Kontaminiertes-Warpplasma",
+    "slug": "44-kontaminiertes-warpplasma",
+    "outputFilename": "contact-sheet-batch-1-5.png",
+    "contactSheet": "contact-sheet-batch-1-5.png",
+    "cellIndex": 6,
+    "id": 44
+  },
+  {
+    "kind": "resource",
+    "label": "Werkzeugkoffer",
+    "slug": "45-werkzeugkoffer",
+    "outputFilename": "contact-sheet-batch-1-5.png",
+    "contactSheet": "contact-sheet-batch-1-5.png",
+    "cellIndex": 7,
+    "id": 45
+  },
+  {
+    "kind": "resource",
+    "label": "Blutwein",
+    "slug": "46-blutwein",
+    "outputFilename": "contact-sheet-batch-1-5.png",
+    "contactSheet": "contact-sheet-batch-1-5.png",
+    "cellIndex": 8,
+    "id": 46
+  },
+  {
+    "kind": "resource",
+    "label": "Targ",
+    "slug": "47-targ",
+    "outputFilename": "contact-sheet-batch-1-5.png",
+    "contactSheet": "contact-sheet-batch-1-5.png",
+    "cellIndex": 9,
+    "id": 47
+  }
+]
