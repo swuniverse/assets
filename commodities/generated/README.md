@@ -13,6 +13,7 @@ Batch 1 adds unified-style icons for:
 
 - `4-transparentes-aluminium.png`
 - `8-dilithium.png`
+- `11-phrik-erz.png`
 - `12-galazit-erz.png`
 - `13-nitrium-erz.png`
 - `14-magnesit-erz.png`

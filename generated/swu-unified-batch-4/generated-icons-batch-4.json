@@ -1,0 +1,130 @@
+[
+  {
+    "kind": "building",
+    "label": "Außenposten",
+    "slug": "aussenposten",
+    "contactSheet": "batch-4-generated-sheet-1.png",
+    "cellIndex": 0,
+    "ids": [81010100, 81010300]
+  },
+  {
+    "kind": "building",
+    "label": "Nerf-Zucht",
+    "slug": "nerf-zucht",
+    "contactSheet": "batch-4-generated-sheet-1.png",
+    "cellIndex": 1,
+    "ids": [21020300, 21020302]
+  },
+  {
+    "kind": "building",
+    "label": "Gezeitenkraftwerk",
+    "slug": "gezeitenkraftwerk",
+    "contactSheet": "batch-4-generated-sheet-1.png",
+    "cellIndex": 2,
+    "ids": [31020100, 31020132, 31020300, 31020332]
+  },
+  {
+    "kind": "building",
+    "label": "Tibanna-Extraktor",
+    "slug": "tibanna-extraktor",
+    "contactSheet": "batch-4-generated-sheet-1.png",
+    "cellIndex": 3,
+    "ids": [61030100, 61030300]
+  },
+  {
+    "kind": "building",
+    "label": "Phrik-Mine",
+    "slug": "phrik-mine",
+    "contactSheet": "batch-4-generated-sheet-1.png",
+    "cellIndex": 4,
+    "ids": [61110100, 61110112, 61110300, 61110312]
+  },
+  {
+    "kind": "building",
+    "label": "Landeplattform",
+    "slug": "landeplattform",
+    "contactSheet": "batch-4-generated-sheet-1.png",
+    "cellIndex": 5,
+    "ids": [81110100, 81110300]
+  },
+  {
+    "kind": "building",
+    "label": "Phrik-Raffinerie",
+    "slug": "phrik-raffinerie",
+    "contactSheet": "batch-4-generated-sheet-1.png",
+    "cellIndex": 6,
+    "ids": [63100100, 63100300]
+  },
+  {
+    "kind": "building",
+    "label": "Durastahl-Schmiede",
+    "slug": "durastahl-schmiede",
+    "contactSheet": "batch-4-generated-sheet-1.png",
+    "cellIndex": 7,
+    "ids": [63110100, 63110300]
+  },
+  {
+    "kind": "building",
+    "label": "Forschungslabor",
+    "slug": "forschungslabor",
+    "contactSheet": "batch-4-generated-sheet-1.png",
+    "cellIndex": 8,
+    "ids": [71010100, 71010300]
+  },
+  {
+    "kind": "building",
+    "label": "Forschungszentrum Stufe I",
+    "slug": "forschungszentrum-stufe-i",
+    "contactSheet": "batch-4-generated-sheet-1.png",
+    "cellIndex": 9,
+    "ids": [72010100, 72010300]
+  },
+  {
+    "kind": "building",
+    "label": "Blaue-Milch-Brauerei",
+    "slug": "blaue-milch-brauerei",
+    "contactSheet": "batch-4-generated-sheet-1.png",
+    "cellIndex": 10,
+    "ids": [22020100]
+  },
+  {
+    "kind": "building",
+    "label": "Cantina Allianz",
+    "slug": "cantina-allianz",
+    "contactSheet": "batch-4-generated-sheet-1.png",
+    "cellIndex": 11,
+    "ids": [22010100]
+  },
+  {
+    "kind": "building",
+    "label": "Cantina Imperium",
+    "slug": "cantina-imperium",
+    "contactSheet": "batch-4-generated-sheet-1.png",
+    "cellIndex": 12,
+    "ids": [22010300]
+  },
+  {
+    "kind": "building",
+    "label": "Solarspiegel",
+    "slug": "solarspiegel",
+    "contactSheet": "batch-4-generated-sheet-1.png",
+    "cellIndex": 13,
+    "ids": [33010100, 33010131, 33010300, 33010331]
+  },
+  {
+    "kind": "building",
+    "label": "Solarfokus",
+    "slug": "solarfokus",
+    "contactSheet": "batch-4-generated-sheet-1.png",
+    "cellIndex": 14,
+    "ids": [33020100, 33020300]
+  },
+  {
+    "kind": "building",
+    "label": "Strömungsanker",
+    "slug": "stromungsanker",
+    "contactSheet": "batch-4-generated-sheet-1.png",
+    "cellIndex": 15,
+    "ids": [33030100, 33030300]
+  }
+]
