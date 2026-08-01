@@ -7,6 +7,7 @@ Sources:
 - `assets/generated/swu-unified-batch-2/batch-2-generated-sheet-1.png`
 - `assets/generated/swu-unified-batch-3/batch-3-generated-sheet-1.png`
 - `assets/generated/swu-unified-batch-4/batch-4-generated-sheet-1.png`
+- `assets/generated/swu-unified-batch-5/batch-5-sheet-*.png`
 
 Current icons are generated concept assets for colony buildings. They are 256x256 PNGs and should be reviewed before final UI use.
 
@@ -69,3 +70,10 @@ Batch 4 adds prioritized research/build-chain icons for:
 - `33010100-solarspiegel.png`
 - `33020100-solarfokus.png`
 - `33030100-stromungsanker.png`
+
+Batch 5 adds the remaining visible STU building-family icons:
+
+- Source sheets: `assets/generated/swu-unified-batch-5/batch-5-sheet-*.png`
+- Manifest: `assets/generated/swu-unified-batch-5/generated-icons-batch-5.json`
+- Coverage: 115 icon families / 226 visible building entries
+- Frontend coverage check after import: 263/263 visible buildings mapped via `GENERATED_BUILDING_FILES`

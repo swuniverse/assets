@@ -1,0 +1,1161 @@
+{
+  "batch": 5,
+  "generatedAt": "2026-07-27",
+  "model": "gpt-image-2",
+  "totalFamilies": 115,
+  "totalSheets": 5,
+  "gridLayout": "sheets 1-4: 5x5; sheet 5: 5x4 (15 used cells)",
+  "cellSize": "sheets 1-4: ~205x205 source cells; sheet 5: ~205x256 source cells; imported with 12px inset, flood-filled transparent background, trimmed, max 240x240 on 256x256 canvas",
+  "items": [
+    {
+      "cellIndex": 0,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Allianz-Schule",
+      "slug": "allianz-schule",
+      "ids": [41010100],
+      "filename": "41010100-allianz-schule.png",
+      "visualPrompt": "Futuristic alliance academy dome with holographic blue accents"
+    },
+    {
+      "cellIndex": 1,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Antriebsmodulfabrik",
+      "slug": "antriebsmodulfabrik",
+      "ids": [82830100, 82830300],
+      "filename": "82830100-antriebsmodulfabrik.png",
+      "visualPrompt": "Heavy industrial propulsion module factory"
+    },
+    {
+      "cellIndex": 2,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Antriebsmodulfertigung",
+      "slug": "antriebsmodulfertigung",
+      "ids": [81830100, 81830300],
+      "filename": "81830100-antriebsmodulfertigung.png",
+      "visualPrompt": "Medium assembly line for ship drive modules"
+    },
+    {
+      "cellIndex": 3,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Antriebsmodulkomplex",
+      "slug": "antriebsmodulkomplex",
+      "ids": [83830100, 83830300],
+      "filename": "83830100-antriebsmodulkomplex.png",
+      "visualPrompt": "Massive propulsion module megastructure"
+    },
+    {
+      "cellIndex": 4,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Aqua-Zuchtanlage",
+      "slug": "aqua-zuchtanlage",
+      "ids": [21020102],
+      "filename": "21020102-aqua-zuchtanlage.png",
+      "visualPrompt": "Underwater algae cultivation tanks"
+    },
+    {
+      "cellIndex": 5,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Aurodium-Mine",
+      "slug": "aurodium-mine",
+      "ids": [61170100, 61170300],
+      "filename": "61170100-aurodium-mine.png",
+      "visualPrompt": "Golden ore extraction pit with crane"
+    },
+    {
+      "cellIndex": 6,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Aurodium-Presse",
+      "slug": "aurodium-presse",
+      "ids": [63170100, 63170300],
+      "filename": "63170100-aurodium-presse.png",
+      "visualPrompt": "Precision metal press with molten glow"
+    },
+    {
+      "cellIndex": 7,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Außenposten",
+      "slug": "aussenposten",
+      "ids": [81010300],
+      "filename": "81010300-aussenposten.png",
+      "visualPrompt": "Small frontier garrison bunker outpost"
+    },
+    {
+      "cellIndex": 8,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Bantha-Farm",
+      "slug": "bantha-farm",
+      "ids": [21010301],
+      "filename": "21010301-bantha-farm.png",
+      "visualPrompt": "Enclosed alien livestock pen with dome"
+    },
+    {
+      "cellIndex": 9,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Blaster-Schießstand",
+      "slug": "blaster-schiessstand",
+      "ids": [25030300],
+      "filename": "25030300-blaster-schiessstand.png",
+      "visualPrompt": "Blaster training range with targets and blast marks"
+    },
+    {
+      "cellIndex": 10,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Deflektorschild-Generator",
+      "slug": "deflektorschild-generator",
+      "ids": [100010100, 100010300],
+      "filename": "100010100-deflektorschild-generator.png",
+      "visualPrompt": "Large dish emitting energy shield bubble"
+    },
+    {
+      "cellIndex": 11,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Durastahl-Schmiede",
+      "slug": "durastahl-schmiede",
+      "ids": [63110300],
+      "filename": "63110300-durastahl-schmiede.png",
+      "visualPrompt": "Glowing blast furnace durasteel forge"
+    },
+    {
+      "cellIndex": 12,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Exotarium",
+      "slug": "exotarium",
+      "ids": [24020100],
+      "filename": "24020100-exotarium.png",
+      "visualPrompt": "Glass-domed alien zoo habitat"
+    },
+    {
+      "cellIndex": 13,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Fischgründe",
+      "slug": "fischgrunde",
+      "ids": [25020300, 25020302, 25120300, 25120302],
+      "filename": "25020300-fischgrunde.png",
+      "visualPrompt": "Aquatic harvesting platform over water"
+    },
+    {
+      "cellIndex": 14,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Forschungslabor",
+      "slug": "forschungslabor",
+      "ids": [71010300],
+      "filename": "71010300-forschungslabor.png",
+      "visualPrompt": "Compact science research pod with antenna"
+    },
+    {
+      "cellIndex": 15,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Forschungszentrum III mit Hypermaterie-Labor",
+      "slug": "forschungszentrum-iii-mit-hypermaterie-labor",
+      "ids": [74020100, 74020300],
+      "filename": "74020100-forschungszentrum-iii-mit-hypermaterie-labor.png",
+      "visualPrompt": "Large research lab with glowing hypermatter reactor core"
+    },
+    {
+      "cellIndex": 16,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Forschungszentrum Stufe I",
+      "slug": "forschungszentrum-stufe-i",
+      "ids": [72010300],
+      "filename": "72010300-forschungszentrum-stufe-i.png",
+      "visualPrompt": "Basic small research building"
+    },
+    {
+      "cellIndex": 17,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Forschungszentrum Stufe II",
+      "slug": "forschungszentrum-stufe-ii",
+      "ids": [73010100, 73010300],
+      "filename": "73010100-forschungszentrum-stufe-ii.png",
+      "visualPrompt": "Medium research complex"
+    },
+    {
+      "cellIndex": 18,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Forschungszentrum Stufe III",
+      "slug": "forschungszentrum-stufe-iii",
+      "ids": [74010100, 74010300],
+      "filename": "74010100-forschungszentrum-stufe-iii.png",
+      "visualPrompt": "Advanced research tower"
+    },
+    {
+      "cellIndex": 19,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Frachtkontainer-Depot",
+      "slug": "frachtkontainer-depot",
+      "ids": [85900100, 85900300],
+      "filename": "85900100-frachtkontainer-depot.png",
+      "visualPrompt": "Stacked cargo containers depot with crane"
+    },
+    {
+      "cellIndex": 20,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Fregattenwerft",
+      "slug": "fregattenwerft",
+      "ids": [85120100, 85120300],
+      "filename": "85120100-fregattenwerft.png",
+      "visualPrompt": "Medium drydock with frigate skeleton"
+    },
+    {
+      "cellIndex": 21,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Freie Universität",
+      "slug": "freie-universitat",
+      "ids": [45010100],
+      "filename": "45010100-freie-universitat.png",
+      "visualPrompt": "Futuristic university campus with spire"
+    },
+    {
+      "cellIndex": 22,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Freizeitpark",
+      "slug": "freizeitpark",
+      "ids": [24030100],
+      "filename": "24030100-freizeitpark.png",
+      "visualPrompt": "Leisure recreation dome with green interior"
+    },
+    {
+      "cellIndex": 23,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Fusionsreaktor",
+      "slug": "fusionsreaktor",
+      "ids": [32010100, 32010300],
+      "filename": "32010100-fusionsreaktor.png",
+      "visualPrompt": "Tokamak-style fusion reactor with plasma ring"
+    },
+    {
+      "cellIndex": 24,
+      "contactSheet": "batch-5-sheet-1.png",
+      "kind": "building",
+      "label": "Gebäude-Forschungszentrum",
+      "slug": "gebaude-forschungszentrum",
+      "ids": [75310100, 75310300],
+      "filename": "75310100-gebaude-forschungszentrum.png",
+      "visualPrompt": "Architectural research lab with blueprint hologram"
+    },
+    {
+      "cellIndex": 0,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Gebäude-FZ mit Hypermaterie-Labor",
+      "slug": "gebaude-fz-mit-hypermaterie-labor",
+      "ids": [75320100, 75320300],
+      "filename": "75320100-gebaude-fz-mit-hypermaterie-labor.png",
+      "visualPrompt": "Building research complex with glowing antimatter core"
+    },
+    {
+      "cellIndex": 1,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Gebäude-FZ mit Legierungslabor",
+      "slug": "gebaude-fz-mit-legierungslabor",
+      "ids": [75330100, 75330300],
+      "filename": "75330100-gebaude-fz-mit-legierungslabor.png",
+      "visualPrompt": "Materials science lab with metallic samples"
+    },
+    {
+      "cellIndex": 2,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Geothermalkraftwerk",
+      "slug": "geothermalkraftwerk",
+      "ids": [90650100, 90650300],
+      "filename": "90650100-geothermalkraftwerk.png",
+      "visualPrompt": "Volcanic vent geothermal tapping station"
+    },
+    {
+      "cellIndex": 3,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Gezeitenkraftwerk",
+      "slug": "gezeitenkraftwerk",
+      "ids": [31020132, 31020300, 31020332],
+      "filename": "31020132-gezeitenkraftwerk.png",
+      "visualPrompt": "Coastal tidal turbine platform on waves"
+    },
+    {
+      "cellIndex": 4,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Grav-Ball-Arena",
+      "slug": "grav-ball-arena",
+      "ids": [25010100, 25010101, 25110100, 25110101],
+      "filename": "25010100-grav-ball-arena.png",
+      "visualPrompt": "Zero-gravity sports dome arena"
+    },
+    {
+      "cellIndex": 5,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Habitatkuppel",
+      "slug": "habitatkuppel",
+      "ids": [12010100, 12010104, 12010300, 12010304],
+      "filename": "12010100-habitatkuppel.png",
+      "visualPrompt": "Residential biodome habitat with plants"
+    },
+    {
+      "cellIndex": 6,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Halle der Krieger",
+      "slug": "halle-der-krieger",
+      "ids": [45010300],
+      "filename": "45010300-halle-der-krieger.png",
+      "visualPrompt": "Martial arts warrior hall with weapon racks"
+    },
+    {
+      "cellIndex": 7,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Hauptkuppel",
+      "slug": "hauptkuppel",
+      "ids": [14010100, 14010300],
+      "filename": "14010100-hauptkuppel.png",
+      "visualPrompt": "Large central colony main dome"
+    },
+    {
+      "cellIndex": 8,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Holo-Generator",
+      "slug": "holo-generator",
+      "ids": [42020100, 42020300],
+      "filename": "42020100-holo-generator.png",
+      "visualPrompt": "Holographic projection tower"
+    },
+    {
+      "cellIndex": 9,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Holo-Kern",
+      "slug": "holo-kern",
+      "ids": [43010100, 43010300],
+      "filename": "43010100-holo-kern.png",
+      "visualPrompt": "Compact holographic data center core"
+    },
+    {
+      "cellIndex": 10,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Holo-Komplex",
+      "slug": "holo-komplex",
+      "ids": [44010100, 44010300],
+      "filename": "44010100-holo-komplex.png",
+      "visualPrompt": "Sprawling holographic entertainment campus"
+    },
+    {
+      "cellIndex": 11,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Holo-Simulator",
+      "slug": "holo-simulator",
+      "ids": [42010100, 42010300],
+      "filename": "42010100-holo-simulator.png",
+      "visualPrompt": "Single holodeck simulation chamber"
+    },
+    {
+      "cellIndex": 12,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Hydrokultur-Gewächshaus",
+      "slug": "hydrokultur-gewachshaus",
+      "ids": [21010101],
+      "filename": "21010101-hydrokultur-gewachshaus.png",
+      "visualPrompt": "Glass greenhouse farm with hydroponic grow lights"
+    },
+    {
+      "cellIndex": 13,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Hypermaterie-Pumpe",
+      "slug": "hypermaterie-pumpe",
+      "ids": [61040300],
+      "filename": "61040300-hypermaterie-pumpe.png",
+      "visualPrompt": "Deep extraction pump with energy conduit"
+    },
+    {
+      "cellIndex": 14,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Hypermaterie-Reaktor",
+      "slug": "hypermaterie-reaktor",
+      "ids": [35010100, 35010300],
+      "filename": "35010100-hypermaterie-reaktor.png",
+      "visualPrompt": "Massive glowing hypermatter warp core reactor"
+    },
+    {
+      "cellIndex": 15,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Hypermaterie-Synthesizer",
+      "slug": "hypermaterie-synthesizer",
+      "ids": [61020111, 61020300, 61020311],
+      "filename": "61020111-hypermaterie-synthesizer.png",
+      "visualPrompt": "Chemical processing tower with deuterium tanks"
+    },
+    {
+      "cellIndex": 16,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Hyperraum-Teleskop",
+      "slug": "hyperraum-teleskop",
+      "ids": [100060100, 100060300],
+      "filename": "100060100-hyperraum-teleskop.png",
+      "visualPrompt": "Large orbital-style hyperspace telescope dish"
+    },
+    {
+      "cellIndex": 17,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Imperiale Militärakademie",
+      "slug": "imperiale-militarakademie",
+      "ids": [51010300],
+      "filename": "51010300-imperiale-militarakademie.png",
+      "visualPrompt": "Imposing grey Imperial military academy campus"
+    },
+    {
+      "cellIndex": 18,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Ionensegel-Kollektor",
+      "slug": "ionensegel-kollektor",
+      "ids": [31010131, 31010331],
+      "filename": "31010131-ionensegel-kollektor.png",
+      "visualPrompt": "Thin solar/ion sail collector array"
+    },
+    {
+      "cellIndex": 19,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Jagdgründe",
+      "slug": "jagdgrunde",
+      "ids": [25010300, 25010301, 25110300, 25110301],
+      "filename": "25010300-jagdgrunde.png",
+      "visualPrompt": "Wilderness hunting preserve with watchtower"
+    },
+    {
+      "cellIndex": 20,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Jägerwerft",
+      "slug": "jagerwerft",
+      "ids": [85110100, 85110300],
+      "filename": "85110100-jagerwerft.png",
+      "visualPrompt": "Small drydock shipyard for starfighters"
+    },
+    {
+      "cellIndex": 21,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Kampfsport-Arena",
+      "slug": "kampfsport-arena",
+      "ids": [24010300],
+      "filename": "24010300-kampfsport-arena.png",
+      "visualPrompt": "Gladiatorial combat sports pit arena"
+    },
+    {
+      "cellIndex": 22,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Kampftrainingslager",
+      "slug": "kampftrainingslager",
+      "ids": [41010300],
+      "filename": "41010300-kampftrainingslager.png",
+      "visualPrompt": "Military combat training camp with obstacle course"
+    },
+    {
+      "cellIndex": 23,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Klimakontroll-Bantha-Farm",
+      "slug": "klimakontroll-bantha-farm",
+      "ids": [23010300, 23010301, 23110300, 23110301],
+      "filename": "23010300-klimakontroll-bantha-farm.png",
+      "visualPrompt": "Enclosed livestock bantha farm under climate dome"
+    },
+    {
+      "cellIndex": 24,
+      "contactSheet": "batch-5-sheet-2.png",
+      "kind": "building",
+      "label": "Klimakontroll-Farm",
+      "slug": "klimakontroll-farm",
+      "ids": [23010100, 23010101, 23110100, 23110101],
+      "filename": "23010100-klimakontroll-farm.png",
+      "visualPrompt": "Sealed agricultural dome with weather control"
+    },
+    {
+      "cellIndex": 0,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Klimakontroll-Nerf-Zucht",
+      "slug": "klimakontroll-nerf-zucht",
+      "ids": [23020300, 23020302, 23120300, 23120302],
+      "filename": "23020300-klimakontroll-nerf-zucht.png",
+      "visualPrompt": "Climate-controlled alien cattle nerf ranch"
+    },
+    {
+      "cellIndex": 1,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Klimakontroll-Zuchtanlage",
+      "slug": "klimakontroll-zuchtanlage",
+      "ids": [23020100, 23020102, 23120100, 23120102],
+      "filename": "23020100-klimakontroll-zuchtanlage.png",
+      "visualPrompt": "Sealed aquaculture breeding facility with weather shield"
+    },
+    {
+      "cellIndex": 2,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Klimakontrollzentrum",
+      "slug": "klimakontrollzentrum",
+      "ids": [23030100, 23030300],
+      "filename": "23030100-klimakontrollzentrum.png",
+      "visualPrompt": "Weather satellite command hub center"
+    },
+    {
+      "cellIndex": 3,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Korvetten-Werft",
+      "slug": "korvetten-werft",
+      "ids": [85130100, 85130300],
+      "filename": "85130100-korvetten-werft.png",
+      "visualPrompt": "Compact corvette warship drydock"
+    },
+    {
+      "cellIndex": 4,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Kreuzer-Werft",
+      "slug": "kreuzer-werft",
+      "ids": [85150100, 85150300],
+      "filename": "85150100-kreuzer-werft.png",
+      "visualPrompt": "Large heavy cruiser construction bay"
+    },
+    {
+      "cellIndex": 5,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Kryo-Nerf-Zucht",
+      "slug": "kryo-nerf-zucht",
+      "ids": [21120300, 21120302],
+      "filename": "21120300-kryo-nerf-zucht.png",
+      "visualPrompt": "Frozen tundra livestock pen with frost"
+    },
+    {
+      "cellIndex": 6,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Kryo-Zuchtanlage",
+      "slug": "kryo-zuchtanlage",
+      "ids": [21120100, 21120102],
+      "filename": "21120100-kryo-zuchtanlage.png",
+      "visualPrompt": "Cold-resistant aquaculture tanks with frost"
+    },
+    {
+      "cellIndex": 7,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Kyber-Kristallmine",
+      "slug": "kyber-kristallmine",
+      "ids": [61210121, 61210300, 61210321],
+      "filename": "61210121-kyber-kristallmine.png",
+      "visualPrompt": "Luminous kyber crystal cavern with extraction crane"
+    },
+    {
+      "cellIndex": 8,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Landeplattform",
+      "slug": "landeplattform",
+      "ids": [81110300],
+      "filename": "81110300-landeplattform.png",
+      "visualPrompt": "Flat starship landing pad with guidance lights"
+    },
+    {
+      "cellIndex": 9,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "MC-Kreuzer-Werft",
+      "slug": "mc-kreuzer-werft",
+      "ids": [85140100, 85140300],
+      "filename": "85140100-mc-kreuzer-werft.png",
+      "visualPrompt": "Massive Mon Calamari cruiser assembly dock"
+    },
+    {
+      "cellIndex": 10,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Modul-Forschungszentrum",
+      "slug": "modul-forschungszentrum",
+      "ids": [75210100, 75210300],
+      "filename": "75210100-modul-forschungszentrum.png",
+      "visualPrompt": "Modular component research lab"
+    },
+    {
+      "cellIndex": 11,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Modul-FZ mit Hypermaterie-Labor",
+      "slug": "modul-fz-mit-hypermaterie-labor",
+      "ids": [75220100, 75220300],
+      "filename": "75220100-modul-fz-mit-hypermaterie-labor.png",
+      "visualPrompt": "Module research lab with antimatter reactor"
+    },
+    {
+      "cellIndex": 12,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Modul-FZ mit Legierungslabor",
+      "slug": "modul-fz-mit-legierungslabor",
+      "ids": [75230100, 75230300],
+      "filename": "75230100-modul-fz-mit-legierungslabor.png",
+      "visualPrompt": "Module research lab with metallurgy section"
+    },
+    {
+      "cellIndex": 13,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Nerf-Zucht",
+      "slug": "nerf-zucht",
+      "ids": [21020302],
+      "filename": "21020302-nerf-zucht.png",
+      "visualPrompt": "Open alien cattle nerf ranch pens"
+    },
+    {
+      "cellIndex": 14,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Orbital-Fallstation",
+      "slug": "orbital-fallstation",
+      "ids": [21910100],
+      "filename": "21910100-orbital-fallstation.png",
+      "visualPrompt": "High-altitude orbital skydiving platform"
+    },
+    {
+      "cellIndex": 15,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Orbital-Habitat",
+      "slug": "orbital-habitat",
+      "ids": [11910100, 11910300],
+      "filename": "11910100-orbital-habitat.png",
+      "visualPrompt": "Ring-shaped orbital space station habitat"
+    },
+    {
+      "cellIndex": 16,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Orbital-Solarkollektor",
+      "slug": "orbital-solarkollektor",
+      "ids": [31910100, 31910300],
+      "filename": "31910100-orbital-solarkollektor.png",
+      "visualPrompt": "Large orbital solar mirror array satellite"
+    },
+    {
+      "cellIndex": 17,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Orbitale Ionenkanonen-Batterie",
+      "slug": "orbitale-ionenkanonen-batterie",
+      "ids": [100030100],
+      "filename": "100030100-orbitale-ionenkanonen-batterie.png",
+      "visualPrompt": "Orbital ion cannon weapons platform with turret"
+    },
+    {
+      "cellIndex": 18,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Orbitale Turbolaser-Batterie",
+      "slug": "orbitale-turbolaser-batterie",
+      "ids": [100030300],
+      "filename": "100030300-orbitale-turbolaser-batterie.png",
+      "visualPrompt": "Heavy orbital turbolaser defense satellite"
+    },
+    {
+      "cellIndex": 19,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Orbitales Forschungslabor",
+      "slug": "orbitales-forschungslabor",
+      "ids": [71910100, 71910300],
+      "filename": "71910100-orbitales-forschungslabor.png",
+      "visualPrompt": "Zero-gravity orbital research lab module"
+    },
+    {
+      "cellIndex": 20,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Orbitales Torpedogeschütz",
+      "slug": "orbitales-torpedogeschutz",
+      "ids": [100040100, 100040300],
+      "filename": "100040100-orbitales-torpedogeschutz.png",
+      "visualPrompt": "Orbital torpedo missile pod satellite"
+    },
+    {
+      "cellIndex": 21,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Partikel-Beschleuniger",
+      "slug": "partikel-beschleuniger",
+      "ids": [62010100, 62010300],
+      "filename": "62010100-partikel-beschleuniger.png",
+      "visualPrompt": "Long underground particle accelerator ring"
+    },
+    {
+      "cellIndex": 22,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Phrik-Mine",
+      "slug": "phrik-mine",
+      "ids": [61110112, 61110300, 61110312],
+      "filename": "61110112-phrik-mine.png",
+      "visualPrompt": "Rare metal deep mine shaft"
+    },
+    {
+      "cellIndex": 23,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Phrik-Raffinerie",
+      "slug": "phrik-raffinerie",
+      "ids": [63100300],
+      "filename": "63100300-phrik-raffinerie.png",
+      "visualPrompt": "Metal refinery with crucibles"
+    },
+    {
+      "cellIndex": 24,
+      "contactSheet": "batch-5-sheet-3.png",
+      "kind": "building",
+      "label": "Plasma-Extraktor",
+      "slug": "plasma-extraktor",
+      "ids": [86000100, 86000300],
+      "filename": "86000100-plasma-extraktor.png",
+      "visualPrompt": "Energy siphon plasma extractor with conduits"
+    },
+    {
+      "cellIndex": 0,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Plasmakonverter",
+      "slug": "plasmakonverter",
+      "ids": [63010100, 63010300],
+      "filename": "63010100-plasmakonverter.png",
+      "visualPrompt": "Plasma energy conversion device with glowing coils"
+    },
+    {
+      "cellIndex": 1,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Plasmareaktor",
+      "slug": "plasmareaktor",
+      "ids": [34010100, 34010300],
+      "filename": "34010100-plasmareaktor.png",
+      "visualPrompt": "Medium plasma containment reactor"
+    },
+    {
+      "cellIndex": 2,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Produktionshalle",
+      "slug": "produktionshalle",
+      "ids": [84800100, 84800300],
+      "filename": "84800100-produktionshalle.png",
+      "visualPrompt": "Large assembly production factory with conveyor"
+    },
+    {
+      "cellIndex": 3,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Protonentorpedo-Fabrik",
+      "slug": "protonentorpedo-fabrik",
+      "ids": [81990100, 81990300],
+      "filename": "81990100-protonentorpedo-fabrik.png",
+      "visualPrompt": "Proton torpedo munitions factory"
+    },
+    {
+      "cellIndex": 4,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Punkt-Abwehrsystem",
+      "slug": "punkt-abwehrsystem",
+      "ids": [100050100, 100050300],
+      "filename": "100050100-punkt-abwehrsystem.png",
+      "visualPrompt": "Automated point defense anti-missile turret array"
+    },
+    {
+      "cellIndex": 5,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Raumbahnhof",
+      "slug": "raumbahnhof",
+      "ids": [81120100, 81120300],
+      "filename": "81120100-raumbahnhof.png",
+      "visualPrompt": "Space transit station hub with docking arms"
+    },
+    {
+      "cellIndex": 6,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Raumhafen",
+      "slug": "raumhafen",
+      "ids": [81130100, 81130300],
+      "filename": "81130100-raumhafen.png",
+      "visualPrompt": "Large multi-pad spaceport launch facility"
+    },
+    {
+      "cellIndex": 7,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Raumkonstrukt-Forschungszentrum",
+      "slug": "raumkonstrukt-forschungszentrum",
+      "ids": [75440100, 75440300],
+      "filename": "75440100-raumkonstrukt-forschungszentrum.png",
+      "visualPrompt": "Orbital space construct architecture lab"
+    },
+    {
+      "cellIndex": 8,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Raumkonstrukt-FZ mit Hypermaterie-Labor",
+      "slug": "raumkonstrukt-fz-mit-hypermaterie-labor",
+      "ids": [75450100, 75450300],
+      "filename": "75450100-raumkonstrukt-fz-mit-hypermaterie-labor.png",
+      "visualPrompt": "Orbital architecture lab with hypermatter reactor"
+    },
+    {
+      "cellIndex": 9,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Raumkonstrukt-FZ mit Legierungslabor",
+      "slug": "raumkonstrukt-fz-mit-legierungslabor",
+      "ids": [75460100, 75460300],
+      "filename": "75460100-raumkonstrukt-fz-mit-legierungslabor.png",
+      "visualPrompt": "Orbital architecture lab with alloy materials"
+    },
+    {
+      "cellIndex": 10,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Reparaturstation",
+      "slug": "reparaturstation",
+      "ids": [85190100, 85190300],
+      "filename": "85190100-reparaturstation.png",
+      "visualPrompt": "Maintenance repair dock with robotic arms"
+    },
+    {
+      "cellIndex": 11,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Schildbatterie",
+      "slug": "schildbatterie",
+      "ids": [100020100, 100020300],
+      "filename": "100020100-schildbatterie.png",
+      "visualPrompt": "Stacked energy capacitor shield battery towers"
+    },
+    {
+      "cellIndex": 12,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Schildmodulfabrik",
+      "slug": "schildmodulfabrik",
+      "ids": [82820100, 82820300],
+      "filename": "82820100-schildmodulfabrik.png",
+      "visualPrompt": "Defensive shield component factory"
+    },
+    {
+      "cellIndex": 13,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Schildmodulfertigung",
+      "slug": "schildmodulfertigung",
+      "ids": [81820100, 81820300],
+      "filename": "81820100-schildmodulfertigung.png",
+      "visualPrompt": "Shield module assembly manufacturing line"
+    },
+    {
+      "cellIndex": 14,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Schildmodulkomplex",
+      "slug": "schildmodulkomplex",
+      "ids": [83820100, 83820300],
+      "filename": "83820100-schildmodulkomplex.png",
+      "visualPrompt": "Massive shield module production megastructure"
+    },
+    {
+      "cellIndex": 15,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Siedlung",
+      "slug": "siedlung",
+      "ids": [13010100, 13010300],
+      "filename": "13010100-siedlung.png",
+      "visualPrompt": "Small colony settlement cluster of prefab buildings"
+    },
+    {
+      "cellIndex": 16,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Solarfokus",
+      "slug": "solarfokus",
+      "ids": [33020300],
+      "filename": "33020300-solarfokus.png",
+      "visualPrompt": "Concentrated solar beam focus tower"
+    },
+    {
+      "cellIndex": 17,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Solarspiegel",
+      "slug": "solarspiegel",
+      "ids": [33010131, 33010300, 33010331],
+      "filename": "33010131-solarspiegel.png",
+      "visualPrompt": "Large solar reflective dish mirror array"
+    },
+    {
+      "cellIndex": 18,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Sport-Arena",
+      "slug": "sport-arena",
+      "ids": [25020100, 25020102, 25120100, 25120102],
+      "filename": "25020100-sport-arena.png",
+      "visualPrompt": "Multi-purpose sports stadium dome"
+    },
+    {
+      "cellIndex": 19,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Stadtkomplex",
+      "slug": "stadtkomplex",
+      "ids": [15010100, 15010300],
+      "filename": "15010100-stadtkomplex.png",
+      "visualPrompt": "Dense futuristic urban city skyline cluster"
+    },
+    {
+      "cellIndex": 20,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Strömungsanker",
+      "slug": "stromungsanker",
+      "ids": [33030300],
+      "filename": "33030300-stromungsanker.png",
+      "visualPrompt": "Underwater tidal current anchor station"
+    },
+    {
+      "cellIndex": 21,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Strömungsturbinen",
+      "slug": "stromungsturbinen",
+      "ids": [33040100, 33040132, 33040300, 33040332],
+      "filename": "33040100-stromungsturbinen.png",
+      "visualPrompt": "Submerged ocean current flow turbines"
+    },
+    {
+      "cellIndex": 22,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Technologie-Komplex",
+      "slug": "technologie-komplex",
+      "ids": [85800100, 85800300],
+      "filename": "85800100-technologie-komplex.png",
+      "visualPrompt": "High-tech R&D technology campus"
+    },
+    {
+      "cellIndex": 23,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Thermal-Extraktor",
+      "slug": "thermal-extraktor",
+      "ids": [36010100, 36010300],
+      "filename": "36010100-thermal-extraktor.png",
+      "visualPrompt": "Geothermal vent thermal energy harvester"
+    },
+    {
+      "cellIndex": 24,
+      "contactSheet": "batch-5-sheet-4.png",
+      "kind": "building",
+      "label": "Thermalkraftwerk",
+      "slug": "thermalkraftwerk",
+      "ids": [36020100, 36020300],
+      "filename": "36020100-thermalkraftwerk.png",
+      "visualPrompt": "Large thermal heat-to-energy power plant"
+    },
+    {
+      "cellIndex": 0,
+      "contactSheet": "batch-5-sheet-5.png",
+      "kind": "building",
+      "label": "Tibanna-Extraktor",
+      "slug": "tibanna-extraktor",
+      "ids": [61030300],
+      "filename": "61030300-tibanna-extraktor.png",
+      "visualPrompt": "Cloud city tibanna gas mining rig"
+    },
+    {
+      "cellIndex": 1,
+      "contactSheet": "batch-5-sheet-5.png",
+      "kind": "building",
+      "label": "Trainingshalle",
+      "slug": "trainingshalle",
+      "ids": [25030100],
+      "filename": "25030100-trainingshalle.png",
+      "visualPrompt": "Training gymnasium hall with exercise equipment"
+    },
+    {
+      "cellIndex": 2,
+      "contactSheet": "batch-5-sheet-5.png",
+      "kind": "building",
+      "label": "Transparistahl-Manufaktur",
+      "slug": "transparistahl-manufaktur",
+      "ids": [62020300],
+      "filename": "62020300-transparistahl-manufaktur.png",
+      "visualPrompt": "Transparisteel glass/metal production line"
+    },
+    {
+      "cellIndex": 3,
+      "contactSheet": "batch-5-sheet-5.png",
+      "kind": "building",
+      "label": "Untergrund-Forschungszentrum",
+      "slug": "untergrund-forschungszentrum",
+      "ids": [75410100, 75410300],
+      "filename": "75410100-untergrund-forschungszentrum.png",
+      "visualPrompt": "Subterranean underground research lab"
+    },
+    {
+      "cellIndex": 4,
+      "contactSheet": "batch-5-sheet-5.png",
+      "kind": "building",
+      "label": "Untergrund-FZ mit Hypermaterie-Labor",
+      "slug": "untergrund-fz-mit-hypermaterie-labor",
+      "ids": [75420100, 75420300],
+      "filename": "75420100-untergrund-fz-mit-hypermaterie-labor.png",
+      "visualPrompt": "Deep bunker lab with hypermatter reactor"
+    },
+    {
+      "cellIndex": 5,
+      "contactSheet": "batch-5-sheet-5.png",
+      "kind": "building",
+      "label": "Untergrund-FZ mit Legierungslabor",
+      "slug": "untergrund-fz-mit-legierungslabor",
+      "ids": [75430100, 75430300],
+      "filename": "75430100-untergrund-fz-mit-legierungslabor.png",
+      "visualPrompt": "Deep underground lab with alloy metallurgy"
+    },
+    {
+      "cellIndex": 6,
+      "contactSheet": "batch-5-sheet-5.png",
+      "kind": "building",
+      "label": "Untergrundlift (oben)",
+      "slug": "untergrundlift-oben",
+      "ids": [90100100, 90100300],
+      "filename": "90100100-untergrundlift-oben.png",
+      "visualPrompt": "Surface elevator shaft platform top"
+    },
+    {
+      "cellIndex": 7,
+      "contactSheet": "batch-5-sheet-5.png",
+      "kind": "building",
+      "label": "Untergrundlift (unten)",
+      "slug": "untergrundlift-unten",
+      "ids": [90200100, 90200300],
+      "filename": "90200100-untergrundlift-unten.png",
+      "visualPrompt": "Deep shaft bottom elevator car platform"
+    },
+    {
+      "cellIndex": 8,
+      "contactSheet": "batch-5-sheet-5.png",
+      "kind": "building",
+      "label": "Versorgungskuppel",
+      "slug": "versorgungskuppel",
+      "ids": [12020100, 12020300],
+      "filename": "12020100-versorgungskuppel.png",
+      "visualPrompt": "Supply storage dome with crates and conduits"
+    },
+    {
+      "cellIndex": 9,
+      "contactSheet": "batch-5-sheet-5.png",
+      "kind": "building",
+      "label": "Vibro-Klingen-Halle",
+      "slug": "vibro-klingen-halle",
+      "ids": [24020300],
+      "filename": "24020300-vibro-klingen-halle.png",
+      "visualPrompt": "Vibro-blade martial arts training hall with energy blades"
+    },
+    {
+      "cellIndex": 10,
+      "contactSheet": "batch-5-sheet-5.png",
+      "kind": "building",
+      "label": "Waffenmodulfabrik",
+      "slug": "waffenmodulfabrik",
+      "ids": [82810100, 82810300],
+      "filename": "82810100-waffenmodulfabrik.png",
+      "visualPrompt": "Offensive weapons module production plant"
+    },
+    {
+      "cellIndex": 11,
+      "contactSheet": "batch-5-sheet-5.png",
+      "kind": "building",
+      "label": "Waffenmodulfertigung",
+      "slug": "waffenmodulfertigung",
+      "ids": [81810100, 81810300],
+      "filename": "81810100-waffenmodulfertigung.png",
+      "visualPrompt": "Weapons module assembly manufacturing line"
+    },
+    {
+      "cellIndex": 12,
+      "contactSheet": "batch-5-sheet-5.png",
+      "kind": "building",
+      "label": "Waffenmodulkomplex",
+      "slug": "waffenmodulkomplex",
+      "ids": [83810100, 83810300],
+      "filename": "83810100-waffenmodulkomplex.png",
+      "visualPrompt": "Massive weapons module megastructure complex"
+    },
+    {
+      "cellIndex": 13,
+      "contactSheet": "batch-5-sheet-5.png",
+      "kind": "building",
+      "label": "Werftkomplex",
+      "slug": "werftkomplex",
+      "ids": [85010100, 85010300],
+      "filename": "85010100-werftkomplex.png",
+      "visualPrompt": "Multi-dock orbital shipyard construction hub"
+    },
+    {
+      "cellIndex": 14,
+      "contactSheet": "batch-5-sheet-5.png",
+      "kind": "building",
+      "label": "Wohnkomplex",
+      "slug": "wohnkomplex",
+      "ids": [11010103, 11010303],
+      "filename": "11010103-wohnkomplex.png",
+      "visualPrompt": "Apartment towers residential housing blocks"
+    }
+  ]
+}
