@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "faction": "REBEL_ALLIANCE",
+  "gameDataCommit": "41d8af731510457b260dc5c6f3b672a28dc9dfb3",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/rebels.yaml",
+  "canvasSize": 256,
+  "subjectMaxSize": 244,
+  "masterCanvasSize": 512,
+  "sourceSheet": "edit-20261119-175659-2e3fad-source-production-chain-four.png",
+  "items": [
+    {
+      "ids": [31020100, 31020132, 31020199],
+      "label": "Gezeitenkraftwerk",
+      "slug": "gezeitenkraftwerk",
+      "cell": 0,
+      "researchId": 230101,
+      "requires": [1001],
+      "effort": 5,
+      "terrain": "water",
+      "priority": "Direkt nach Grundlagenforschung",
+      "file": "31020100-rebel-gezeitenkraftwerk-map-v1.png",
+      "master": "masters/31020100-gezeitenkraftwerk.png"
+    },
+    {
+      "ids": [62020100, 62020199],
+      "label": "Transparistahl-Manufaktur",
+      "slug": "transparistahl-manufaktur",
+      "cell": 1,
+      "researchId": 254101,
+      "requires": [254001],
+      "effort": 10,
+      "terrain": "surface",
+      "priority": "Nach Chemischer Fabrik / Tibanna-Extraktor",
+      "file": "62020100-rebel-transparistahl-manufaktur-map-v1.png",
+      "master": "masters/62020100-transparistahl-manufaktur.png"
+    },
+    {
+      "ids": [61110100, 61110112, 61110199],
+      "label": "Phrik-Mine",
+      "slug": "phrik-mine",
+      "cell": 2,
+      "researchId": 251001,
+      "requires": [254101],
+      "effort": 8,
+      "terrain": "mining",
+      "priority": "Nach Transparistahl-Manufaktur",
+      "file": "61110100-rebel-phrik-mine-map-v1.png",
+      "master": "masters/61110100-phrik-mine.png"
+    },
+    {
+      "ids": [63100100, 63100199],
+      "label": "Phrik-Raffinerie",
+      "slug": "phrik-raffinerie",
+      "cell": 3,
+      "researchId": 252101,
+      "requires": [251001],
+      "effort": 8,
+      "terrain": "surface",
+      "priority": "Direkt nach Phrik-Mine",
+      "file": "63100100-rebel-phrik-raffinerie-map-v1.png",
+      "master": "masters/63100100-phrik-raffinerie.png"
+    }
+  ]
+}
