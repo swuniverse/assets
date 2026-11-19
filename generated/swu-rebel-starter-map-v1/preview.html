@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Rebellen-Gebäudeserie – visuelle Prüfung</title>
+    <style>
+      body {
+        margin: 0;
+        background: #0d1021;
+        color: #edf0fa;
+        font:
+          15px system-ui,
+          sans-serif;
+      }
+      main {
+        max-width: 1180px;
+        margin: 24px auto;
+        padding: 0 24px;
+      }
+      h1 {
+        font-size: 28px;
+      }
+      h2 {
+        font-size: 20px;
+      }
+      p {
+        color: #abb7ca;
+        line-height: 1.5;
+      }
+      .note {
+        font-size: 12px;
+      }
+      .table {
+        display: grid;
+        grid-template-columns: minmax(225px, 1fr) 60px 80px 110px 80px 80px 80px;
+        gap: 14px;
+        align-items: center;
+      }
+      .label {
+        padding: 8px 0;
+        border-top: 1px solid #3c4155;
+      }
+      .label strong {
+        color: #e9bb7b;
+      }
+      .table > strong {
+        font-size: 12px;
+        overflow-wrap: anywhere;
+      }
+      .field40 {
+        width: 40px;
+      }
+      .field68 {
+        width: 68px;
+      }
+      .field96 {
+        width: 96px;
+      }
+      .scene {
+        display: grid;
+        grid-template-columns: repeat(10, 68px);
+        gap: 1px;
+        width: max-content;
+        background: #596174;
+        padding: 1px;
+      }
+      .menu {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+      }
+      .variant-grid {
+        display: grid;
+        grid-template-columns: repeat(10, 68px);
+        gap: 8px;
+      }
+      section {
+        padding: 14px 18px;
+        margin: 22px 0;
+        background: #191d30;
+        border: 1px solid #3b4054;
+        border-radius: 8px;
+      }
+      #error {
+        color: #ff8989;
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Erste Rebellen-Gebäudeserie</h1>
+      <p>
+        Die acht Gebäude werden hier mit derselben Feld-Komponente wie im Spiel
+        dargestellt. Gelände und Statuskennzeichnungen bleiben erhalten.
+      </p>
+      <div id="error"></div>
+      <div id="app">Vorschau wird geladen …</div>
+      <p class="note">
+        Wald- und Biombeispiele dienen der Darstellungskontrolle; die
+        Bebaubarkeit bestimmt weiterhin das Spiel.
+      </p>
+    </main>
+    <script type="module">
+      import RefreshRuntime from '/@react-refresh';
+      RefreshRuntime.injectIntoGlobalHook(window);
+      window.$RefreshReg$ = () => {};
+      window.$RefreshSig$ = () => (type) => type;
+      window.__vite_plugin_react_preamble_installed__ = true;
+    </script>
+    <script
+      type="module"
+      src="/@fs/Users/TMUNDIN/git/github.com/swuniverse/core/assets/generated/swu-rebel-starter-map-v1/preview.js"
+    ></script>
+  </body>
+</html>

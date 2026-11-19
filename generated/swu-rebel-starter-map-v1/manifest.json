@@ -1,0 +1,110 @@
+{
+  "version": 1,
+  "faction": "REBEL_ALLIANCE",
+  "style": "Hohe Draufsicht; bebaute Grundstücke; gebrauchte Star-Wars-Frontier-Architektur",
+  "gameDataCommit": "41d8af731510457b260dc5c6f3b672a28dc9dfb3",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/rebels.yaml",
+  "canvasSize": 256,
+  "subjectMaxSize": 244,
+  "masterCanvasSize": 512,
+  "items": [
+    {
+      "ids": [82010100, 82010199],
+      "label": "Kommandozentrale",
+      "slug": "kommandozentrale",
+      "sheet": "edit-20261119-140656-f6f659-source-new-four.png",
+      "cell": 0,
+      "researchId": 1001,
+      "priority": "Tatsächliches Fraktions-Startgebäude (FactionService.startBuildingId)",
+      "terrain": "surface",
+      "file": "82010100-rebel-kommandozentrale-map-v1.png",
+      "master": "masters/82010100-kommandozentrale.png"
+    },
+    {
+      "ids": [11010100, 11010103, 11010199],
+      "label": "Wohnkomplex",
+      "slug": "wohnkomplex",
+      "sheet": "source-approved-four.png",
+      "cell": 0,
+      "researchId": 1001,
+      "priority": "Grundgebäude ab Grundlagenforschung",
+      "terrain": "surface",
+      "file": "11010100-rebel-wohnkomplex-map-v1.png",
+      "master": "masters/11010100-wohnkomplex.png"
+    },
+    {
+      "ids": [21010100, 21010101, 21010199],
+      "label": "Hydrokultur-Gewächshaus",
+      "slug": "hydrokultur",
+      "sheet": "edit-20261119-140656-f6f659-source-new-four.png",
+      "cell": 1,
+      "researchId": 1001,
+      "priority": "Grundgebäude ab Grundlagenforschung",
+      "terrain": "surface",
+      "file": "21010100-rebel-hydrokultur-map-v1.png",
+      "master": "masters/21010100-hydrokultur.png"
+    },
+    {
+      "ids": [31010100, 31010131, 31010199],
+      "label": "Ionensegel-Kollektor",
+      "slug": "ionensegel",
+      "sheet": "source-approved-four.png",
+      "cell": 1,
+      "researchId": 1001,
+      "priority": "Grundgebäude ab Grundlagenforschung",
+      "terrain": "surface",
+      "file": "31010100-rebel-ionensegel-map-v1.png",
+      "master": "masters/31010100-ionensegel.png"
+    },
+    {
+      "ids": [61010100, 61010199],
+      "label": "Doonium-Schmelze",
+      "slug": "doonium-schmelze",
+      "sheet": "source-approved-four.png",
+      "cell": 2,
+      "researchId": 1001,
+      "priority": "Grundgebäude ab Grundlagenforschung",
+      "terrain": "surface",
+      "file": "61010100-rebel-doonium-schmelze-map-v1.png",
+      "master": "masters/61010100-doonium-schmelze.png"
+    },
+    {
+      "ids": [81210100, 81210199],
+      "label": "Versorgungslager",
+      "slug": "versorgungslager",
+      "sheet": "source-approved-four.png",
+      "cell": 3,
+      "researchId": 1001,
+      "priority": "Grundgebäude ab Grundlagenforschung",
+      "terrain": "surface",
+      "file": "81210100-rebel-versorgungslager-map-v1.png",
+      "master": "masters/81210100-versorgungslager.png"
+    },
+    {
+      "ids": [21020100, 21020102, 21020199],
+      "label": "Aqua-Zuchtanlage",
+      "slug": "aqua-zuchtanlage",
+      "sheet": "edit-20261119-140656-f6f659-source-new-four.png",
+      "cell": 2,
+      "researchId": 220101,
+      "priority": "Aqua-Zuchtfarm: Aufwand 5, direkt nach 1001",
+      "terrain": "water",
+      "file": "21020100-rebel-aqua-zuchtanlage-map-v1.png",
+      "master": "masters/21020100-aqua-zuchtanlage.png"
+    },
+    {
+      "ids": [61030100, 61030199],
+      "label": "Tibanna-Extraktor",
+      "slug": "tibanna-extraktor",
+      "sheet": "edit-20261119-140656-f6f659-source-new-four.png",
+      "cell": 3,
+      "researchId": 254001,
+      "priority": "Chemische Fabrik: Aufwand 10, direkt nach 1001",
+      "terrain": "surface",
+      "file": "61030100-rebel-tibanna-extraktor-map-v1.png",
+      "master": "masters/61030100-tibanna-extraktor.png"
+    }
+  ],
+  "starterBuildingSource": "apps/backend/src/modules/faction/faction.service.ts"
+}
