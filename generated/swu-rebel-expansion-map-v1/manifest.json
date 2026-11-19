@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "faction": "REBEL_ALLIANCE",
+  "gameDataCommit": "8cda53525946df8fb8e998194acd1a06737630bc",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/rebels.yaml",
+  "canvasSize": 256,
+  "subjectMaxSize": 244,
+  "masterCanvasSize": 512,
+  "sourceSheet": "edit-20261119-184656-e188bb-source-expansion-four.png",
+  "items": [
+    {
+      "ids": [63110100, 63110199],
+      "label": "Durastahl-Schmiede",
+      "slug": "durastahl-schmiede",
+      "cell": 0,
+      "researchId": 252001,
+      "requires": [252101],
+      "effort": 12,
+      "terrain": "surface",
+      "file": "63110100-rebel-durastahl-schmiede-map-v1.png",
+      "master": "masters/63110100-durastahl-schmiede.png",
+      "previewTerrainCodes": ["C119", "C640", "D819"]
+    },
+    {
+      "ids": [61020100, 61020111, 61020199],
+      "label": "Hypermaterie-Synthesizer",
+      "slug": "hypermaterie-synthesizer",
+      "cell": 1,
+      "researchId": 253001,
+      "requires": [254101],
+      "effort": 12,
+      "terrain": "water_ice",
+      "file": "61020100-rebel-hypermaterie-synthesizer-map-v1.png",
+      "master": "masters/61020100-hypermaterie-synthesizer.png",
+      "previewTerrainCodes": ["A430", "A530"]
+    },
+    {
+      "ids": [81110100, 81110199],
+      "label": "Landeplattform",
+      "slug": "landeplattform",
+      "cell": 2,
+      "researchId": 270101,
+      "requires": [253001],
+      "effort": 30,
+      "terrain": "surface",
+      "file": "81110100-rebel-landeplattform-map-v1.png",
+      "master": "masters/81110100-landeplattform.png",
+      "previewTerrainCodes": ["C119", "C640", "D819"]
+    },
+    {
+      "ids": [72010100, 72010199],
+      "label": "Forschungszentrum Stufe I",
+      "slug": "forschungszentrum-i",
+      "cell": 3,
+      "researchId": 200101,
+      "requires": [],
+      "effort": 12,
+      "terrain": "surface",
+      "file": "72010100-rebel-forschungszentrum-i-map-v1.png",
+      "master": "masters/72010100-forschungszentrum-i.png",
+      "previewTerrainCodes": ["C119", "C640", "D819"]
+    }
+  ],
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml"
+}
