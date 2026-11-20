@@ -2,7 +2,7 @@
 
 Nutzerfreigabe: 25 fehlende Stufe-I-Familien plus Forschungszentrum Stufe II als Übergang. Vorher fertig: 16 Familien / 39 IDs.
 
-Restserie umgesetzt: 20 von 26 Familien / 44 von 55 IDs. Gemeinsame Abschlussprüfung noch ausstehend.
+Restserie umgesetzt: 24 von 26 Familien / 52 von 55 IDs. Gemeinsame Abschlussprüfung noch ausstehend.
 
 | Serie                           | Familien | IDs | Stand       |
 | ------------------------------- | -------- | --- | ----------- |
@@ -11,7 +11,7 @@ Restserie umgesetzt: 20 von 26 Familien / 44 von 55 IDs. Gemeinsame Abschlusspr�
 | Erneuerbare Energie             | 4        | 10  | implemented |
 | Rohstoffgewinnung               | 4        | 8   | implemented |
 | Orbitale Energie und Werften    | 4        | 8   | implemented |
-| Modulfertigung und Torpedos     | 4        | 8   | pending     |
+| Modulfertigung und Torpedos     | 4        | 8   | implemented |
 | Aurodium und Forschungsübergang | 2        | 3   | pending     |
 
 Gemeinsamer Produktionsvertrag: 256x256 transparentes RGBA-PNG, 512px-Master, Quellen/Prompts/Manifeste. Neue versionierte Dateien, keine Altgrafiken überschrieben. Keine Änderungen an Spiel-, Forschungs-, Gebäudezustands- oder Terrainregeln.

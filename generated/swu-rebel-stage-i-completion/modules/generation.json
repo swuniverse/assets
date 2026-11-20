@@ -1,0 +1,39 @@
+{
+  "model": "gpt-image-2",
+  "prompt": "Use case: stylized-concept / style-transfer. Asset type: production colony MAP BUILDING sprites for Star Wars Universe, REBEL ALLIANCE.\nInput image 1 is the approved MATERIAL/CAMERA STYLE REFERENCE ONLY. Keep the roof-dominant high orthographic map view around 65 degrees elevation, square-map horizontal/vertical alignment, broad low parcel footprint, worn off-white duracrete and slate metal, muted rust/ochre and quiet upper-left daylight. These are built map parcels, NOT collectible inventory miniatures, NOT diamond-based isometric icons. Do not copy the reference buildings. All must remain recognisable at 40-68px.\nOutput one 1024x1024 genuinely transparent PNG with EXACTLY FOUR compounds on a precise 2-column by 2-row sheet, equal 512x512 cells, row-major order below. Every compound fills about 85-88% of its cell, stays wholly within it, and has about 6% transparent outer margins. Coherent scale across all four.\nUse large distinct architectural forms and broad roof planes, not fine greebles, excessive antennas or decorative glow. Thick Star Wars recessed doors, rounded plaster mixed with stepped used metal, practical repaired fittings. Compact local contact shadows only. The four factories share an industrial family look but each needs ONE unmistakable silhouette cue.\nFully transparent outside and in gaps. No forest, grass, sand landscape, ocean, stars, grey gradient, checkerboard, vignette, frame, labels, text, logos, faction insignia, watermark, people, vehicles or fixed spacecraft. Only modest functional pads/paths directly beneath structures.\nTOP LEFT - WEAPON MODULE FACTORY / WAFFENMODULFERTIGUNG:\nA long low fabrication hall with a broad sawtooth roof and one open assembly bay. Its signature: a heavy test/calibration yard beside the hall with TWO short stubby twin-barrel blaster cannon modules mounted on squat assembly cradles, barrels pointing in the same direction, plus a compact gantry crane over them. Dark gunmetal barrels against cream hall. No firing beams, no complete turret tower, no ship.\nTOP RIGHT - SHIELD MODULE FACTORY / SCHILDMODULFERTIGUNG:\nA compact rounded fabrication block with a wide flat roof. Its signature: ONE large shallow DISH-shaped deflector projector module (convex dome/emitter bowl) on a low test cradle in a walled test bay, with thick cables to the hall, plus a couple of stacked curved emitter plates. Faint restrained blue-teal accent only on the emitter rim. No shield bubble, no energy dome, no glow cloud.\nBOTTOM LEFT - DRIVE MODULE FACTORY / ANTRIEBSMODULFERTIGUNG:\nA heavy machine hall with a stepped metal roof and a large side assembly bay. Its signature: TWO big cylindrical ION ENGINE / thruster nacelle modules lying horizontally on rail cradles, round exhaust nozzles clearly visible pointing toward the viewer's right, plus an overhead crane rail. Very subtle cool exhaust-ring tint only. No flame, no exhaust plume, no ship hull.\nBOTTOM RIGHT - PROTON TORPEDO FACTORY / PROTONENTORPEDO-FABRIK:\nA bunkered munitions plant: a thick-walled low armored hall with heavy blast-door bay and earth-covered/sloped blast berms on two sides. Its signature: an open loading rack holding a neat ROW of several slim grey torpedo casings with rounded tips and small fins, plus one squat hazard-striped storage bunker. Muted ochre hazard markings. No explosions, no launch tube firing, no missiles in flight.",
+  "requested": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "n": 1,
+    "format": "png"
+  },
+  "applied": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "background": null,
+    "output_format": "png"
+  },
+  "images": [
+    {
+      "file_path": "/Users/TMUNDIN/git/github.com/swuniverse/core/assets/generated/swu-rebel-stage-i-completion/modules/edit-20261120-120411-259329-source-modules.png",
+      "filename": "edit-20261120-120411-259329-source-modules.png",
+      "size_bytes": 2340275,
+      "mime_type": "image/png"
+    }
+  ],
+  "usage": {
+    "total_tokens": 3531,
+    "input_tokens": 1775,
+    "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 751
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+    }
+  },
+  "cost_usd_estimated": 0.0646,
+  "route": "direct"
+}

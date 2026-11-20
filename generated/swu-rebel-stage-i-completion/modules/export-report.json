@@ -1,0 +1,22 @@
+[
+  {
+    "file": "81810100-rebel-waffenmodulfertigung-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 109070
+  },
+  {
+    "file": "81820100-rebel-schildmodulfertigung-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 105599
+  },
+  {
+    "file": "81830100-rebel-antriebsmodulfertigung-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 113054
+  },
+  {
+    "file": "81990100-rebel-protonentorpedo-fabrik-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 119703
+  }
+]

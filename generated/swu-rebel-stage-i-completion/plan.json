@@ -110,7 +110,18 @@
       "manifest": "assets/generated/swu-rebel-stage-i-completion/modules/manifest.json",
       "families": 4,
       "idCount": 8,
-      "status": "pending"
+      "status": "implemented",
+      "verification": {
+        "batch": "modules",
+        "families": 4,
+        "ids": 8,
+        "bytes": 447426,
+        "data": true,
+        "terrain": true,
+        "resolver": true,
+        "http": true,
+        "unselectedMappingsUnchanged": true
+      }
     },
     {
       "slug": "transition",

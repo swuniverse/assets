@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "faction": "REBEL_ALLIANCE",
+  "batch": "modules",
+  "title": "Modulfertigung und Torpedos",
+  "gameDataCommit": "8cda53525946df8fb8e998194acd1a06737630bc",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/rebels.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "edit-20261120-120411-259329-source-modules.png",
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "items": [
+    {
+      "ids": [
+        81810100,
+        81810199
+      ],
+      "label": "Waffenmodulfertigung",
+      "slug": "waffenmodulfertigung",
+      "cell": 0,
+      "researchId": 281101,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            275001
+          ]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81810100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81810100-rebel-waffenmodulfertigung-map-v1.png",
+      "master": "masters/81810100-waffenmodulfertigung.png",
+      "production": []
+    },
+    {
+      "ids": [
+        81820100,
+        81820199
+      ],
+      "label": "Schildmodulfertigung",
+      "slug": "schildmodulfertigung",
+      "cell": 1,
+      "researchId": 282101,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            275001
+          ]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81820100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81820100-rebel-schildmodulfertigung-map-v1.png",
+      "master": "masters/81820100-schildmodulfertigung.png",
+      "production": []
+    },
+    {
+      "ids": [
+        81830100,
+        81830199
+      ],
+      "label": "Antriebsmodulfertigung",
+      "slug": "antriebsmodulfertigung",
+      "cell": 2,
+      "researchId": 283101,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            275001
+          ]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81830100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81830100-rebel-antriebsmodulfertigung-map-v1.png",
+      "master": "masters/81830100-antriebsmodulfertigung.png",
+      "production": []
+    },
+    {
+      "ids": [
+        81990100,
+        81990199
+      ],
+      "label": "Protonentorpedo-Fabrik",
+      "slug": "protonentorpedo-fabrik",
+      "cell": 3,
+      "researchId": 288001,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            275001
+          ]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81990100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81990100-rebel-protonentorpedo-fabrik-map-v1.png",
+      "master": "masters/81990100-protonentorpedo-fabrik.png",
+      "production": []
+    }
+  ],
+  "generation": {
+    "tool": "edit_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.0646
+  }
+}
