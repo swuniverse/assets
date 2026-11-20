@@ -1,0 +1,39 @@
+{
+  "model": "gpt-image-2",
+  "prompt": "Use case: stylized-concept / style-transfer. Asset type: transparent Galactic Empire colony-map building sprites for a Star Wars browser strategy game.\nInput image: APPROVED IMPERIAL STYLE REFERENCE ONLY. Preserve its cool medium-light gray armored steel/duracrete, graphite-black technical panels, sparse red lights, maintained weathering, crisp detail and broad readable footprint. Create NEW function-specific buildings with matching materials, never reuse the sample subjects.\nCamera: high near-overhead ORTHOGRAPHIC, roofs dominate and front walls are shallow; same camera and scale as the reference. Broad low colony parcels with attached compact functional foundations. No tall monuments, perspective scene or collectible isometric miniature.\nLighting: soft uniform upper-left light, controlled contact shadows, enough light-gray roof area to read against existing terrain and dark UI.\nTransparent background with genuine alpha around each structure, no fog, vignette, checkerboard, landscape or full ground rectangle. No text, logo, border, watermark, actors, people, animals, vehicles, spacecraft or scenery. No tan sandstone or rust-orange rebel architecture. Small functional glass/heat/ore color accents only where specified. Match readability at 40/68 pixels.\nLayout: EXACTLY FOUR compounds, 2x2 grid on 1024x1024. Each occupies only its own 512x512 quadrant, approximately 450x450 subject with 20px transparent clearance. Order TOP LEFT, TOP RIGHT, BOTTOM LEFT, BOTTOM RIGHT.\n1. Supply dome: compact colony life-support compound with one armored low central hub and several sealed utility cylinders, interconnected covered links and visible air filtration systems, cool gray panels, black ribbing, tiny red indicators.\n2. Habitat dome: broad single low transparent blue-gray geodesic dome with black angular ribs enclosing orderly gray habitation modules and minimal green internal planting, attached armored airlock and utility bays. Dome itself is the building, no extra terrain.\n3. Cryogenic Nerf breeding complex: sealed insulated breeding sheds with blue-gray frosted skylights, attached enclosed pen modules and compact refrigeration equipment, gray armored climate-controlled low buildings. Ice/water-compatible supports only; no baked snow, no animals.\n4. Research center I: compact gray Imperial scientific campus, three linked low laboratory modules with clear blue-gray glazed roof strips, visible instrumentation, low black antennas and small technical courtyards. Recognizable labs rather than a command fortress.",
+  "requested": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "n": 1,
+    "format": "png"
+  },
+  "applied": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "background": null,
+    "output_format": "png"
+  },
+  "images": [
+    {
+      "file_path": "/Users/TMUNDIN/git/github.com/swuniverse/core/assets/generated/swu-imperial-stage-i-v1/settlement/edit-20261120-142522-c8e359-source-imperial-settlement.png",
+      "filename": "edit-20261120-142522-c8e359-source-imperial-settlement.png",
+      "size_bytes": 2183268,
+      "mime_type": "image/png"
+    }
+  ],
+  "usage": {
+    "total_tokens": 3786,
+    "input_tokens": 2030,
+    "input_tokens_details": {
+      "image_tokens": 1536,
+      "text_tokens": 494
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+    }
+  },
+  "cost_usd_estimated": 0.0674,
+  "route": "direct"
+}

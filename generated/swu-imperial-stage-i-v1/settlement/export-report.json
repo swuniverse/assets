@@ -1,0 +1,22 @@
+[
+  {
+    "file": "12020300-imperial-versorgungskuppel-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 121754
+  },
+  {
+    "file": "12010300-imperial-habitatkuppel-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 125469
+  },
+  {
+    "file": "21120300-imperial-kryo-nerf-zucht-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 114149
+  },
+  {
+    "file": "72010300-imperial-forschungszentrum-i-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 118767
+  }
+]
