@@ -140,7 +140,19 @@
       "manifest": "assets/generated/swu-imperial-stage-i-v1/energy/manifest.json",
       "families": 4,
       "idCount": 10,
-      "status": "pending"
+      "status": "implemented",
+      "artifactVerification": {
+        "batch": "energy",
+        "families": 4,
+        "ids": 10,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "specialPlacement": true,
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
     },
     {
       "slug": "resources",

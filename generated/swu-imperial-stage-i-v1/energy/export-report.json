@@ -1,0 +1,22 @@
+[
+  {
+    "file": "33010300-imperial-solarspiegel-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 126672
+  },
+  {
+    "file": "33020300-imperial-solarfokus-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 112869
+  },
+  {
+    "file": "33030300-imperial-stroemungsanker-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 77313
+  },
+  {
+    "file": "33040300-imperial-stroemungsturbinen-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 120082
+  }
+]

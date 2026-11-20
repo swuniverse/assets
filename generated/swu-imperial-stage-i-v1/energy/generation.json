@@ -1,0 +1,39 @@
+{
+  "model": "gpt-image-2",
+  "prompt": "Use case: stylized-concept / style-transfer. Asset type: transparent Galactic Empire colony-map building sprites for a Star Wars browser strategy game.\nInput image: APPROVED IMPERIAL STYLE REFERENCE ONLY. Preserve its cool medium-light gray armored steel/duracrete, graphite-black technical panels, sparse red lights, maintained weathering, crisp detail and broad readable footprint. Create NEW function-specific buildings with matching materials, never reuse the sample subjects.\nCamera: high near-overhead ORTHOGRAPHIC, roofs dominate and front walls are shallow; same camera and scale as the reference. Broad low colony parcels with attached compact functional foundations. No tall monuments, perspective scene or collectible isometric miniature.\nLighting: soft uniform upper-left light, controlled contact shadows, enough light-gray roof area to read against existing terrain and dark UI.\nTransparent background with genuine alpha around each structure, no fog, vignette, checkerboard, landscape or full ground rectangle. No text, logo, border, watermark, actors, people, animals, vehicles, spacecraft or scenery. No tan sandstone or rust-orange rebel architecture. Small functional glass/heat/ore color accents only where specified. Match readability at 40/68 pixels.\nLayout: EXACTLY FOUR compounds, 2x2 grid on 1024x1024. Each occupies only its own 512x512 quadrant, approximately 450x450 subject with 20px transparent clearance. Order TOP LEFT, TOP RIGHT, BOTTOM LEFT, BOTTOM RIGHT.\n1. Solar mirror field: compact array of four large bright SILVER segmented concave mirrors on low dark brackets around a small gray control hub. Reflective white/silver surfaces readable at map scale, not black solar panels, no tall mast.\n2. Solar focus energy plant: a compact clearly visible dark circular thermal receiver integrated into a gray angular generator block with black heat transfer loops and red indicator points. Broad low power facility, no satellite dish or antenna monument.\n3. Current anchor: compact water-compatible industrial anchoring and pump installation with a central low gray turbine housing, three short broad radial stabilizer/anchor arms, visible black cable/pipe loops. No water, coast, pedestal or scenery.\n4. Current turbine array: two or three large clearly visible low horizontal turbine rotors linked to a gray rectangular generator housing on a compact water-compatible platform, black equipment, tiny red service markers. No water background.",
+  "requested": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "n": 1,
+    "format": "png"
+  },
+  "applied": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "background": null,
+    "output_format": "png"
+  },
+  "images": [
+    {
+      "file_path": "/Users/TMUNDIN/git/github.com/swuniverse/core/assets/generated/swu-imperial-stage-i-v1/energy/edit-20261120-142806-afce9e-source-imperial-energy.png",
+      "filename": "edit-20261120-142806-afce9e-source-imperial-energy.png",
+      "size_bytes": 2102387,
+      "mime_type": "image/png"
+    }
+  ],
+  "usage": {
+    "total_tokens": 3781,
+    "input_tokens": 2025,
+    "input_tokens_details": {
+      "image_tokens": 1536,
+      "text_tokens": 489
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+    }
+  },
+  "cost_usd_estimated": 0.0674,
+  "route": "direct"
+}
