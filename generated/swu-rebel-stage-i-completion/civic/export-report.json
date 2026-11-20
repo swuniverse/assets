@@ -1,0 +1,22 @@
+[
+  {
+    "file": "22020100-rebel-blaue-milch-brauerei-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 83787
+  },
+  {
+    "file": "22010100-rebel-cantina-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 93399
+  },
+  {
+    "file": "51010100-rebel-allianz-akademie-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 86750
+  },
+  {
+    "file": "81120100-rebel-raumbahnhof-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 105971
+  }
+]

@@ -1,0 +1,204 @@
+{
+  "version": 1,
+  "faction": "REBEL_ALLIANCE",
+  "batch": "civic",
+  "title": "Zivile Versorgung und Verkehr",
+  "gameDataCommit": "8cda53525946df8fb8e998194acd1a06737630bc",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/rebels.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "edit-20261120-112731-089f5c-source-civic.png",
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "items": [
+    {
+      "ids": [22020100, 22020199],
+      "label": "Blaue-Milch-Brauerei",
+      "slug": "blaue-milch-brauerei",
+      "cell": 0,
+      "researchId": 223401,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200101]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 22020100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "22020100-rebel-blaue-milch-brauerei-map-v1.png",
+      "master": "masters/22020100-blaue-milch-brauerei.png",
+      "production": [
+        {
+          "commodityId": 1011,
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "ids": [22010100, 22010199],
+      "label": "Cantina",
+      "slug": "cantina",
+      "cell": 1,
+      "researchId": 223301,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [223401]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 22010100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "22010100-rebel-cantina-map-v1.png",
+      "master": "masters/22010100-cantina.png",
+      "production": [
+        {
+          "commodityId": 1011,
+          "amount": -1
+        },
+        {
+          "commodityId": 1300,
+          "amount": 140
+        }
+      ]
+    },
+    {
+      "ids": [51010100, 51010199],
+      "label": "Allianz-Akademie",
+      "slug": "allianz-akademie",
+      "cell": 2,
+      "researchId": 399901,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200101]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 51010100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "51010100-rebel-allianz-akademie-map-v1.png",
+      "master": "masters/51010100-allianz-akademie.png",
+      "production": [
+        {
+          "commodityId": 1001,
+          "amount": 25
+        },
+        {
+          "commodityId": 1601,
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "ids": [81120100, 81120199],
+      "label": "Raumbahnhof",
+      "slug": "raumbahnhof",
+      "cell": 3,
+      "researchId": 270201,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200101]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81120100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81120100-rebel-raumbahnhof-map-v1.png",
+      "master": "masters/81120100-raumbahnhof.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": 14
+        }
+      ]
+    }
+  ],
+  "generation": {
+    "tool": "edit_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "high",
+    "recoveredAfterMcpTimeout": true,
+    "costEstimateUsd": null
+  }
+}

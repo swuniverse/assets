@@ -1,0 +1,11 @@
+{
+  "batch": "civic",
+  "families": 4,
+  "ids": 8,
+  "bytes": 369907,
+  "data": true,
+  "terrain": true,
+  "resolver": true,
+  "http": true,
+  "unselectedMappingsUnchanged": true
+}

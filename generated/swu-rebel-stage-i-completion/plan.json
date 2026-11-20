@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-20",
+  "scope": "25 missing Rebel building families through FP tier I plus research center II transition",
+  "gameDataCommit": "8cda53525946df8fb8e998194acd1a06737630bc",
+  "batches": [
+    {
+      "slug": "civic",
+      "title": "Zivile Versorgung und Verkehr",
+      "ticket": ".scratch/rebel-starter-map-assets/issues/04-civic-completion.md",
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/civic/manifest.json",
+      "families": 4,
+      "idCount": 8,
+      "status": "implemented",
+      "verification": {
+        "batch": "civic",
+        "families": 4,
+        "ids": 8,
+        "bytes": 369907,
+        "data": true,
+        "terrain": true,
+        "resolver": true,
+        "http": true,
+        "unselectedMappingsUnchanged": true
+      }
+    },
+    {
+      "slug": "settlement",
+      "title": "Außenposten und Kuppeln",
+      "ticket": ".scratch/rebel-starter-map-assets/issues/05-settlement-completion.md",
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/settlement/manifest.json",
+      "families": 4,
+      "idCount": 10,
+      "status": "pending"
+    },
+    {
+      "slug": "energy",
+      "title": "Erneuerbare Energie",
+      "ticket": ".scratch/rebel-starter-map-assets/issues/06-energy-completion.md",
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/energy/manifest.json",
+      "families": 4,
+      "idCount": 10,
+      "status": "pending"
+    },
+    {
+      "slug": "resources",
+      "title": "Rohstoffgewinnung",
+      "ticket": ".scratch/rebel-starter-map-assets/issues/07-resources-completion.md",
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/resources/manifest.json",
+      "families": 4,
+      "idCount": 8,
+      "status": "pending"
+    },
+    {
+      "slug": "orbital",
+      "title": "Orbitale Energie und Werften",
+      "ticket": ".scratch/rebel-starter-map-assets/issues/08-orbital-completion.md",
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/orbital/manifest.json",
+      "families": 4,
+      "idCount": 8,
+      "status": "pending"
+    },
+    {
+      "slug": "modules",
+      "title": "Modulfertigung und Torpedos",
+      "ticket": ".scratch/rebel-starter-map-assets/issues/09-modules-completion.md",
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/modules/manifest.json",
+      "families": 4,
+      "idCount": 8,
+      "status": "pending"
+    },
+    {
+      "slug": "transition",
+      "title": "Aurodium und Forschungsübergang",
+      "ticket": ".scratch/rebel-starter-map-assets/issues/10-transition-completion.md",
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/transition/manifest.json",
+      "families": 2,
+      "idCount": 3,
+      "status": "pending"
+    }
+  ]
+}
