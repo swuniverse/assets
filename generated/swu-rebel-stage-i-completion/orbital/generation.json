@@ -1,0 +1,39 @@
+{
+  "model": "gpt-image-2",
+  "prompt": "Use case: stylized-concept / style-transfer. Asset type: production colony MAP BUILDING sprites for Star Wars Universe, REBEL ALLIANCE.\nInput image 1 is the approved MATERIAL/CAMERA STYLE REFERENCE ONLY. Keep the roof-dominant high orthographic map view around 65 degrees elevation, square-map horizontal/vertical alignment, broad low parcel footprint, worn off-white duracrete and slate metal, muted rust/ochre and quiet upper-left daylight. These are orbital infrastructure map sprites, NOT collectible inventory miniatures, NOT diamond-based isometric icons. All must remain recognisable at 40-68px.\nOutput one 1024x1024 genuinely transparent PNG with EXACTLY FOUR compounds on a precise 2-column by 2-row sheet, equal 512x512 cells, row-major order below. Every compound fills about 85-88% of its cell, stays wholly within it, and has about 6% transparent outer margins. Coherent scale across all four.\nUse large distinct architectural forms and broad roof planes, not fine greebles, excessive antennas or decorative glow. Thick Star Wars recessed doors, rounded plaster mixed with stepped used metal, practical repaired fittings. Compact local contact shadows only.\nFully transparent outside and in gaps. No forest, grass, sand landscape, ocean, stars, grey gradient, checkerboard, vignette, frame, labels, text, logos, faction insignia, watermark, people, visiting vehicles or ships. NO ground pads, paving, terrain or pedestals at all: these four objects are ORBITAL STATIONS. Open gaps show the existing starfield.\nThe reference provides materials, readability and high orthographic orientation, NOT terrestrial building designs. Render self-contained orbital structures in space with NO baked starfield, atmosphere, planet, horizon or floor. No contact shadow on a background. Station self-shadowing and quiet upper-left sunlight only.\nTOP LEFT - ORBITAL SOLAR COLLECTOR / ORBITAL-SOLARKOLLEKTOR:\nA compact stationary Rebel orbital power satellite with a squat reinforced central service hub and TWO broad segmented dark-blue solar wings, worn cream/slate framework and thick connecting booms. Wing geometry recalls salvaged Star Wars solar hardware, with clipped polygonal panels and heavy ribs. Clearly a power station, not a fighter craft. No cockpit, engines, guns, planet background or landing pad.\nTOP RIGHT - SHIPYARD COMPLEX / WERFTKOMPLEX:\nA Rebel orbital support station with one broad central modular command/service hub, FOUR short radial truss arms and open connection/docking collars at the ends. Chunky reinforced cream/slate metal sections, repaired rust/ochre utility accents, small subdued station lights. The hub-plus-four-arms geometry is the main readable footprint. Open space between arms; no ground, actual ships, giant ringworld, tall city or glow cloud.\nBOTTOM LEFT - FIGHTER SHIPYARD / JAEGERWERFT:\nA compact orbital production/dock rack with THREE OR FOUR small EMPTY rectangular fighter assembly cradles/bays in parallel, one low reinforced service/control module and connecting trusses. Clear multiple-small-berths layout, practical Rebel fleet workshop metal. Absolutely no fighters or other finished spacecraft inside the bays, no ground floor or star background. Open transparent assembly gaps and broad frame structure.\nBOTTOM RIGHT - FRIGATE SHIPYARD / FREGATTENWERFT:\nA larger orbital drydock with ONE LONG EMPTY U-shaped frigate-sized assembly cradle, two thick parallel reinforced docking arms/trusses, a service hub at one end and a few chunky clamp modules. Clearly distinct from the small-bay fighter rack. Worn Star Wars station armor, cream/slate and restrained rust fittings. Empty central space fully transparent, no actual frigate, floor, planet, starfield or decorative base.",
+  "requested": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "n": 1,
+    "format": "png"
+  },
+  "applied": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "background": null,
+    "output_format": "png"
+  },
+  "images": [
+    {
+      "file_path": "/Users/TMUNDIN/git/github.com/swuniverse/core/assets/generated/swu-rebel-stage-i-completion/orbital/edit-20261120-120034-56b418-source-orbital.png",
+      "filename": "edit-20261120-120034-56b418-source-orbital.png",
+      "size_bytes": 1898667,
+      "mime_type": "image/png"
+    }
+  ],
+  "usage": {
+    "total_tokens": 3571,
+    "input_tokens": 1815,
+    "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 791
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+    }
+  },
+  "cost_usd_estimated": 0.0648,
+  "route": "direct"
+}

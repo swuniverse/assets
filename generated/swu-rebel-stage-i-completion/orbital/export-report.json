@@ -1,0 +1,22 @@
+[
+  {
+    "file": "31910100-rebel-orbital-solarkollektor-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 82615
+  },
+  {
+    "file": "85010100-rebel-werftkomplex-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 71457
+  },
+  {
+    "file": "85110100-rebel-jaegerwerft-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 88279
+  },
+  {
+    "file": "85120100-rebel-fregattenwerft-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 85506
+  }
+]

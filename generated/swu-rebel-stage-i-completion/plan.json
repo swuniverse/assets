@@ -90,7 +90,18 @@
       "manifest": "assets/generated/swu-rebel-stage-i-completion/orbital/manifest.json",
       "families": 4,
       "idCount": 8,
-      "status": "pending"
+      "status": "implemented",
+      "verification": {
+        "batch": "orbital",
+        "families": 4,
+        "ids": 8,
+        "bytes": 327857,
+        "data": true,
+        "terrain": true,
+        "resolver": true,
+        "http": true,
+        "unselectedMappingsUnchanged": true
+      }
     },
     {
       "slug": "modules",

@@ -1,0 +1,11 @@
+{
+  "batch": "orbital",
+  "families": 4,
+  "ids": 8,
+  "bytes": 327857,
+  "data": true,
+  "terrain": true,
+  "resolver": true,
+  "http": true,
+  "unselectedMappingsUnchanged": true
+}

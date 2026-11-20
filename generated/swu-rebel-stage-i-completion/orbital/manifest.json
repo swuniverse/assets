@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "faction": "REBEL_ALLIANCE",
+  "batch": "orbital",
+  "title": "Orbitale Energie und Werften",
+  "gameDataCommit": "8cda53525946df8fb8e998194acd1a06737630bc",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/rebels.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "edit-20261120-120034-56b418-source-orbital.png",
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "items": [
+    {
+      "ids": [31910100, 31910199],
+      "label": "Orbital-Solarkollektor",
+      "slug": "orbital-solarkollektor",
+      "cell": 0,
+      "researchId": 271401,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [270201]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 31910100,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        }
+      ],
+      "file": "31910100-rebel-orbital-solarkollektor-map-v1.png",
+      "master": "masters/31910100-orbital-solarkollektor.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": -1
+        }
+      ]
+    },
+    {
+      "ids": [85010100, 85010199],
+      "label": "Werftkomplex",
+      "slug": "werftkomplex",
+      "cell": 1,
+      "researchId": 275001,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [270201, 399901]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 85010100,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        }
+      ],
+      "file": "85010100-rebel-werftkomplex-map-v1.png",
+      "master": "masters/85010100-werftkomplex.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": -1
+        },
+        {
+          "commodityId": 1802,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "ids": [85110100, 85110199],
+      "label": "Jägerwerft",
+      "slug": "jaegerwerft",
+      "cell": 2,
+      "researchId": 275101,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [275001]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 85110100,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        }
+      ],
+      "file": "85110100-rebel-jaegerwerft-map-v1.png",
+      "master": "masters/85110100-jaegerwerft.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": -1
+        },
+        {
+          "commodityId": 1802,
+          "amount": -1
+        }
+      ]
+    },
+    {
+      "ids": [85120100, 85120199],
+      "label": "Fregattenwerft",
+      "slug": "fregattenwerft",
+      "cell": 3,
+      "researchId": 275201,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [275101]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 85120100,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        }
+      ],
+      "file": "85120100-rebel-fregattenwerft-map-v1.png",
+      "master": "masters/85120100-fregattenwerft.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": -1
+        },
+        {
+          "commodityId": 1802,
+          "amount": -1
+        }
+      ]
+    }
+  ],
+  "generation": {
+    "tool": "edit_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.0648
+  }
+}
