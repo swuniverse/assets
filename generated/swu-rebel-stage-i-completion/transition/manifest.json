@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "faction": "REBEL_ALLIANCE",
+  "batch": "transition",
+  "title": "Aurodium und Forschungs\u00fcbergang",
+  "gameDataCommit": "8cda53525946df8fb8e998194acd1a06737630bc",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/rebels.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "edit-20261120-121313-5f15bd-source-transition.png",
+  "grid": {
+    "columns": 2,
+    "rows": 1
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "items": [
+    {
+      "ids": [63170100],
+      "label": "Aurodium-Presse",
+      "slug": "aurodium-presse",
+      "cell": 0,
+      "researchId": 254701,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [250701]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 63170100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "W\u00fcste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "63170100-rebel-aurodium-presse-map-v1.png",
+      "master": "masters/63170100-aurodium-presse.png",
+      "production": [
+        {
+          "commodityId": 50,
+          "amount": 1
+        },
+        {
+          "commodityId": 51,
+          "amount": -16
+        }
+      ]
+    },
+    {
+      "ids": [73010100, 73010199],
+      "label": "Forschungszentrum Stufe II",
+      "slug": "forschungszentrum-ii",
+      "cell": 1,
+      "researchId": 200201,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            102101, 211301, 223301, 231101, 231201, 251101, 254701, 271401,
+            800201, 800301
+          ]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1701,
+      "placement": "upgrade",
+      "permissionBuildingId": 72010100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "W\u00fcste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "73010100-rebel-forschungszentrum-ii-map-v1.png",
+      "master": "masters/73010100-forschungszentrum-ii.png",
+      "production": [
+        {
+          "commodityId": 1700,
+          "amount": -2
+        },
+        {
+          "commodityId": 1702,
+          "amount": 1
+        }
+      ]
+    }
+  ],
+  "generation": {
+    "tool": "edit_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.0631
+  },
+  "trimAlphaThresholdPercent": 1
+}

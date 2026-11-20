@@ -1,0 +1,11 @@
+{
+  "batch": "transition",
+  "families": 2,
+  "ids": 3,
+  "bytes": 221851,
+  "data": true,
+  "terrain": true,
+  "resolver": true,
+  "http": true,
+  "unselectedMappingsUnchanged": true
+}

@@ -31,8 +31,16 @@ for item in m["items"]:
     x0,x1=round(col*width/cols),round((col+1)*width/cols)
     y0,y1=round(row*height/rows),round((row+1)*height/rows)
     master=OUT/item["master"]
+    crop_args=["-trim","+repage"]
+    if m.get("trimAlphaThresholdPercent") is not None:
+        # Ignore near-invisible alpha noise when finding bounds; preserve original
+        # antialiasing and contact shadows within the resulting crop.
+        bounds=magick(OUT/m["sourceSheet"],"-crop",f"{x1-x0}x{y1-y0}+{x0}+{y0}","+repage",
+                      "-alpha","extract","-threshold",f'{m["trimAlphaThresholdPercent"]}%',
+                      "-trim","-format","%wx%h%O","info:").strip()
+        crop_args=["-crop",bounds,"+repage"]
     magick(OUT/m["sourceSheet"],"-crop",f"{x1-x0}x{y1-y0}+{x0}+{y0}","+repage",
-           "-trim","+repage","-resize","488x488","-gravity","center","-background","none",
+           *crop_args,"-resize","488x488","-gravity","center","-background","none",
            "-extent","512x512","-depth","8","-strip",master)
     png=PRODUCTION/item["file"]
     magick(master,"-resize","256x256","-depth","8","-strip",
