@@ -14,7 +14,7 @@
       "manifest": "assets/generated/swu-imperial-stage-i-v1/approved/manifest.json",
       "families": 3,
       "idCount": 7,
-      "status": "implemented",
+      "status": "complete",
       "artifactVerification": {
         "batch": "approved",
         "families": 3,
@@ -26,6 +26,11 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-20"
       }
     },
     {
@@ -35,7 +40,7 @@
       "manifest": "assets/generated/swu-imperial-stage-i-v1/starter/manifest.json",
       "families": 4,
       "idCount": 10,
-      "status": "implemented",
+      "status": "complete",
       "artifactVerification": {
         "batch": "starter",
         "families": 4,
@@ -47,6 +52,11 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-20"
       }
     },
     {
@@ -56,7 +66,7 @@
       "manifest": "assets/generated/swu-imperial-stage-i-v1/production/manifest.json",
       "families": 4,
       "idCount": 11,
-      "status": "implemented",
+      "status": "complete",
       "artifactVerification": {
         "batch": "production",
         "families": 4,
@@ -68,6 +78,11 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-20"
       }
     },
     {
@@ -77,7 +92,7 @@
       "manifest": "assets/generated/swu-imperial-stage-i-v1/industry/manifest.json",
       "families": 4,
       "idCount": 9,
-      "status": "implemented",
+      "status": "complete",
       "artifactVerification": {
         "batch": "industry",
         "families": 4,
@@ -89,6 +104,11 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-20"
       }
     },
     {
@@ -98,7 +118,7 @@
       "manifest": "assets/generated/swu-imperial-stage-i-v1/civic/manifest.json",
       "families": 4,
       "idCount": 8,
-      "status": "implemented",
+      "status": "complete",
       "artifactVerification": {
         "batch": "civic",
         "families": 4,
@@ -110,6 +130,11 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-20"
       }
     },
     {
@@ -119,7 +144,7 @@
       "manifest": "assets/generated/swu-imperial-stage-i-v1/settlement/manifest.json",
       "families": 4,
       "idCount": 10,
-      "status": "implemented",
+      "status": "complete",
       "artifactVerification": {
         "batch": "settlement",
         "families": 4,
@@ -131,6 +156,11 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-20"
       }
     },
     {
@@ -140,7 +170,7 @@
       "manifest": "assets/generated/swu-imperial-stage-i-v1/energy/manifest.json",
       "families": 4,
       "idCount": 10,
-      "status": "implemented",
+      "status": "complete",
       "artifactVerification": {
         "batch": "energy",
         "families": 4,
@@ -152,6 +182,11 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-20"
       }
     },
     {
@@ -161,7 +196,7 @@
       "manifest": "assets/generated/swu-imperial-stage-i-v1/resources/manifest.json",
       "families": 4,
       "idCount": 8,
-      "status": "implemented",
+      "status": "complete",
       "artifactVerification": {
         "batch": "resources",
         "families": 4,
@@ -173,6 +208,11 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-20"
       }
     },
     {
@@ -182,7 +222,7 @@
       "manifest": "assets/generated/swu-imperial-stage-i-v1/orbital/manifest.json",
       "families": 4,
       "idCount": 8,
-      "status": "implemented",
+      "status": "complete",
       "artifactVerification": {
         "batch": "orbital",
         "families": 4,
@@ -194,6 +234,11 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-20"
       }
     },
     {
@@ -203,7 +248,7 @@
       "manifest": "assets/generated/swu-imperial-stage-i-v1/modules/manifest.json",
       "families": 4,
       "idCount": 8,
-      "status": "implemented",
+      "status": "complete",
       "artifactVerification": {
         "batch": "modules",
         "families": 4,
@@ -215,6 +260,11 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-20"
       }
     },
     {
@@ -224,7 +274,7 @@
       "manifest": "assets/generated/swu-imperial-stage-i-v1/transition/manifest.json",
       "families": 3,
       "idCount": 5,
-      "status": "implemented",
+      "status": "complete",
       "artifactVerification": {
         "batch": "transition",
         "families": 3,
@@ -236,7 +286,13 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-20"
       }
     }
-  ]
+  ],
+  "estimatedImageCostUsd": 0.7153
 }

@@ -9,4 +9,4 @@ Freigegebene imperiale Kartenassets, transparentes 256px-RGBA-PNG und 512px-Mast
 | Versorgungslager     | 81210300, 81210399           | 1003      | C119, C640, D819 |
 | Tibanna-Extraktor    | 61030300, 61030399           | 254003    | C119, C640, D819 |
 
-Quelle: edit-20261120-141402-b31cd4-source-imperial-starter.png. Exakter Prompt: prompt.txt; tatsächliche Erzeugung: generation.json; Daten/Rasterprüfung: artifact-verification.json. Vorschauen: production-overview.png und terrain-review.png. Spielregeln und übrige Assetzuordnungen erhalten. Gemeinsame Runtimeprüfung durch Ticket 12 noch ausstehend.
+Quelle: edit-20261120-141402-b31cd4-source-imperial-starter.png. Exakter Prompt: prompt.txt; tatsächliche Erzeugung: generation.json; Daten/Rasterprüfung: artifact-verification.json. Vorschauen: production-overview.png und terrain-review.png. Spielregeln und übrige Assetzuordnungen erhalten. Gemeinsame Runtime-/Browserprüfung bestanden: ../full-verification.json und ../browser-verification.json.

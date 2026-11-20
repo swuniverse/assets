@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-20",
+  "tool": "dev-browser 1.0.0",
+  "method": "Headless Chrome; fixture imports the real FieldCell and buildingImage from the Vite frontend",
+  "url": "http://localhost:5173/@fs/Users/TMUNDIN/git/github.com/swuniverse/core/assets/generated/swu-imperial-stage-i-v1/preview.html",
+  "result": "passed",
+  "families": 42,
+  "ids": 94,
+  "fieldCells": 94,
+  "imageElements": 302,
+  "imageLoading": true,
+  "statusCases": 36,
+  "noOverflow": true,
+  "errors": [],
+  "report": "BESTANDEN: 42 Familien \u00b7 94 Varianten \u00b7 302 Bilder geladen \u00b7 Orbit, numerische Felder und Geb\u00e4udezust\u00e4nde gepr\u00fcft",
+  "domResult": "passed",
+  "menuImages": 42,
+  "fieldPixels": 68,
+  "menuPixels": 40,
+  "screenshots": {
+    "variants": "browser-variants.png",
+    "states": "browser-states.png"
+  }
+}

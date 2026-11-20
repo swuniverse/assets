@@ -9,4 +9,4 @@ Freigegebene imperiale Kartenassets, transparentes 256px-RGBA-PNG und 512px-Mast
 | Kryo-Nerf-Zucht           | 21120300, 21120302, 21120399 | 800203    | 222              |
 | Forschungszentrum Stufe I | 72010300, 72010399           | 200103    | C119, C640, D819 |
 
-Quelle: edit-20261120-142522-c8e359-source-imperial-settlement.png. Exakter Prompt: prompt.txt; tatsächliche Erzeugung: generation.json; Daten/Rasterprüfung: artifact-verification.json. Vorschauen: production-overview.png und terrain-review.png. Spielregeln und übrige Assetzuordnungen erhalten. Gemeinsame Runtimeprüfung durch Ticket 12 noch ausstehend.
+Quelle: edit-20261120-142522-c8e359-source-imperial-settlement.png. Exakter Prompt: prompt.txt; tatsächliche Erzeugung: generation.json; Daten/Rasterprüfung: artifact-verification.json. Vorschauen: production-overview.png und terrain-review.png. Spielregeln und übrige Assetzuordnungen erhalten. Gemeinsame Runtime-/Browserprüfung bestanden: ../full-verification.json und ../browser-verification.json.

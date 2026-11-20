@@ -9,4 +9,4 @@ Freigegebene imperiale Kartenassets, transparentes 256px-RGBA-PNG und 512px-Mast
 | Hypermaterie-Pumpe     | 61040300, 61040399           | 800303    | C640, 713        |
 | Aurodium-Mine          | 61170300                     | 250703    | C640             |
 
-Quelle: edit-20261120-143113-dc4619-source-imperial-resources.png. Exakter Prompt: prompt.txt; tatsächliche Erzeugung: generation.json; Daten/Rasterprüfung: artifact-verification.json. Vorschauen: production-overview.png und terrain-review.png. Spielregeln und übrige Assetzuordnungen erhalten. Gemeinsame Runtimeprüfung durch Ticket 12 noch ausstehend.
+Quelle: edit-20261120-143113-dc4619-source-imperial-resources.png. Exakter Prompt: prompt.txt; tatsächliche Erzeugung: generation.json; Daten/Rasterprüfung: artifact-verification.json. Vorschauen: production-overview.png und terrain-review.png. Spielregeln und übrige Assetzuordnungen erhalten. Gemeinsame Runtime-/Browserprüfung bestanden: ../full-verification.json und ../browser-verification.json.

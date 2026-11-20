@@ -1,0 +1,1784 @@
+{
+  "date": "2026-11-20",
+  "gameDataCommit": "8cda53525946df8fb8e998194acd1a06737630bc",
+  "mappingBaseline": "5c31a4e97a7fe29f95a8276130f2f6b822879409",
+  "families": 42,
+  "tierIFamilies": 41,
+  "transitionFamilies": 1,
+  "ids": 94,
+  "bytes": 4625217,
+  "sourceGroundedScope": true,
+  "noMissingIds": true,
+  "resolver": true,
+  "http": true,
+  "alpha": true,
+  "masters512": true,
+  "unselectedMappingsUnchanged": true,
+  "resolverCodeUnchanged": true,
+  "items": [
+    {
+      "ids": [82010300, 82010399],
+      "label": "Kommandozentrale",
+      "slug": "kommandozentrale",
+      "cell": 0,
+      "researchId": 1003,
+      "requires": [],
+      "effort": 0,
+      "researchCommodityId": 1701,
+      "placement": "faction-start-building",
+      "permissionBuildingId": 82010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "82010300-imperial-kommandozentrale-map-v1.png",
+      "master": "masters/82010300-kommandozentrale.png",
+      "production": [
+        {
+          "commodityId": 1003,
+          "amount": 40
+        },
+        {
+          "commodityId": 1300,
+          "amount": 84
+        },
+        {
+          "commodityId": 1603,
+          "amount": 1
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/approved/manifest.json",
+      "alphaMean": 0.632586,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [11010300, 11010303, 11010399],
+      "label": "Wohnkomplex",
+      "slug": "wohnkomplex",
+      "cell": 1,
+      "researchId": 1003,
+      "requires": [],
+      "effort": 0,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 11010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "11010300-imperial-wohnkomplex-map-v1.png",
+      "master": "masters/11010300-wohnkomplex.png",
+      "production": [
+        {
+          "commodityId": 1101,
+          "amount": 1
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/approved/manifest.json",
+      "alphaMean": 0.656629,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [61010300, 61010399],
+      "label": "Doonium-Schmelze",
+      "slug": "doonium-schmelze",
+      "cell": 2,
+      "researchId": 1003,
+      "requires": [],
+      "effort": 0,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 61010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "61010300-imperial-doonium-schmelze-map-v1.png",
+      "master": "masters/61010300-doonium-schmelze.png",
+      "production": [
+        {
+          "commodityId": 2,
+          "amount": 5
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/approved/manifest.json",
+      "alphaMean": 0.646291,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [21010300, 21010301, 21010399],
+      "label": "Bantha-Farm",
+      "slug": "bantha-farm",
+      "cell": 0,
+      "researchId": 1003,
+      "requires": [],
+      "effort": 0,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 21010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "21010300-imperial-bantha-farm-map-v1.png",
+      "master": "masters/21010300-bantha-farm.png",
+      "production": [
+        {
+          "commodityId": 1300,
+          "amount": 56
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/starter/manifest.json",
+      "alphaMean": 0.700932,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [31010300, 31010331, 31010399],
+      "label": "Ionensegel-Kollektor",
+      "slug": "ionensegel-kollektor",
+      "cell": 1,
+      "researchId": 1003,
+      "requires": [],
+      "effort": 0,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 31010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "31010300-imperial-ionensegel-kollektor-map-v1.png",
+      "master": "masters/31010300-ionensegel-kollektor.png",
+      "production": [],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/starter/manifest.json",
+      "alphaMean": 0.604062,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [81210300, 81210399],
+      "label": "Versorgungslager",
+      "slug": "versorgungslager",
+      "cell": 2,
+      "researchId": 1003,
+      "requires": [],
+      "effort": 0,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81210300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81210300-imperial-versorgungslager-map-v1.png",
+      "master": "masters/81210300-versorgungslager.png",
+      "production": [],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/starter/manifest.json",
+      "alphaMean": 0.701103,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [61030300, 61030399],
+      "label": "Tibanna-Extraktor",
+      "slug": "tibanna-extraktor",
+      "cell": 3,
+      "researchId": 254003,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [1003]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 2,
+      "placement": "normal",
+      "permissionBuildingId": 61030300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "61030300-imperial-tibanna-extraktor-map-v1.png",
+      "master": "masters/61030300-tibanna-extraktor.png",
+      "production": [
+        {
+          "commodityId": 3,
+          "amount": 3
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/starter/manifest.json",
+      "alphaMean": 0.686906,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [21020300, 21020302, 21020399],
+      "label": "Nerf-Zucht",
+      "slug": "nerf-zucht",
+      "cell": 0,
+      "researchId": 220103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [1003]
+        }
+      ],
+      "effort": 5,
+      "researchCommodityId": 2,
+      "placement": "normal",
+      "permissionBuildingId": 21020300,
+      "previews": [
+        {
+          "code": "A410",
+          "label": "Wasser",
+          "file": "generated/SWUfields/tA410.png"
+        }
+      ],
+      "file": "21020300-imperial-nerf-zucht-map-v1.png",
+      "master": "masters/21020300-nerf-zucht.png",
+      "production": [
+        {
+          "commodityId": 1300,
+          "amount": 56
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/production/manifest.json",
+      "alphaMean": 0.692525,
+      "previewCode": "A410"
+    },
+    {
+      "ids": [31020300, 31020332, 31020399],
+      "label": "Gezeitenkraftwerk",
+      "slug": "gezeitenkraftwerk",
+      "cell": 1,
+      "researchId": 230103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [1003]
+        }
+      ],
+      "effort": 5,
+      "researchCommodityId": 2,
+      "placement": "normal",
+      "permissionBuildingId": 31020300,
+      "previews": [
+        {
+          "code": "A410",
+          "label": "Wasser",
+          "file": "generated/SWUfields/tA410.png"
+        }
+      ],
+      "file": "31020300-imperial-gezeitenkraftwerk-map-v1.png",
+      "master": "masters/31020300-gezeitenkraftwerk.png",
+      "production": [],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/production/manifest.json",
+      "alphaMean": 0.637289,
+      "previewCode": "A410"
+    },
+    {
+      "ids": [62020300, 62020399],
+      "label": "Transparistahl-Manufaktur",
+      "slug": "transparistahl-manufaktur",
+      "cell": 2,
+      "researchId": 254103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [254003]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 2,
+      "placement": "normal",
+      "permissionBuildingId": 62020300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "62020300-imperial-transparistahl-manufaktur-map-v1.png",
+      "master": "masters/62020300-transparistahl-manufaktur.png",
+      "production": [
+        {
+          "commodityId": 3,
+          "amount": -3
+        },
+        {
+          "commodityId": 4,
+          "amount": 4
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/production/manifest.json",
+      "alphaMean": 0.725244,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [61110300, 61110312, 61110399],
+      "label": "Phrik-Mine",
+      "slug": "phrik-mine",
+      "cell": 3,
+      "researchId": 251003,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [254103]
+        }
+      ],
+      "effort": 8,
+      "researchCommodityId": 4,
+      "placement": "normal",
+      "permissionBuildingId": 61110300,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        }
+      ],
+      "file": "61110300-imperial-phrik-mine-map-v1.png",
+      "master": "masters/61110300-phrik-mine.png",
+      "production": [
+        {
+          "commodityId": 11,
+          "amount": 4
+        },
+        {
+          "commodityId": 1511,
+          "amount": -1
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/production/manifest.json",
+      "alphaMean": 0.655624,
+      "previewCode": "C640"
+    },
+    {
+      "ids": [63100300, 63100399],
+      "label": "Phrik-Raffinerie",
+      "slug": "phrik-raffinerie",
+      "cell": 0,
+      "researchId": 252103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [251003]
+        }
+      ],
+      "effort": 8,
+      "researchCommodityId": 4,
+      "placement": "normal",
+      "permissionBuildingId": 63100300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "63100300-imperial-phrik-raffinerie-map-v1.png",
+      "master": "masters/63100300-phrik-raffinerie.png",
+      "production": [
+        {
+          "commodityId": 11,
+          "amount": -6
+        },
+        {
+          "commodityId": 20,
+          "amount": 3
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/industry/manifest.json",
+      "alphaMean": 0.690447,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [63110300, 63110399],
+      "label": "Durastahl-Schmiede",
+      "slug": "durastahl-schmiede",
+      "cell": 1,
+      "researchId": 252003,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [252103]
+        }
+      ],
+      "effort": 12,
+      "researchCommodityId": 4,
+      "placement": "normal",
+      "permissionBuildingId": 63110300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "63110300-imperial-durastahl-schmiede-map-v1.png",
+      "master": "masters/63110300-durastahl-schmiede.png",
+      "production": [
+        {
+          "commodityId": 20,
+          "amount": -6
+        },
+        {
+          "commodityId": 21,
+          "amount": 4
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/industry/manifest.json",
+      "alphaMean": 0.673419,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [61020300, 61020311, 61020399],
+      "label": "Hypermaterie-Synthesizer",
+      "slug": "hypermaterie-synthesizer",
+      "cell": 2,
+      "researchId": 253003,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [254103]
+        }
+      ],
+      "effort": 12,
+      "researchCommodityId": 4,
+      "placement": "normal",
+      "permissionBuildingId": 61020300,
+      "previews": [
+        {
+          "code": "A430",
+          "label": "Flaches Wasser",
+          "file": "generated/SWUfields/tA430.png"
+        },
+        {
+          "code": "A530",
+          "label": "Eis",
+          "file": "generated/SWUfields/tA530.png"
+        }
+      ],
+      "file": "61020300-imperial-hypermaterie-synthesizer-map-v1.png",
+      "master": "masters/61020300-hypermaterie-synthesizer.png",
+      "production": [
+        {
+          "commodityId": 5,
+          "amount": 10
+        },
+        {
+          "commodityId": 1505,
+          "amount": -1
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/industry/manifest.json",
+      "alphaMean": 0.710074,
+      "previewCode": "A430"
+    },
+    {
+      "ids": [81110300, 81110399],
+      "label": "Landeplattform",
+      "slug": "landeplattform",
+      "cell": 3,
+      "researchId": 270103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [253003]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 5,
+      "placement": "normal",
+      "permissionBuildingId": 81110300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81110300-imperial-landeplattform-map-v1.png",
+      "master": "masters/81110300-landeplattform.png",
+      "production": [],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/industry/manifest.json",
+      "alphaMean": 0.691617,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [22020300, 22020399],
+      "label": "Mandalorianischer-Grog-Destille",
+      "slug": "mandalorianischer-grog-destille",
+      "cell": 0,
+      "researchId": 223403,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200103]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 22020300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "22020300-imperial-mandalorianischer-grog-destille-map-v1.png",
+      "master": "masters/22020300-mandalorianischer-grog-destille.png",
+      "production": [
+        {
+          "commodityId": 1013,
+          "amount": 1
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/civic/manifest.json",
+      "alphaMean": 0.638019,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [22010300, 22010399],
+      "label": "Cantina",
+      "slug": "cantina",
+      "cell": 1,
+      "researchId": 223303,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [223403]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 22010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "22010300-imperial-cantina-map-v1.png",
+      "master": "masters/22010300-cantina.png",
+      "production": [
+        {
+          "commodityId": 1013,
+          "amount": -1
+        },
+        {
+          "commodityId": 1300,
+          "amount": 140
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/civic/manifest.json",
+      "alphaMean": 0.587898,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [51010300, 51010399],
+      "label": "Imperiale Militärakademie",
+      "slug": "imperiale-militaerakademie",
+      "cell": 2,
+      "researchId": 399903,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200103]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 51010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "51010300-imperial-imperiale-militaerakademie-map-v1.png",
+      "master": "masters/51010300-imperiale-militaerakademie.png",
+      "production": [
+        {
+          "commodityId": 1003,
+          "amount": 25
+        },
+        {
+          "commodityId": 1603,
+          "amount": 25
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/civic/manifest.json",
+      "alphaMean": 0.644573,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [81120300, 81120399],
+      "label": "Raumbahnhof",
+      "slug": "raumbahnhof",
+      "cell": 3,
+      "researchId": 270203,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200103]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81120300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81120300-imperial-raumbahnhof-map-v1.png",
+      "master": "masters/81120300-raumbahnhof.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": 14
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/civic/manifest.json",
+      "alphaMean": 0.576497,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [12020300, 12020399],
+      "label": "Versorgungskuppel",
+      "slug": "versorgungskuppel",
+      "cell": 0,
+      "researchId": 211203,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200103]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 12020300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "12020300-imperial-versorgungskuppel-map-v1.png",
+      "master": "masters/12020300-versorgungskuppel.png",
+      "production": [
+        {
+          "commodityId": 1102,
+          "amount": 1
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/settlement/manifest.json",
+      "alphaMean": 0.696537,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [12010300, 12010304, 12010399],
+      "label": "Habitatkuppel",
+      "slug": "habitatkuppel",
+      "cell": 1,
+      "researchId": 211303,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [211203]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 12010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "12010300-imperial-habitatkuppel-map-v1.png",
+      "master": "masters/12010300-habitatkuppel.png",
+      "production": [
+        {
+          "commodityId": 1102,
+          "amount": -1
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/settlement/manifest.json",
+      "alphaMean": 0.671397,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [21120300, 21120302, 21120399],
+      "label": "Kryo-Nerf-Zucht",
+      "slug": "kryo-nerf-zucht",
+      "cell": 2,
+      "researchId": 800203,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [101103, 220103]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 21120300,
+      "previews": [
+        {
+          "code": 222,
+          "label": "Eiswasser (STU)",
+          "file": "generated/fields/222.png"
+        }
+      ],
+      "file": "21120300-imperial-kryo-nerf-zucht-map-v1.png",
+      "master": "masters/21120300-kryo-nerf-zucht.png",
+      "production": [
+        {
+          "commodityId": 1300,
+          "amount": 56
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/settlement/manifest.json",
+      "alphaMean": 0.680825,
+      "previewCode": 222
+    },
+    {
+      "ids": [72010300, 72010399],
+      "label": "Forschungszentrum Stufe I",
+      "slug": "forschungszentrum-i",
+      "cell": 3,
+      "researchId": 200103,
+      "requires": [],
+      "effort": 12,
+      "researchCommodityId": 21,
+      "placement": "normal",
+      "permissionBuildingId": 72010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "72010300-imperial-forschungszentrum-i-map-v1.png",
+      "master": "masters/72010300-forschungszentrum-i.png",
+      "production": [
+        {
+          "commodityId": 1700,
+          "amount": -1
+        },
+        {
+          "commodityId": 1701,
+          "amount": 1
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/settlement/manifest.json",
+      "alphaMean": 0.686788,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [33010300, 33010331, 33010399],
+      "label": "Solarspiegel",
+      "slug": "solarspiegel",
+      "cell": 0,
+      "researchId": 231303,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200103]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 33010300,
+      "previews": [
+        {
+          "code": 401,
+          "label": "Wüste (STU)",
+          "file": "generated/fields/401.png"
+        },
+        {
+          "code": 713,
+          "label": "Fels (STU)",
+          "file": "generated/fields/713.png"
+        }
+      ],
+      "file": "33010300-imperial-solarspiegel-map-v1.png",
+      "master": "masters/33010300-solarspiegel.png",
+      "production": [
+        {
+          "commodityId": 1201,
+          "amount": 1
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/energy/manifest.json",
+      "alphaMean": 0.711973,
+      "previewCode": 401
+    },
+    {
+      "ids": [33020300, 33020399],
+      "label": "Solarfokus",
+      "slug": "solarfokus",
+      "cell": 1,
+      "researchId": 231203,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [231303]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 33020300,
+      "previews": [
+        {
+          "code": 401,
+          "label": "Wüste (STU)",
+          "file": "generated/fields/401.png"
+        },
+        {
+          "code": 713,
+          "label": "Fels (STU)",
+          "file": "generated/fields/713.png"
+        }
+      ],
+      "file": "33020300-imperial-solarfokus-map-v1.png",
+      "master": "masters/33020300-solarfokus.png",
+      "production": [
+        {
+          "commodityId": 1201,
+          "amount": -2
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/energy/manifest.json",
+      "alphaMean": 0.670693,
+      "previewCode": 401
+    },
+    {
+      "ids": [33030300, 33030399],
+      "label": "Strömungsanker",
+      "slug": "stroemungsanker",
+      "cell": 2,
+      "researchId": 231003,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200103, 230103]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 33030300,
+      "previews": [
+        {
+          "code": "A410",
+          "label": "Wasser",
+          "file": "generated/SWUfields/tA410.png"
+        },
+        {
+          "code": "A430",
+          "label": "Flachwasser",
+          "file": "generated/SWUfields/tA430.png"
+        },
+        {
+          "code": "A530",
+          "label": "Packeis",
+          "file": "generated/SWUfields/tA530.png"
+        }
+      ],
+      "file": "33030300-imperial-stroemungsanker-map-v1.png",
+      "master": "masters/33030300-stroemungsanker.png",
+      "production": [
+        {
+          "commodityId": 1202,
+          "amount": 2
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/energy/manifest.json",
+      "alphaMean": 0.346059,
+      "previewCode": "A410"
+    },
+    {
+      "ids": [33040300, 33040332, 33040399],
+      "label": "Strömungsturbinen",
+      "slug": "stroemungsturbinen",
+      "cell": 3,
+      "researchId": 231103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [231003]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 33040300,
+      "previews": [
+        {
+          "code": "A410",
+          "label": "Wasser",
+          "file": "generated/SWUfields/tA410.png"
+        },
+        {
+          "code": "A430",
+          "label": "Flachwasser",
+          "file": "generated/SWUfields/tA430.png"
+        },
+        {
+          "code": "A530",
+          "label": "Packeis",
+          "file": "generated/SWUfields/tA530.png"
+        }
+      ],
+      "file": "33040300-imperial-stroemungsturbinen-map-v1.png",
+      "master": "masters/33040300-stroemungsturbinen.png",
+      "production": [
+        {
+          "commodityId": 1202,
+          "amount": -1
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/energy/manifest.json",
+      "alphaMean": 0.692759,
+      "previewCode": "A410"
+    },
+    {
+      "ids": [62010300, 62010399],
+      "label": "Partikel-Beschleuniger",
+      "slug": "partikel-beschleuniger",
+      "cell": 0,
+      "researchId": 253103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200103]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 62010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "62010300-imperial-partikel-beschleuniger-map-v1.png",
+      "master": "masters/62010300-partikel-beschleuniger.png",
+      "production": [
+        {
+          "commodityId": 5,
+          "amount": -10
+        },
+        {
+          "commodityId": 6,
+          "amount": 10
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/resources/manifest.json",
+      "alphaMean": 0.670929,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [61210300, 61210321, 61210399],
+      "label": "Kyber-Kristallmine",
+      "slug": "kyber-kristallmine",
+      "cell": 1,
+      "researchId": 251103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [253103]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 61210300,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": 713,
+          "label": "Fels (STU)",
+          "file": "generated/fields/713.png"
+        }
+      ],
+      "file": "61210300-imperial-kyber-kristallmine-map-v1.png",
+      "master": "masters/61210300-kyber-kristallmine.png",
+      "production": [
+        {
+          "commodityId": 8,
+          "amount": 1
+        },
+        {
+          "commodityId": 1508,
+          "amount": -1
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/resources/manifest.json",
+      "alphaMean": 0.693288,
+      "previewCode": "C640"
+    },
+    {
+      "ids": [61040300, 61040399],
+      "label": "Hypermaterie-Pumpe",
+      "slug": "hypermaterie-pumpe",
+      "cell": 2,
+      "researchId": 800303,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [101103]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 61040300,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": 713,
+          "label": "Fels (STU)",
+          "file": "generated/fields/713.png"
+        }
+      ],
+      "file": "61040300-imperial-hypermaterie-pumpe-map-v1.png",
+      "master": "masters/61040300-hypermaterie-pumpe.png",
+      "production": [
+        {
+          "commodityId": 5,
+          "amount": 7
+        },
+        {
+          "commodityId": 1505,
+          "amount": -1
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/resources/manifest.json",
+      "alphaMean": 0.697201,
+      "previewCode": "C640"
+    },
+    {
+      "ids": [61170300],
+      "label": "Aurodium-Mine",
+      "slug": "aurodium-mine",
+      "cell": 3,
+      "researchId": 250703,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [101103]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 61170300,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        }
+      ],
+      "file": "61170300-imperial-aurodium-mine-map-v1.png",
+      "master": "masters/61170300-aurodium-mine.png",
+      "production": [
+        {
+          "commodityId": 51,
+          "amount": 1
+        },
+        {
+          "commodityId": 1523,
+          "amount": -1
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/resources/manifest.json",
+      "alphaMean": 0.73918,
+      "previewCode": "C640"
+    },
+    {
+      "ids": [31910300, 31910399],
+      "label": "Orbital-Solarkollektor",
+      "slug": "orbital-solarkollektor",
+      "cell": 0,
+      "researchId": 271403,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [270203]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 31910300,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        }
+      ],
+      "file": "31910300-imperial-orbital-solarkollektor-map-v1.png",
+      "master": "masters/31910300-orbital-solarkollektor.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": -1
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/orbital/manifest.json",
+      "alphaMean": 0.423255,
+      "previewCode": "OO10"
+    },
+    {
+      "ids": [85010300, 85010399],
+      "label": "Werftkomplex",
+      "slug": "werftkomplex",
+      "cell": 1,
+      "researchId": 275003,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [270203, 399903]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 85010300,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        }
+      ],
+      "file": "85010300-imperial-werftkomplex-map-v1.png",
+      "master": "masters/85010300-werftkomplex.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": -1
+        },
+        {
+          "commodityId": 1802,
+          "amount": 4
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/orbital/manifest.json",
+      "alphaMean": 0.459862,
+      "previewCode": "OO10"
+    },
+    {
+      "ids": [85110300, 85110399],
+      "label": "Jägerwerft",
+      "slug": "jaegerwerft",
+      "cell": 2,
+      "researchId": 275103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [275003]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 85110300,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        }
+      ],
+      "file": "85110300-imperial-jaegerwerft-map-v1.png",
+      "master": "masters/85110300-jaegerwerft.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": -1
+        },
+        {
+          "commodityId": 1802,
+          "amount": -1
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/orbital/manifest.json",
+      "alphaMean": 0.422847,
+      "previewCode": "OO10"
+    },
+    {
+      "ids": [85120300, 85120399],
+      "label": "Fregattenwerft",
+      "slug": "fregattenwerft",
+      "cell": 3,
+      "researchId": 275203,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [275103]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 85120300,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        }
+      ],
+      "file": "85120300-imperial-fregattenwerft-map-v1.png",
+      "master": "masters/85120300-fregattenwerft.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": -1
+        },
+        {
+          "commodityId": 1802,
+          "amount": -1
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/orbital/manifest.json",
+      "alphaMean": 0.508478,
+      "previewCode": "OO10"
+    },
+    {
+      "ids": [81810300, 81810399],
+      "label": "Waffenmodulfertigung",
+      "slug": "waffenmodulfertigung",
+      "cell": 0,
+      "researchId": 281103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [275003]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81810300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81810300-imperial-waffenmodulfertigung-map-v1.png",
+      "master": "masters/81810300-waffenmodulfertigung.png",
+      "production": [],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/modules/manifest.json",
+      "alphaMean": 0.693854,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [81820300, 81820399],
+      "label": "Schildmodulfertigung",
+      "slug": "schildmodulfertigung",
+      "cell": 1,
+      "researchId": 282103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [275003]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81820300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81820300-imperial-schildmodulfertigung-map-v1.png",
+      "master": "masters/81820300-schildmodulfertigung.png",
+      "production": [],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/modules/manifest.json",
+      "alphaMean": 0.707124,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [81830300, 81830399],
+      "label": "Antriebsmodulfertigung",
+      "slug": "antriebsmodulfertigung",
+      "cell": 2,
+      "researchId": 283103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [275003]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81830300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81830300-imperial-antriebsmodulfertigung-map-v1.png",
+      "master": "masters/81830300-antriebsmodulfertigung.png",
+      "production": [],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/modules/manifest.json",
+      "alphaMean": 0.687261,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [81990300, 81990399],
+      "label": "Protonentorpedo-Fabrik",
+      "slug": "protonentorpedo-fabrik",
+      "cell": 3,
+      "researchId": 288003,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [275003]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81990300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81990300-imperial-protonentorpedo-fabrik-map-v1.png",
+      "master": "masters/81990300-protonentorpedo-fabrik.png",
+      "production": [],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/modules/manifest.json",
+      "alphaMean": 0.709325,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [81010300, 81010399],
+      "label": "Außenposten",
+      "slug": "aussenposten",
+      "cell": 0,
+      "researchId": 1003,
+      "requires": [],
+      "effort": 0,
+      "researchCommodityId": 1701,
+      "placement": "colonization",
+      "permissionBuildingId": 81010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        }
+      ],
+      "file": "81010300-imperial-aussenposten-map-v1.png",
+      "master": "masters/81010300-aussenposten.png",
+      "production": [
+        {
+          "commodityId": 1300,
+          "amount": 42
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/transition/manifest.json",
+      "alphaMean": 0.564976,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [63170300],
+      "label": "Aurodium-Presse",
+      "slug": "aurodium-presse",
+      "cell": 1,
+      "researchId": 254703,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [250703]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 63170300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "63170300-imperial-aurodium-presse-map-v1.png",
+      "master": "masters/63170300-aurodium-presse.png",
+      "production": [
+        {
+          "commodityId": 50,
+          "amount": 1
+        },
+        {
+          "commodityId": 51,
+          "amount": -25
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/transition/manifest.json",
+      "alphaMean": 0.676261,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [73010300, 73010399],
+      "label": "Forschungszentrum Stufe II",
+      "slug": "forschungszentrum-ii",
+      "cell": 2,
+      "researchId": 200203,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            102103, 211303, 223303, 231103, 231203, 251103, 254703, 271403,
+            800203, 800303
+          ]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1701,
+      "placement": "upgrade",
+      "permissionBuildingId": 72010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "73010300-imperial-forschungszentrum-ii-map-v1.png",
+      "master": "masters/73010300-forschungszentrum-ii.png",
+      "production": [
+        {
+          "commodityId": 1700,
+          "amount": -2
+        },
+        {
+          "commodityId": 1702,
+          "amount": 1
+        }
+      ],
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/transition/manifest.json",
+      "alphaMean": 0.704338,
+      "previewCode": "C119"
+    }
+  ]
+}

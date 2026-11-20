@@ -9,4 +9,4 @@ Freigegebene imperiale Kartenassets, transparentes 256px-RGBA-PNG und 512px-Mast
 | Jägerwerft             | 85110300, 85110399 | 275103    | OO10           |
 | Fregattenwerft         | 85120300, 85120399 | 275203    | OO10           |
 
-Quelle: edit-20261120-143359-7732dd-source-imperial-orbital.png. Exakter Prompt: prompt.txt; tatsächliche Erzeugung: generation.json; Daten/Rasterprüfung: artifact-verification.json. Vorschauen: production-overview.png und terrain-review.png. Spielregeln und übrige Assetzuordnungen erhalten. Gemeinsame Runtimeprüfung durch Ticket 12 noch ausstehend.
+Quelle: edit-20261120-143359-7732dd-source-imperial-orbital.png. Exakter Prompt: prompt.txt; tatsächliche Erzeugung: generation.json; Daten/Rasterprüfung: artifact-verification.json. Vorschauen: production-overview.png und terrain-review.png. Spielregeln und übrige Assetzuordnungen erhalten. Gemeinsame Runtime-/Browserprüfung bestanden: ../full-verification.json und ../browser-verification.json.

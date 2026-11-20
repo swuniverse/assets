@@ -6,6 +6,8 @@ const root = path.resolve(__dirname, '../../..'),
   base = 'assets/generated/swu-imperial-stage-i-v1',
   out = path.join(root, base);
 const read = (p) => JSON.parse(fs.readFileSync(path.join(root, p), 'utf8'));
+if (fs.existsSync(path.join(out, 'plan.json')))
+  throw Error('Already initialized; use the existing manifests');
 const bs = yaml.load(
   fs.readFileSync(
     path.join(root, 'game-data/data/buildings/stu-buildings.yaml'),
