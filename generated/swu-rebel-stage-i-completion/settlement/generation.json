@@ -1,0 +1,39 @@
+{
+  "model": "gpt-image-2",
+  "prompt": "Use case: stylized-concept / style-transfer. Asset type: production colony MAP BUILDING sprites for Star Wars Universe, REBEL ALLIANCE.\nInput image 1 is the approved MATERIAL/CAMERA STYLE REFERENCE ONLY. Keep the roof-dominant high orthographic map view around 65 degrees elevation, square-map horizontal/vertical alignment, broad low parcel footprint, worn off-white duracrete and slate metal, muted rust/ochre and quiet upper-left daylight. These are built map parcels, NOT collectible inventory miniatures, NOT diamond-based isometric icons. All must remain recognisable at 40-68px.\nOutput one 1024x1024 genuinely transparent PNG with EXACTLY FOUR compounds on a precise 2-column by 2-row sheet, equal 512x512 cells, row-major order below. Every compound fills about 85-88% of its cell, stays wholly within it, and has about 6% transparent outer margins. Coherent scale across all four.\nUse large distinct architectural forms and broad roof planes, not fine greebles, excessive antennas or decorative glow. Thick Star Wars recessed doors, rounded plaster mixed with stepped used metal, practical repaired fittings. Compact local contact shadows only.\nFully transparent outside and in gaps. No forest, grass, sand landscape, ocean, stars, grey gradient, checkerboard, vignette, frame, labels, text, logos, faction insignia, watermark, people, vehicles or fixed spacecraft. Only modest functional pads/paths directly beneath structures.\nTOP LEFT - FRONTIER OUTPOST / AUSSENPOSTEN:\nA BASIC Rebel frontier colonization camp, visibly simpler than the elaborate starter command headquarters. Two compact low patched cream duracrete modules, one small shallow communications panel/antenna, cargo crates and a modest covered service yard. Broad practical plan, muted rust canopy, restrained warm doors, rugged utility fittings. No giant satellite dish, defensive turret or tall tower; this is a small versatile base rather than a developed command campus.\nTOP RIGHT - LIFE-SUPPORT UTILITY DOME / VERSORGUNGSKUPPEL:\nA low opaque pale/slate technical utility dome surrounded by THREE squat life-support service pods, thick radial power/water conduits and small filtration/air-processing units. Clearly infrastructure supporting habitats, not housing under a clear dome. Main dome has broad ribbed mechanical sections, dark ventilation slots and restrained amber/cyan status points. A wide low installation occupying its parcel; no tall reactor, energy beam or large transparent shield bubble.\nBOTTOM LEFT - HABITAT DOME / HABITATKUPPEL:\nA broad low genuinely TRANSLUCENT blue-grey protective habitat dome with a small readable group of cream residential modules and warm windows INSIDE, plus one compact exterior airlock/service annex. Its glass roof and contained settlement must make it distinct from the opaque utility dome. Subtle structural ribs and worn reinforced perimeter. A low built habitable compound, not an isolated glowing orb or futuristic skyscraper; restrained transparency, no huge halo, no trees/landscape.\nBOTTOM RIGHT - COLD-RESISTANT AQUATIC CULTIVATION / KRYO-ZUCHTANLAGE:\nA compact cold-water food-growing platform: THREE broad low insulated cultivation basins with segmented protective pale-blue glazed covers, visible DARK GREEN growing liquid/plants, thick thermal circulation pipes and a squat rounded pump/control cabin. Modular pontoon supports with transparent gaps suitable for ICE WATER. Light frost ONLY on its own casing edges, no surrounding snow, ice landscape or water background. Clearly heated/protected counterpart to the open aquatic cultivation plant, not a land greenhouse or cryogenic fuel refinery.",
+  "requested": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "n": 1,
+    "format": "png"
+  },
+  "applied": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "background": null,
+    "output_format": "png"
+  },
+  "images": [
+    {
+      "file_path": "/Users/TMUNDIN/git/github.com/swuniverse/core/assets/generated/swu-rebel-stage-i-completion/settlement/edit-20261120-113550-e3d480-source-settlement.png",
+      "filename": "edit-20261120-113550-e3d480-source-settlement.png",
+      "size_bytes": 2241619,
+      "mime_type": "image/png"
+    }
+  ],
+  "usage": {
+    "total_tokens": 3525,
+    "input_tokens": 1769,
+    "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 745
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+    }
+  },
+  "cost_usd_estimated": 0.0646,
+  "route": "direct"
+}

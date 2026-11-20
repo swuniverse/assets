@@ -30,7 +30,18 @@
       "manifest": "assets/generated/swu-rebel-stage-i-completion/settlement/manifest.json",
       "families": 4,
       "idCount": 10,
-      "status": "pending"
+      "status": "implemented",
+      "verification": {
+        "batch": "settlement",
+        "families": 4,
+        "ids": 10,
+        "bytes": 424945,
+        "data": true,
+        "terrain": true,
+        "resolver": true,
+        "http": true,
+        "unselectedMappingsUnchanged": true
+      }
     },
     {
       "slug": "energy",

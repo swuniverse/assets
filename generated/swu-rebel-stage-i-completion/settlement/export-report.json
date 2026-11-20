@@ -1,0 +1,22 @@
+[
+  {
+    "file": "81010100-rebel-aussenposten-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 100803
+  },
+  {
+    "file": "12020100-rebel-versorgungskuppel-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 103178
+  },
+  {
+    "file": "12010100-rebel-habitatkuppel-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 104535
+  },
+  {
+    "file": "21120100-rebel-kryo-zuchtanlage-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 116429
+  }
+]

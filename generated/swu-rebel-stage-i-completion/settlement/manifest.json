@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "faction": "REBEL_ALLIANCE",
+  "batch": "settlement",
+  "title": "Außenposten und Kuppeln",
+  "gameDataCommit": "8cda53525946df8fb8e998194acd1a06737630bc",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/rebels.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "edit-20261120-113550-e3d480-source-settlement.png",
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "items": [
+    {
+      "ids": [81010100, 81010199],
+      "label": "Außenposten",
+      "slug": "aussenposten",
+      "cell": 0,
+      "researchId": 1001,
+      "requires": [],
+      "effort": 0,
+      "researchCommodityId": 1701,
+      "placement": "colonization",
+      "permissionBuildingId": 81010100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        }
+      ],
+      "file": "81010100-rebel-aussenposten-map-v1.png",
+      "master": "masters/81010100-aussenposten.png",
+      "production": [
+        {
+          "commodityId": 1300,
+          "amount": 42
+        }
+      ]
+    },
+    {
+      "ids": [12020100, 12020199],
+      "label": "Versorgungskuppel",
+      "slug": "versorgungskuppel",
+      "cell": 1,
+      "researchId": 211201,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200101]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 12020100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "12020100-rebel-versorgungskuppel-map-v1.png",
+      "master": "masters/12020100-versorgungskuppel.png",
+      "production": [
+        {
+          "commodityId": 1102,
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "ids": [12010100, 12010104, 12010199],
+      "label": "Habitatkuppel",
+      "slug": "habitatkuppel",
+      "cell": 2,
+      "researchId": 211301,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [211201]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 12010100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "12010100-rebel-habitatkuppel-map-v1.png",
+      "master": "masters/12010100-habitatkuppel.png",
+      "production": [
+        {
+          "commodityId": 1102,
+          "amount": -1
+        }
+      ]
+    },
+    {
+      "ids": [21120100, 21120102, 21120199],
+      "label": "Kryo-Zuchtanlage",
+      "slug": "kryo-zuchtanlage",
+      "cell": 3,
+      "researchId": 800201,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [101101, 220101]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 21120100,
+      "previews": [
+        {
+          "code": 222,
+          "label": "Eiswasser (STU)",
+          "file": "generated/fields/222.png"
+        }
+      ],
+      "file": "21120100-rebel-kryo-zuchtanlage-map-v1.png",
+      "master": "masters/21120100-kryo-zuchtanlage.png",
+      "production": [
+        {
+          "commodityId": 1300,
+          "amount": 56
+        }
+      ]
+    }
+  ],
+  "generation": {
+    "tool": "edit_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.0646
+  }
+}

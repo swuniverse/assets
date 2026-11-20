@@ -1,0 +1,11 @@
+{
+  "batch": "settlement",
+  "families": 4,
+  "ids": 10,
+  "bytes": 424945,
+  "data": true,
+  "terrain": true,
+  "resolver": true,
+  "http": true,
+  "unselectedMappingsUnchanged": true
+}
