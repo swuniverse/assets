@@ -1,0 +1,22 @@
+[
+  {
+    "file": "22020300-imperial-mandalorianischer-grog-destille-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 109526
+  },
+  {
+    "file": "22010300-imperial-cantina-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 98251
+  },
+  {
+    "file": "51010300-imperial-imperiale-militaerakademie-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 96305
+  },
+  {
+    "file": "81120300-imperial-raumbahnhof-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 99709
+  }
+]
