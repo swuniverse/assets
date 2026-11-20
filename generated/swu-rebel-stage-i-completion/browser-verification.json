@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-20",
+  "method": "Browser fixture importing the real FieldCell and buildingImage via the running frontend Vite server",
+  "url": "http://localhost:5173/@fs/Users/TMUNDIN/git/github.com/swuniverse/core/assets/generated/swu-rebel-stage-i-completion/preview.html",
+  "observedVia": "Native Chrome / CUA; browser connector host unavailable",
+  "families": 42,
+  "ids": 94,
+  "imageElements": 302,
+  "statusCases": 36,
+  "menuPixels": 40,
+  "fieldPixels": 68,
+  "result": "passed",
+  "allImagesLoaded": true,
+  "allBuildingPathsCorrect": true,
+  "noBuildingOverflow": true,
+  "inactiveBordersAndLabels": true,
+  "damagedBordersAndLabels": true,
+  "buildProgress50Percent": true,
+  "numericTerrainAndOrbitalImages": true,
+  "errors": [],
+  "evidence": "Visible BESTANDEN result, full accessibility inventory and screenshots of variant grid and all 42 menu images. Assertions run inside preview.js. Native scrolling timed out; keyboard End successfully showed the catalogue."
+}

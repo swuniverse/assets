@@ -1,23 +1,25 @@
-# Abschluss der Rebellen-Assets bis FP Stufe I
+# Vollständige Rebellen-Gebäudeassets bis FP Stufe I
 
-Nutzerfreigabe: 25 fehlende Stufe-I-Familien plus Forschungszentrum Stufe II als Übergang. Vorher fertig: 16 Familien / 39 IDs.
+Alle 25 fehlenden Stufe-I-Familien sowie Forschungszentrum II als Übergang sind fertig. Zusammen mit den vorherigen Serien: **42 Familien / 94 Gebäude-IDs, keine offenen Familien in diesem Umfang.**
 
-Restserie umgesetzt: 26 von 26 Familien / 55 von 55 IDs. Gemeinsame Abschlussprüfung noch ausstehend.
+[Gesamtübersicht](full-overview.png) · [Inventar und Datenprüfung](full-verification.json) · [Browserprüfung](browser-verification.json) · [Produktionsplan](plan.json)
 
-| Serie                           | Familien | IDs | Stand       |
-| ------------------------------- | -------- | --- | ----------- |
-| Zivile Versorgung und Verkehr   | 4        | 8   | implemented |
-| Außenposten und Kuppeln         | 4        | 10  | implemented |
-| Erneuerbare Energie             | 4        | 10  | implemented |
-| Rohstoffgewinnung               | 4        | 8   | implemented |
-| Orbitale Energie und Werften    | 4        | 8   | implemented |
-| Modulfertigung und Torpedos     | 4        | 8   | implemented |
-| Aurodium und Forschungsübergang | 2        | 3   | implemented |
+| Serie                                                   | Familien | IDs | Stand               |
+| ------------------------------------------------------- | -------- | --- | ------------------- |
+| [Zivile Versorgung und Verkehr](civic/README.md)        | 4        | 8   | vollständig geprüft |
+| [Außenposten und Kuppeln](settlement/README.md)         | 4        | 10  | vollständig geprüft |
+| [Erneuerbare Energie](energy/README.md)                 | 4        | 10  | vollständig geprüft |
+| [Rohstoffgewinnung](resources/README.md)                | 4        | 8   | vollständig geprüft |
+| [Orbitale Energie und Werften](orbital/README.md)       | 4        | 8   | vollständig geprüft |
+| [Modulfertigung und Torpedos](modules/README.md)        | 4        | 8   | vollständig geprüft |
+| [Aurodium und Forschungsübergang](transition/README.md) | 2        | 3   | vollständig geprüft |
 
-Gemeinsamer Produktionsvertrag: 256x256 transparentes RGBA-PNG, 512px-Master, Quellen/Prompts/Manifeste. Neue versionierte Dateien, keine Altgrafiken überschrieben. Keine Änderungen an Spiel-, Forschungs-, Gebäudezustands- oder Terrainregeln.
+Vorherige Serien: 16 Familien / 39 IDs; Restserie: 26 Familien / 55 IDs. 41 Familien gehören zum Grund-/Stufe-I-Umfang, Forschungszentrum II ist der Übergang zur nächsten Stufe.
 
-Aufruf: python3 assets/generated/swu-rebel-stage-i-completion/pipeline.py <serie>; node assets/generated/swu-rebel-stage-i-completion/verify.cjs <serie>.
+Alle Laufzeitassets liegen unter ../../buildings/generated/ als 256×256-RGBA-PNGs. 512px-Master, Quellen, exakte Prompts und Manifeste je Serie erhalten. Erzeugung über das vom Nutzer gewünschte gpt-image-2 MCP im freigegebenen hohen Draufsicht-/Star-Wars-Grundstücksstil. Modulserie durch die parallele Claude-/Opus-5.5-Sitzung erstellt und unabhängig geprüft.
 
-Freigaben prüfen sowohl SWU-Kategorien als auch numerische STU-Felder. Außenposten als Kolonisierungsgebäude, Forschungszentrum II als echtes Upgrade von 72010100; familienübergreifende Geländealternativen erhalten. Orbitale Anlagen mit transparentem Hintergrund auf Orbitfeldern.
+Prüfung gegen game-data 8cda53525946df8fb8e998194acd1a06737630bc: sämtliche Gebäude-IDs, Namen, Forschungszuordnungen und erlaubte Vorschaufelder; Kolonisierungs-Außenposten und Forschungsupgrade separat berücksichtigt. Alle 94 erwarteten IDs vorhanden, keine fremden Zuordnungen oder Resolveränderungen gegenüber 03f4ae8e^. 42 RGBA-PNGs und Masterdateien sowie bytegleiche HTTP-Auslieferung geprüft.
 
-Plan: plan.json. Je Serie: manifest.json, prompt.txt, Quellblatt, masters/, Produktionsübersicht, Geländeprüfung, export-report.json und verification.json. review/ enthält ignorierte regenerierbare Zwischenbilder.
+Die Browserfixture preview.html/preview.js importiert die tatsächliche FieldCell und buildingImage vom laufenden Vite-Frontend. 94 Varianten, 302 geladene Bilder, 36 Statusfälle (Orbit, numerische Felder, letzte Gebäude) und 42 Menübilder bei 40px bestanden; kein Gebäudeüberlauf. Inaktiv-/Beschädigt-Anzeigen und 50-%-Baufortschritt erhalten. Vorhandene Terrainkacheln, Spielregeln, Forschung und Statusrenderer wurden für diese Serie nicht verändert. Native Chrome-Sichtung über CUA; kein Browserconnector-Host verfügbar. Keine breiten Test-/Buildläufe für reine Raster-/Mappingänderungen.
+
+Reproduktion: node assets/generated/swu-rebel-stage-i-completion/full-verify.cjs; python3 assets/generated/swu-rebel-stage-i-completion/full-overview.py. Einzelserien: pipeline.py und verify.cjs mit dem Seriennamen. Browserfixture: http://localhost:5173/@fs/Users/TMUNDIN/git/github.com/swuniverse/core/assets/generated/swu-rebel-stage-i-completion/preview.html. review/ enthält ignorierte, regenerierbare Zwischenbilder.

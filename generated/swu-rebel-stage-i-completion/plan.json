@@ -10,7 +10,7 @@
       "manifest": "assets/generated/swu-rebel-stage-i-completion/civic/manifest.json",
       "families": 4,
       "idCount": 8,
-      "status": "implemented",
+      "status": "complete",
       "verification": {
         "batch": "civic",
         "families": 4,
@@ -21,6 +21,11 @@
         "resolver": true,
         "http": true,
         "unselectedMappingsUnchanged": true
+      },
+      "finalVerification": {
+        "full": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-20"
       }
     },
     {
@@ -30,7 +35,7 @@
       "manifest": "assets/generated/swu-rebel-stage-i-completion/settlement/manifest.json",
       "families": 4,
       "idCount": 10,
-      "status": "implemented",
+      "status": "complete",
       "verification": {
         "batch": "settlement",
         "families": 4,
@@ -41,6 +46,11 @@
         "resolver": true,
         "http": true,
         "unselectedMappingsUnchanged": true
+      },
+      "finalVerification": {
+        "full": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-20"
       }
     },
     {
@@ -50,7 +60,7 @@
       "manifest": "assets/generated/swu-rebel-stage-i-completion/energy/manifest.json",
       "families": 4,
       "idCount": 10,
-      "status": "implemented",
+      "status": "complete",
       "verification": {
         "batch": "energy",
         "families": 4,
@@ -61,6 +71,11 @@
         "resolver": true,
         "http": true,
         "unselectedMappingsUnchanged": true
+      },
+      "finalVerification": {
+        "full": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-20"
       }
     },
     {
@@ -70,7 +85,7 @@
       "manifest": "assets/generated/swu-rebel-stage-i-completion/resources/manifest.json",
       "families": 4,
       "idCount": 8,
-      "status": "implemented",
+      "status": "complete",
       "verification": {
         "batch": "resources",
         "families": 4,
@@ -81,6 +96,11 @@
         "resolver": true,
         "http": true,
         "unselectedMappingsUnchanged": true
+      },
+      "finalVerification": {
+        "full": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-20"
       }
     },
     {
@@ -90,7 +110,7 @@
       "manifest": "assets/generated/swu-rebel-stage-i-completion/orbital/manifest.json",
       "families": 4,
       "idCount": 8,
-      "status": "implemented",
+      "status": "complete",
       "verification": {
         "batch": "orbital",
         "families": 4,
@@ -101,6 +121,11 @@
         "resolver": true,
         "http": true,
         "unselectedMappingsUnchanged": true
+      },
+      "finalVerification": {
+        "full": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-20"
       }
     },
     {
@@ -110,7 +135,7 @@
       "manifest": "assets/generated/swu-rebel-stage-i-completion/modules/manifest.json",
       "families": 4,
       "idCount": 8,
-      "status": "implemented",
+      "status": "complete",
       "verification": {
         "batch": "modules",
         "families": 4,
@@ -121,6 +146,11 @@
         "resolver": true,
         "http": true,
         "unselectedMappingsUnchanged": true
+      },
+      "finalVerification": {
+        "full": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-20"
       }
     },
     {
@@ -130,7 +160,7 @@
       "manifest": "assets/generated/swu-rebel-stage-i-completion/transition/manifest.json",
       "families": 2,
       "idCount": 3,
-      "status": "implemented",
+      "status": "complete",
       "verification": {
         "batch": "transition",
         "families": 2,
@@ -141,6 +171,11 @@
         "resolver": true,
         "http": true,
         "unselectedMappingsUnchanged": true
+      },
+      "finalVerification": {
+        "full": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-20"
       }
     }
   ]

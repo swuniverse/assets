@@ -1,0 +1,1370 @@
+{
+  "date": "2026-11-20",
+  "gameDataCommit": "8cda53525946df8fb8e998194acd1a06737630bc",
+  "mappingBaseline": "03f4ae8e^",
+  "families": 42,
+  "tierIFamilies": 41,
+  "transitionFamilies": 1,
+  "ids": 94,
+  "bytes": 4406262,
+  "sourceGroundedScope": true,
+  "noMissingIds": true,
+  "resolver": true,
+  "http": true,
+  "alpha": true,
+  "masters512": true,
+  "unselectedMappingsUnchanged": true,
+  "resolverCodeUnchanged": true,
+  "items": [
+    {
+      "ids": [82010100, 82010199],
+      "label": "Kommandozentrale",
+      "slug": "kommandozentrale",
+      "sheet": "edit-20261119-140656-f6f659-source-new-four.png",
+      "cell": 0,
+      "researchId": 1001,
+      "priority": "Tatsächliches Fraktions-Startgebäude (FactionService.startBuildingId)",
+      "terrain": "surface",
+      "file": "82010100-rebel-kommandozentrale-map-v1.png",
+      "master": "masters/82010100-kommandozentrale.png",
+      "manifest": "assets/generated/swu-rebel-starter-map-v1/manifest.json",
+      "alphaMean": 0.661571,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [11010100, 11010103, 11010199],
+      "label": "Wohnkomplex",
+      "slug": "wohnkomplex",
+      "sheet": "source-approved-four.png",
+      "cell": 0,
+      "researchId": 1001,
+      "priority": "Grundgebäude ab Grundlagenforschung",
+      "terrain": "surface",
+      "file": "11010100-rebel-wohnkomplex-map-v1.png",
+      "master": "masters/11010100-wohnkomplex.png",
+      "manifest": "assets/generated/swu-rebel-starter-map-v1/manifest.json",
+      "alphaMean": 0.60864,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [21010100, 21010101, 21010199],
+      "label": "Hydrokultur-Gewächshaus",
+      "slug": "hydrokultur",
+      "sheet": "edit-20261119-140656-f6f659-source-new-four.png",
+      "cell": 1,
+      "researchId": 1001,
+      "priority": "Grundgebäude ab Grundlagenforschung",
+      "terrain": "surface",
+      "file": "21010100-rebel-hydrokultur-map-v1.png",
+      "master": "masters/21010100-hydrokultur.png",
+      "manifest": "assets/generated/swu-rebel-starter-map-v1/manifest.json",
+      "alphaMean": 0.68213,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [31010100, 31010131, 31010199],
+      "label": "Ionensegel-Kollektor",
+      "slug": "ionensegel",
+      "sheet": "source-approved-four.png",
+      "cell": 1,
+      "researchId": 1001,
+      "priority": "Grundgebäude ab Grundlagenforschung",
+      "terrain": "surface",
+      "file": "31010100-rebel-ionensegel-map-v1.png",
+      "master": "masters/31010100-ionensegel.png",
+      "manifest": "assets/generated/swu-rebel-starter-map-v1/manifest.json",
+      "alphaMean": 0.640296,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [61010100, 61010199],
+      "label": "Doonium-Schmelze",
+      "slug": "doonium-schmelze",
+      "sheet": "source-approved-four.png",
+      "cell": 2,
+      "researchId": 1001,
+      "priority": "Grundgebäude ab Grundlagenforschung",
+      "terrain": "surface",
+      "file": "61010100-rebel-doonium-schmelze-map-v1.png",
+      "master": "masters/61010100-doonium-schmelze.png",
+      "manifest": "assets/generated/swu-rebel-starter-map-v1/manifest.json",
+      "alphaMean": 0.688419,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [81210100, 81210199],
+      "label": "Versorgungslager",
+      "slug": "versorgungslager",
+      "sheet": "source-approved-four.png",
+      "cell": 3,
+      "researchId": 1001,
+      "priority": "Grundgebäude ab Grundlagenforschung",
+      "terrain": "surface",
+      "file": "81210100-rebel-versorgungslager-map-v1.png",
+      "master": "masters/81210100-versorgungslager.png",
+      "manifest": "assets/generated/swu-rebel-starter-map-v1/manifest.json",
+      "alphaMean": 0.684901,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [21020100, 21020102, 21020199],
+      "label": "Aqua-Zuchtanlage",
+      "slug": "aqua-zuchtanlage",
+      "sheet": "edit-20261119-140656-f6f659-source-new-four.png",
+      "cell": 2,
+      "researchId": 220101,
+      "priority": "Aqua-Zuchtfarm: Aufwand 5, direkt nach 1001",
+      "terrain": "water",
+      "file": "21020100-rebel-aqua-zuchtanlage-map-v1.png",
+      "master": "masters/21020100-aqua-zuchtanlage.png",
+      "manifest": "assets/generated/swu-rebel-starter-map-v1/manifest.json",
+      "alphaMean": 0.598602,
+      "previewCode": "A410"
+    },
+    {
+      "ids": [61030100, 61030199],
+      "label": "Tibanna-Extraktor",
+      "slug": "tibanna-extraktor",
+      "sheet": "edit-20261119-140656-f6f659-source-new-four.png",
+      "cell": 3,
+      "researchId": 254001,
+      "priority": "Chemische Fabrik: Aufwand 10, direkt nach 1001",
+      "terrain": "surface",
+      "file": "61030100-rebel-tibanna-extraktor-map-v1.png",
+      "master": "masters/61030100-tibanna-extraktor.png",
+      "manifest": "assets/generated/swu-rebel-starter-map-v1/manifest.json",
+      "alphaMean": 0.642695,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [31020100, 31020132, 31020199],
+      "label": "Gezeitenkraftwerk",
+      "slug": "gezeitenkraftwerk",
+      "cell": 0,
+      "researchId": 230101,
+      "requires": [1001],
+      "effort": 5,
+      "terrain": "water",
+      "priority": "Direkt nach Grundlagenforschung",
+      "file": "31020100-rebel-gezeitenkraftwerk-map-v1.png",
+      "master": "masters/31020100-gezeitenkraftwerk.png",
+      "manifest": "assets/generated/swu-rebel-production-chain-map-v1/manifest.json",
+      "alphaMean": 0.580206,
+      "previewCode": "A410"
+    },
+    {
+      "ids": [62020100, 62020199],
+      "label": "Transparistahl-Manufaktur",
+      "slug": "transparistahl-manufaktur",
+      "cell": 1,
+      "researchId": 254101,
+      "requires": [254001],
+      "effort": 10,
+      "terrain": "surface",
+      "priority": "Nach Chemischer Fabrik / Tibanna-Extraktor",
+      "file": "62020100-rebel-transparistahl-manufaktur-map-v1.png",
+      "master": "masters/62020100-transparistahl-manufaktur.png",
+      "manifest": "assets/generated/swu-rebel-production-chain-map-v1/manifest.json",
+      "alphaMean": 0.534838,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [61110100, 61110112, 61110199],
+      "label": "Phrik-Mine",
+      "slug": "phrik-mine",
+      "cell": 2,
+      "researchId": 251001,
+      "requires": [254101],
+      "effort": 8,
+      "terrain": "mining",
+      "priority": "Nach Transparistahl-Manufaktur",
+      "file": "61110100-rebel-phrik-mine-map-v1.png",
+      "master": "masters/61110100-phrik-mine.png",
+      "manifest": "assets/generated/swu-rebel-production-chain-map-v1/manifest.json",
+      "alphaMean": 0.586552,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [63100100, 63100199],
+      "label": "Phrik-Raffinerie",
+      "slug": "phrik-raffinerie",
+      "cell": 3,
+      "researchId": 252101,
+      "requires": [251001],
+      "effort": 8,
+      "terrain": "surface",
+      "priority": "Direkt nach Phrik-Mine",
+      "file": "63100100-rebel-phrik-raffinerie-map-v1.png",
+      "master": "masters/63100100-phrik-raffinerie.png",
+      "manifest": "assets/generated/swu-rebel-production-chain-map-v1/manifest.json",
+      "alphaMean": 0.51239,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [63110100, 63110199],
+      "label": "Durastahl-Schmiede",
+      "slug": "durastahl-schmiede",
+      "cell": 0,
+      "researchId": 252001,
+      "requires": [252101],
+      "effort": 12,
+      "terrain": "surface",
+      "file": "63110100-rebel-durastahl-schmiede-map-v1.png",
+      "master": "masters/63110100-durastahl-schmiede.png",
+      "previewTerrainCodes": ["C119", "C640", "D819"],
+      "manifest": "assets/generated/swu-rebel-expansion-map-v1/manifest.json",
+      "alphaMean": 0.708275,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [61020100, 61020111, 61020199],
+      "label": "Hypermaterie-Synthesizer",
+      "slug": "hypermaterie-synthesizer",
+      "cell": 1,
+      "researchId": 253001,
+      "requires": [254101],
+      "effort": 12,
+      "terrain": "water_ice",
+      "file": "61020100-rebel-hypermaterie-synthesizer-map-v1.png",
+      "master": "masters/61020100-hypermaterie-synthesizer.png",
+      "previewTerrainCodes": ["A430", "A530"],
+      "manifest": "assets/generated/swu-rebel-expansion-map-v1/manifest.json",
+      "alphaMean": 0.678518,
+      "previewCode": "A430"
+    },
+    {
+      "ids": [81110100, 81110199],
+      "label": "Landeplattform",
+      "slug": "landeplattform",
+      "cell": 2,
+      "researchId": 270101,
+      "requires": [253001],
+      "effort": 30,
+      "terrain": "surface",
+      "file": "81110100-rebel-landeplattform-map-v1.png",
+      "master": "masters/81110100-landeplattform.png",
+      "previewTerrainCodes": ["C119", "C640", "D819"],
+      "manifest": "assets/generated/swu-rebel-expansion-map-v1/manifest.json",
+      "alphaMean": 0.601422,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [72010100, 72010199],
+      "label": "Forschungszentrum Stufe I",
+      "slug": "forschungszentrum-i",
+      "cell": 3,
+      "researchId": 200101,
+      "requires": [],
+      "effort": 12,
+      "terrain": "surface",
+      "file": "72010100-rebel-forschungszentrum-i-map-v1.png",
+      "master": "masters/72010100-forschungszentrum-i.png",
+      "previewTerrainCodes": ["C119", "C640", "D819"],
+      "manifest": "assets/generated/swu-rebel-expansion-map-v1/manifest.json",
+      "alphaMean": 0.593937,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [22020100, 22020199],
+      "label": "Blaue-Milch-Brauerei",
+      "slug": "blaue-milch-brauerei",
+      "cell": 0,
+      "researchId": 223401,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200101]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 22020100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "22020100-rebel-blaue-milch-brauerei-map-v1.png",
+      "master": "masters/22020100-blaue-milch-brauerei.png",
+      "production": [
+        {
+          "commodityId": 1011,
+          "amount": 1
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/civic/manifest.json",
+      "alphaMean": 0.493139,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [22010100, 22010199],
+      "label": "Cantina",
+      "slug": "cantina",
+      "cell": 1,
+      "researchId": 223301,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [223401]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 22010100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "22010100-rebel-cantina-map-v1.png",
+      "master": "masters/22010100-cantina.png",
+      "production": [
+        {
+          "commodityId": 1011,
+          "amount": -1
+        },
+        {
+          "commodityId": 1300,
+          "amount": 140
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/civic/manifest.json",
+      "alphaMean": 0.547452,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [51010100, 51010199],
+      "label": "Allianz-Akademie",
+      "slug": "allianz-akademie",
+      "cell": 2,
+      "researchId": 399901,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200101]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 51010100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "51010100-rebel-allianz-akademie-map-v1.png",
+      "master": "masters/51010100-allianz-akademie.png",
+      "production": [
+        {
+          "commodityId": 1001,
+          "amount": 25
+        },
+        {
+          "commodityId": 1601,
+          "amount": 25
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/civic/manifest.json",
+      "alphaMean": 0.581759,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [81120100, 81120199],
+      "label": "Raumbahnhof",
+      "slug": "raumbahnhof",
+      "cell": 3,
+      "researchId": 270201,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200101]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81120100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81120100-rebel-raumbahnhof-map-v1.png",
+      "master": "masters/81120100-raumbahnhof.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": 14
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/civic/manifest.json",
+      "alphaMean": 0.626154,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [81010100, 81010199],
+      "label": "Außenposten",
+      "slug": "aussenposten",
+      "cell": 0,
+      "researchId": 1001,
+      "requires": [],
+      "effort": 0,
+      "researchCommodityId": 1701,
+      "placement": "colonization",
+      "permissionBuildingId": 81010100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        }
+      ],
+      "file": "81010100-rebel-aussenposten-map-v1.png",
+      "master": "masters/81010100-aussenposten.png",
+      "production": [
+        {
+          "commodityId": 1300,
+          "amount": 42
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/settlement/manifest.json",
+      "alphaMean": 0.528686,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [12020100, 12020199],
+      "label": "Versorgungskuppel",
+      "slug": "versorgungskuppel",
+      "cell": 1,
+      "researchId": 211201,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200101]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 12020100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "12020100-rebel-versorgungskuppel-map-v1.png",
+      "master": "masters/12020100-versorgungskuppel.png",
+      "production": [
+        {
+          "commodityId": 1102,
+          "amount": 1
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/settlement/manifest.json",
+      "alphaMean": 0.545814,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [12010100, 12010104, 12010199],
+      "label": "Habitatkuppel",
+      "slug": "habitatkuppel",
+      "cell": 2,
+      "researchId": 211301,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [211201]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 12010100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "12010100-rebel-habitatkuppel-map-v1.png",
+      "master": "masters/12010100-habitatkuppel.png",
+      "production": [
+        {
+          "commodityId": 1102,
+          "amount": -1
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/settlement/manifest.json",
+      "alphaMean": 0.537913,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [21120100, 21120102, 21120199],
+      "label": "Kryo-Zuchtanlage",
+      "slug": "kryo-zuchtanlage",
+      "cell": 3,
+      "researchId": 800201,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [101101, 220101]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 21120100,
+      "previews": [
+        {
+          "code": 222,
+          "label": "Eiswasser (STU)",
+          "file": "generated/fields/222.png"
+        }
+      ],
+      "file": "21120100-rebel-kryo-zuchtanlage-map-v1.png",
+      "master": "masters/21120100-kryo-zuchtanlage.png",
+      "production": [
+        {
+          "commodityId": 1300,
+          "amount": 56
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/settlement/manifest.json",
+      "alphaMean": 0.550425,
+      "previewCode": 222
+    },
+    {
+      "ids": [33010100, 33010131, 33010199],
+      "label": "Solarspiegel",
+      "slug": "solarspiegel",
+      "cell": 0,
+      "researchId": 231301,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200101]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 33010100,
+      "previews": [
+        {
+          "code": 401,
+          "label": "Wüste (STU)",
+          "file": "generated/fields/401.png"
+        },
+        {
+          "code": 713,
+          "label": "Fels (STU)",
+          "file": "generated/fields/713.png"
+        }
+      ],
+      "file": "33010100-rebel-solarspiegel-map-v1.png",
+      "master": "masters/33010100-solarspiegel.png",
+      "production": [
+        {
+          "commodityId": 1201,
+          "amount": 1
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/energy/manifest.json",
+      "alphaMean": 0.559315,
+      "previewCode": 401
+    },
+    {
+      "ids": [33020100, 33020199],
+      "label": "Solarfokus",
+      "slug": "solarfokus",
+      "cell": 1,
+      "researchId": 231201,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [231301]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 33020100,
+      "previews": [
+        {
+          "code": 401,
+          "label": "Wüste (STU)",
+          "file": "generated/fields/401.png"
+        },
+        {
+          "code": 713,
+          "label": "Fels (STU)",
+          "file": "generated/fields/713.png"
+        }
+      ],
+      "file": "33020100-rebel-solarfokus-map-v1.png",
+      "master": "masters/33020100-solarfokus.png",
+      "production": [
+        {
+          "commodityId": 1201,
+          "amount": -2
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/energy/manifest.json",
+      "alphaMean": 0.607844,
+      "previewCode": 401
+    },
+    {
+      "ids": [33030100, 33030199],
+      "label": "Strömungsanker",
+      "slug": "stroemungsanker",
+      "cell": 2,
+      "researchId": 231001,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200101, 230101]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 33030100,
+      "previews": [
+        {
+          "code": "A410",
+          "label": "Wasser",
+          "file": "generated/SWUfields/tA410.png"
+        },
+        {
+          "code": "A430",
+          "label": "Flachwasser",
+          "file": "generated/SWUfields/tA430.png"
+        },
+        {
+          "code": "A530",
+          "label": "Packeis",
+          "file": "generated/SWUfields/tA530.png"
+        }
+      ],
+      "file": "33030100-rebel-stroemungsanker-map-v1.png",
+      "master": "masters/33030100-stroemungsanker.png",
+      "production": [
+        {
+          "commodityId": 1202,
+          "amount": 2
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/energy/manifest.json",
+      "alphaMean": 0.499859,
+      "previewCode": "A410"
+    },
+    {
+      "ids": [33040100, 33040132, 33040199],
+      "label": "Strömungsturbinen",
+      "slug": "stroemungsturbinen",
+      "cell": 3,
+      "researchId": 231101,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [231001]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 33040100,
+      "previews": [
+        {
+          "code": "A410",
+          "label": "Wasser",
+          "file": "generated/SWUfields/tA410.png"
+        },
+        {
+          "code": "A430",
+          "label": "Flachwasser",
+          "file": "generated/SWUfields/tA430.png"
+        },
+        {
+          "code": "A530",
+          "label": "Packeis",
+          "file": "generated/SWUfields/tA530.png"
+        }
+      ],
+      "file": "33040100-rebel-stroemungsturbinen-map-v1.png",
+      "master": "masters/33040100-stroemungsturbinen.png",
+      "production": [
+        {
+          "commodityId": 1202,
+          "amount": -1
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/energy/manifest.json",
+      "alphaMean": 0.519038,
+      "previewCode": "A410"
+    },
+    {
+      "ids": [62010100, 62010199],
+      "label": "Partikel-Beschleuniger",
+      "slug": "partikel-beschleuniger",
+      "cell": 0,
+      "researchId": 253101,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200101]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 62010100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "62010100-rebel-partikel-beschleuniger-map-v1.png",
+      "master": "masters/62010100-partikel-beschleuniger.png",
+      "production": [
+        {
+          "commodityId": 5,
+          "amount": -10
+        },
+        {
+          "commodityId": 6,
+          "amount": 10
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/resources/manifest.json",
+      "alphaMean": 0.604091,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [61210100, 61210121, 61210199],
+      "label": "Kyber-Kristallmine",
+      "slug": "kyber-kristallmine",
+      "cell": 1,
+      "researchId": 251101,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [253101]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 61210100,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": 713,
+          "label": "Fels (STU)",
+          "file": "generated/fields/713.png"
+        }
+      ],
+      "file": "61210100-rebel-kyber-kristallmine-map-v1.png",
+      "master": "masters/61210100-kyber-kristallmine.png",
+      "production": [
+        {
+          "commodityId": 8,
+          "amount": 1
+        },
+        {
+          "commodityId": 1508,
+          "amount": -1
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/resources/manifest.json",
+      "alphaMean": 0.634239,
+      "previewCode": "C640"
+    },
+    {
+      "ids": [61040100, 61040199],
+      "label": "Hypermaterie-Pumpe",
+      "slug": "hypermaterie-pumpe",
+      "cell": 2,
+      "researchId": 800301,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [101101]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 61040100,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": 713,
+          "label": "Fels (STU)",
+          "file": "generated/fields/713.png"
+        }
+      ],
+      "file": "61040100-rebel-hypermaterie-pumpe-map-v1.png",
+      "master": "masters/61040100-hypermaterie-pumpe.png",
+      "production": [
+        {
+          "commodityId": 5,
+          "amount": 7
+        },
+        {
+          "commodityId": 1505,
+          "amount": -1
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/resources/manifest.json",
+      "alphaMean": 0.576366,
+      "previewCode": "C640"
+    },
+    {
+      "ids": [61170100],
+      "label": "Aurodium-Mine",
+      "slug": "aurodium-mine",
+      "cell": 3,
+      "researchId": 250701,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [101101]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 61170100,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        }
+      ],
+      "file": "61170100-rebel-aurodium-mine-map-v1.png",
+      "master": "masters/61170100-aurodium-mine.png",
+      "production": [
+        {
+          "commodityId": 51,
+          "amount": 1
+        },
+        {
+          "commodityId": 1523,
+          "amount": -1
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/resources/manifest.json",
+      "alphaMean": 0.629657,
+      "previewCode": "C640"
+    },
+    {
+      "ids": [31910100, 31910199],
+      "label": "Orbital-Solarkollektor",
+      "slug": "orbital-solarkollektor",
+      "cell": 0,
+      "researchId": 271401,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [270201]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 31910100,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        }
+      ],
+      "file": "31910100-rebel-orbital-solarkollektor-map-v1.png",
+      "master": "masters/31910100-orbital-solarkollektor.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": -1
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/orbital/manifest.json",
+      "alphaMean": 0.394983,
+      "previewCode": "OO10"
+    },
+    {
+      "ids": [85010100, 85010199],
+      "label": "Werftkomplex",
+      "slug": "werftkomplex",
+      "cell": 1,
+      "researchId": 275001,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [270201, 399901]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 85010100,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        }
+      ],
+      "file": "85010100-rebel-werftkomplex-map-v1.png",
+      "master": "masters/85010100-werftkomplex.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": -1
+        },
+        {
+          "commodityId": 1802,
+          "amount": 4
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/orbital/manifest.json",
+      "alphaMean": 0.290553,
+      "previewCode": "OO10"
+    },
+    {
+      "ids": [85110100, 85110199],
+      "label": "Jägerwerft",
+      "slug": "jaegerwerft",
+      "cell": 2,
+      "researchId": 275101,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [275001]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 85110100,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        }
+      ],
+      "file": "85110100-rebel-jaegerwerft-map-v1.png",
+      "master": "masters/85110100-jaegerwerft.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": -1
+        },
+        {
+          "commodityId": 1802,
+          "amount": -1
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/orbital/manifest.json",
+      "alphaMean": 0.389799,
+      "previewCode": "OO10"
+    },
+    {
+      "ids": [85120100, 85120199],
+      "label": "Fregattenwerft",
+      "slug": "fregattenwerft",
+      "cell": 3,
+      "researchId": 275201,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [275101]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 85120100,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        }
+      ],
+      "file": "85120100-rebel-fregattenwerft-map-v1.png",
+      "master": "masters/85120100-fregattenwerft.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": -1
+        },
+        {
+          "commodityId": 1802,
+          "amount": -1
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/orbital/manifest.json",
+      "alphaMean": 0.412466,
+      "previewCode": "OO10"
+    },
+    {
+      "ids": [81810100, 81810199],
+      "label": "Waffenmodulfertigung",
+      "slug": "waffenmodulfertigung",
+      "cell": 0,
+      "researchId": 281101,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [275001]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81810100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81810100-rebel-waffenmodulfertigung-map-v1.png",
+      "master": "masters/81810100-waffenmodulfertigung.png",
+      "production": [],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/modules/manifest.json",
+      "alphaMean": 0.588055,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [81820100, 81820199],
+      "label": "Schildmodulfertigung",
+      "slug": "schildmodulfertigung",
+      "cell": 1,
+      "researchId": 282101,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [275001]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81820100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81820100-rebel-schildmodulfertigung-map-v1.png",
+      "master": "masters/81820100-schildmodulfertigung.png",
+      "production": [],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/modules/manifest.json",
+      "alphaMean": 0.574344,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [81830100, 81830199],
+      "label": "Antriebsmodulfertigung",
+      "slug": "antriebsmodulfertigung",
+      "cell": 2,
+      "researchId": 283101,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [275001]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81830100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81830100-rebel-antriebsmodulfertigung-map-v1.png",
+      "master": "masters/81830100-antriebsmodulfertigung.png",
+      "production": [],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/modules/manifest.json",
+      "alphaMean": 0.595971,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [81990100, 81990199],
+      "label": "Protonentorpedo-Fabrik",
+      "slug": "protonentorpedo-fabrik",
+      "cell": 3,
+      "researchId": 288001,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [275001]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81990100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81990100-rebel-protonentorpedo-fabrik-map-v1.png",
+      "master": "masters/81990100-protonentorpedo-fabrik.png",
+      "production": [],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/modules/manifest.json",
+      "alphaMean": 0.635504,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [63170100],
+      "label": "Aurodium-Presse",
+      "slug": "aurodium-presse",
+      "cell": 0,
+      "researchId": 254701,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [250701]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 63170100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "63170100-rebel-aurodium-presse-map-v1.png",
+      "master": "masters/63170100-aurodium-presse.png",
+      "production": [
+        {
+          "commodityId": 50,
+          "amount": 1
+        },
+        {
+          "commodityId": 51,
+          "amount": -16
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/transition/manifest.json",
+      "alphaMean": 0.638332,
+      "previewCode": "C119"
+    },
+    {
+      "ids": [73010100, 73010199],
+      "label": "Forschungszentrum Stufe II",
+      "slug": "forschungszentrum-ii",
+      "cell": 1,
+      "researchId": 200201,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            102101, 211301, 223301, 231101, 231201, 251101, 254701, 271401,
+            800201, 800301
+          ]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1701,
+      "placement": "upgrade",
+      "permissionBuildingId": 72010100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "73010100-rebel-forschungszentrum-ii-map-v1.png",
+      "master": "masters/73010100-forschungszentrum-ii.png",
+      "production": [
+        {
+          "commodityId": 1700,
+          "amount": -2
+        },
+        {
+          "commodityId": 1702,
+          "amount": 1
+        }
+      ],
+      "manifest": "assets/generated/swu-rebel-stage-i-completion/transition/manifest.json",
+      "alphaMean": 0.636619,
+      "previewCode": "C119"
+    }
+  ]
+}

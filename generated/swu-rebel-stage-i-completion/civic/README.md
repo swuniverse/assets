@@ -15,4 +15,4 @@ Quellen: game-data/data/buildings/stu-buildings.yaml, game-data/data/research/re
 
 pipeline.py exportiert die Dateien und erstellt production-overview.png sowie terrain-review.png. verify.cjs prüft IDs/Namen, Forschung, tatsächlich erlaubte Vorschaufelder, Sonderplatzierung, PNG-Format, buildingImage-Pfade und bytegleiche HTTP-Auslieferung.
 
-Fokussierte Prüfung bestanden: 4 Familien, 8 IDs, 369907 PNG-Bytes. Ganze nicht ausgewählte Zuordnungstabelle unverändert. Quellen und 40/68px-Montagen visuell geprüft. Abschließende Browserprüfung der gesamten Restserie wird gemeinsam durchgeführt.
+Fokussierte Prüfung bestanden: 4 Familien, 8 IDs, 369907 PNG-Bytes. Ganze nicht ausgewählte Zuordnungstabelle unverändert. Quellen und 40/68px-Montagen visuell geprüft. Gemeinsame Abschlussprüfung vollständig bestanden: siehe ../full-verification.json und ../browser-verification.json.
