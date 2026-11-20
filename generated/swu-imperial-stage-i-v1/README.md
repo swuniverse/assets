@@ -2,7 +2,7 @@
 
 Freigegebener imperialer Stil: graue Panzerflächen, schwarze Technik, rote Akzente, hohe Draufsicht und breite Grundstücke.
 
-31 / 42 Familien produziert (73 / 94 IDs); Runtime-/Abschlussprüfung noch ausstehend.
+35 / 42 Familien produziert (81 / 94 IDs); Runtime-/Abschlussprüfung noch ausstehend.
 
 | Serie                                                                | Familien | IDs | Status      |
 | -------------------------------------------------------------------- | -------- | --- | ----------- |
@@ -14,7 +14,7 @@ Freigegebener imperialer Stil: graue Panzerflächen, schwarze Technik, rote Akze
 | [Kuppeln, Kryozucht und Forschung](settlement/README.md)             | 4        | 10  | implemented |
 | [Erneuerbare Energie](energy/README.md)                              | 4        | 10  | implemented |
 | [Rohstoffgewinnung](resources/README.md)                             | 4        | 8   | implemented |
-| [Orbitale Energie und Werften](orbital/README.md)                    | 4        | 8   | pending     |
+| [Orbitale Energie und Werften](orbital/README.md)                    | 4        | 8   | implemented |
 | [Module und Torpedos](modules/README.md)                             | 4        | 8   | pending     |
 | [Außenposten, Aurodium und Forschungsübergang](transition/README.md) | 3        | 5   | pending     |
 

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "31910300-imperial-orbital-solarkollektor-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 90387
+  },
+  {
+    "file": "85010300-imperial-werftkomplex-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 105885
+  },
+  {
+    "file": "85110300-imperial-jaegerwerft-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 86761
+  },
+  {
+    "file": "85120300-imperial-fregattenwerft-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 99910
+  }
+]
