@@ -1,0 +1,22 @@
+[
+  {
+    "file": "81810300-imperial-waffenmodulfertigung-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 111556
+  },
+  {
+    "file": "81820300-imperial-schildmodulfertigung-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 118485
+  },
+  {
+    "file": "81830300-imperial-antriebsmodulfertigung-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 116131
+  },
+  {
+    "file": "81990300-imperial-protonentorpedo-fabrik-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 114836
+  }
+]

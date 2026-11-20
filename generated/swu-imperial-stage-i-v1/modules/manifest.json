@@ -8,7 +8,7 @@
   "researchSource": "game-data/data/research/imperials.yaml",
   "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
   "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
-  "sourceSheet": null,
+  "sourceSheet": "edit-20261120-143739-0f7467-source-imperial-modules.png",
   "grid": {
     "columns": 2,
     "rows": 2
@@ -166,5 +166,11 @@
       "master": "masters/81990300-protonentorpedo-fabrik.png",
       "production": []
     }
-  ]
+  ],
+  "generation": {
+    "tool": "edit_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.0674
+  }
 }

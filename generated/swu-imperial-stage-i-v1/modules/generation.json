@@ -1,0 +1,39 @@
+{
+  "model": "gpt-image-2",
+  "prompt": "Use case: stylized-concept / style-transfer. Asset type: transparent Galactic Empire colony-map building sprites for a Star Wars browser strategy game.\nInput image: APPROVED IMPERIAL STYLE REFERENCE ONLY. Preserve its cool medium-light gray armored steel/duracrete, graphite-black technical panels, sparse red lights, maintained weathering, crisp detail and broad readable footprint. Create NEW function-specific buildings with matching materials, never reuse the sample subjects.\nCamera: high near-overhead ORTHOGRAPHIC, roofs dominate and front walls are shallow; same camera and scale as the reference. Broad low colony parcels with attached compact functional foundations. No tall monuments, perspective scene or collectible isometric miniature.\nLighting: soft uniform upper-left light, controlled contact shadows, enough light-gray roof area to read against existing terrain and dark UI.\nTransparent background with genuine alpha around each structure, no fog, vignette, checkerboard, landscape or full ground rectangle. No text, logo, border, watermark, actors, people, animals, vehicles, spacecraft or scenery. No tan sandstone or rust-orange rebel architecture. Small functional glass/heat/ore color accents only where specified. Match readability at 40/68 pixels.\nLayout: EXACTLY FOUR compounds, 2x2 grid on 1024x1024. Each occupies only its own 512x512 quadrant, approximately 450x450 subject with 20px transparent clearance. Order TOP LEFT, TOP RIGHT, BOTTOM LEFT, BOTTOM RIGHT.\n1. Weapons-module factory: broad low gray assembly hall with a compact attached mechanized production yard, two small unfinished gun-barrel COMPONENT assemblies on work fixtures and black overhead gantry rails. Factory making weapons, not defensive turrets.\n2. Shield-module factory: low gray manufacturing hall with attached curved shield-projector COMPONENT assemblies on organized work fixtures, small enclosed test chamber with restrained blue diagnostic glow, black service equipment.\n3. Engine-module factory: angular low gray assembly hall with two or three compact cylindrical propulsion-engine COMPONENTS on attached fabrication fixtures, heavy black gantry rails and orderly service platforms. No ship hull.\n4. Proton-torpedo factory: compact low gray secure manufacturing block with orderly rows of small metallic torpedo COMPONENTS on an attached production rack and enclosed loading bay, black panels, tiny red access lights. Components, no launching missiles.",
+  "requested": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "n": 1,
+    "format": "png"
+  },
+  "applied": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "background": null,
+    "output_format": "png"
+  },
+  "images": [
+    {
+      "file_path": "/Users/TMUNDIN/git/github.com/swuniverse/core/assets/generated/swu-imperial-stage-i-v1/modules/edit-20261120-143739-0f7467-source-imperial-modules.png",
+      "filename": "edit-20261120-143739-0f7467-source-imperial-modules.png",
+      "size_bytes": 2225364,
+      "mime_type": "image/png"
+    }
+  ],
+  "usage": {
+    "total_tokens": 3769,
+    "input_tokens": 2013,
+    "input_tokens_details": {
+      "image_tokens": 1536,
+      "text_tokens": 477
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+    }
+  },
+  "cost_usd_estimated": 0.0674,
+  "route": "direct"
+}
