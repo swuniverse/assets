@@ -1,0 +1,22 @@
+[
+  {
+    "file": "63100300-imperial-phrik-raffinerie-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 113870
+  },
+  {
+    "file": "63110300-imperial-durastahl-schmiede-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 107696
+  },
+  {
+    "file": "61020300-imperial-hypermaterie-synthesizer-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 116180
+  },
+  {
+    "file": "81110300-imperial-landeplattform-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 111557
+  }
+]

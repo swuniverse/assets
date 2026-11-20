@@ -1,0 +1,39 @@
+{
+  "model": "gpt-image-2",
+  "prompt": "Use case: stylized-concept / style-transfer. Asset type: transparent Galactic Empire colony-map building sprites for a Star Wars browser strategy game.\nInput image: APPROVED IMPERIAL STYLE REFERENCE ONLY. Preserve its cool medium-light gray armored steel/duracrete, graphite-black technical panels, sparse red lights, maintained weathering, crisp detail and broad readable footprint. Create NEW function-specific buildings with matching materials, never reuse the sample subjects.\nCamera: high near-overhead ORTHOGRAPHIC, roofs dominate and front walls are shallow; same camera and scale as the reference. Broad low colony parcels with attached compact functional foundations. No tall monuments, perspective scene or collectible isometric miniature.\nLighting: soft uniform upper-left light, controlled contact shadows, enough light-gray roof area to read against existing terrain and dark UI.\nTransparent background with genuine alpha around each structure, no fog, vignette, checkerboard, landscape or full ground rectangle. No text, logo, border, watermark, actors, people, animals, vehicles, spacecraft or scenery. No tan sandstone or rust-orange rebel architecture. Small functional glass/heat/ore color accents only where specified. Match readability at 40/68 pixels.\nLayout: EXACTLY FOUR compounds, 2x2 grid on 1024x1024. Each occupies only its own 512x512 quadrant, approximately 450x450 subject with 20px transparent clearance. Order TOP LEFT, TOP RIGHT, BOTTOM LEFT, BOTTOM RIGHT.\n1. Phrik refinery: compact gray heavy-metal refining plant with two visible circular processing vessels, thick squared black pipe manifold, rectangular separator shed and muted orange processing glow confined to one small chamber.\n2. Durasteel forge: broad angular armored manufacturing hall, a clearly recognizable heavy enclosed forge and pressing apparatus, black machinery, glowing amber furnace slit and stacked silver-gray metal billets in a compact loading bay.\n3. Hypermatter synthesizer: connected low gray processing modules with two rectangular blue-glazed reaction chambers and a compact tank/filtration service area. Floating/water-and-ice-compatible foundations only, no baked water or ice.\n4. Landing platform: large flat octagonal reinforced gray landing pad with a small adjacent command booth and cargo handling modules, subtle yellow approach lines and red edge lights. EMPTY pad, no ship, aircraft, letters or painted logo.",
+  "requested": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "n": 1,
+    "format": "png"
+  },
+  "applied": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "background": null,
+    "output_format": "png"
+  },
+  "images": [
+    {
+      "file_path": "/Users/TMUNDIN/git/github.com/swuniverse/core/assets/generated/swu-imperial-stage-i-v1/industry/edit-20261120-141945-5976bd-source-imperial-industry.png",
+      "filename": "edit-20261120-141945-5976bd-source-imperial-industry.png",
+      "size_bytes": 2200770,
+      "mime_type": "image/png"
+    }
+  ],
+  "usage": {
+    "total_tokens": 3771,
+    "input_tokens": 2015,
+    "input_tokens_details": {
+      "image_tokens": 1536,
+      "text_tokens": 479
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+    }
+  },
+  "cost_usd_estimated": 0.0674,
+  "route": "direct"
+}

@@ -1,0 +1,12 @@
+{
+  "batch": "industry",
+  "families": 4,
+  "ids": 9,
+  "data": true,
+  "research": true,
+  "terrain": true,
+  "specialPlacement": true,
+  "rgba256": true,
+  "masters512": true,
+  "alpha": true
+}

@@ -77,7 +77,19 @@
       "manifest": "assets/generated/swu-imperial-stage-i-v1/industry/manifest.json",
       "families": 4,
       "idCount": 9,
-      "status": "pending"
+      "status": "implemented",
+      "artifactVerification": {
+        "batch": "industry",
+        "families": 4,
+        "ids": 9,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "specialPlacement": true,
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
     },
     {
       "slug": "civic",
