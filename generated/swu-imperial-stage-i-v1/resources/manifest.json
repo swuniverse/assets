@@ -8,7 +8,7 @@
   "researchSource": "game-data/data/research/imperials.yaml",
   "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
   "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
-  "sourceSheet": null,
+  "sourceSheet": "edit-20261120-143113-dc4619-source-imperial-resources.png",
   "grid": {
     "columns": 2,
     "rows": 2
@@ -182,5 +182,11 @@
         }
       ]
     }
-  ]
+  ],
+  "generation": {
+    "tool": "edit_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.0674
+  }
 }

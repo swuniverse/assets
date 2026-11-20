@@ -1,0 +1,22 @@
+[
+  {
+    "file": "62010300-imperial-partikel-beschleuniger-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 121407
+  },
+  {
+    "file": "61210300-imperial-kyber-kristallmine-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 124493
+  },
+  {
+    "file": "61040300-imperial-hypermaterie-pumpe-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 118342
+  },
+  {
+    "file": "61170300-imperial-aurodium-mine-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 133561
+  }
+]

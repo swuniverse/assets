@@ -1,0 +1,39 @@
+{
+  "model": "gpt-image-2",
+  "prompt": "Use case: stylized-concept / style-transfer. Asset type: transparent Galactic Empire colony-map building sprites for a Star Wars browser strategy game.\nInput image: APPROVED IMPERIAL STYLE REFERENCE ONLY. Preserve its cool medium-light gray armored steel/duracrete, graphite-black technical panels, sparse red lights, maintained weathering, crisp detail and broad readable footprint. Create NEW function-specific buildings with matching materials, never reuse the sample subjects.\nCamera: high near-overhead ORTHOGRAPHIC, roofs dominate and front walls are shallow; same camera and scale as the reference. Broad low colony parcels with attached compact functional foundations. No tall monuments, perspective scene or collectible isometric miniature.\nLighting: soft uniform upper-left light, controlled contact shadows, enough light-gray roof area to read against existing terrain and dark UI.\nTransparent background with genuine alpha around each structure, no fog, vignette, checkerboard, landscape or full ground rectangle. No text, logo, border, watermark, actors, people, animals, vehicles, spacecraft or scenery. No tan sandstone or rust-orange rebel architecture. Small functional glass/heat/ore color accents only where specified. Match readability at 40/68 pixels.\nLayout: EXACTLY FOUR compounds, 2x2 grid on 1024x1024. Each occupies only its own 512x512 quadrant, approximately 450x450 subject with 20px transparent clearance. Order TOP LEFT, TOP RIGHT, BOTTOM LEFT, BOTTOM RIGHT.\n1. Particle accelerator: broad compact angular gray science-industrial plant with a visible closed circular or polygonal accelerator loop surrounding a small enclosed control core, black segmented conduits, tiny red and cool blue diagnostic points.\n2. Kyber crystal mine: deep compact dark excavation opening with clearly visible restrained cyan-blue crystal outcrops INSIDE the extraction pit, gray armored drill/service sheds, black ore-handling equipment. Crystal mine, not a giant magic crystal icon.\n3. Hypermatter pump: compact gray resource extraction building with several large vertical low-profile pumping cylinders, heavy black pipe connections and a squared central processing block, narrow blue diagnostic slots.\n4. Aurodium mine: industrial gray armored ore extraction parcel with dark excavation mouth, low mechanical mining structure, small hoppers of ochre-gold ore and an orderly compact conveyor loading bay. No treasure chest, coins or giant gold symbol.",
+  "requested": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "n": 1,
+    "format": "png"
+  },
+  "applied": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "background": null,
+    "output_format": "png"
+  },
+  "images": [
+    {
+      "file_path": "/Users/TMUNDIN/git/github.com/swuniverse/core/assets/generated/swu-imperial-stage-i-v1/resources/edit-20261120-143113-dc4619-source-imperial-resources.png",
+      "filename": "edit-20261120-143113-dc4619-source-imperial-resources.png",
+      "size_bytes": 2366437,
+      "mime_type": "image/png"
+    }
+  ],
+  "usage": {
+    "total_tokens": 3778,
+    "input_tokens": 2022,
+    "input_tokens_details": {
+      "image_tokens": 1536,
+      "text_tokens": 486
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+    }
+  },
+  "cost_usd_estimated": 0.0674,
+  "route": "direct"
+}

@@ -161,7 +161,19 @@
       "manifest": "assets/generated/swu-imperial-stage-i-v1/resources/manifest.json",
       "families": 4,
       "idCount": 8,
-      "status": "pending"
+      "status": "implemented",
+      "artifactVerification": {
+        "batch": "resources",
+        "families": 4,
+        "ids": 8,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "specialPlacement": true,
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
     },
     {
       "slug": "orbital",

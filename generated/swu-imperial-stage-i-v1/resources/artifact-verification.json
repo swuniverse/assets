@@ -1,0 +1,12 @@
+{
+  "batch": "resources",
+  "families": 4,
+  "ids": 8,
+  "data": true,
+  "research": true,
+  "terrain": true,
+  "specialPlacement": true,
+  "rgba256": true,
+  "masters512": true,
+  "alpha": true
+}
