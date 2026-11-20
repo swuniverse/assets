@@ -2,13 +2,13 @@
 
 Freigegebener imperialer Stil: graue Panzerflächen, schwarze Technik, rote Akzente, hohe Draufsicht und breite Grundstücke.
 
-7 / 42 Familien produziert (17 / 94 IDs); Runtime-/Abschlussprüfung noch ausstehend.
+11 / 42 Familien produziert (28 / 94 IDs); Runtime-/Abschlussprüfung noch ausstehend.
 
 | Serie                                                                | Familien | IDs | Status      |
 | -------------------------------------------------------------------- | -------- | --- | ----------- |
 | [Freigegebene Grundgebäude](approved/README.md)                      | 3        | 7   | implemented |
 | [Grundversorgung und Gas](starter/README.md)                         | 4        | 10  | implemented |
-| [Frühe Produktionsketten](production/README.md)                      | 4        | 11  | pending     |
+| [Frühe Produktionsketten](production/README.md)                      | 4        | 11  | implemented |
 | [Metalle, Treibstoff und Raumfahrt](industry/README.md)              | 4        | 9   | pending     |
 | [Zivile Versorgung und Verwaltung](civic/README.md)                  | 4        | 8   | pending     |
 | [Kuppeln, Kryozucht und Forschung](settlement/README.md)             | 4        | 10  | pending     |

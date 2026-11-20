@@ -1,0 +1,22 @@
+[
+  {
+    "file": "21020300-imperial-nerf-zucht-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 114055
+  },
+  {
+    "file": "31020300-imperial-gezeitenkraftwerk-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 107865
+  },
+  {
+    "file": "62020300-imperial-transparistahl-manufaktur-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 111162
+  },
+  {
+    "file": "61110300-imperial-phrik-mine-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 114783
+  }
+]

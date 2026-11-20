@@ -56,7 +56,19 @@
       "manifest": "assets/generated/swu-imperial-stage-i-v1/production/manifest.json",
       "families": 4,
       "idCount": 11,
-      "status": "pending"
+      "status": "implemented",
+      "artifactVerification": {
+        "batch": "production",
+        "families": 4,
+        "ids": 11,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "specialPlacement": true,
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
     },
     {
       "slug": "industry",
