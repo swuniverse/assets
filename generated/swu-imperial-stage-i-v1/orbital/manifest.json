@@ -1,0 +1,162 @@
+{
+  "version": 1,
+  "faction": "GALACTIC_EMPIRE",
+  "batch": "orbital",
+  "title": "Orbitale Energie und Werften",
+  "gameDataCommit": "8cda53525946df8fb8e998194acd1a06737630bc",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/imperials.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": null,
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [31910300, 31910399],
+      "label": "Orbital-Solarkollektor",
+      "slug": "orbital-solarkollektor",
+      "cell": 0,
+      "researchId": 271403,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [270203]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 31910300,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        }
+      ],
+      "file": "31910300-imperial-orbital-solarkollektor-map-v1.png",
+      "master": "masters/31910300-orbital-solarkollektor.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": -1
+        }
+      ]
+    },
+    {
+      "ids": [85010300, 85010399],
+      "label": "Werftkomplex",
+      "slug": "werftkomplex",
+      "cell": 1,
+      "researchId": 275003,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [270203, 399903]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 85010300,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        }
+      ],
+      "file": "85010300-imperial-werftkomplex-map-v1.png",
+      "master": "masters/85010300-werftkomplex.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": -1
+        },
+        {
+          "commodityId": 1802,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "ids": [85110300, 85110399],
+      "label": "Jägerwerft",
+      "slug": "jaegerwerft",
+      "cell": 2,
+      "researchId": 275103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [275003]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 85110300,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        }
+      ],
+      "file": "85110300-imperial-jaegerwerft-map-v1.png",
+      "master": "masters/85110300-jaegerwerft.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": -1
+        },
+        {
+          "commodityId": 1802,
+          "amount": -1
+        }
+      ]
+    },
+    {
+      "ids": [85120300, 85120399],
+      "label": "Fregattenwerft",
+      "slug": "fregattenwerft",
+      "cell": 3,
+      "researchId": 275203,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [275103]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 85120300,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        }
+      ],
+      "file": "85120300-imperial-fregattenwerft-map-v1.png",
+      "master": "masters/85120300-fregattenwerft.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": -1
+        },
+        {
+          "commodityId": 1802,
+          "amount": -1
+        }
+      ]
+    }
+  ]
+}

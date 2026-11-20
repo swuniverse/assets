@@ -1,0 +1,192 @@
+{
+  "version": 1,
+  "faction": "GALACTIC_EMPIRE",
+  "batch": "industry",
+  "title": "Metalle, Treibstoff und Raumfahrt",
+  "gameDataCommit": "8cda53525946df8fb8e998194acd1a06737630bc",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/imperials.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": null,
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [63100300, 63100399],
+      "label": "Phrik-Raffinerie",
+      "slug": "phrik-raffinerie",
+      "cell": 0,
+      "researchId": 252103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [251003]
+        }
+      ],
+      "effort": 8,
+      "researchCommodityId": 4,
+      "placement": "normal",
+      "permissionBuildingId": 63100300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "63100300-imperial-phrik-raffinerie-map-v1.png",
+      "master": "masters/63100300-phrik-raffinerie.png",
+      "production": [
+        {
+          "commodityId": 11,
+          "amount": -6
+        },
+        {
+          "commodityId": 20,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "ids": [63110300, 63110399],
+      "label": "Durastahl-Schmiede",
+      "slug": "durastahl-schmiede",
+      "cell": 1,
+      "researchId": 252003,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [252103]
+        }
+      ],
+      "effort": 12,
+      "researchCommodityId": 4,
+      "placement": "normal",
+      "permissionBuildingId": 63110300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "63110300-imperial-durastahl-schmiede-map-v1.png",
+      "master": "masters/63110300-durastahl-schmiede.png",
+      "production": [
+        {
+          "commodityId": 20,
+          "amount": -6
+        },
+        {
+          "commodityId": 21,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "ids": [61020300, 61020311, 61020399],
+      "label": "Hypermaterie-Synthesizer",
+      "slug": "hypermaterie-synthesizer",
+      "cell": 2,
+      "researchId": 253003,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [254103]
+        }
+      ],
+      "effort": 12,
+      "researchCommodityId": 4,
+      "placement": "normal",
+      "permissionBuildingId": 61020300,
+      "previews": [
+        {
+          "code": "A430",
+          "label": "Flaches Wasser",
+          "file": "generated/SWUfields/tA430.png"
+        },
+        {
+          "code": "A530",
+          "label": "Eis",
+          "file": "generated/SWUfields/tA530.png"
+        }
+      ],
+      "file": "61020300-imperial-hypermaterie-synthesizer-map-v1.png",
+      "master": "masters/61020300-hypermaterie-synthesizer.png",
+      "production": [
+        {
+          "commodityId": 5,
+          "amount": 10
+        },
+        {
+          "commodityId": 1505,
+          "amount": -1
+        }
+      ]
+    },
+    {
+      "ids": [81110300, 81110399],
+      "label": "Landeplattform",
+      "slug": "landeplattform",
+      "cell": 3,
+      "researchId": 270103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [253003]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 5,
+      "placement": "normal",
+      "permissionBuildingId": 81110300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81110300-imperial-landeplattform-map-v1.png",
+      "master": "masters/81110300-landeplattform.png",
+      "production": []
+    }
+  ]
+}

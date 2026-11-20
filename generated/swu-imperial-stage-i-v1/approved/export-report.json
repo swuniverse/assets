@@ -1,0 +1,17 @@
+[
+  {
+    "file": "82010300-imperial-kommandozentrale-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 99575
+  },
+  {
+    "file": "11010300-imperial-wohnkomplex-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 99858
+  },
+  {
+    "file": "61010300-imperial-doonium-schmelze-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 105624
+  }
+]

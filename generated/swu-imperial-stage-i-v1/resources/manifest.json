@@ -1,0 +1,186 @@
+{
+  "version": 1,
+  "faction": "GALACTIC_EMPIRE",
+  "batch": "resources",
+  "title": "Rohstoffgewinnung",
+  "gameDataCommit": "8cda53525946df8fb8e998194acd1a06737630bc",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/imperials.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": null,
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [62010300, 62010399],
+      "label": "Partikel-Beschleuniger",
+      "slug": "partikel-beschleuniger",
+      "cell": 0,
+      "researchId": 253103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200103]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 62010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "62010300-imperial-partikel-beschleuniger-map-v1.png",
+      "master": "masters/62010300-partikel-beschleuniger.png",
+      "production": [
+        {
+          "commodityId": 5,
+          "amount": -10
+        },
+        {
+          "commodityId": 6,
+          "amount": 10
+        }
+      ]
+    },
+    {
+      "ids": [61210300, 61210321, 61210399],
+      "label": "Kyber-Kristallmine",
+      "slug": "kyber-kristallmine",
+      "cell": 1,
+      "researchId": 251103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [253103]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 61210300,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": 713,
+          "label": "Fels (STU)",
+          "file": "generated/fields/713.png"
+        }
+      ],
+      "file": "61210300-imperial-kyber-kristallmine-map-v1.png",
+      "master": "masters/61210300-kyber-kristallmine.png",
+      "production": [
+        {
+          "commodityId": 8,
+          "amount": 1
+        },
+        {
+          "commodityId": 1508,
+          "amount": -1
+        }
+      ]
+    },
+    {
+      "ids": [61040300, 61040399],
+      "label": "Hypermaterie-Pumpe",
+      "slug": "hypermaterie-pumpe",
+      "cell": 2,
+      "researchId": 800303,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [101103]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 61040300,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": 713,
+          "label": "Fels (STU)",
+          "file": "generated/fields/713.png"
+        }
+      ],
+      "file": "61040300-imperial-hypermaterie-pumpe-map-v1.png",
+      "master": "masters/61040300-hypermaterie-pumpe.png",
+      "production": [
+        {
+          "commodityId": 5,
+          "amount": 7
+        },
+        {
+          "commodityId": 1505,
+          "amount": -1
+        }
+      ]
+    },
+    {
+      "ids": [61170300],
+      "label": "Aurodium-Mine",
+      "slug": "aurodium-mine",
+      "cell": 3,
+      "researchId": 250703,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [101103]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 61170300,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        }
+      ],
+      "file": "61170300-imperial-aurodium-mine-map-v1.png",
+      "master": "masters/61170300-aurodium-mine.png",
+      "production": [
+        {
+          "commodityId": 51,
+          "amount": 1
+        },
+        {
+          "commodityId": 1523,
+          "amount": -1
+        }
+      ]
+    }
+  ]
+}

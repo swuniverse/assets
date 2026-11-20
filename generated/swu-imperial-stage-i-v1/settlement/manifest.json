@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "faction": "GALACTIC_EMPIRE",
+  "batch": "settlement",
+  "title": "Kuppeln, Kryozucht und Forschung",
+  "gameDataCommit": "8cda53525946df8fb8e998194acd1a06737630bc",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/imperials.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": null,
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [12020300, 12020399],
+      "label": "Versorgungskuppel",
+      "slug": "versorgungskuppel",
+      "cell": 0,
+      "researchId": 211203,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200103]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 12020300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "12020300-imperial-versorgungskuppel-map-v1.png",
+      "master": "masters/12020300-versorgungskuppel.png",
+      "production": [
+        {
+          "commodityId": 1102,
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "ids": [12010300, 12010304, 12010399],
+      "label": "Habitatkuppel",
+      "slug": "habitatkuppel",
+      "cell": 1,
+      "researchId": 211303,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [211203]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 12010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "12010300-imperial-habitatkuppel-map-v1.png",
+      "master": "masters/12010300-habitatkuppel.png",
+      "production": [
+        {
+          "commodityId": 1102,
+          "amount": -1
+        }
+      ]
+    },
+    {
+      "ids": [21120300, 21120302, 21120399],
+      "label": "Kryo-Nerf-Zucht",
+      "slug": "kryo-nerf-zucht",
+      "cell": 2,
+      "researchId": 800203,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [101103, 220103]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 21120300,
+      "previews": [
+        {
+          "code": 222,
+          "label": "Eiswasser (STU)",
+          "file": "generated/fields/222.png"
+        }
+      ],
+      "file": "21120300-imperial-kryo-nerf-zucht-map-v1.png",
+      "master": "masters/21120300-kryo-nerf-zucht.png",
+      "production": [
+        {
+          "commodityId": 1300,
+          "amount": 56
+        }
+      ]
+    },
+    {
+      "ids": [72010300, 72010399],
+      "label": "Forschungszentrum Stufe I",
+      "slug": "forschungszentrum-i",
+      "cell": 3,
+      "researchId": 200103,
+      "requires": [],
+      "effort": 12,
+      "researchCommodityId": 21,
+      "placement": "normal",
+      "permissionBuildingId": 72010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "72010300-imperial-forschungszentrum-i-map-v1.png",
+      "master": "masters/72010300-forschungszentrum-i.png",
+      "production": [
+        {
+          "commodityId": 1700,
+          "amount": -1
+        },
+        {
+          "commodityId": 1701,
+          "amount": 1
+        }
+      ]
+    }
+  ]
+}

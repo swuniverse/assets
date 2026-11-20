@@ -1,0 +1,170 @@
+{
+  "version": 1,
+  "faction": "GALACTIC_EMPIRE",
+  "batch": "modules",
+  "title": "Module und Torpedos",
+  "gameDataCommit": "8cda53525946df8fb8e998194acd1a06737630bc",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/imperials.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": null,
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [81810300, 81810399],
+      "label": "Waffenmodulfertigung",
+      "slug": "waffenmodulfertigung",
+      "cell": 0,
+      "researchId": 281103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [275003]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81810300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81810300-imperial-waffenmodulfertigung-map-v1.png",
+      "master": "masters/81810300-waffenmodulfertigung.png",
+      "production": []
+    },
+    {
+      "ids": [81820300, 81820399],
+      "label": "Schildmodulfertigung",
+      "slug": "schildmodulfertigung",
+      "cell": 1,
+      "researchId": 282103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [275003]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81820300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81820300-imperial-schildmodulfertigung-map-v1.png",
+      "master": "masters/81820300-schildmodulfertigung.png",
+      "production": []
+    },
+    {
+      "ids": [81830300, 81830399],
+      "label": "Antriebsmodulfertigung",
+      "slug": "antriebsmodulfertigung",
+      "cell": 2,
+      "researchId": 283103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [275003]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81830300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81830300-imperial-antriebsmodulfertigung-map-v1.png",
+      "master": "masters/81830300-antriebsmodulfertigung.png",
+      "production": []
+    },
+    {
+      "ids": [81990300, 81990399],
+      "label": "Protonentorpedo-Fabrik",
+      "slug": "protonentorpedo-fabrik",
+      "cell": 3,
+      "researchId": 288003,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [275003]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81990300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81990300-imperial-protonentorpedo-fabrik-map-v1.png",
+      "master": "masters/81990300-protonentorpedo-fabrik.png",
+      "production": []
+    }
+  ]
+}

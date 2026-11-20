@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "faction": "GALACTIC_EMPIRE",
+  "batch": "civic",
+  "title": "Zivile Versorgung und Verwaltung",
+  "gameDataCommit": "8cda53525946df8fb8e998194acd1a06737630bc",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/imperials.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": null,
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [22020300, 22020399],
+      "label": "Mandalorianischer-Grog-Destille",
+      "slug": "mandalorianischer-grog-destille",
+      "cell": 0,
+      "researchId": 223403,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200103]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 22020300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "22020300-imperial-mandalorianischer-grog-destille-map-v1.png",
+      "master": "masters/22020300-mandalorianischer-grog-destille.png",
+      "production": [
+        {
+          "commodityId": 1013,
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "ids": [22010300, 22010399],
+      "label": "Cantina",
+      "slug": "cantina",
+      "cell": 1,
+      "researchId": 223303,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [223403]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 22010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "22010300-imperial-cantina-map-v1.png",
+      "master": "masters/22010300-cantina.png",
+      "production": [
+        {
+          "commodityId": 1013,
+          "amount": -1
+        },
+        {
+          "commodityId": 1300,
+          "amount": 140
+        }
+      ]
+    },
+    {
+      "ids": [51010300, 51010399],
+      "label": "Imperiale Militärakademie",
+      "slug": "imperiale-militaerakademie",
+      "cell": 2,
+      "researchId": 399903,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200103]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 51010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "51010300-imperial-imperiale-militaerakademie-map-v1.png",
+      "master": "masters/51010300-imperiale-militaerakademie.png",
+      "production": [
+        {
+          "commodityId": 1003,
+          "amount": 25
+        },
+        {
+          "commodityId": 1603,
+          "amount": 25
+        }
+      ]
+    },
+    {
+      "ids": [81120300, 81120399],
+      "label": "Raumbahnhof",
+      "slug": "raumbahnhof",
+      "cell": 3,
+      "researchId": 270203,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200103]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81120300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81120300-imperial-raumbahnhof-map-v1.png",
+      "master": "masters/81120300-raumbahnhof.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": 14
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "21010300-imperial-bantha-farm-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 111040
+  },
+  {
+    "file": "31010300-imperial-ionensegel-kollektor-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 103322
+  },
+  {
+    "file": "81210300-imperial-versorgungslager-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 105020
+  },
+  {
+    "file": "61030300-imperial-tibanna-extraktor-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 116878
+  }
+]

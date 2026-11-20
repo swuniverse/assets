@@ -1,0 +1,39 @@
+{
+  "model": "gpt-image-2",
+  "prompt": "Use case: stylized-concept / style-transfer.\nAsset type: THREE transparent imperial colony building map sprites for a Star Wars browser strategy game.\nInput image: reference for camera, sprite readability, broad parcel footprints, material rendering and detail level ONLY. Create fresh Galactic Empire architecture with distinct silhouettes and construction, consistent with that map-asset system.\nComposition: EXACTLY THREE independent building compounds in ONE HORIZONTAL ROW, THREE COLUMNS, on a 1536x1024 transparent canvas. Each cell 512x1024. Center a roughly square compound about 450x450 in each cell at y=512. Generous transparent padding above/below, at least 20px clearance at cell edges. No fourth subject and no connecting ground.\nLEFT / imperial command center: a broad low angular fortified command complex, a compact raised polygonal control roof integrated into a trapezoidal main block, two symmetrical attached administrative wings, dark recessed entrance with short ramp, attached rooftop communications arrays and technical vents. Clearly authoritative Star Wars Imperial garrison administration, restrained red access lights, no giant satellite dish, no towering skyscraper, no landing pad or ship.\nCENTER / imperial residential complex: efficient regimented housing for a colony, two neat parallel rows of low rectangular flat-roof dwelling modules connected by a central access spine and small enclosed service courtyard. Light-gray armored wall cladding, dark segmented roofs with vents, narrow blue-gray windows, regular repeated geometry and entrances. Clearly homes rather than a weapons factory or a hangar. Dense broad footprint, no domes, tents, banners or luxury ornament.\nRIGHT / imperial Doonium smelter: a wide angular low industrial processing hall with a visible enclosed furnace bay glowing muted molten amber, two attached processing vats, thick squared pipe runs, metal grilles, compact loading apron and stacked dull metal output slabs. Imperial mass-production machinery, strong recognizable industrial function. No tall smokestacks, no billowing smoke, no giant flames.\nArt direction for all THREE: cinematic Star Wars Galactic Empire architecture as grounded colony structures. Cool medium-light gray duracrete and armored steel, graphite recessed panels, black machinery, tiny restrained red indicator accents; amber only for smelting. Broad planar surfaces, wedge/trapezoidal edges, controlled symmetry, repeated functional construction. Used but maintained, subtle grime and panel wear. Keep enough light gray area for readability on terrain and dark UI. Material palette must avoid tan/sandstone/rust-orange rebel buildings. Different architecture, not a simple recolor of the reference.\nCamera: high near-overhead orthographic colony-map camera, roofs dominate, small shallow front wall faces, broad built parcels, flat map-scale silhouettes. Exactly the reference's detail level and crisp small-size readability, suitable at 40 and 68 pixels. Uniform soft light from upper left, minimal attached contact shadows.\nBackground: genuine transparent alpha outside compact structural foundations. No landscape, terrain tile, stars, fog, vignette, full rectangular ground plate, baked checkerboard, environment or decorative podium. The existing game terrain must remain visible around the compounds. No characters, soldiers, vehicles, ships, text, labels, lettering, logos, watermark or border. No collectible figurines, elevated isometric toys, glossy cartoon styling or perspective scene.",
+  "requested": {
+    "size": "1536x1024",
+    "quality": "medium",
+    "n": 1,
+    "format": "png"
+  },
+  "applied": {
+    "size": "1536x1024",
+    "quality": "medium",
+    "background": null,
+    "output_format": "png"
+  },
+  "images": [
+    {
+      "file_path": "/Users/TMUNDIN/git/github.com/swuniverse/core/output/imagegen/swu-imperial-style-v1/edit-20261120-135948-0c574a-source-imperial-three.png",
+      "filename": "edit-20261120-135948-0c574a-source-imperial-three.png",
+      "size_bytes": 2088881,
+      "mime_type": "image/png"
+    }
+  ],
+  "usage": {
+    "total_tokens": 3061,
+    "input_tokens": 1689,
+    "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 665
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+      "image_tokens": 1372,
+      "text_tokens": 0
+    }
+  },
+  "cost_usd_estimated": 0.0527,
+  "route": "direct"
+}

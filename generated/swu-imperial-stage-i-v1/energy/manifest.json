@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "faction": "GALACTIC_EMPIRE",
+  "batch": "energy",
+  "title": "Erneuerbare Energie",
+  "gameDataCommit": "8cda53525946df8fb8e998194acd1a06737630bc",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/imperials.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": null,
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [33010300, 33010331, 33010399],
+      "label": "Solarspiegel",
+      "slug": "solarspiegel",
+      "cell": 0,
+      "researchId": 231303,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200103]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 33010300,
+      "previews": [
+        {
+          "code": 401,
+          "label": "Wüste (STU)",
+          "file": "generated/fields/401.png"
+        },
+        {
+          "code": 713,
+          "label": "Fels (STU)",
+          "file": "generated/fields/713.png"
+        }
+      ],
+      "file": "33010300-imperial-solarspiegel-map-v1.png",
+      "master": "masters/33010300-solarspiegel.png",
+      "production": [
+        {
+          "commodityId": 1201,
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "ids": [33020300, 33020399],
+      "label": "Solarfokus",
+      "slug": "solarfokus",
+      "cell": 1,
+      "researchId": 231203,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [231303]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 33020300,
+      "previews": [
+        {
+          "code": 401,
+          "label": "Wüste (STU)",
+          "file": "generated/fields/401.png"
+        },
+        {
+          "code": 713,
+          "label": "Fels (STU)",
+          "file": "generated/fields/713.png"
+        }
+      ],
+      "file": "33020300-imperial-solarfokus-map-v1.png",
+      "master": "masters/33020300-solarfokus.png",
+      "production": [
+        {
+          "commodityId": 1201,
+          "amount": -2
+        }
+      ]
+    },
+    {
+      "ids": [33030300, 33030399],
+      "label": "Strömungsanker",
+      "slug": "stroemungsanker",
+      "cell": 2,
+      "researchId": 231003,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200103, 230103]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 33030300,
+      "previews": [
+        {
+          "code": "A410",
+          "label": "Wasser",
+          "file": "generated/SWUfields/tA410.png"
+        },
+        {
+          "code": "A430",
+          "label": "Flachwasser",
+          "file": "generated/SWUfields/tA430.png"
+        },
+        {
+          "code": "A530",
+          "label": "Packeis",
+          "file": "generated/SWUfields/tA530.png"
+        }
+      ],
+      "file": "33030300-imperial-stroemungsanker-map-v1.png",
+      "master": "masters/33030300-stroemungsanker.png",
+      "production": [
+        {
+          "commodityId": 1202,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "ids": [33040300, 33040332, 33040399],
+      "label": "Strömungsturbinen",
+      "slug": "stroemungsturbinen",
+      "cell": 3,
+      "researchId": 231103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [231003]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 33040300,
+      "previews": [
+        {
+          "code": "A410",
+          "label": "Wasser",
+          "file": "generated/SWUfields/tA410.png"
+        },
+        {
+          "code": "A430",
+          "label": "Flachwasser",
+          "file": "generated/SWUfields/tA430.png"
+        },
+        {
+          "code": "A530",
+          "label": "Packeis",
+          "file": "generated/SWUfields/tA530.png"
+        }
+      ],
+      "file": "33040300-imperial-stroemungsturbinen-map-v1.png",
+      "master": "masters/33040300-stroemungsturbinen.png",
+      "production": [
+        {
+          "commodityId": 1202,
+          "amount": -1
+        }
+      ]
+    }
+  ]
+}

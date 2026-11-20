@@ -1,0 +1,144 @@
+{
+  "version": 1,
+  "faction": "GALACTIC_EMPIRE",
+  "batch": "transition",
+  "title": "Außenposten, Aurodium und Forschungsübergang",
+  "gameDataCommit": "8cda53525946df8fb8e998194acd1a06737630bc",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/imperials.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": null,
+  "grid": {
+    "columns": 3,
+    "rows": 1
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [81010300, 81010399],
+      "label": "Außenposten",
+      "slug": "aussenposten",
+      "cell": 0,
+      "researchId": 1003,
+      "requires": [],
+      "effort": 0,
+      "researchCommodityId": 1701,
+      "placement": "colonization",
+      "permissionBuildingId": 81010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        }
+      ],
+      "file": "81010300-imperial-aussenposten-map-v1.png",
+      "master": "masters/81010300-aussenposten.png",
+      "production": [
+        {
+          "commodityId": 1300,
+          "amount": 42
+        }
+      ]
+    },
+    {
+      "ids": [63170300],
+      "label": "Aurodium-Presse",
+      "slug": "aurodium-presse",
+      "cell": 1,
+      "researchId": 254703,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [250703]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 63170300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "63170300-imperial-aurodium-presse-map-v1.png",
+      "master": "masters/63170300-aurodium-presse.png",
+      "production": [
+        {
+          "commodityId": 50,
+          "amount": 1
+        },
+        {
+          "commodityId": 51,
+          "amount": -25
+        }
+      ]
+    },
+    {
+      "ids": [73010300, 73010399],
+      "label": "Forschungszentrum Stufe II",
+      "slug": "forschungszentrum-ii",
+      "cell": 2,
+      "researchId": 200203,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            102103, 211303, 223303, 231103, 231203, 251103, 254703, 271403,
+            800203, 800303
+          ]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1701,
+      "placement": "upgrade",
+      "permissionBuildingId": 72010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "73010300-imperial-forschungszentrum-ii-map-v1.png",
+      "master": "masters/73010300-forschungszentrum-ii.png",
+      "production": [
+        {
+          "commodityId": 1700,
+          "amount": -2
+        },
+        {
+          "commodityId": 1702,
+          "amount": 1
+        }
+      ]
+    }
+  ]
+}

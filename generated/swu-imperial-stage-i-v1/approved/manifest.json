@@ -1,0 +1,147 @@
+{
+  "version": 1,
+  "faction": "GALACTIC_EMPIRE",
+  "batch": "approved",
+  "title": "Freigegebene Grundgebäude",
+  "gameDataCommit": "8cda53525946df8fb8e998194acd1a06737630bc",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/imperials.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "edit-20261120-135948-0c574a-source-imperial-three.png",
+  "grid": {
+    "columns": 3,
+    "rows": 1
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [82010300, 82010399],
+      "label": "Kommandozentrale",
+      "slug": "kommandozentrale",
+      "cell": 0,
+      "researchId": 1003,
+      "requires": [],
+      "effort": 0,
+      "researchCommodityId": 1701,
+      "placement": "faction-start-building",
+      "permissionBuildingId": 82010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "82010300-imperial-kommandozentrale-map-v1.png",
+      "master": "masters/82010300-kommandozentrale.png",
+      "production": [
+        {
+          "commodityId": 1003,
+          "amount": 40
+        },
+        {
+          "commodityId": 1300,
+          "amount": 84
+        },
+        {
+          "commodityId": 1603,
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "ids": [11010300, 11010303, 11010399],
+      "label": "Wohnkomplex",
+      "slug": "wohnkomplex",
+      "cell": 1,
+      "researchId": 1003,
+      "requires": [],
+      "effort": 0,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 11010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "11010300-imperial-wohnkomplex-map-v1.png",
+      "master": "masters/11010300-wohnkomplex.png",
+      "production": [
+        {
+          "commodityId": 1101,
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "ids": [61010300, 61010399],
+      "label": "Doonium-Schmelze",
+      "slug": "doonium-schmelze",
+      "cell": 2,
+      "researchId": 1003,
+      "requires": [],
+      "effort": 0,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 61010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "61010300-imperial-doonium-schmelze-map-v1.png",
+      "master": "masters/61010300-doonium-schmelze.png",
+      "production": [
+        {
+          "commodityId": 2,
+          "amount": 5
+        }
+      ]
+    }
+  ],
+  "generation": {
+    "tool": "edit_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.0527
+  }
+}

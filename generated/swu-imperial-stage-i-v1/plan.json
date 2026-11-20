@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-20",
+  "scope": "All Imperial building families through material/FP-I research plus research center II transition",
+  "faction": "GALACTIC_EMPIRE",
+  "gameDataCommit": "8cda53525946df8fb8e998194acd1a06737630bc",
+  "mappingBaseline": "5c31a4e97a7fe29f95a8276130f2f6b822879409",
+  "families": 42,
+  "idCount": 94,
+  "batches": [
+    {
+      "slug": "approved",
+      "title": "Freigegebene Grundgebäude",
+      "ticket": ".scratch/imperial-stage-i-map-assets/issues/01-approved.md",
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/approved/manifest.json",
+      "families": 3,
+      "idCount": 7,
+      "status": "implemented",
+      "artifactVerification": {
+        "batch": "approved",
+        "families": 3,
+        "ids": 7,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "specialPlacement": true,
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
+    },
+    {
+      "slug": "starter",
+      "title": "Grundversorgung und Gas",
+      "ticket": ".scratch/imperial-stage-i-map-assets/issues/02-starter.md",
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/starter/manifest.json",
+      "families": 4,
+      "idCount": 10,
+      "status": "implemented",
+      "artifactVerification": {
+        "batch": "starter",
+        "families": 4,
+        "ids": 10,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "specialPlacement": true,
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
+    },
+    {
+      "slug": "production",
+      "title": "Frühe Produktionsketten",
+      "ticket": ".scratch/imperial-stage-i-map-assets/issues/03-production.md",
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/production/manifest.json",
+      "families": 4,
+      "idCount": 11,
+      "status": "pending"
+    },
+    {
+      "slug": "industry",
+      "title": "Metalle, Treibstoff und Raumfahrt",
+      "ticket": ".scratch/imperial-stage-i-map-assets/issues/04-industry.md",
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/industry/manifest.json",
+      "families": 4,
+      "idCount": 9,
+      "status": "pending"
+    },
+    {
+      "slug": "civic",
+      "title": "Zivile Versorgung und Verwaltung",
+      "ticket": ".scratch/imperial-stage-i-map-assets/issues/05-civic.md",
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/civic/manifest.json",
+      "families": 4,
+      "idCount": 8,
+      "status": "pending"
+    },
+    {
+      "slug": "settlement",
+      "title": "Kuppeln, Kryozucht und Forschung",
+      "ticket": ".scratch/imperial-stage-i-map-assets/issues/06-settlement.md",
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/settlement/manifest.json",
+      "families": 4,
+      "idCount": 10,
+      "status": "pending"
+    },
+    {
+      "slug": "energy",
+      "title": "Erneuerbare Energie",
+      "ticket": ".scratch/imperial-stage-i-map-assets/issues/07-energy.md",
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/energy/manifest.json",
+      "families": 4,
+      "idCount": 10,
+      "status": "pending"
+    },
+    {
+      "slug": "resources",
+      "title": "Rohstoffgewinnung",
+      "ticket": ".scratch/imperial-stage-i-map-assets/issues/08-resources.md",
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/resources/manifest.json",
+      "families": 4,
+      "idCount": 8,
+      "status": "pending"
+    },
+    {
+      "slug": "orbital",
+      "title": "Orbitale Energie und Werften",
+      "ticket": ".scratch/imperial-stage-i-map-assets/issues/09-orbital.md",
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/orbital/manifest.json",
+      "families": 4,
+      "idCount": 8,
+      "status": "pending"
+    },
+    {
+      "slug": "modules",
+      "title": "Module und Torpedos",
+      "ticket": ".scratch/imperial-stage-i-map-assets/issues/10-modules.md",
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/modules/manifest.json",
+      "families": 4,
+      "idCount": 8,
+      "status": "pending"
+    },
+    {
+      "slug": "transition",
+      "title": "Außenposten, Aurodium und Forschungsübergang",
+      "ticket": ".scratch/imperial-stage-i-map-assets/issues/11-transition.md",
+      "manifest": "assets/generated/swu-imperial-stage-i-v1/transition/manifest.json",
+      "families": 3,
+      "idCount": 5,
+      "status": "pending"
+    }
+  ]
+}

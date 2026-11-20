@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "faction": "GALACTIC_EMPIRE",
+  "batch": "starter",
+  "title": "Grundversorgung und Gas",
+  "gameDataCommit": "8cda53525946df8fb8e998194acd1a06737630bc",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/imperials.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "edit-20261120-141402-b31cd4-source-imperial-starter.png",
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [21010300, 21010301, 21010399],
+      "label": "Bantha-Farm",
+      "slug": "bantha-farm",
+      "cell": 0,
+      "researchId": 1003,
+      "requires": [],
+      "effort": 0,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 21010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "21010300-imperial-bantha-farm-map-v1.png",
+      "master": "masters/21010300-bantha-farm.png",
+      "production": [
+        {
+          "commodityId": 1300,
+          "amount": 56
+        }
+      ]
+    },
+    {
+      "ids": [31010300, 31010331, 31010399],
+      "label": "Ionensegel-Kollektor",
+      "slug": "ionensegel-kollektor",
+      "cell": 1,
+      "researchId": 1003,
+      "requires": [],
+      "effort": 0,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 31010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "31010300-imperial-ionensegel-kollektor-map-v1.png",
+      "master": "masters/31010300-ionensegel-kollektor.png",
+      "production": []
+    },
+    {
+      "ids": [81210300, 81210399],
+      "label": "Versorgungslager",
+      "slug": "versorgungslager",
+      "cell": 2,
+      "researchId": 1003,
+      "requires": [],
+      "effort": 0,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 81210300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "81210300-imperial-versorgungslager-map-v1.png",
+      "master": "masters/81210300-versorgungslager.png",
+      "production": []
+    },
+    {
+      "ids": [61030300, 61030399],
+      "label": "Tibanna-Extraktor",
+      "slug": "tibanna-extraktor",
+      "cell": 3,
+      "researchId": 254003,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [1003]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 2,
+      "placement": "normal",
+      "permissionBuildingId": 61030300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "61030300-imperial-tibanna-extraktor-map-v1.png",
+      "master": "masters/61030300-tibanna-extraktor.png",
+      "production": [
+        {
+          "commodityId": 3,
+          "amount": 3
+        }
+      ]
+    }
+  ],
+  "generation": {
+    "tool": "edit_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.0674
+  }
+}
