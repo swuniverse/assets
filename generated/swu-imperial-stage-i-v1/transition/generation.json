@@ -1,0 +1,39 @@
+{
+  "model": "gpt-image-2",
+  "prompt": "Use case: stylized-concept / style-transfer. Asset type: transparent Galactic Empire colony-map building sprites for a Star Wars browser strategy game.\nInput image: APPROVED IMPERIAL STYLE REFERENCE ONLY. Preserve its cool medium-light gray armored steel/duracrete, graphite-black technical panels, sparse red lights, maintained weathering, crisp detail and broad readable footprint. Create NEW function-specific buildings with matching materials, never reuse the sample subjects.\nCamera: high near-overhead ORTHOGRAPHIC, roofs dominate and front walls are shallow; same camera and scale as the reference. Broad low colony parcels with attached compact functional foundations. No tall monuments, perspective scene or collectible isometric miniature.\nLighting: soft uniform upper-left light, controlled contact shadows, enough light-gray roof area to read against existing terrain and dark UI.\nTransparent background with genuine alpha around each structure, no fog, vignette, checkerboard, landscape or full ground rectangle. No text, logo, border, watermark, actors, people, animals, vehicles, spacecraft or scenery. No tan sandstone or rust-orange rebel architecture. Small functional glass/heat/ore color accents only where specified. Match readability at 40/68 pixels.\nLayout: EXACTLY THREE compounds in ONE ROW, THREE COLUMNS on a 1536x1024 transparent canvas, each approximately square 450x450 centered vertically in its own 512x1024 cell with 20px clearance. Order LEFT, CENTER, RIGHT.\n1. Colonization outpost: compact starter-colony installation of three low utilitarian gray modules around a small enclosed service courtyard, attached antenna and supply boxes. Plain disciplined Imperial frontier outpost, much smaller and simpler than the approved command center, no armed tower or ships.\n2. Aurodium press: low gray armored processing hall with a clearly visible heavy black hydraulic compression press, paired piston arms, compact conveyor carrying gold mineral fragments and several dull gold ingots on output tray. Industrial plant, not treasure icon.\n3. Research center II: expanded Imperial science campus with a broad central gray lab and four linked laboratory wings, blue-gray skylight strips, extra instrument modules and compact service courtyard. More extensive than center I, low broad roof surfaces, no giant dish or command fortress.",
+  "requested": {
+    "size": "1536x1024",
+    "quality": "medium",
+    "n": 1,
+    "format": "png"
+  },
+  "applied": {
+    "size": "1536x1024",
+    "quality": "medium",
+    "background": null,
+    "output_format": "png"
+  },
+  "images": [
+    {
+      "file_path": "/Users/TMUNDIN/git/github.com/swuniverse/core/assets/generated/swu-imperial-stage-i-v1/transition/edit-20261120-143958-590fdc-source-imperial-transition.png",
+      "filename": "edit-20261120-143958-590fdc-source-imperial-transition.png",
+      "size_bytes": 2249778,
+      "mime_type": "image/png"
+    }
+  ],
+  "usage": {
+    "total_tokens": 3368,
+    "input_tokens": 1996,
+    "input_tokens_details": {
+      "image_tokens": 1536,
+      "text_tokens": 460
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+      "image_tokens": 1372,
+      "text_tokens": 0
+    }
+  },
+  "cost_usd_estimated": 0.0557,
+  "route": "direct"
+}

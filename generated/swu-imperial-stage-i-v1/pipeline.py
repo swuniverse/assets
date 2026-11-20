@@ -29,6 +29,10 @@ report=[]
 for item in m["items"]:
     row,col=divmod(item["cell"],cols)
     x0,x1=round(col*width/cols),round((col+1)*width/cols)
+    if m["grid"].get("columnEdges"):
+        # Generated sheets can slightly cross nominal cells. Use reviewed seams
+        # between compounds so adjacent building pixels never enter an export.
+        x0,x1=m["grid"]["columnEdges"][col:col+2]
     y0,y1=round(row*height/rows),round((row+1)*height/rows)
     master=OUT/item["master"]
     crop_args=["-trim","+repage"]

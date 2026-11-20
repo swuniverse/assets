@@ -1,0 +1,12 @@
+{
+  "batch": "transition",
+  "families": 3,
+  "ids": 5,
+  "data": true,
+  "research": true,
+  "terrain": true,
+  "specialPlacement": true,
+  "rgba256": true,
+  "masters512": true,
+  "alpha": true
+}

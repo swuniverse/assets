@@ -1,0 +1,17 @@
+[
+  {
+    "file": "81010300-imperial-aussenposten-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 95354
+  },
+  {
+    "file": "63170300-imperial-aurodium-presse-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 110252
+  },
+  {
+    "file": "73010300-imperial-forschungszentrum-ii-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 118506
+  }
+]
