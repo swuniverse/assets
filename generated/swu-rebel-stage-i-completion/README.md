@@ -2,13 +2,13 @@
 
 Nutzerfreigabe: 25 fehlende Stufe-I-Familien plus Forschungszentrum Stufe II als Übergang. Vorher fertig: 16 Familien / 39 IDs.
 
-Restserie umgesetzt: 8 von 26 Familien / 18 von 55 IDs. Gemeinsame Abschlussprüfung noch ausstehend.
+Restserie umgesetzt: 12 von 26 Familien / 28 von 55 IDs. Gemeinsame Abschlussprüfung noch ausstehend.
 
 | Serie                           | Familien | IDs | Stand       |
 | ------------------------------- | -------- | --- | ----------- |
 | Zivile Versorgung und Verkehr   | 4        | 8   | implemented |
 | Außenposten und Kuppeln         | 4        | 10  | implemented |
-| Erneuerbare Energie             | 4        | 10  | pending     |
+| Erneuerbare Energie             | 4        | 10  | implemented |
 | Rohstoffgewinnung               | 4        | 8   | pending     |
 | Orbitale Energie und Werften    | 4        | 8   | pending     |
 | Modulfertigung und Torpedos     | 4        | 8   | pending     |

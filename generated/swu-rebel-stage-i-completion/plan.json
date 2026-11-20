@@ -50,7 +50,18 @@
       "manifest": "assets/generated/swu-rebel-stage-i-completion/energy/manifest.json",
       "families": 4,
       "idCount": 10,
-      "status": "pending"
+      "status": "implemented",
+      "verification": {
+        "batch": "energy",
+        "families": 4,
+        "ids": 10,
+        "bytes": 416520,
+        "data": true,
+        "terrain": true,
+        "resolver": true,
+        "http": true,
+        "unselectedMappingsUnchanged": true
+      }
     },
     {
       "slug": "resources",

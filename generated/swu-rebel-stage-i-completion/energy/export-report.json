@@ -1,0 +1,22 @@
+[
+  {
+    "file": "33010100-rebel-solarspiegel-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 106074
+  },
+  {
+    "file": "33020100-rebel-solarfokus-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 106903
+  },
+  {
+    "file": "33030100-rebel-stroemungsanker-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 104130
+  },
+  {
+    "file": "33040100-rebel-stroemungsturbinen-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 99413
+  }
+]

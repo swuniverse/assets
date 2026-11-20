@@ -1,0 +1,185 @@
+{
+  "version": 1,
+  "faction": "REBEL_ALLIANCE",
+  "batch": "energy",
+  "title": "Erneuerbare Energie",
+  "gameDataCommit": "8cda53525946df8fb8e998194acd1a06737630bc",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/rebels.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "edit-20261120-114617-ca6535-source-energy.png",
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "items": [
+    {
+      "ids": [33010100, 33010131, 33010199],
+      "label": "Solarspiegel",
+      "slug": "solarspiegel",
+      "cell": 0,
+      "researchId": 231301,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200101]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 33010100,
+      "previews": [
+        {
+          "code": 401,
+          "label": "Wüste (STU)",
+          "file": "generated/fields/401.png"
+        },
+        {
+          "code": 713,
+          "label": "Fels (STU)",
+          "file": "generated/fields/713.png"
+        }
+      ],
+      "file": "33010100-rebel-solarspiegel-map-v1.png",
+      "master": "masters/33010100-solarspiegel.png",
+      "production": [
+        {
+          "commodityId": 1201,
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "ids": [33020100, 33020199],
+      "label": "Solarfokus",
+      "slug": "solarfokus",
+      "cell": 1,
+      "researchId": 231201,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [231301]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 33020100,
+      "previews": [
+        {
+          "code": 401,
+          "label": "Wüste (STU)",
+          "file": "generated/fields/401.png"
+        },
+        {
+          "code": 713,
+          "label": "Fels (STU)",
+          "file": "generated/fields/713.png"
+        }
+      ],
+      "file": "33020100-rebel-solarfokus-map-v1.png",
+      "master": "masters/33020100-solarfokus.png",
+      "production": [
+        {
+          "commodityId": 1201,
+          "amount": -2
+        }
+      ]
+    },
+    {
+      "ids": [33030100, 33030199],
+      "label": "Strömungsanker",
+      "slug": "stroemungsanker",
+      "cell": 2,
+      "researchId": 231001,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200101, 230101]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 33030100,
+      "previews": [
+        {
+          "code": "A410",
+          "label": "Wasser",
+          "file": "generated/SWUfields/tA410.png"
+        },
+        {
+          "code": "A430",
+          "label": "Flachwasser",
+          "file": "generated/SWUfields/tA430.png"
+        },
+        {
+          "code": "A530",
+          "label": "Packeis",
+          "file": "generated/SWUfields/tA530.png"
+        }
+      ],
+      "file": "33030100-rebel-stroemungsanker-map-v1.png",
+      "master": "masters/33030100-stroemungsanker.png",
+      "production": [
+        {
+          "commodityId": 1202,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "ids": [33040100, 33040132, 33040199],
+      "label": "Strömungsturbinen",
+      "slug": "stroemungsturbinen",
+      "cell": 3,
+      "researchId": 231101,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [231001]
+        }
+      ],
+      "effort": 10,
+      "researchCommodityId": 1701,
+      "placement": "normal",
+      "permissionBuildingId": 33040100,
+      "previews": [
+        {
+          "code": "A410",
+          "label": "Wasser",
+          "file": "generated/SWUfields/tA410.png"
+        },
+        {
+          "code": "A430",
+          "label": "Flachwasser",
+          "file": "generated/SWUfields/tA430.png"
+        },
+        {
+          "code": "A530",
+          "label": "Packeis",
+          "file": "generated/SWUfields/tA530.png"
+        }
+      ],
+      "file": "33040100-rebel-stroemungsturbinen-map-v1.png",
+      "master": "masters/33040100-stroemungsturbinen.png",
+      "production": [
+        {
+          "commodityId": 1202,
+          "amount": -1
+        }
+      ]
+    }
+  ],
+  "generation": {
+    "tool": "edit_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.0646
+  }
+}
