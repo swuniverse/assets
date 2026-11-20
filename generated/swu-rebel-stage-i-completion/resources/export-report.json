@@ -1,0 +1,22 @@
+[
+  {
+    "file": "62010100-rebel-partikel-beschleuniger-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 110125
+  },
+  {
+    "file": "61210100-rebel-kyber-kristallmine-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 120042
+  },
+  {
+    "file": "61040100-rebel-hypermaterie-pumpe-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 103748
+  },
+  {
+    "file": "61170100-rebel-aurodium-mine-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 123535
+  }
+]

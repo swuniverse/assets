@@ -1,0 +1,11 @@
+{
+  "batch": "resources",
+  "families": 4,
+  "ids": 8,
+  "bytes": 457450,
+  "data": true,
+  "terrain": true,
+  "resolver": true,
+  "http": true,
+  "unselectedMappingsUnchanged": true
+}
