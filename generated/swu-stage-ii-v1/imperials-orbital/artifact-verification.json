@@ -1,0 +1,12 @@
+{
+  "batch": "imperials-orbital",
+  "families": 4,
+  "ids": 8,
+  "data": true,
+  "research": true,
+  "terrain": true,
+  "unassignedFields": [],
+  "rgba256": true,
+  "masters512": true,
+  "alpha": true
+}

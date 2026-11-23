@@ -1,0 +1,190 @@
+{
+  "version": 1,
+  "faction": "GALACTIC_EMPIRE",
+  "batch": "imperials-civic",
+  "title": "Galaktisches Imperium · Siedlung und Klimaversorgung",
+  "gameDataCommit": "27ffb84b3446db8796c14d5c618b6e3b30efb29e",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/imperials.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "source-alpha.png",
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [13010300, 13010303, 13010399],
+      "label": "Siedlung",
+      "displayName": "Siedlung",
+      "slug": "siedlung",
+      "cell": 0,
+      "researchId": 210103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200203]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 13010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "13010300-imperials-siedlung-map-v1.png",
+      "master": "masters/13010300-siedlung.png",
+      "production": [
+        {
+          "commodityId": 1101,
+          "amount": -2
+        }
+      ]
+    },
+    {
+      "ids": [23030300, 23030399],
+      "label": "Klimakontrollzentrum",
+      "displayName": "Klimakontrollzentrum",
+      "slug": "klimakontrollzentrum",
+      "cell": 1,
+      "researchId": 225103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200203]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 23030300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "23030300-imperials-klimakontrollzentrum-map-v1.png",
+      "master": "masters/23030300-klimakontrollzentrum.png",
+      "production": [
+        {
+          "commodityId": 1310,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "ids": [23010300, 23010301, 23010399, 23110300, 23110301, 23110399],
+      "label": "Klimakontroll-Bantha-Farm",
+      "displayName": "Klimakontroll-Bantha-Farm",
+      "slug": "klimakontroll-bantha-farm",
+      "cell": 2,
+      "researchId": 225403,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [225103]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "unassigned-fields",
+      "permissionBuildingId": 23010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Kompositionsvorschau (keine Feldfreigabe)",
+          "file": "generated/SWUfields/tC119.png"
+        }
+      ],
+      "file": "23010300-imperials-klimakontroll-bantha-farm-map-v1.png",
+      "master": "masters/23010300-klimakontroll-bantha-farm.png",
+      "production": [
+        {
+          "commodityId": 1300,
+          "amount": 168
+        },
+        {
+          "commodityId": 1310,
+          "amount": -1
+        }
+      ]
+    },
+    {
+      "ids": [23020300, 23020302, 23020399, 23120300, 23120302, 23120399],
+      "label": "Klimakontroll-Nerf-Zucht",
+      "displayName": "Klimakontroll-Nerf-Zucht",
+      "slug": "klimakontroll-nerf-zucht",
+      "cell": 3,
+      "researchId": 225403,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [225103]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "unassigned-fields",
+      "permissionBuildingId": 23020300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Kompositionsvorschau (keine Feldfreigabe)",
+          "file": "generated/SWUfields/tC119.png"
+        }
+      ],
+      "file": "23020300-imperials-klimakontroll-nerf-zucht-map-v1.png",
+      "master": "masters/23020300-klimakontroll-nerf-zucht.png",
+      "production": [
+        {
+          "commodityId": 1300,
+          "amount": 168
+        },
+        {
+          "commodityId": 1310,
+          "amount": -1
+        }
+      ]
+    }
+  ],
+  "originalSource": "image-20261123-153012-8fd755-imperials-civic-source.png",
+  "generation": {
+    "tool": "generate_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.0551,
+    "alphaMethod": "connected checkerboard-background flood-fill; gateway applied.background was null"
+  }
+}

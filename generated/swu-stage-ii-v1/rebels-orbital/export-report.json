@@ -1,0 +1,22 @@
+[
+  {
+    "file": "71910100-rebels-orbitales-forschungslabor-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 98710
+  },
+  {
+    "file": "21910100-rebels-orbital-fallstation-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 101760
+  },
+  {
+    "file": "11910100-rebels-orbital-habitat-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 120045
+  },
+  {
+    "file": "85130100-rebels-korvetten-werft-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 87017
+  }
+]

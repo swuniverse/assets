@@ -1,0 +1,27 @@
+[
+  {
+    "file": "26010103-imperials-galazit-raffinerie-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 92548
+  },
+  {
+    "file": "26020103-imperials-nitrium-raffinerie-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 89750
+  },
+  {
+    "file": "26030103-imperials-magnesit-raffinerie-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 89449
+  },
+  {
+    "file": "26040103-imperials-neuranium-raffinerie-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 94796
+  },
+  {
+    "file": "26050103-imperials-talgonit-raffinerie-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 89125
+  }
+]

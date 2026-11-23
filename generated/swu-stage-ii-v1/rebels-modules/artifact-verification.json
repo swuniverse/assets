@@ -1,0 +1,16 @@
+{
+  "batch": "rebels-modules",
+  "families": 3,
+  "ids": 6,
+  "data": true,
+  "research": true,
+  "terrain": true,
+  "unassignedFields": [
+    82810100,
+    82820100,
+    82830100
+  ],
+  "rgba256": true,
+  "masters512": true,
+  "alpha": true
+}

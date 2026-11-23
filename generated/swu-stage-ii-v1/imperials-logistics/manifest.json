@@ -1,0 +1,210 @@
+{
+  "version": 1,
+  "faction": "GALACTIC_EMPIRE",
+  "batch": "imperials-logistics",
+  "title": "Galaktisches Imperium · Logistik, Produktion und Forschung",
+  "gameDataCommit": "27ffb84b3446db8796c14d5c618b6e3b30efb29e",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/imperials.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "source-alpha.png",
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [85900300],
+      "label": "Frachtkontainer-Depot",
+      "displayName": "Frachtkontainer-Depot",
+      "slug": "frachtkontainer-depot",
+      "cell": 0,
+      "researchId": 256003,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200203]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 85900300,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": 701,
+          "label": "701",
+          "file": "generated/fields/701.png"
+        },
+        {
+          "code": 702,
+          "label": "702",
+          "file": "generated/fields/702.png"
+        }
+      ],
+      "file": "85900300-imperials-frachtkontainer-depot-map-v1.png",
+      "master": "masters/85900300-frachtkontainer-depot.png",
+      "production": []
+    },
+    {
+      "ids": [81130300, 81130399],
+      "label": "Raumhafen",
+      "displayName": "Raumhafen",
+      "slug": "raumhafen",
+      "cell": 1,
+      "researchId": 270303,
+      "requires": [
+        {
+          "type": "REQUIRE_SOME",
+          "techIds": [200203]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "unassigned-fields",
+      "permissionBuildingId": 81130300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Kompositionsvorschau (keine Feldfreigabe)",
+          "file": "generated/SWUfields/tC119.png"
+        }
+      ],
+      "file": "81130300-imperials-raumhafen-map-v1.png",
+      "master": "masters/81130300-raumhafen.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "ids": [84800300, 84800399],
+      "label": "Produktionshalle",
+      "displayName": "Produktionshalle",
+      "slug": "produktionshalle",
+      "cell": 2,
+      "researchId": 280103,
+      "requires": [
+        {
+          "type": "REQUIRE_SOME",
+          "techIds": [200203]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 84800300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "84800300-imperials-produktionshalle-map-v1.png",
+      "master": "masters/84800300-produktionshalle.png",
+      "production": [
+        {
+          "commodityId": 1810,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "ids": [74010300, 74010399],
+      "label": "Forschungszentrum Stufe III",
+      "displayName": "Forschungszentrum Stufe III",
+      "slug": "forschungszentrum-stufe-iii",
+      "cell": 3,
+      "researchId": 200303,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            103103, 201203, 210103, 225103, 231403, 237103, 253203, 256003,
+            271103, 271303, 275303, 281203, 282203, 283203, 300103, 300303,
+            465003, 10002303
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "upgrade-chain",
+      "permissionBuildingId": 72010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "74010300-imperials-forschungszentrum-stufe-iii-map-v1.png",
+      "master": "masters/74010300-forschungszentrum-stufe-iii.png",
+      "production": [
+        {
+          "commodityId": 1700,
+          "amount": -3
+        },
+        {
+          "commodityId": 1703,
+          "amount": 1
+        }
+      ]
+    }
+  ],
+  "originalSource": "image-20261123-153628-abe6dd-imperials-logistics-source.png",
+  "generation": {
+    "tool": "generate_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.055,
+    "alphaMethod": "connected background flood-fill (12% fuzz), original opaque source preserved; gateway applied.background was null"
+  },
+  "alphaSeeds": [[758, 430]],
+  "surfacePadOverrides": [
+    {
+      "cx": 644,
+      "cy": 253,
+      "rx": 56,
+      "ry": 40
+    },
+    {
+      "cx": 880,
+      "cy": 253,
+      "rx": 56,
+      "ry": 40
+    }
+  ]
+}

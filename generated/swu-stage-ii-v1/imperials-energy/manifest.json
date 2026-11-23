@@ -1,0 +1,208 @@
+{
+  "version": 1,
+  "faction": "GALACTIC_EMPIRE",
+  "batch": "imperials-energy",
+  "title": "Galaktisches Imperium · Fortgeschrittene Energie",
+  "gameDataCommit": "27ffb84b3446db8796c14d5c618b6e3b30efb29e",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/imperials.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "source-alpha.png",
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [32010300, 32010399],
+      "label": "Fusionsreaktor",
+      "displayName": "Fusionsreaktor",
+      "slug": "fusionsreaktor",
+      "cell": 0,
+      "researchId": 231403,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200203]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 32010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "32010300-imperials-fusionsreaktor-map-v1.png",
+      "master": "masters/32010300-fusionsreaktor.png",
+      "production": [
+        {
+          "commodityId": 5,
+          "amount": -10
+        }
+      ]
+    },
+    {
+      "ids": [63010300, 63010399],
+      "label": "Plasmakonverter",
+      "displayName": "Plasmakonverter",
+      "slug": "plasmakonverter",
+      "cell": 1,
+      "researchId": 253203,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200203]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 63010300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "63010300-imperials-plasmakonverter-map-v1.png",
+      "master": "masters/63010300-plasmakonverter.png",
+      "production": [
+        {
+          "commodityId": 5,
+          "amount": -20
+        },
+        {
+          "commodityId": 7,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "ids": [36010300],
+      "label": "Thermal-Extraktor",
+      "displayName": "Thermal-Extraktor",
+      "slug": "thermal-extraktor",
+      "cell": 2,
+      "researchId": 236103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [101203]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 36010300,
+      "previews": [
+        {
+          "code": 907,
+          "label": "907",
+          "file": "generated/fields/907.png"
+        },
+        {
+          "code": 908,
+          "label": "908",
+          "file": "generated/fields/908.png"
+        },
+        {
+          "code": 909,
+          "label": "909",
+          "file": "generated/fields/909.png"
+        }
+      ],
+      "file": "36010300-imperials-thermal-extraktor-map-v1.png",
+      "master": "masters/36010300-thermal-extraktor.png",
+      "production": [
+        {
+          "commodityId": 1521,
+          "amount": -1
+        },
+        {
+          "commodityId": 1522,
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "ids": [36020300],
+      "label": "Thermalkraftwerk",
+      "displayName": "Thermalkraftwerk",
+      "slug": "thermalkraftwerk",
+      "cell": 3,
+      "researchId": 237103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [236103]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 36020300,
+      "previews": [
+        {
+          "code": 916,
+          "label": "916",
+          "file": "generated/fields/916.png"
+        }
+      ],
+      "file": "36020300-imperials-thermalkraftwerk-map-v1.png",
+      "master": "masters/36020300-thermalkraftwerk.png",
+      "production": [
+        {
+          "commodityId": 1522,
+          "amount": -1
+        }
+      ]
+    }
+  ],
+  "originalSource": "image-20261123-153329-745fa1-imperials-energy-source.png",
+  "generation": {
+    "tool": "generate_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.0551,
+    "alphaMethod": "connected background flood-fill (12% fuzz), original opaque source preserved; gateway applied.background was null"
+  },
+  "alphaSeeds": [
+    [180, 680],
+    [180, 745],
+    [180, 805],
+    [350, 680],
+    [350, 745],
+    [350, 805]
+  ]
+}

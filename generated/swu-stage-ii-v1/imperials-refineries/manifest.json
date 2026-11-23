@@ -1,0 +1,265 @@
+{
+  "version": 1,
+  "faction": "GALACTIC_EMPIRE",
+  "batch": "imperials-refineries",
+  "title": "Galaktisches Imperium · Spezialisierte Raffinerien",
+  "gameDataCommit": "27ffb84b3446db8796c14d5c618b6e3b30efb29e",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/imperials.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "source-alpha.png",
+  "grid": {
+    "columns": 3,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [26010103],
+      "label": "Galazit-Raffinerie",
+      "displayName": "Cortosis-Raffinerie",
+      "slug": "galazit-raffinerie",
+      "cell": 0,
+      "researchId": 254203,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [250203]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 26010103,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "26010103-imperials-galazit-raffinerie-map-v1.png",
+      "master": "masters/26010103-galazit-raffinerie.png",
+      "production": [
+        {
+          "commodityId": 12,
+          "amount": -8
+        },
+        {
+          "commodityId": 22,
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "ids": [26020103],
+      "label": "Nitrium-Raffinerie",
+      "displayName": "Laminanium-Raffinerie",
+      "slug": "nitrium-raffinerie",
+      "cell": 1,
+      "researchId": 254303,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [250303]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 26020103,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "26020103-imperials-nitrium-raffinerie-map-v1.png",
+      "master": "masters/26020103-nitrium-raffinerie.png",
+      "production": [
+        {
+          "commodityId": 13,
+          "amount": -8
+        },
+        {
+          "commodityId": 23,
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "ids": [26030103],
+      "label": "Magnesit-Raffinerie",
+      "displayName": "Quadranium-Raffinerie",
+      "slug": "magnesit-raffinerie",
+      "cell": 2,
+      "researchId": 254403,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [250403]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 26030103,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "26030103-imperials-magnesit-raffinerie-map-v1.png",
+      "master": "masters/26030103-magnesit-raffinerie.png",
+      "production": [
+        {
+          "commodityId": 14,
+          "amount": -8
+        },
+        {
+          "commodityId": 24,
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "ids": [26040103],
+      "label": "Neuranium-Raffinerie",
+      "displayName": "Neuranium-Raffinerie",
+      "slug": "neuranium-raffinerie",
+      "cell": 3,
+      "researchId": 254503,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [250503]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 26040103,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "26040103-imperials-neuranium-raffinerie-map-v1.png",
+      "master": "masters/26040103-neuranium-raffinerie.png",
+      "production": [
+        {
+          "commodityId": 15,
+          "amount": -8
+        },
+        {
+          "commodityId": 25,
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "ids": [26050103],
+      "label": "Talgonit-Raffinerie",
+      "displayName": "Bronzium-Raffinerie",
+      "slug": "talgonit-raffinerie",
+      "cell": 4,
+      "researchId": 254603,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [250603]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 26050103,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "26050103-imperials-talgonit-raffinerie-map-v1.png",
+      "master": "masters/26050103-talgonit-raffinerie.png",
+      "production": [
+        {
+          "commodityId": 16,
+          "amount": -8
+        },
+        {
+          "commodityId": 26,
+          "amount": 1
+        }
+      ]
+    }
+  ],
+  "originalSource": "image-20261123-154325-e7a123-imperials-refineries-source.png",
+  "generation": {
+    "tool": "generate_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.0437,
+    "alphaMethod": "connected background flood-fill (12% fuzz), original opaque source preserved; gateway applied.background was null"
+  }
+}

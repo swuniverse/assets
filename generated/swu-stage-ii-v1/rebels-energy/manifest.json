@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "faction": "REBEL_ALLIANCE",
+  "batch": "rebels-energy",
+  "title": "Rebellenallianz · Fortgeschrittene Energie",
+  "gameDataCommit": "27ffb84b3446db8796c14d5c618b6e3b30efb29e",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/rebels.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "source-alpha.png",
+  "grid": {
+    "columns": 2,
+    "rows": 2,
+    "columnEdges": [0, 523, 1024]
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [32010100, 32010199],
+      "label": "Fusionsreaktor",
+      "displayName": "Fusionsreaktor",
+      "slug": "fusionsreaktor",
+      "cell": 0,
+      "researchId": 231401,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200201]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 32010100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "32010100-rebels-fusionsreaktor-map-v1.png",
+      "master": "masters/32010100-fusionsreaktor.png",
+      "production": [
+        {
+          "commodityId": 5,
+          "amount": -10
+        }
+      ]
+    },
+    {
+      "ids": [63010100, 63010199],
+      "label": "Plasmakonverter",
+      "displayName": "Plasmakonverter",
+      "slug": "plasmakonverter",
+      "cell": 1,
+      "researchId": 253201,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200201]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 63010100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "63010100-rebels-plasmakonverter-map-v1.png",
+      "master": "masters/63010100-plasmakonverter.png",
+      "production": [
+        {
+          "commodityId": 5,
+          "amount": -20
+        },
+        {
+          "commodityId": 7,
+          "amount": 4
+        }
+      ]
+    },
+    {
+      "ids": [36010100],
+      "label": "Thermal-Extraktor",
+      "displayName": "Thermal-Extraktor",
+      "slug": "thermal-extraktor",
+      "cell": 2,
+      "researchId": 236101,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [101201]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 36010100,
+      "previews": [
+        {
+          "code": 907,
+          "label": "907",
+          "file": "generated/fields/907.png"
+        },
+        {
+          "code": 908,
+          "label": "908",
+          "file": "generated/fields/908.png"
+        },
+        {
+          "code": 909,
+          "label": "909",
+          "file": "generated/fields/909.png"
+        }
+      ],
+      "file": "36010100-rebels-thermal-extraktor-map-v1.png",
+      "master": "masters/36010100-thermal-extraktor.png",
+      "production": [
+        {
+          "commodityId": 1521,
+          "amount": -1
+        },
+        {
+          "commodityId": 1522,
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "ids": [36020100],
+      "label": "Thermalkraftwerk",
+      "displayName": "Thermalkraftwerk",
+      "slug": "thermalkraftwerk",
+      "cell": 3,
+      "researchId": 237101,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [236101]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 36020100,
+      "previews": [
+        {
+          "code": 916,
+          "label": "916",
+          "file": "generated/fields/916.png"
+        }
+      ],
+      "file": "36020100-rebels-thermalkraftwerk-map-v1.png",
+      "master": "masters/36020100-thermalkraftwerk.png",
+      "production": [
+        {
+          "commodityId": 1522,
+          "amount": -1
+        }
+      ]
+    }
+  ],
+  "originalSource": "image-20261123-153245-de89f7-rebels-energy-source.png",
+  "generation": {
+    "tool": "generate_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.055,
+    "alphaMethod": "connected background flood-fill (12% fuzz), original opaque source preserved; gateway applied.background was null"
+  }
+}

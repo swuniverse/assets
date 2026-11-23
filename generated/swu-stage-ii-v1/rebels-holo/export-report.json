@@ -1,0 +1,22 @@
+[
+  {
+    "file": "41010100-rebels-allianz-schule-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 103215
+  },
+  {
+    "file": "42010100-rebels-holo-simulator-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 94176
+  },
+  {
+    "file": "42020100-rebels-holo-generator-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 124858
+  },
+  {
+    "file": "86000100-rebels-plasma-extraktor-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 85022
+  }
+]

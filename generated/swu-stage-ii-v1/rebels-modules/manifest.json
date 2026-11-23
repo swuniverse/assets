@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "faction": "REBEL_ALLIANCE",
+  "batch": "rebels-modules",
+  "title": "Rebellenallianz · Modulfabriken",
+  "gameDataCommit": "27ffb84b3446db8796c14d5c618b6e3b30efb29e",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/rebels.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "source-alpha.png",
+  "grid": {
+    "columns": 3,
+    "rows": 1
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [82810100, 82810199],
+      "label": "Waffenmodulfabrik",
+      "displayName": "Waffenmodulfabrik",
+      "slug": "waffenmodulfabrik",
+      "cell": 0,
+      "researchId": 281201,
+      "requires": [
+        {
+          "type": "REQUIRE_SOME",
+          "techIds": [280101]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "unassigned-fields",
+      "permissionBuildingId": 82810100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Kompositionsvorschau (keine Feldfreigabe)",
+          "file": "generated/SWUfields/tC119.png"
+        }
+      ],
+      "file": "82810100-rebels-waffenmodulfabrik-map-v1.png",
+      "master": "masters/82810100-waffenmodulfabrik.png",
+      "production": [
+        {
+          "commodityId": 1810,
+          "amount": -1
+        }
+      ]
+    },
+    {
+      "ids": [82820100, 82820199],
+      "label": "Schildmodulfabrik",
+      "displayName": "Schildmodulfabrik",
+      "slug": "schildmodulfabrik",
+      "cell": 1,
+      "researchId": 282201,
+      "requires": [
+        {
+          "type": "REQUIRE_SOME",
+          "techIds": [280101]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "unassigned-fields",
+      "permissionBuildingId": 82820100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Kompositionsvorschau (keine Feldfreigabe)",
+          "file": "generated/SWUfields/tC119.png"
+        }
+      ],
+      "file": "82820100-rebels-schildmodulfabrik-map-v1.png",
+      "master": "masters/82820100-schildmodulfabrik.png",
+      "production": [
+        {
+          "commodityId": 1810,
+          "amount": -1
+        }
+      ]
+    },
+    {
+      "ids": [82830100, 82830199],
+      "label": "Antriebsmodulfabrik",
+      "displayName": "Antriebsmodulfabrik",
+      "slug": "antriebsmodulfabrik",
+      "cell": 2,
+      "researchId": 283201,
+      "requires": [
+        {
+          "type": "REQUIRE_SOME",
+          "techIds": [280101]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "unassigned-fields",
+      "permissionBuildingId": 82830100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Kompositionsvorschau (keine Feldfreigabe)",
+          "file": "generated/SWUfields/tC119.png"
+        }
+      ],
+      "file": "82830100-rebels-antriebsmodulfabrik-map-v1.png",
+      "master": "masters/82830100-antriebsmodulfabrik.png",
+      "production": [
+        {
+          "commodityId": 1810,
+          "amount": -1
+        }
+      ]
+    }
+  ],
+  "originalSource": "image-20261123-153929-60f6e0-rebels-modules-source.png",
+  "generation": {
+    "tool": "generate_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.0433,
+    "alphaMethod": "connected background flood-fill (12% fuzz), original opaque source preserved; gateway applied.background was null"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "model": "gpt-image-2",
+  "prompt": "Use case: stylized-concept / style-transfer. Asset type: transparent Rebel Alliance colony-map sprites for a Star Wars browser strategy game.\nStyle continuity: match the established stage-I series with the specified near-overhead camera, materials, low broad footprint and scale. Create NEW function-specific stage-II buildings.\nStyle: weathered cream duracrete, slate metal and restrained rust-orange plumbing, practical improvised frontier forms. Crisp readable industrial detail and broad low footprints.\nCamera: high near-overhead ORTHOGRAPHIC; roofs dominate, very shallow front walls, same orientation as references. No collectible miniature, low isometric view, skyline, tall monument or scenic perspective. Uniform soft upper-left lighting, tight contact shadows.\nBackground: genuine TRANSPARENT ALPHA around EACH isolated structure. No ground rectangle, terrain, landscape, sky, stars, fog, vignette, fake checkerboard or shadow backdrop. Compact functional foundation permitted for surface buildings only; orbital structures have no ground or solid support plate.\nNo text, label, lettering, logo, watermark, border, people, animals, vehicles or spacecraft. Readable at 40/68px. EXACTLY FOUR separate compounds, 2x2 grid on 1024x1024, one per 512px quadrant. Order top-left, top-right, bottom-left, bottom-right. Each compound approximately 430px across with ample transparent clearance to all cell edges. Never cross a cell boundary.\n1. Fusion reactor: a broad low circular containment ring with a luminous restrained cyan core and two large heat-exchanger blocks; heavy coolant conduits. Compact industrial energy plant, no tall chimney.\n2. Plasma converter: wide industrial compound with two horizontal pressure vessels, a central orange plasma-processing chamber and thick insulated conduits. No flame or smoke.\n3. Thermal extractor: free-floating orbital mining installation with two broad heat-collector jaws and a compact cylindrical storage core, copper-orange thermal coils. No asteroid, planet, lava, ground or stars.\n4. Thermal power plant: broad compact heat-exchanger facility with twin ribbed horizontal radiators and a low round thermal turbine. Works on special numeric terrain; no lava background.\nPreserve all EMPTY DOCK openings as real alpha, not dark painted areas. No shared base between buildings.",
+  "requested": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "n": 1,
+    "format": "png"
+  },
+  "applied": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "background": null,
+    "output_format": "png"
+  },
+  "images": [
+    {
+      "file_path": "/Users/TMUNDIN/git/github.com/swuniverse/core/assets/generated/swu-stage-ii-v1/rebels-energy/image-20261123-153245-de89f7-rebels-energy-source.png",
+      "filename": "image-20261123-153245-de89f7-rebels-energy-source.png",
+      "size_bytes": 1356859,
+      "mime_type": "image/png"
+    }
+  ],
+  "usage": {
+    "total_tokens": 2220,
+    "input_tokens": 464,
+    "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 464
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+    }
+  },
+  "cost_usd_estimated": 0.055
+}

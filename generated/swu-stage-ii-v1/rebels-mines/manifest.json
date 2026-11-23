@@ -1,0 +1,285 @@
+{
+  "version": 1,
+  "faction": "REBEL_ALLIANCE",
+  "batch": "rebels-mines",
+  "title": "Rebellenallianz · Spezialisierte Erzminen",
+  "gameDataCommit": "27ffb84b3446db8796c14d5c618b6e3b30efb29e",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/rebels.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "source-alpha.png",
+  "grid": {
+    "columns": 3,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [16010100],
+      "label": "Galazit-Mine",
+      "displayName": "Cortosis-Mine",
+      "slug": "galazit-mine",
+      "cell": 0,
+      "researchId": 250201,
+      "requires": [
+        {
+          "type": "EXCLUDE",
+          "techIds": [250301, 250401, 250501, 250601, 251201, 252201]
+        },
+        {
+          "type": "REQUIRE",
+          "techIds": [200201]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 16010100,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": 701,
+          "label": "701",
+          "file": "generated/fields/701.png"
+        },
+        {
+          "code": 702,
+          "label": "702",
+          "file": "generated/fields/702.png"
+        }
+      ],
+      "file": "16010100-rebels-galazit-mine-map-v1.png",
+      "master": "masters/16010100-galazit-mine.png",
+      "production": [
+        {
+          "commodityId": 12,
+          "amount": 8
+        },
+        {
+          "commodityId": 1512,
+          "amount": -1
+        }
+      ]
+    },
+    {
+      "ids": [16020100],
+      "label": "Nitrium-Mine",
+      "displayName": "Laminanium-Mine",
+      "slug": "nitrium-mine",
+      "cell": 1,
+      "researchId": 250301,
+      "requires": [
+        {
+          "type": "EXCLUDE",
+          "techIds": [250201, 250401, 250501, 250601, 251301, 252301]
+        },
+        {
+          "type": "REQUIRE",
+          "techIds": [200201]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 16020100,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": 701,
+          "label": "701",
+          "file": "generated/fields/701.png"
+        },
+        {
+          "code": 702,
+          "label": "702",
+          "file": "generated/fields/702.png"
+        }
+      ],
+      "file": "16020100-rebels-nitrium-mine-map-v1.png",
+      "master": "masters/16020100-nitrium-mine.png",
+      "production": [
+        {
+          "commodityId": 13,
+          "amount": 8
+        },
+        {
+          "commodityId": 1513,
+          "amount": -1
+        }
+      ]
+    },
+    {
+      "ids": [16030100],
+      "label": "Magnesit-Mine",
+      "displayName": "Quadranium-Mine",
+      "slug": "magnesit-mine",
+      "cell": 2,
+      "researchId": 250401,
+      "requires": [
+        {
+          "type": "EXCLUDE",
+          "techIds": [250201, 250301, 250501, 250601, 251401, 252401]
+        },
+        {
+          "type": "REQUIRE",
+          "techIds": [200201]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 16030100,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": 701,
+          "label": "701",
+          "file": "generated/fields/701.png"
+        },
+        {
+          "code": 702,
+          "label": "702",
+          "file": "generated/fields/702.png"
+        }
+      ],
+      "file": "16030100-rebels-magnesit-mine-map-v1.png",
+      "master": "masters/16030100-magnesit-mine.png",
+      "production": [
+        {
+          "commodityId": 14,
+          "amount": 8
+        },
+        {
+          "commodityId": 1514,
+          "amount": -1
+        }
+      ]
+    },
+    {
+      "ids": [16040100],
+      "label": "Neuranium-Mine",
+      "displayName": "Neuranium-Mine",
+      "slug": "neuranium-mine",
+      "cell": 3,
+      "researchId": 250501,
+      "requires": [
+        {
+          "type": "EXCLUDE",
+          "techIds": [250201, 250301, 250401, 250601, 251501, 252501]
+        },
+        {
+          "type": "REQUIRE",
+          "techIds": [200201]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 16040100,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": 701,
+          "label": "701",
+          "file": "generated/fields/701.png"
+        },
+        {
+          "code": 702,
+          "label": "702",
+          "file": "generated/fields/702.png"
+        }
+      ],
+      "file": "16040100-rebels-neuranium-mine-map-v1.png",
+      "master": "masters/16040100-neuranium-mine.png",
+      "production": [
+        {
+          "commodityId": 15,
+          "amount": 8
+        },
+        {
+          "commodityId": 1515,
+          "amount": -1
+        }
+      ]
+    },
+    {
+      "ids": [16050100],
+      "label": "Talgonit-Mine",
+      "displayName": "Bronzium-Mine",
+      "slug": "talgonit-mine",
+      "cell": 4,
+      "researchId": 250601,
+      "requires": [
+        {
+          "type": "EXCLUDE",
+          "techIds": [250201, 250301, 250401, 250501, 251601, 252601]
+        },
+        {
+          "type": "REQUIRE",
+          "techIds": [200201]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 16050100,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": 701,
+          "label": "701",
+          "file": "generated/fields/701.png"
+        },
+        {
+          "code": 702,
+          "label": "702",
+          "file": "generated/fields/702.png"
+        }
+      ],
+      "file": "16050100-rebels-talgonit-mine-map-v1.png",
+      "master": "masters/16050100-talgonit-mine.png",
+      "production": [
+        {
+          "commodityId": 16,
+          "amount": 8
+        },
+        {
+          "commodityId": 1516,
+          "amount": -1
+        }
+      ]
+    }
+  ],
+  "originalSource": "image-20261123-154242-fabf67-rebels-mines-source.png",
+  "generation": {
+    "tool": "generate_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.0437,
+    "alphaMethod": "connected background flood-fill (12% fuzz), original opaque source preserved; gateway applied.background was null"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "batch": "imperials-civic",
+  "families": 4,
+  "ids": 17,
+  "data": true,
+  "research": true,
+  "terrain": true,
+  "unassignedFields": [
+    23010300,
+    23020300
+  ],
+  "rgba256": true,
+  "masters512": true,
+  "alpha": true
+}

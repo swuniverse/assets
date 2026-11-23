@@ -1,0 +1,190 @@
+{
+  "version": 1,
+  "faction": "REBEL_ALLIANCE",
+  "batch": "rebels-civic",
+  "title": "Rebellenallianz · Siedlung und Klimaversorgung",
+  "gameDataCommit": "27ffb84b3446db8796c14d5c618b6e3b30efb29e",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/rebels.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "source-alpha.png",
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [13010100, 13010103, 13010199],
+      "label": "Siedlung",
+      "displayName": "Siedlung",
+      "slug": "siedlung",
+      "cell": 0,
+      "researchId": 210101,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200201]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 13010100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "13010100-rebels-siedlung-map-v1.png",
+      "master": "masters/13010100-siedlung.png",
+      "production": [
+        {
+          "commodityId": 1101,
+          "amount": -2
+        }
+      ]
+    },
+    {
+      "ids": [23030100, 23030199],
+      "label": "Klimakontrollzentrum",
+      "displayName": "Klimakontrollzentrum",
+      "slug": "klimakontrollzentrum",
+      "cell": 1,
+      "researchId": 225101,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200201]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 23030100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "23030100-rebels-klimakontrollzentrum-map-v1.png",
+      "master": "masters/23030100-klimakontrollzentrum.png",
+      "production": [
+        {
+          "commodityId": 1302,
+          "amount": 2
+        }
+      ]
+    },
+    {
+      "ids": [23010100, 23010101, 23010199, 23110100, 23110101, 23110199],
+      "label": "Klimakontroll-Farm",
+      "displayName": "Klimakontroll-Farm",
+      "slug": "klimakontroll-farm",
+      "cell": 2,
+      "researchId": 225401,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [225101]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "unassigned-fields",
+      "permissionBuildingId": 23010100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Kompositionsvorschau (keine Feldfreigabe)",
+          "file": "generated/SWUfields/tC119.png"
+        }
+      ],
+      "file": "23010100-rebels-klimakontroll-farm-map-v1.png",
+      "master": "masters/23010100-klimakontroll-farm.png",
+      "production": [
+        {
+          "commodityId": 1300,
+          "amount": 168
+        },
+        {
+          "commodityId": 1302,
+          "amount": -1
+        }
+      ]
+    },
+    {
+      "ids": [23020100, 23020102, 23020199, 23120100, 23120102, 23120199],
+      "label": "Klimakontroll-Zuchtanlage",
+      "displayName": "Klimakontroll-Zuchtanlage",
+      "slug": "klimakontroll-zuchtanlage",
+      "cell": 3,
+      "researchId": 225401,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [225101]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "unassigned-fields",
+      "permissionBuildingId": 23020100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Kompositionsvorschau (keine Feldfreigabe)",
+          "file": "generated/SWUfields/tC119.png"
+        }
+      ],
+      "file": "23020100-rebels-klimakontroll-zuchtanlage-map-v1.png",
+      "master": "masters/23020100-klimakontroll-zuchtanlage.png",
+      "production": [
+        {
+          "commodityId": 1300,
+          "amount": 168
+        },
+        {
+          "commodityId": 1302,
+          "amount": -1
+        }
+      ]
+    }
+  ],
+  "originalSource": "image-20261123-153056-ac24f7-rebels-civic-source.png",
+  "generation": {
+    "tool": "generate_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.0549,
+    "alphaMethod": "connected checkerboard-background flood-fill; gateway applied.background was null"
+  }
+}

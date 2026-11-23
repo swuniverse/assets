@@ -1,0 +1,38 @@
+{
+  "model": "gpt-image-2",
+  "prompt": "Use case: stylized-concept / style-transfer. Asset type: transparent Rebel Alliance colony-map sprites for a Star Wars browser strategy game.\nStyle continuity: match the established stage-I series with the specified near-overhead camera, materials, low broad footprint and scale. Create NEW function-specific stage-II buildings.\nStyle: weathered cream duracrete, slate metal and restrained rust-orange plumbing, practical improvised frontier forms. Crisp readable industrial detail and broad low footprints.\nCamera: high near-overhead ORTHOGRAPHIC; roofs dominate, very shallow front walls, same orientation as references. No collectible miniature, low isometric view, skyline, tall monument or scenic perspective. Uniform soft upper-left lighting, tight contact shadows.\nBackground: genuine TRANSPARENT ALPHA around EACH isolated structure. No ground rectangle, terrain, landscape, sky, stars, fog, vignette, fake checkerboard or shadow backdrop. Compact functional foundation permitted for surface buildings only; orbital structures have no ground or solid support plate.\nNo text, label, lettering, logo, watermark, border, people, animals, vehicles or spacecraft. Readable at 40/68px. EXACTLY THREE separate compounds, one row of three on 1536x1024. Each in its own 512px-wide column, centered vertically, no overlapping. Order left, center, right. Each compound approximately 430px across with ample transparent clearance to all cell edges. Never cross a cell boundary.\n1. Advanced weapons module factory: broad two-bay industrial hall with attached assembly racks containing recognizable short laser-barrel components and heavy power-unit housings. Factory, not deployed artillery.\n2. Advanced shield module factory: broad low industrial compound with two segmented round shield-emitter test housings, flat power banks, insulated cables and a rectangular assembly hall. No full force-field bubble.\n3. Advanced propulsion module factory: low long assembly hall with three prominent horizontal engine cylinders in service cradles and compact coolant machinery. No spacecraft.\nPreserve all EMPTY DOCK openings as real alpha, not dark painted areas. No shared base between buildings.",
+  "requested": {
+    "size": "1536x1024",
+    "quality": "medium",
+    "n": 1,
+    "format": "png"
+  },
+  "applied": {
+    "size": "1536x1024",
+    "quality": "medium",
+    "background": null,
+    "output_format": "png"
+  },
+  "images": [
+    {
+      "file_path": "/Users/TMUNDIN/git/github.com/swuniverse/core/assets/generated/swu-stage-ii-v1/rebels-modules/image-20261123-153929-60f6e0-rebels-modules-source.png",
+      "filename": "image-20261123-153929-60f6e0-rebels-modules-source.png",
+      "size_bytes": 1513094,
+      "mime_type": "image/png"
+    }
+  ],
+  "usage": {
+    "total_tokens": 1799,
+    "input_tokens": 427,
+    "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 427
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+      "image_tokens": 1372,
+      "text_tokens": 0
+    }
+  },
+  "cost_usd_estimated": 0.0433
+}

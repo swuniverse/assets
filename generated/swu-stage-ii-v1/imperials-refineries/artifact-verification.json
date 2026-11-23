@@ -1,0 +1,12 @@
+{
+  "batch": "imperials-refineries",
+  "families": 5,
+  "ids": 5,
+  "data": true,
+  "research": true,
+  "terrain": true,
+  "unassignedFields": [],
+  "rgba256": true,
+  "masters512": true,
+  "alpha": true
+}

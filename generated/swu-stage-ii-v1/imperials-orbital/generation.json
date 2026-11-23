@@ -1,0 +1,38 @@
+{
+  "model": "gpt-image-2",
+  "prompt": "Use case: stylized-concept / style-transfer. Asset type: transparent Galactic Empire colony-map sprites for a Star Wars browser strategy game.\nStyle continuity: match the established stage-I series with the specified near-overhead camera, materials, low broad footprint and scale. Create NEW function-specific stage-II buildings.\nStyle: cool light-medium gray armored duracrete and steel, graphite-black technical machinery, angular disciplined symmetry, sparse red lights; no cream sandstone or rust-orange rebel architecture. Crisp readable industrial detail and broad low footprints.\nCamera: high near-overhead ORTHOGRAPHIC; roofs dominate, very shallow front walls, same orientation as references. No collectible miniature, low isometric view, skyline, tall monument or scenic perspective. Uniform soft upper-left lighting, tight contact shadows.\nBackground: genuine TRANSPARENT ALPHA around EACH isolated structure. No ground rectangle, terrain, landscape, sky, stars, fog, vignette, fake checkerboard or shadow backdrop. Compact functional foundation permitted for surface buildings only; orbital structures have no ground or solid support plate.\nNo text, label, lettering, logo, watermark, border, people, animals, vehicles or spacecraft. Readable at 40/68px. EXACTLY FOUR separate compounds, 2x2 grid on 1024x1024, one per 512px quadrant. Order top-left, top-right, bottom-left, bottom-right. Each compound approximately 430px across with ample transparent clearance to all cell edges. Never cross a cell boundary.\n1. Orbital research laboratory: free-floating compact multi-lobed scientific facility with three blue-glass lab modules, central instrument core and short radial connectors. Entire background genuine transparent alpha.\n2. Anti-gravity training center: free-floating orbital complex with a broad enclosed central training chamber, four squat pressurized support pods and a compact cargo-supply annex. Food supplies and life support integrated, no farms, people, vehicles or ground.\n3. Orbital habitat: free-floating habitation complex of four broad pressurized modules around a central life-support hub; compact solar wings and blue window strips. No ground, planet or stars.\n4. Corvette shipyard: large EMPTY open docking frame, two parallel service rails joined on one side to broad repair workshops. Interior dock must be TRUE EMPTY TRANSPARENT ALPHA, no floor plate, shadow plane, spacecraft, scaffolding filling the hole or star background.\nPreserve all EMPTY DOCK openings as real alpha, not dark painted areas. No shared base between buildings.",
+  "requested": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "n": 1,
+    "format": "png"
+  },
+  "applied": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "background": null,
+    "output_format": "png"
+  },
+  "images": [
+    {
+      "file_path": "/Users/TMUNDIN/git/github.com/swuniverse/core/assets/generated/swu-stage-ii-v1/imperials-orbital/image-20261123-153719-5b7ef6-imperials-orbital-source.png",
+      "filename": "image-20261123-153719-5b7ef6-imperials-orbital-source.png",
+      "size_bytes": 1125443,
+      "mime_type": "image/png"
+    }
+  ],
+  "usage": {
+    "total_tokens": 2265,
+    "input_tokens": 509,
+    "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 509
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+    }
+  },
+  "cost_usd_estimated": 0.0552
+}

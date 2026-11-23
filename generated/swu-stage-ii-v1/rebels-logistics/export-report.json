@@ -1,0 +1,22 @@
+[
+  {
+    "file": "85900100-rebels-frachtkontainer-depot-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 95302
+  },
+  {
+    "file": "81130100-rebels-raumhafen-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 98425
+  },
+  {
+    "file": "84800100-rebels-produktionshalle-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 93744
+  },
+  {
+    "file": "74010100-rebels-forschungszentrum-stufe-iii-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 89297
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "85900300-imperials-frachtkontainer-depot-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 76583
+  },
+  {
+    "file": "81130300-imperials-raumhafen-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 75127
+  },
+  {
+    "file": "84800300-imperials-produktionshalle-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 78736
+  },
+  {
+    "file": "74010300-imperials-forschungszentrum-stufe-iii-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 92397
+  }
+]

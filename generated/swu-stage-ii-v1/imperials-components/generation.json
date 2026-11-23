@@ -1,0 +1,38 @@
+{
+  "model": "gpt-image-2",
+  "prompt": "Use case: stylized-concept / style-transfer. Asset type: transparent Galactic Empire colony-map sprites for a Star Wars browser strategy game.\nStyle continuity: match the established stage-I series with the specified near-overhead camera, materials, low broad footprint and scale. Create NEW function-specific stage-II buildings.\nStyle: cool light-medium gray armored duracrete and steel, graphite-black technical machinery, angular disciplined symmetry, sparse red lights; no cream sandstone or rust-orange rebel architecture. Crisp readable industrial detail and broad low footprints.\nCamera: high near-overhead ORTHOGRAPHIC; roofs dominate, very shallow front walls, same orientation as references. No collectible miniature, low isometric view, skyline, tall monument or scenic perspective. Uniform soft upper-left lighting, tight contact shadows.\nBackground: genuine TRANSPARENT ALPHA around EACH isolated structure. No ground rectangle, terrain, landscape, sky, stars, fog, vignette, fake checkerboard or shadow backdrop. Compact functional foundation permitted for surface buildings only; orbital structures have no ground or solid support plate.\nNo text, label, lettering, logo, watermark, border, people, animals, vehicles or spacecraft. Readable at 40/68px. EXACTLY FIVE separate compounds, 3x2 grid on 1536x1024. Each in its own 512x512 cell. Order top-left, top-center, top-right, bottom-left, bottom-center. Bottom-right cell completely empty transparent alpha. Each compound approximately 430px across with ample transparent clearance to all cell edges. Never cross a cell boundary.\n1. Hyperspace coil factory: broad low precision assembly hall with two very visible horizontal ringed hyperdrive coils in cradles and a small test chamber, blue power details.\n2. Laminanium circuit factory: wide low clean assembly hall with a large exposed flat silver circuit-testing table and two rectangular blue-green electronic processing banks.\n3. Phase converter factory: broad angular assembly hall around two squat circular segmented phase-conversion units, restrained violet cores and cooling banks.\n4. Memory chip factory: broad clean precision fabrication hall with three rectangular wafers or chip-test beds, compact server banks and dark-blue technical surfaces. No lettering.\n5. Microdyne factory: compact broad precision engineering plant with three small horizontal cylindrical assemblies held in machine racks, bronze-metal parts and an enclosed calibration hall.\nPreserve all EMPTY DOCK openings as real alpha, not dark painted areas. No shared base between buildings.",
+  "requested": {
+    "size": "1536x1024",
+    "quality": "medium",
+    "n": 1,
+    "format": "png"
+  },
+  "applied": {
+    "size": "1536x1024",
+    "quality": "medium",
+    "background": null,
+    "output_format": "png"
+  },
+  "images": [
+    {
+      "file_path": "/Users/TMUNDIN/git/github.com/swuniverse/core/assets/generated/swu-stage-ii-v1/imperials-components/image-20261123-154525-311418-imperials-components-source.png",
+      "filename": "image-20261123-154525-311418-imperials-components-source.png",
+      "size_bytes": 1750253,
+      "mime_type": "image/png"
+    }
+  ],
+  "usage": {
+    "total_tokens": 1875,
+    "input_tokens": 503,
+    "input_tokens_details": {
+      "image_tokens": 0,
+      "text_tokens": 503
+    },
+    "output_tokens": 1372,
+    "output_tokens_details": {
+      "image_tokens": 1372,
+      "text_tokens": 0
+    }
+  },
+  "cost_usd_estimated": 0.0437
+}

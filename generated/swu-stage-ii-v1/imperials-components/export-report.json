@@ -1,0 +1,27 @@
+[
+  {
+    "file": "37010103-imperials-hyperraum-spulen-fabrik-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 93888
+  },
+  {
+    "file": "37020103-imperials-laminanium-schaltkreis-fabrik-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 88986
+  },
+  {
+    "file": "37030103-imperials-phasenkonverter-fabrik-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 87818
+  },
+  {
+    "file": "37040103-imperials-speicherchip-fabrik-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 78785
+  },
+  {
+    "file": "37050103-imperials-mikrodyne-fabrik-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 78803
+  }
+]

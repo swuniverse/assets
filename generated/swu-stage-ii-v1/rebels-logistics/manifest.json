@@ -1,0 +1,195 @@
+{
+  "version": 1,
+  "faction": "REBEL_ALLIANCE",
+  "batch": "rebels-logistics",
+  "title": "Rebellenallianz · Logistik, Produktion und Forschung",
+  "gameDataCommit": "27ffb84b3446db8796c14d5c618b6e3b30efb29e",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/rebels.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "source-alpha.png",
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [85900100],
+      "label": "Frachtkontainer-Depot",
+      "displayName": "Frachtkontainer-Depot",
+      "slug": "frachtkontainer-depot",
+      "cell": 0,
+      "researchId": 256001,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [200201]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 85900100,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": 701,
+          "label": "701",
+          "file": "generated/fields/701.png"
+        },
+        {
+          "code": 702,
+          "label": "702",
+          "file": "generated/fields/702.png"
+        }
+      ],
+      "file": "85900100-rebels-frachtkontainer-depot-map-v1.png",
+      "master": "masters/85900100-frachtkontainer-depot.png",
+      "production": []
+    },
+    {
+      "ids": [81130100, 81130199],
+      "label": "Raumhafen",
+      "displayName": "Raumhafen",
+      "slug": "raumhafen",
+      "cell": 1,
+      "researchId": 270301,
+      "requires": [
+        {
+          "type": "REQUIRE_SOME",
+          "techIds": [200201]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "unassigned-fields",
+      "permissionBuildingId": 81130100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Kompositionsvorschau (keine Feldfreigabe)",
+          "file": "generated/SWUfields/tC119.png"
+        }
+      ],
+      "file": "81130100-rebels-raumhafen-map-v1.png",
+      "master": "masters/81130100-raumhafen.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": 20
+        }
+      ]
+    },
+    {
+      "ids": [84800100, 84800199],
+      "label": "Produktionshalle",
+      "displayName": "Produktionshalle",
+      "slug": "produktionshalle",
+      "cell": 2,
+      "researchId": 280101,
+      "requires": [
+        {
+          "type": "REQUIRE_SOME",
+          "techIds": [200201]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 84800100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "84800100-rebels-produktionshalle-map-v1.png",
+      "master": "masters/84800100-produktionshalle.png",
+      "production": [
+        {
+          "commodityId": 1810,
+          "amount": 3
+        }
+      ]
+    },
+    {
+      "ids": [74010100, 74010199],
+      "label": "Forschungszentrum Stufe III",
+      "displayName": "Forschungszentrum Stufe III",
+      "slug": "forschungszentrum-stufe-iii",
+      "cell": 3,
+      "researchId": 200301,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            103101, 201201, 210101, 225101, 231401, 237101, 253201, 256001,
+            271101, 271301, 275301, 281201, 282201, 283201, 300101, 300301,
+            465001, 10002301
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "upgrade-chain",
+      "permissionBuildingId": 72010100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "74010100-rebels-forschungszentrum-stufe-iii-map-v1.png",
+      "master": "masters/74010100-forschungszentrum-stufe-iii.png",
+      "production": [
+        {
+          "commodityId": 1700,
+          "amount": -2
+        },
+        {
+          "commodityId": 1702,
+          "amount": 1
+        }
+      ]
+    }
+  ],
+  "originalSource": "image-20261123-153543-6d2f6b-rebels-logistics-source.png",
+  "generation": {
+    "tool": "generate_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.055,
+    "alphaMethod": "connected background flood-fill (12% fuzz), original opaque source preserved; gateway applied.background was null"
+  }
+}

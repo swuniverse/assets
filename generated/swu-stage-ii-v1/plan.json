@@ -1,0 +1,388 @@
+{
+  "date": "2026-11-23",
+  "scope": "All building families whose research costs FP II (commodity 1702), including research center III transition",
+  "gameDataCommit": "27ffb84b3446db8796c14d5c618b6e3b30efb29e",
+  "mappingBaseline": "4943f859dde713e3c4fa55c3e589777249899449",
+  "families": 76,
+  "idCount": 138,
+  "batches": [
+    {
+      "slug": "rebels-civic",
+      "title": "Rebellenallianz · Siedlung und Klimaversorgung",
+      "ticket": ".scratch/stage-ii-map-assets/issues/01-rebels-civic.md",
+      "manifest": "assets/generated/swu-stage-ii-v1/rebels-civic/manifest.json",
+      "families": 4,
+      "idCount": 17,
+      "status": "exported-reviewed",
+      "artifactVerification": {
+        "batch": "rebels-civic",
+        "families": 4,
+        "ids": 17,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "unassignedFields": [23010100, 23020100],
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
+    },
+    {
+      "slug": "rebels-energy",
+      "title": "Rebellenallianz · Fortgeschrittene Energie",
+      "ticket": ".scratch/stage-ii-map-assets/issues/02-rebels-energy.md",
+      "manifest": "assets/generated/swu-stage-ii-v1/rebels-energy/manifest.json",
+      "families": 4,
+      "idCount": 6,
+      "status": "exported-reviewed",
+      "artifactVerification": {
+        "batch": "rebels-energy",
+        "families": 4,
+        "ids": 6,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "unassignedFields": [],
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
+    },
+    {
+      "slug": "rebels-logistics",
+      "title": "Rebellenallianz · Logistik, Produktion und Forschung",
+      "ticket": ".scratch/stage-ii-map-assets/issues/03-rebels-logistics.md",
+      "manifest": "assets/generated/swu-stage-ii-v1/rebels-logistics/manifest.json",
+      "families": 4,
+      "idCount": 7,
+      "status": "exported-reviewed",
+      "artifactVerification": {
+        "batch": "rebels-logistics",
+        "families": 4,
+        "ids": 7,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "unassignedFields": [81130100],
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
+    },
+    {
+      "slug": "rebels-orbital",
+      "title": "Rebellenallianz · Orbitale Infrastruktur",
+      "ticket": ".scratch/stage-ii-map-assets/issues/04-rebels-orbital.md",
+      "manifest": "assets/generated/swu-stage-ii-v1/rebels-orbital/manifest.json",
+      "families": 4,
+      "idCount": 8,
+      "status": "exported-reviewed",
+      "artifactVerification": {
+        "batch": "rebels-orbital",
+        "families": 4,
+        "ids": 8,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "unassignedFields": [],
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
+    },
+    {
+      "slug": "rebels-modules",
+      "title": "Rebellenallianz · Modulfabriken",
+      "ticket": ".scratch/stage-ii-map-assets/issues/05-rebels-modules.md",
+      "manifest": "assets/generated/swu-stage-ii-v1/rebels-modules/manifest.json",
+      "families": 3,
+      "idCount": 6,
+      "status": "exported-reviewed",
+      "artifactVerification": {
+        "batch": "rebels-modules",
+        "families": 3,
+        "ids": 6,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "unassignedFields": [82810100, 82820100, 82830100],
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
+    },
+    {
+      "slug": "rebels-holo",
+      "title": "Rebellenallianz · Ausbildung, Holografie und Plasma",
+      "ticket": ".scratch/stage-ii-map-assets/issues/06-rebels-holo.md",
+      "manifest": "assets/generated/swu-stage-ii-v1/rebels-holo/manifest.json",
+      "families": 4,
+      "idCount": 10,
+      "status": "exported-reviewed",
+      "artifactVerification": {
+        "batch": "rebels-holo",
+        "families": 4,
+        "ids": 10,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "unassignedFields": [],
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
+    },
+    {
+      "slug": "rebels-mines",
+      "title": "Rebellenallianz · Spezialisierte Erzminen",
+      "ticket": ".scratch/stage-ii-map-assets/issues/07-rebels-mines.md",
+      "manifest": "assets/generated/swu-stage-ii-v1/rebels-mines/manifest.json",
+      "families": 5,
+      "idCount": 5,
+      "status": "exported-reviewed",
+      "artifactVerification": {
+        "batch": "rebels-mines",
+        "families": 5,
+        "ids": 5,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "unassignedFields": [],
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
+    },
+    {
+      "slug": "rebels-refineries",
+      "title": "Rebellenallianz · Spezialisierte Raffinerien",
+      "ticket": ".scratch/stage-ii-map-assets/issues/08-rebels-refineries.md",
+      "manifest": "assets/generated/swu-stage-ii-v1/rebels-refineries/manifest.json",
+      "families": 5,
+      "idCount": 5,
+      "status": "exported-reviewed",
+      "artifactVerification": {
+        "batch": "rebels-refineries",
+        "families": 5,
+        "ids": 5,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "unassignedFields": [],
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
+    },
+    {
+      "slug": "rebels-components",
+      "title": "Rebellenallianz · Spezialkomponenten",
+      "ticket": ".scratch/stage-ii-map-assets/issues/09-rebels-components.md",
+      "manifest": "assets/generated/swu-stage-ii-v1/rebels-components/manifest.json",
+      "families": 5,
+      "idCount": 5,
+      "status": "exported-reviewed",
+      "artifactVerification": {
+        "batch": "rebels-components",
+        "families": 5,
+        "ids": 5,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "unassignedFields": [],
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
+    },
+    {
+      "slug": "imperials-civic",
+      "title": "Galaktisches Imperium · Siedlung und Klimaversorgung",
+      "ticket": ".scratch/stage-ii-map-assets/issues/10-imperials-civic.md",
+      "manifest": "assets/generated/swu-stage-ii-v1/imperials-civic/manifest.json",
+      "families": 4,
+      "idCount": 17,
+      "status": "exported-reviewed",
+      "artifactVerification": {
+        "batch": "imperials-civic",
+        "families": 4,
+        "ids": 17,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "unassignedFields": [23010300, 23020300],
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
+    },
+    {
+      "slug": "imperials-energy",
+      "title": "Galaktisches Imperium · Fortgeschrittene Energie",
+      "ticket": ".scratch/stage-ii-map-assets/issues/11-imperials-energy.md",
+      "manifest": "assets/generated/swu-stage-ii-v1/imperials-energy/manifest.json",
+      "families": 4,
+      "idCount": 6,
+      "status": "exported-reviewed",
+      "artifactVerification": {
+        "batch": "imperials-energy",
+        "families": 4,
+        "ids": 6,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "unassignedFields": [],
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
+    },
+    {
+      "slug": "imperials-logistics",
+      "title": "Galaktisches Imperium · Logistik, Produktion und Forschung",
+      "ticket": ".scratch/stage-ii-map-assets/issues/12-imperials-logistics.md",
+      "manifest": "assets/generated/swu-stage-ii-v1/imperials-logistics/manifest.json",
+      "families": 4,
+      "idCount": 7,
+      "status": "exported-reviewed",
+      "artifactVerification": {
+        "batch": "imperials-logistics",
+        "families": 4,
+        "ids": 7,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "unassignedFields": [81130300],
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
+    },
+    {
+      "slug": "imperials-orbital",
+      "title": "Galaktisches Imperium · Orbitale Infrastruktur",
+      "ticket": ".scratch/stage-ii-map-assets/issues/13-imperials-orbital.md",
+      "manifest": "assets/generated/swu-stage-ii-v1/imperials-orbital/manifest.json",
+      "families": 4,
+      "idCount": 8,
+      "status": "exported-reviewed",
+      "artifactVerification": {
+        "batch": "imperials-orbital",
+        "families": 4,
+        "ids": 8,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "unassignedFields": [],
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
+    },
+    {
+      "slug": "imperials-modules",
+      "title": "Galaktisches Imperium · Modulfabriken",
+      "ticket": ".scratch/stage-ii-map-assets/issues/14-imperials-modules.md",
+      "manifest": "assets/generated/swu-stage-ii-v1/imperials-modules/manifest.json",
+      "families": 3,
+      "idCount": 6,
+      "status": "exported-reviewed",
+      "artifactVerification": {
+        "batch": "imperials-modules",
+        "families": 3,
+        "ids": 6,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "unassignedFields": [82810300, 82820300, 82830300],
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
+    },
+    {
+      "slug": "imperials-holo",
+      "title": "Galaktisches Imperium · Ausbildung, Holografie und Plasma",
+      "ticket": ".scratch/stage-ii-map-assets/issues/15-imperials-holo.md",
+      "manifest": "assets/generated/swu-stage-ii-v1/imperials-holo/manifest.json",
+      "families": 4,
+      "idCount": 10,
+      "status": "exported-reviewed",
+      "artifactVerification": {
+        "batch": "imperials-holo",
+        "families": 4,
+        "ids": 10,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "unassignedFields": [],
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
+    },
+    {
+      "slug": "imperials-mines",
+      "title": "Galaktisches Imperium · Spezialisierte Erzminen",
+      "ticket": ".scratch/stage-ii-map-assets/issues/16-imperials-mines.md",
+      "manifest": "assets/generated/swu-stage-ii-v1/imperials-mines/manifest.json",
+      "families": 5,
+      "idCount": 5,
+      "status": "exported-reviewed",
+      "artifactVerification": {
+        "batch": "imperials-mines",
+        "families": 5,
+        "ids": 5,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "unassignedFields": [],
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
+    },
+    {
+      "slug": "imperials-refineries",
+      "title": "Galaktisches Imperium · Spezialisierte Raffinerien",
+      "ticket": ".scratch/stage-ii-map-assets/issues/17-imperials-refineries.md",
+      "manifest": "assets/generated/swu-stage-ii-v1/imperials-refineries/manifest.json",
+      "families": 5,
+      "idCount": 5,
+      "status": "exported-reviewed",
+      "artifactVerification": {
+        "batch": "imperials-refineries",
+        "families": 5,
+        "ids": 5,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "unassignedFields": [],
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
+    },
+    {
+      "slug": "imperials-components",
+      "title": "Galaktisches Imperium · Spezialkomponenten",
+      "ticket": ".scratch/stage-ii-map-assets/issues/18-imperials-components.md",
+      "manifest": "assets/generated/swu-stage-ii-v1/imperials-components/manifest.json",
+      "families": 5,
+      "idCount": 5,
+      "status": "exported-reviewed",
+      "artifactVerification": {
+        "batch": "imperials-components",
+        "families": 5,
+        "ids": 5,
+        "data": true,
+        "research": true,
+        "terrain": true,
+        "unassignedFields": [],
+        "rgba256": true,
+        "masters512": true,
+        "alpha": true
+      }
+    }
+  ]
+}

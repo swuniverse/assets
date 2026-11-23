@@ -1,0 +1,22 @@
+[
+  {
+    "file": "32010100-rebels-fusionsreaktor-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 94014
+  },
+  {
+    "file": "63010100-rebels-plasmakonverter-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 102478
+  },
+  {
+    "file": "36010100-rebels-thermal-extraktor-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 76920
+  },
+  {
+    "file": "36020100-rebels-thermalkraftwerk-map-v1.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 91299
+  }
+]
