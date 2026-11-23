@@ -9,4 +9,3 @@ No text, label, lettering, logo, watermark, border, people, animals, vehicles or
 3. Climate-controlled food farm: three enclosed rectangular productive bays with broad glazed roofs, visible cultivated green beds, ventilation machinery and climate-control ducts.
 4. Climate-controlled breeding facility: four enclosed low agricultural tanks or pens around a compact processing hall with prominent controlled-environment ducts. Food production, not habitation.
 Preserve all EMPTY DOCK openings as real alpha, not dark painted areas. No shared base between buildings.
-

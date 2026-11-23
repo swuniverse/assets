@@ -8,12 +8,12 @@
   "batches": [
     {
       "slug": "rebels-civic",
-      "title": "Rebellenallianz · Siedlung und Klimaversorgung",
+      "title": "Rebellenallianz \u00b7 Siedlung und Klimaversorgung",
       "ticket": ".scratch/stage-ii-map-assets/issues/01-rebels-civic.md",
       "manifest": "assets/generated/swu-stage-ii-v1/rebels-civic/manifest.json",
       "families": 4,
       "idCount": 17,
-      "status": "exported-reviewed",
+      "status": "complete",
       "artifactVerification": {
         "batch": "rebels-civic",
         "families": 4,
@@ -25,16 +25,21 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-23"
       }
     },
     {
       "slug": "rebels-energy",
-      "title": "Rebellenallianz · Fortgeschrittene Energie",
+      "title": "Rebellenallianz \u00b7 Fortgeschrittene Energie",
       "ticket": ".scratch/stage-ii-map-assets/issues/02-rebels-energy.md",
       "manifest": "assets/generated/swu-stage-ii-v1/rebels-energy/manifest.json",
       "families": 4,
       "idCount": 6,
-      "status": "exported-reviewed",
+      "status": "complete",
       "artifactVerification": {
         "batch": "rebels-energy",
         "families": 4,
@@ -46,16 +51,21 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-23"
       }
     },
     {
       "slug": "rebels-logistics",
-      "title": "Rebellenallianz · Logistik, Produktion und Forschung",
+      "title": "Rebellenallianz \u00b7 Logistik, Produktion und Forschung",
       "ticket": ".scratch/stage-ii-map-assets/issues/03-rebels-logistics.md",
       "manifest": "assets/generated/swu-stage-ii-v1/rebels-logistics/manifest.json",
       "families": 4,
       "idCount": 7,
-      "status": "exported-reviewed",
+      "status": "complete",
       "artifactVerification": {
         "batch": "rebels-logistics",
         "families": 4,
@@ -67,16 +77,21 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-23"
       }
     },
     {
       "slug": "rebels-orbital",
-      "title": "Rebellenallianz · Orbitale Infrastruktur",
+      "title": "Rebellenallianz \u00b7 Orbitale Infrastruktur",
       "ticket": ".scratch/stage-ii-map-assets/issues/04-rebels-orbital.md",
       "manifest": "assets/generated/swu-stage-ii-v1/rebels-orbital/manifest.json",
       "families": 4,
       "idCount": 8,
-      "status": "exported-reviewed",
+      "status": "complete",
       "artifactVerification": {
         "batch": "rebels-orbital",
         "families": 4,
@@ -88,16 +103,21 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-23"
       }
     },
     {
       "slug": "rebels-modules",
-      "title": "Rebellenallianz · Modulfabriken",
+      "title": "Rebellenallianz \u00b7 Modulfabriken",
       "ticket": ".scratch/stage-ii-map-assets/issues/05-rebels-modules.md",
       "manifest": "assets/generated/swu-stage-ii-v1/rebels-modules/manifest.json",
       "families": 3,
       "idCount": 6,
-      "status": "exported-reviewed",
+      "status": "complete",
       "artifactVerification": {
         "batch": "rebels-modules",
         "families": 3,
@@ -109,16 +129,21 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-23"
       }
     },
     {
       "slug": "rebels-holo",
-      "title": "Rebellenallianz · Ausbildung, Holografie und Plasma",
+      "title": "Rebellenallianz \u00b7 Ausbildung, Holografie und Plasma",
       "ticket": ".scratch/stage-ii-map-assets/issues/06-rebels-holo.md",
       "manifest": "assets/generated/swu-stage-ii-v1/rebels-holo/manifest.json",
       "families": 4,
       "idCount": 10,
-      "status": "exported-reviewed",
+      "status": "complete",
       "artifactVerification": {
         "batch": "rebels-holo",
         "families": 4,
@@ -130,16 +155,21 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-23"
       }
     },
     {
       "slug": "rebels-mines",
-      "title": "Rebellenallianz · Spezialisierte Erzminen",
+      "title": "Rebellenallianz \u00b7 Spezialisierte Erzminen",
       "ticket": ".scratch/stage-ii-map-assets/issues/07-rebels-mines.md",
       "manifest": "assets/generated/swu-stage-ii-v1/rebels-mines/manifest.json",
       "families": 5,
       "idCount": 5,
-      "status": "exported-reviewed",
+      "status": "complete",
       "artifactVerification": {
         "batch": "rebels-mines",
         "families": 5,
@@ -151,16 +181,21 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-23"
       }
     },
     {
       "slug": "rebels-refineries",
-      "title": "Rebellenallianz · Spezialisierte Raffinerien",
+      "title": "Rebellenallianz \u00b7 Spezialisierte Raffinerien",
       "ticket": ".scratch/stage-ii-map-assets/issues/08-rebels-refineries.md",
       "manifest": "assets/generated/swu-stage-ii-v1/rebels-refineries/manifest.json",
       "families": 5,
       "idCount": 5,
-      "status": "exported-reviewed",
+      "status": "complete",
       "artifactVerification": {
         "batch": "rebels-refineries",
         "families": 5,
@@ -172,16 +207,21 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-23"
       }
     },
     {
       "slug": "rebels-components",
-      "title": "Rebellenallianz · Spezialkomponenten",
+      "title": "Rebellenallianz \u00b7 Spezialkomponenten",
       "ticket": ".scratch/stage-ii-map-assets/issues/09-rebels-components.md",
       "manifest": "assets/generated/swu-stage-ii-v1/rebels-components/manifest.json",
       "families": 5,
       "idCount": 5,
-      "status": "exported-reviewed",
+      "status": "complete",
       "artifactVerification": {
         "batch": "rebels-components",
         "families": 5,
@@ -193,16 +233,21 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-23"
       }
     },
     {
       "slug": "imperials-civic",
-      "title": "Galaktisches Imperium · Siedlung und Klimaversorgung",
+      "title": "Galaktisches Imperium \u00b7 Siedlung und Klimaversorgung",
       "ticket": ".scratch/stage-ii-map-assets/issues/10-imperials-civic.md",
       "manifest": "assets/generated/swu-stage-ii-v1/imperials-civic/manifest.json",
       "families": 4,
       "idCount": 17,
-      "status": "exported-reviewed",
+      "status": "complete",
       "artifactVerification": {
         "batch": "imperials-civic",
         "families": 4,
@@ -214,16 +259,21 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-23"
       }
     },
     {
       "slug": "imperials-energy",
-      "title": "Galaktisches Imperium · Fortgeschrittene Energie",
+      "title": "Galaktisches Imperium \u00b7 Fortgeschrittene Energie",
       "ticket": ".scratch/stage-ii-map-assets/issues/11-imperials-energy.md",
       "manifest": "assets/generated/swu-stage-ii-v1/imperials-energy/manifest.json",
       "families": 4,
       "idCount": 6,
-      "status": "exported-reviewed",
+      "status": "complete",
       "artifactVerification": {
         "batch": "imperials-energy",
         "families": 4,
@@ -235,16 +285,21 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-23"
       }
     },
     {
       "slug": "imperials-logistics",
-      "title": "Galaktisches Imperium · Logistik, Produktion und Forschung",
+      "title": "Galaktisches Imperium \u00b7 Logistik, Produktion und Forschung",
       "ticket": ".scratch/stage-ii-map-assets/issues/12-imperials-logistics.md",
       "manifest": "assets/generated/swu-stage-ii-v1/imperials-logistics/manifest.json",
       "families": 4,
       "idCount": 7,
-      "status": "exported-reviewed",
+      "status": "complete",
       "artifactVerification": {
         "batch": "imperials-logistics",
         "families": 4,
@@ -256,16 +311,21 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-23"
       }
     },
     {
       "slug": "imperials-orbital",
-      "title": "Galaktisches Imperium · Orbitale Infrastruktur",
+      "title": "Galaktisches Imperium \u00b7 Orbitale Infrastruktur",
       "ticket": ".scratch/stage-ii-map-assets/issues/13-imperials-orbital.md",
       "manifest": "assets/generated/swu-stage-ii-v1/imperials-orbital/manifest.json",
       "families": 4,
       "idCount": 8,
-      "status": "exported-reviewed",
+      "status": "complete",
       "artifactVerification": {
         "batch": "imperials-orbital",
         "families": 4,
@@ -277,16 +337,21 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-23"
       }
     },
     {
       "slug": "imperials-modules",
-      "title": "Galaktisches Imperium · Modulfabriken",
+      "title": "Galaktisches Imperium \u00b7 Modulfabriken",
       "ticket": ".scratch/stage-ii-map-assets/issues/14-imperials-modules.md",
       "manifest": "assets/generated/swu-stage-ii-v1/imperials-modules/manifest.json",
       "families": 3,
       "idCount": 6,
-      "status": "exported-reviewed",
+      "status": "complete",
       "artifactVerification": {
         "batch": "imperials-modules",
         "families": 3,
@@ -298,16 +363,21 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-23"
       }
     },
     {
       "slug": "imperials-holo",
-      "title": "Galaktisches Imperium · Ausbildung, Holografie und Plasma",
+      "title": "Galaktisches Imperium \u00b7 Ausbildung, Holografie und Plasma",
       "ticket": ".scratch/stage-ii-map-assets/issues/15-imperials-holo.md",
       "manifest": "assets/generated/swu-stage-ii-v1/imperials-holo/manifest.json",
       "families": 4,
       "idCount": 10,
-      "status": "exported-reviewed",
+      "status": "complete",
       "artifactVerification": {
         "batch": "imperials-holo",
         "families": 4,
@@ -319,16 +389,21 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-23"
       }
     },
     {
       "slug": "imperials-mines",
-      "title": "Galaktisches Imperium · Spezialisierte Erzminen",
+      "title": "Galaktisches Imperium \u00b7 Spezialisierte Erzminen",
       "ticket": ".scratch/stage-ii-map-assets/issues/16-imperials-mines.md",
       "manifest": "assets/generated/swu-stage-ii-v1/imperials-mines/manifest.json",
       "families": 5,
       "idCount": 5,
-      "status": "exported-reviewed",
+      "status": "complete",
       "artifactVerification": {
         "batch": "imperials-mines",
         "families": 5,
@@ -340,16 +415,21 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-23"
       }
     },
     {
       "slug": "imperials-refineries",
-      "title": "Galaktisches Imperium · Spezialisierte Raffinerien",
+      "title": "Galaktisches Imperium \u00b7 Spezialisierte Raffinerien",
       "ticket": ".scratch/stage-ii-map-assets/issues/17-imperials-refineries.md",
       "manifest": "assets/generated/swu-stage-ii-v1/imperials-refineries/manifest.json",
       "families": 5,
       "idCount": 5,
-      "status": "exported-reviewed",
+      "status": "complete",
       "artifactVerification": {
         "batch": "imperials-refineries",
         "families": 5,
@@ -361,16 +441,21 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-23"
       }
     },
     {
       "slug": "imperials-components",
-      "title": "Galaktisches Imperium · Spezialkomponenten",
+      "title": "Galaktisches Imperium \u00b7 Spezialkomponenten",
       "ticket": ".scratch/stage-ii-map-assets/issues/18-imperials-components.md",
       "manifest": "assets/generated/swu-stage-ii-v1/imperials-components/manifest.json",
       "families": 5,
       "idCount": 5,
-      "status": "exported-reviewed",
+      "status": "complete",
       "artifactVerification": {
         "batch": "imperials-components",
         "families": 5,
@@ -382,6 +467,11 @@
         "rgba256": true,
         "masters512": true,
         "alpha": true
+      },
+      "finalVerification": {
+        "data": "full-verification.json",
+        "browser": "browser-verification.json",
+        "date": "2026-11-23"
       }
     }
   ]

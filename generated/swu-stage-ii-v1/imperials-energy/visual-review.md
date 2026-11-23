@@ -5,3 +5,5 @@ Quelle, production-overview.png sowie terrain-review.png geprüft. Hohe Draufsic
 Imperialer Thermal-Extraktor: sechs eingeschlossene Zwischenräume durch dokumentierte alphaSeeds im Manifest freigestellt, Ergebnis auf dunklem Hintergrund und Spezialterrain kontrolliert.
 
 Parent-Prüfung am 2026-11-23. Finale Integration und gemeinsame Browserprüfung noch ausstehend.
+
+Abschluss: separate Zuordnungs-/HTTP-/dev-browser-Prüfung bestanden; 138 Varianten, 576 geladene Bilder, 112 Gebäudezustände und 76 Menübilder. Kein Ladefehler oder Überlauf.

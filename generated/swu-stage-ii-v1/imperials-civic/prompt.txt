@@ -9,4 +9,3 @@ No text, label, lettering, logo, watermark, border, people, animals, vehicles or
 3. Climate-controlled Bantha farm: broad enclosed livestock barn with three covered pens and heavy climate-control ducts, food-production processing hall. NO visible animals, green crop beds or residential rooms.
 4. Climate-controlled Nerf breeding facility: broad rectangular livestock sheds with four covered breeding pens around food-processing machinery, roof ventilators and heavy climate-regulation ducts. NO visible animals or crop beds.
 Preserve all EMPTY DOCK openings as real alpha, not dark painted areas. No shared base between buildings.
-

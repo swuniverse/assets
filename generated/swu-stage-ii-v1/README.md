@@ -227,4 +227,6 @@ node assets/generated/swu-stage-ii-v1/full-verify.cjs
 DEV_BROWSER_HOME=/private/tmp/swu-stage-ii-dev-browser dev-browser --headless -b swu-stage-ii-assets -t 30 run assets/generated/swu-stage-ii-v1/dev-browser-check.js
 ```
 
-Produktion und unmittelbare Prüfung abgeschlossen; separate Zuordnungs-/HTTP-/Browserprüfung ausstehend.
+Vollständig verifiziert: 76 Familien / 138 IDs; 576 geladene Bilder, 112 aktive/inaktive/beschädigte/im-Bau-Zustände, 76 Menübilder bei 40px, 138 FieldCells bei 68px. Keine Ladefehler oder Überläufe. Exakter Resolver und bytegleiche HTTP-Auslieferung aller 76 Bilder bestanden.
+
+[Daten-/Resolver-/HTTP-Protokoll](full-verification.json) · [dev-browser-Protokoll](browser-verification.json) · [Varianten im Browser](browser-variants.png) · [Gebäudezustände im Browser](browser-states.png).

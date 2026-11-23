@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-23",
+  "passed": true,
+  "checks": [
+    {
+      "file": "assets/buildings/generated/85130100-rebels-korvetten-werft-map-v1.png",
+      "x": 128,
+      "y": 128,
+      "alpha": 0,
+      "expected": 0
+    },
+    {
+      "file": "assets/buildings/generated/85130300-imperials-korvetten-werft-map-v1.png",
+      "x": 128,
+      "y": 128,
+      "alpha": 0,
+      "expected": 0
+    },
+    {
+      "file": "assets/generated/swu-stage-ii-v1/imperials-energy/source-alpha.png",
+      "x": 180,
+      "y": 680,
+      "alpha": 0,
+      "expected": 0
+    },
+    {
+      "file": "assets/generated/swu-stage-ii-v1/imperials-energy/source-alpha.png",
+      "x": 180,
+      "y": 745,
+      "alpha": 0,
+      "expected": 0
+    },
+    {
+      "file": "assets/generated/swu-stage-ii-v1/imperials-energy/source-alpha.png",
+      "x": 180,
+      "y": 805,
+      "alpha": 0,
+      "expected": 0
+    },
+    {
+      "file": "assets/generated/swu-stage-ii-v1/imperials-energy/source-alpha.png",
+      "x": 350,
+      "y": 680,
+      "alpha": 0,
+      "expected": 0
+    },
+    {
+      "file": "assets/generated/swu-stage-ii-v1/imperials-energy/source-alpha.png",
+      "x": 350,
+      "y": 745,
+      "alpha": 0,
+      "expected": 0
+    },
+    {
+      "file": "assets/generated/swu-stage-ii-v1/imperials-energy/source-alpha.png",
+      "x": 350,
+      "y": 805,
+      "alpha": 0,
+      "expected": 0
+    },
+    {
+      "file": "assets/generated/swu-stage-ii-v1/imperials-logistics/source-alpha.png",
+      "x": 644,
+      "y": 253,
+      "alpha": 1,
+      "expected": 1
+    },
+    {
+      "file": "assets/generated/swu-stage-ii-v1/imperials-logistics/source-alpha.png",
+      "x": 880,
+      "y": 253,
+      "alpha": 1,
+      "expected": 1
+    },
+    {
+      "file": "assets/generated/swu-stage-ii-v1/imperials-logistics/source-alpha.png",
+      "x": 758,
+      "y": 430,
+      "alpha": 0,
+      "expected": 0
+    }
+  ]
+}

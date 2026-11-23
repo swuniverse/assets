@@ -77,7 +77,7 @@ m.generation = {
       : 'preserved generated alpha',
 };
 fs.writeFileSync(mp, JSON.stringify(m, null, 2) + '\n');
-fs.writeFileSync(path.join(dir, 'prompt.txt'), r.prompt + '\n');
+fs.writeFileSync(path.join(dir, 'prompt.txt'), r.prompt.trimEnd() + '\n');
 cp.execFileSync('python3', [path.join(__dirname, 'pipeline.py'), slug], {
   stdio: 'inherit',
 });

@@ -5,10 +5,7 @@
   "data": true,
   "research": true,
   "terrain": true,
-  "unassignedFields": [
-    23010100,
-    23020100
-  ],
+  "unassignedFields": [23010100, 23020100],
   "rgba256": true,
   "masters512": true,
   "alpha": true
