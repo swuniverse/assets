@@ -1,0 +1,7 @@
+Use case: precise-object-edit. Edit this Rebel settlement sprite.
+Preserve its SIX-building layout, four low rectangular cream buildings, two cream domes, orange fabric shade, paved footprint, broad smooth simple geometry and all palette relationships.
+Change ONLY the camera and outside background.
+Camera: HIGH NEAR-VERTICAL ORTHOGRAPHIC aerial view, elevation 80 degrees above the ground. See MOSTLY ROOFS, about 85% roof and only 15% shallow front wall. Do not make the compound taller. No low isometric camera.
+Outside the exact compound silhouette: a SINGLE PERFECTLY UNIFORM FLAT PURE MAGENTA backing, RGB(255,0,255), hex #FF00FF, so it can be removed for a transparent game sprite. THIS IS NOT TRANSPARENT PREVIEW: paint the outside solid pure magenta. No checkerboard, no black backdrop, no gradient, no halo, no vignette, no scene lighting or shadow on the magenta. No loose shadow around the compound. Preserve only tight contact occlusion within the building/foundation.
+Center the complete compound within the square, with at least 80px pure magenta clearance to all four edges. No cropping, no text, no additional objects.
+Keep the broad matte cream roofs clean, no added surface detail or realism.

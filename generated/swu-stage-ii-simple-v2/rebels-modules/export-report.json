@@ -1,0 +1,17 @@
+[
+  {
+    "file": "82810100-rebel-waffenmodulfabrik-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 95947
+  },
+  {
+    "file": "82820100-rebel-schildmodulfabrik-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 102883
+  },
+  {
+    "file": "82830100-rebel-antriebsmodulfabrik-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 83449
+  }
+]

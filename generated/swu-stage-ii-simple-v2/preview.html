@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Forschungsstufe-II-Assets · vollständige Abschlussprüfung</title>
+    <style>
+      body {
+        margin: 0;
+        background: #0d1021;
+        color: #edf0fa;
+        font:
+          14px system-ui,
+          sans-serif;
+      }
+      main {
+        max-width: 1050px;
+        margin: 18px auto;
+        padding: 0 20px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      h2 {
+        font-size: 18px;
+        margin: 22px 0 12px;
+      }
+      #report {
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        background: #17382c;
+        padding: 12px;
+        color: #9ce9c5;
+        font-weight: 600;
+      }
+      .variant-grid {
+        display: grid;
+        grid-template-columns: repeat(12, 68px);
+        gap: 12px 10px;
+      }
+      .field {
+        width: 68px;
+      }
+      small {
+        display: block;
+        font-size: 9px;
+        color: #aab8cd;
+        text-align: center;
+      }
+      .states {
+        display: grid;
+        grid-template-columns: 240px repeat(4, 68px);
+        gap: 10px 18px;
+        align-items: center;
+      }
+      .states strong {
+        font-size: 11px;
+      }
+      .label {
+        color: #e0e6ee;
+        font-size: 13px;
+      }
+      .menu {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+      }
+      .menu-grid {
+        display: grid;
+        grid-template-columns: repeat(7, 110px);
+        gap: 16px;
+      }
+      .menu-grid > div {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Gebäude beider Fraktionen · Forschungsstufe II</h1>
+      <p>
+        76 Familien / 138 IDs, einschließlich Forschungszentrum III als
+        Übergang. Vorhandene Terrainkacheln und die Spielkomponente zeigen alle
+        Varianten. Bei fehlenden Feldfreigaben ist das Terrain nur eine
+        Kompositionsvorschau.
+      </p>
+      <div id="report">Prüfung läuft …</div>
+      <div id="app"></div>
+    </main>
+    <script type="module">
+      import RefreshRuntime from '/@react-refresh';
+      RefreshRuntime.injectIntoGlobalHook(window);
+      window.$RefreshReg$ = () => {};
+      window.$RefreshSig$ = () => (type) => type;
+      window.__vite_plugin_react_preamble_installed__ = true;
+    </script>
+    <script
+      type="module"
+      src="/@fs/Users/TMUNDIN/git/github.com/swuniverse/core/assets/generated/swu-stage-ii-simple-v2/preview.js"
+    ></script>
+  </body>
+</html>

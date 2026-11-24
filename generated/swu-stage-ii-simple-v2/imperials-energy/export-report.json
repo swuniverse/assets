@@ -1,0 +1,22 @@
+[
+  {
+    "file": "32010300-imperial-fusionsreaktor-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 87620
+  },
+  {
+    "file": "63010300-imperial-plasmakonverter-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 75607
+  },
+  {
+    "file": "36010300-imperial-thermal-extraktor-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 86986
+  },
+  {
+    "file": "36020300-imperial-thermalkraftwerk-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 63697
+  }
+]

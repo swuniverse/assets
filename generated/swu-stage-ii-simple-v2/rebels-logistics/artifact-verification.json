@@ -1,0 +1,14 @@
+{
+  "batch": "rebels-logistics",
+  "families": 4,
+  "ids": 7,
+  "data": true,
+  "research": true,
+  "terrain": true,
+  "unassignedFields": [
+    81130100
+  ],
+  "rgba256": true,
+  "masters512": true,
+  "alpha": true
+}

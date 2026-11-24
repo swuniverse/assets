@@ -1,0 +1,387 @@
+{
+  "version": 1,
+  "faction": "REBEL_ALLIANCE",
+  "batch": "rebels-components",
+  "title": "Rebellenallianz · Spezialkomponenten",
+  "gameDataCommit": "27ffb84b3446db8796c14d5c618b6e3b30efb29e",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/rebels.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "source-alpha.png",
+  "grid": {
+    "columns": 3,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [
+        37010100
+      ],
+      "label": "Hyperraum-Spulen-Fabrik",
+      "displayName": "Hyperraum-Spulen-Fabrik",
+      "slug": "hyperraum-spulen-fabrik",
+      "cell": 0,
+      "researchId": 904101,
+      "requires": [
+        {
+          "type": "EXCLUDE",
+          "techIds": [
+            901101,
+            903101,
+            904201,
+            904301,
+            905101
+          ]
+        },
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            254201
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 37010100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "37010100-rebel-hyperraum-spulen-fabrik-map-v2.png",
+      "master": "masters/37010100-hyperraum-spulen-fabrik.png",
+      "production": [
+        {
+          "commodityId": 22,
+          "amount": -1
+        },
+        {
+          "commodityId": 34,
+          "amount": 1
+        }
+      ],
+      "previousFile": "37010100-rebels-hyperraum-spulen-fabrik-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        69,
+        121,
+        413,
+        363
+      ]
+    },
+    {
+      "ids": [
+        37020100
+      ],
+      "label": "Laminanium-Schaltkreis-Fabrik",
+      "displayName": "Laminanium-Schaltkreis-Fabrik",
+      "slug": "laminanium-schaltkreis-fabrik",
+      "cell": 1,
+      "researchId": 903101,
+      "requires": [
+        {
+          "type": "EXCLUDE",
+          "techIds": [
+            901101,
+            903201,
+            903301,
+            904101,
+            905101
+          ]
+        },
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            254301
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 37020100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "37020100-rebel-laminanium-schaltkreis-fabrik-map-v2.png",
+      "master": "masters/37020100-laminanium-schaltkreis-fabrik.png",
+      "production": [
+        {
+          "commodityId": 23,
+          "amount": -1
+        },
+        {
+          "commodityId": 33,
+          "amount": 1
+        }
+      ],
+      "previousFile": "37020100-rebels-laminanium-schaltkreis-fabrik-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        549,
+        128,
+        443,
+        356
+      ]
+    },
+    {
+      "ids": [
+        37030100
+      ],
+      "label": "Phasenkonverter-Fabrik",
+      "displayName": "Phasenkonverter-Fabrik",
+      "slug": "phasenkonverter-fabrik",
+      "cell": 2,
+      "researchId": 905101,
+      "requires": [
+        {
+          "type": "EXCLUDE",
+          "techIds": [
+            901101,
+            903101,
+            904101,
+            905201,
+            905301
+          ]
+        },
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            254401
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 37030100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "37030100-rebel-phasenkonverter-fabrik-map-v2.png",
+      "master": "masters/37030100-phasenkonverter-fabrik.png",
+      "production": [
+        {
+          "commodityId": 24,
+          "amount": -1
+        },
+        {
+          "commodityId": 35,
+          "amount": 1
+        }
+      ],
+      "previousFile": "37030100-rebels-phasenkonverter-fabrik-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        1053,
+        133,
+        412,
+        356
+      ]
+    },
+    {
+      "ids": [
+        37040100
+      ],
+      "label": "Speicherchip-Fabrik",
+      "displayName": "Speicherchip-Fabrik",
+      "slug": "speicherchip-fabrik",
+      "cell": 3,
+      "researchId": 901101,
+      "requires": [
+        {
+          "type": "EXCLUDE",
+          "techIds": [
+            901201,
+            901301,
+            903101,
+            904101,
+            905101
+          ]
+        },
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            254501
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 37040100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "37040100-rebel-speicherchip-fabrik-map-v2.png",
+      "master": "masters/37040100-speicherchip-fabrik.png",
+      "production": [
+        {
+          "commodityId": 25,
+          "amount": -1
+        },
+        {
+          "commodityId": 31,
+          "amount": 1
+        }
+      ],
+      "previousFile": "37040100-rebels-speicherchip-fabrik-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        77,
+        570,
+        417,
+        333
+      ]
+    },
+    {
+      "ids": [
+        37050100
+      ],
+      "label": "Mikrodyne-Fabrik",
+      "displayName": "Mikrodyne-Fabrik",
+      "slug": "mikrodyne-fabrik",
+      "cell": 4,
+      "researchId": 906101,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            254601,
+            254601
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 37050100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "37050100-rebel-mikrodyne-fabrik-map-v2.png",
+      "master": "masters/37050100-mikrodyne-fabrik.png",
+      "production": [
+        {
+          "commodityId": 26,
+          "amount": -1
+        },
+        {
+          "commodityId": 36,
+          "amount": 1
+        }
+      ],
+      "previousFile": "37050100-rebels-mikrodyne-fabrik-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        562,
+        580,
+        393,
+        330
+      ]
+    }
+  ],
+  "styleReference": "style/rebel-reference-magenta.png",
+  "originalSource": "edit-20261123-170517-5a401d-simple-v2-rebels-components.png",
+  "generation": {
+    "tool": "edit_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.053,
+    "alphaMethod": "12% sampled-magenta chroma-key extraction, including enclosed orbital openings; original source preserved"
+  },
+  "protectedAlphaRegions": [
+    {
+      "ellipse": [
+        1152,
+        317,
+        39,
+        39
+      ],
+      "reason": "Visually reviewed violet technical core inside the compound; preserve original source alpha"
+    },
+    {
+      "ellipse": [
+        1347,
+        317,
+        39,
+        39
+      ],
+      "reason": "Visually reviewed violet technical core inside the compound; preserve original source alpha"
+    }
+  ]
+}

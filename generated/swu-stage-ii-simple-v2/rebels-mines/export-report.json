@@ -1,0 +1,27 @@
+[
+  {
+    "file": "16010100-rebel-galazit-mine-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 92631
+  },
+  {
+    "file": "16020100-rebel-nitrium-mine-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 92533
+  },
+  {
+    "file": "16030100-rebel-magnesit-mine-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 89281
+  },
+  {
+    "file": "16040100-rebel-neuranium-mine-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 92407
+  },
+  {
+    "file": "16050100-rebel-talgonit-mine-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 87228
+  }
+]

@@ -1,0 +1,276 @@
+{
+  "version": 1,
+  "faction": "REBEL_ALLIANCE",
+  "batch": "rebels-holo",
+  "title": "Rebellenallianz · Ausbildung, Holografie und Plasma",
+  "gameDataCommit": "27ffb84b3446db8796c14d5c618b6e3b30efb29e",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/rebels.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "source-alpha.png",
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [
+        41010100,
+        41010199
+      ],
+      "label": "Allianz-Schule",
+      "displayName": "Allianz-Schule",
+      "slug": "allianz-schule",
+      "cell": 0,
+      "researchId": 300101,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            200201
+          ]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 41010100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "41010100-rebel-allianz-schule-map-v2.png",
+      "master": "masters/41010100-allianz-schule.png",
+      "production": [
+        {
+          "commodityId": 1001,
+          "amount": 42
+        },
+        {
+          "commodityId": 1601,
+          "amount": 1
+        }
+      ],
+      "previousFile": "41010100-rebels-allianz-schule-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        33,
+        59,
+        458,
+        361
+      ]
+    },
+    {
+      "ids": [
+        42010100,
+        42010199
+      ],
+      "label": "Holo-Simulator",
+      "displayName": "Holo-Simulator",
+      "slug": "holo-simulator",
+      "cell": 1,
+      "researchId": 300301,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            300401
+          ]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 42010100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "42010100-rebel-holo-simulator-map-v2.png",
+      "master": "masters/42010100-holo-simulator.png",
+      "production": [
+        {
+          "commodityId": 1001,
+          "amount": 105
+        },
+        {
+          "commodityId": 1699,
+          "amount": -1
+        }
+      ],
+      "previousFile": "42010100-rebels-holo-simulator-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        539,
+        80,
+        433,
+        359
+      ]
+    },
+    {
+      "ids": [
+        42020100,
+        42020199
+      ],
+      "label": "Holo-Generator",
+      "displayName": "Holo-Generator",
+      "slug": "holo-generator",
+      "cell": 2,
+      "researchId": 300401,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            200201
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 42020100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "42020100-rebel-holo-generator-map-v2.png",
+      "master": "masters/42020100-holo-generator.png",
+      "production": [
+        {
+          "commodityId": 1699,
+          "amount": 1
+        }
+      ],
+      "previousFile": "42020100-rebels-holo-generator-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        81,
+        579,
+        367,
+        333
+      ]
+    },
+    {
+      "ids": [
+        86000100,
+        86000101,
+        86000102,
+        86000103
+      ],
+      "label": "Plasma-Extraktor",
+      "displayName": "Plasma-Extraktor",
+      "slug": "plasma-extraktor",
+      "cell": 3,
+      "researchId": 10002301,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            101201
+          ]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 86000100,
+      "previews": [
+        {
+          "code": 942,
+          "label": "942",
+          "file": "generated/fields/942.png"
+        },
+        {
+          "code": 943,
+          "label": "943",
+          "file": "generated/fields/943.png"
+        },
+        {
+          "code": 944,
+          "label": "944",
+          "file": "generated/fields/944.png"
+        }
+      ],
+      "file": "86000100-rebel-plasma-extraktor-map-v2.png",
+      "master": "masters/86000100-plasma-extraktor.png",
+      "production": [
+        {
+          "commodityId": 7,
+          "amount": 5
+        }
+      ],
+      "previousFile": "86000100-rebels-plasma-extraktor-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        532,
+        558,
+        427,
+        377
+      ]
+    }
+  ],
+  "styleReference": "style/rebel-reference-magenta.png",
+  "originalSource": "edit-20261123-170422-0a9148-simple-v2-rebels-holo.png",
+  "generation": {
+    "tool": "edit_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.0644,
+    "alphaMethod": "12% sampled-magenta chroma-key extraction, including enclosed orbital openings; original source preserved"
+  },
+  "protectedAlphaRegions": [
+    {
+      "ellipse": [
+        744,
+        725,
+        61,
+        59
+      ],
+      "reason": "Visually reviewed violet technical core inside the compound; preserve original source alpha"
+    }
+  ]
+}

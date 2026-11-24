@@ -1,0 +1,267 @@
+{
+  "version": 1,
+  "faction": "GALACTIC_EMPIRE",
+  "batch": "imperials-orbital",
+  "title": "Galaktisches Imperium · Orbitale Infrastruktur",
+  "gameDataCommit": "27ffb84b3446db8796c14d5c618b6e3b30efb29e",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/imperials.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "source-alpha.png",
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [
+        71910300,
+        71910399
+      ],
+      "label": "Orbitales Forschungslabor",
+      "displayName": "Orbitales Forschungslabor",
+      "slug": "orbitales-forschungslabor",
+      "cell": 0,
+      "researchId": 201203,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            270303
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 71910300,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        },
+        {
+          "code": 900,
+          "label": "900",
+          "file": "generated/fields/900.png"
+        },
+        {
+          "code": 901,
+          "label": "901",
+          "file": "generated/fields/901.png"
+        }
+      ],
+      "file": "71910300-imperial-orbitales-forschungslabor-map-v2.png",
+      "master": "masters/71910300-orbitales-forschungslabor.png",
+      "production": [
+        {
+          "commodityId": 1700,
+          "amount": 1
+        },
+        {
+          "commodityId": 1801,
+          "amount": -1
+        }
+      ],
+      "previousFile": "71910300-imperials-orbitales-forschungslabor-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        50,
+        68,
+        408,
+        345
+      ]
+    },
+    {
+      "ids": [
+        21910300,
+        21910399
+      ],
+      "label": "Anti-Grav Trainingszentrum",
+      "displayName": "Anti-Grav Trainingszentrum",
+      "slug": "anti-grav-trainingszentrum",
+      "cell": 1,
+      "researchId": 271103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            270303
+          ]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 21910300,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        },
+        {
+          "code": 900,
+          "label": "900",
+          "file": "generated/fields/900.png"
+        },
+        {
+          "code": 901,
+          "label": "901",
+          "file": "generated/fields/901.png"
+        }
+      ],
+      "file": "21910300-imperial-anti-grav-trainingszentrum-map-v2.png",
+      "master": "masters/21910300-anti-grav-trainingszentrum.png",
+      "production": [
+        {
+          "commodityId": 1300,
+          "amount": 56
+        },
+        {
+          "commodityId": 1801,
+          "amount": -1
+        }
+      ],
+      "previousFile": "21910300-imperials-anti-grav-trainingszentrum-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        572,
+        84,
+        390,
+        327
+      ]
+    },
+    {
+      "ids": [
+        11910300,
+        11910399
+      ],
+      "label": "Orbital-Habitat",
+      "displayName": "Orbital-Habitat",
+      "slug": "orbital-habitat",
+      "cell": 2,
+      "researchId": 271303,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            270303
+          ]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 11910300,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        },
+        {
+          "code": 900,
+          "label": "900",
+          "file": "generated/fields/900.png"
+        },
+        {
+          "code": 901,
+          "label": "901",
+          "file": "generated/fields/901.png"
+        }
+      ],
+      "file": "11910300-imperial-orbital-habitat-map-v2.png",
+      "master": "masters/11910300-orbital-habitat.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": -1
+        }
+      ],
+      "previousFile": "11910300-imperials-orbital-habitat-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        53,
+        587,
+        404,
+        351
+      ]
+    },
+    {
+      "ids": [
+        85130300,
+        85130399
+      ],
+      "label": "Korvetten-Werft",
+      "displayName": "Korvetten-Werft",
+      "slug": "korvetten-werft",
+      "cell": 3,
+      "researchId": 275303,
+      "requires": [
+        {
+          "type": "REQUIRE_SOME",
+          "techIds": [
+            200203
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 85130300,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        },
+        {
+          "code": 900,
+          "label": "900",
+          "file": "generated/fields/900.png"
+        },
+        {
+          "code": 901,
+          "label": "901",
+          "file": "generated/fields/901.png"
+        }
+      ],
+      "file": "85130300-imperial-korvetten-werft-map-v2.png",
+      "master": "masters/85130300-korvetten-werft.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": -1
+        },
+        {
+          "commodityId": 1802,
+          "amount": -1
+        }
+      ],
+      "previousFile": "85130300-imperials-korvetten-werft-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        540,
+        597,
+        442,
+        339
+      ]
+    }
+  ],
+  "styleReference": "style/imperial-reference-magenta.png",
+  "originalSource": "edit-20261123-170842-bc242d-simple-v2-imperials-orbital.png",
+  "generation": {
+    "tool": "edit_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.0646,
+    "alphaMethod": "12% sampled-magenta chroma-key extraction, including enclosed orbital openings; original source preserved"
+  }
+}

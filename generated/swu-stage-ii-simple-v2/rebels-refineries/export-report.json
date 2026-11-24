@@ -1,0 +1,27 @@
+[
+  {
+    "file": "26010100-rebel-galazit-raffinerie-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 92689
+  },
+  {
+    "file": "26020100-rebel-nitrium-raffinerie-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 72372
+  },
+  {
+    "file": "26030100-rebel-magnesit-raffinerie-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 83118
+  },
+  {
+    "file": "26040100-rebel-neuranium-raffinerie-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 89454
+  },
+  {
+    "file": "26050100-rebel-talgonit-raffinerie-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 73726
+  }
+]

@@ -1,0 +1,802 @@
+{
+  "date": "2026-11-24",
+  "files": [
+    {
+      "file": "13010300-imperial-siedlung-map-v2.png",
+      "alphaBounds": [
+        6,
+        30,
+        250,
+        226
+      ]
+    },
+    {
+      "file": "23030300-imperial-klimakontrollzentrum-map-v2.png",
+      "alphaBounds": [
+        6,
+        24,
+        250,
+        232
+      ]
+    },
+    {
+      "file": "23010300-imperial-klimakontroll-bantha-farm-map-v2.png",
+      "alphaBounds": [
+        6,
+        36,
+        250,
+        219
+      ]
+    },
+    {
+      "file": "23020300-imperial-klimakontroll-nerf-zucht-map-v2.png",
+      "alphaBounds": [
+        6,
+        27,
+        250,
+        229
+      ]
+    },
+    {
+      "file": "37010103-imperial-hyperraum-spulen-fabrik-map-v2.png",
+      "alphaBounds": [
+        6,
+        14,
+        250,
+        242
+      ]
+    },
+    {
+      "file": "37020103-imperial-laminanium-schaltkreis-fabrik-map-v2.png",
+      "alphaBounds": [
+        6,
+        11,
+        250,
+        246
+      ]
+    },
+    {
+      "file": "37030103-imperial-phasenkonverter-fabrik-map-v2.png",
+      "alphaBounds": [
+        6,
+        13,
+        250,
+        243
+      ]
+    },
+    {
+      "file": "37040103-imperial-speicherchip-fabrik-map-v2.png",
+      "alphaBounds": [
+        6,
+        13,
+        250,
+        243
+      ]
+    },
+    {
+      "file": "37050103-imperial-mikrodyne-fabrik-map-v2.png",
+      "alphaBounds": [
+        6,
+        16,
+        250,
+        240
+      ]
+    },
+    {
+      "file": "32010300-imperial-fusionsreaktor-map-v2.png",
+      "alphaBounds": [
+        6,
+        16,
+        250,
+        239
+      ]
+    },
+    {
+      "file": "63010300-imperial-plasmakonverter-map-v2.png",
+      "alphaBounds": [
+        6,
+        35,
+        250,
+        221
+      ]
+    },
+    {
+      "file": "36010300-imperial-thermal-extraktor-map-v2.png",
+      "alphaBounds": [
+        6,
+        11,
+        250,
+        246
+      ]
+    },
+    {
+      "file": "36020300-imperial-thermalkraftwerk-map-v2.png",
+      "alphaBounds": [
+        6,
+        45,
+        250,
+        211
+      ]
+    },
+    {
+      "file": "41010300-imperial-kampftrainingslager-map-v2.png",
+      "alphaBounds": [
+        6,
+        12,
+        250,
+        244
+      ]
+    },
+    {
+      "file": "42010300-imperial-holo-simulator-map-v2.png",
+      "alphaBounds": [
+        7,
+        6,
+        249,
+        250
+      ]
+    },
+    {
+      "file": "42020300-imperial-holo-generator-map-v2.png",
+      "alphaBounds": [
+        6,
+        15,
+        250,
+        241
+      ]
+    },
+    {
+      "file": "86000300-imperial-plasma-extraktor-map-v2.png",
+      "alphaBounds": [
+        6,
+        29,
+        250,
+        227
+      ]
+    },
+    {
+      "file": "85900300-imperial-frachtkontainer-depot-map-v2.png",
+      "alphaBounds": [
+        6,
+        36,
+        250,
+        220
+      ]
+    },
+    {
+      "file": "81130300-imperial-raumhafen-map-v2.png",
+      "alphaBounds": [
+        6,
+        28,
+        250,
+        228
+      ]
+    },
+    {
+      "file": "84800300-imperial-produktionshalle-map-v2.png",
+      "alphaBounds": [
+        6,
+        40,
+        250,
+        216
+      ]
+    },
+    {
+      "file": "74010300-imperial-forschungszentrum-stufe-iii-map-v2.png",
+      "alphaBounds": [
+        6,
+        29,
+        250,
+        226
+      ]
+    },
+    {
+      "file": "16010103-imperial-galazit-mine-map-v2.png",
+      "alphaBounds": [
+        6,
+        26,
+        250,
+        230
+      ]
+    },
+    {
+      "file": "16020103-imperial-nitrium-mine-map-v2.png",
+      "alphaBounds": [
+        6,
+        29,
+        250,
+        227
+      ]
+    },
+    {
+      "file": "16030103-imperial-magnesit-mine-map-v2.png",
+      "alphaBounds": [
+        6,
+        32,
+        250,
+        223
+      ]
+    },
+    {
+      "file": "16040103-imperial-neuranium-mine-map-v2.png",
+      "alphaBounds": [
+        6,
+        32,
+        250,
+        224
+      ]
+    },
+    {
+      "file": "16050103-imperial-talgonit-mine-map-v2.png",
+      "alphaBounds": [
+        6,
+        50,
+        250,
+        206
+      ]
+    },
+    {
+      "file": "82810300-imperial-waffenmodulfabrik-map-v2.png",
+      "alphaBounds": [
+        6,
+        14,
+        250,
+        242
+      ]
+    },
+    {
+      "file": "82820300-imperial-schildmodulfabrik-map-v2.png",
+      "alphaBounds": [
+        7,
+        6,
+        248,
+        250
+      ]
+    },
+    {
+      "file": "82830300-imperial-antriebsmodulfabrik-map-v2.png",
+      "alphaBounds": [
+        47,
+        6,
+        209,
+        250
+      ]
+    },
+    {
+      "file": "71910300-imperial-orbitales-forschungslabor-map-v2.png",
+      "alphaBounds": [
+        6,
+        24,
+        250,
+        231
+      ]
+    },
+    {
+      "file": "21910300-imperial-anti-grav-trainingszentrum-map-v2.png",
+      "alphaBounds": [
+        6,
+        25,
+        250,
+        230
+      ]
+    },
+    {
+      "file": "11910300-imperial-orbital-habitat-map-v2.png",
+      "alphaBounds": [
+        6,
+        22,
+        250,
+        234
+      ]
+    },
+    {
+      "file": "85130300-imperial-korvetten-werft-map-v2.png",
+      "alphaBounds": [
+        6,
+        34,
+        250,
+        222
+      ]
+    },
+    {
+      "file": "26010103-imperial-galazit-raffinerie-map-v2.png",
+      "alphaBounds": [
+        6,
+        21,
+        250,
+        235
+      ]
+    },
+    {
+      "file": "26020103-imperial-nitrium-raffinerie-map-v2.png",
+      "alphaBounds": [
+        6,
+        16,
+        250,
+        240
+      ]
+    },
+    {
+      "file": "26030103-imperial-magnesit-raffinerie-map-v2.png",
+      "alphaBounds": [
+        6,
+        25,
+        250,
+        230
+      ]
+    },
+    {
+      "file": "26040103-imperial-neuranium-raffinerie-map-v2.png",
+      "alphaBounds": [
+        6,
+        28,
+        250,
+        228
+      ]
+    },
+    {
+      "file": "26050103-imperial-talgonit-raffinerie-map-v2.png",
+      "alphaBounds": [
+        6,
+        29,
+        250,
+        227
+      ]
+    },
+    {
+      "file": "13010100-rebel-siedlung-map-v2.png",
+      "alphaBounds": [
+        17,
+        6,
+        239,
+        250
+      ]
+    },
+    {
+      "file": "23030100-rebel-klimakontrollzentrum-map-v2.png",
+      "alphaBounds": [
+        14,
+        6,
+        242,
+        250
+      ]
+    },
+    {
+      "file": "23010100-rebel-klimakontroll-farm-map-v2.png",
+      "alphaBounds": [
+        10,
+        6,
+        246,
+        250
+      ]
+    },
+    {
+      "file": "23020100-rebel-klimakontroll-zuchtanlage-map-v2.png",
+      "alphaBounds": [
+        6,
+        27,
+        250,
+        229
+      ]
+    },
+    {
+      "file": "37010100-rebel-hyperraum-spulen-fabrik-map-v2.png",
+      "alphaBounds": [
+        6,
+        20,
+        250,
+        235
+      ]
+    },
+    {
+      "file": "37020100-rebel-laminanium-schaltkreis-fabrik-map-v2.png",
+      "alphaBounds": [
+        6,
+        30,
+        250,
+        226
+      ]
+    },
+    {
+      "file": "37030100-rebel-phasenkonverter-fabrik-map-v2.png",
+      "alphaBounds": [
+        6,
+        22,
+        250,
+        234
+      ]
+    },
+    {
+      "file": "37040100-rebel-speicherchip-fabrik-map-v2.png",
+      "alphaBounds": [
+        6,
+        30,
+        250,
+        226
+      ]
+    },
+    {
+      "file": "37050100-rebel-mikrodyne-fabrik-map-v2.png",
+      "alphaBounds": [
+        6,
+        25,
+        250,
+        231
+      ]
+    },
+    {
+      "file": "32010100-rebel-fusionsreaktor-map-v2.png",
+      "alphaBounds": [
+        6,
+        26,
+        250,
+        229
+      ]
+    },
+    {
+      "file": "63010100-rebel-plasmakonverter-map-v2.png",
+      "alphaBounds": [
+        6,
+        45,
+        250,
+        211
+      ]
+    },
+    {
+      "file": "36010100-rebel-thermal-extraktor-map-v2.png",
+      "alphaBounds": [
+        6,
+        44,
+        250,
+        212
+      ]
+    },
+    {
+      "file": "36020100-rebel-thermalkraftwerk-map-v2.png",
+      "alphaBounds": [
+        6,
+        37,
+        250,
+        218
+      ]
+    },
+    {
+      "file": "41010100-rebel-allianz-schule-map-v2.png",
+      "alphaBounds": [
+        6,
+        31,
+        250,
+        224
+      ]
+    },
+    {
+      "file": "42010100-rebel-holo-simulator-map-v2.png",
+      "alphaBounds": [
+        6,
+        26,
+        250,
+        229
+      ]
+    },
+    {
+      "file": "42020100-rebel-holo-generator-map-v2.png",
+      "alphaBounds": [
+        6,
+        17,
+        250,
+        239
+      ]
+    },
+    {
+      "file": "86000100-rebel-plasma-extraktor-map-v2.png",
+      "alphaBounds": [
+        6,
+        20,
+        250,
+        236
+      ]
+    },
+    {
+      "file": "85900100-rebel-frachtkontainer-depot-map-v2.png",
+      "alphaBounds": [
+        6,
+        9,
+        250,
+        247
+      ]
+    },
+    {
+      "file": "81130100-rebel-raumhafen-map-v2.png",
+      "alphaBounds": [
+        6,
+        25,
+        250,
+        231
+      ]
+    },
+    {
+      "file": "84800100-rebel-produktionshalle-map-v2.png",
+      "alphaBounds": [
+        6,
+        20,
+        250,
+        236
+      ]
+    },
+    {
+      "file": "74010100-rebel-forschungszentrum-stufe-iii-map-v2.png",
+      "alphaBounds": [
+        6,
+        31,
+        250,
+        225
+      ]
+    },
+    {
+      "file": "16010100-rebel-galazit-mine-map-v2.png",
+      "alphaBounds": [
+        6,
+        16,
+        250,
+        240
+      ]
+    },
+    {
+      "file": "16020100-rebel-nitrium-mine-map-v2.png",
+      "alphaBounds": [
+        6,
+        20,
+        250,
+        236
+      ]
+    },
+    {
+      "file": "16030100-rebel-magnesit-mine-map-v2.png",
+      "alphaBounds": [
+        6,
+        33,
+        250,
+        223
+      ]
+    },
+    {
+      "file": "16040100-rebel-neuranium-mine-map-v2.png",
+      "alphaBounds": [
+        6,
+        18,
+        250,
+        238
+      ]
+    },
+    {
+      "file": "16050100-rebel-talgonit-mine-map-v2.png",
+      "alphaBounds": [
+        6,
+        23,
+        250,
+        233
+      ]
+    },
+    {
+      "file": "82810100-rebel-waffenmodulfabrik-map-v2.png",
+      "alphaBounds": [
+        6,
+        10,
+        250,
+        247
+      ]
+    },
+    {
+      "file": "82820100-rebel-schildmodulfabrik-map-v2.png",
+      "alphaBounds": [
+        6,
+        16,
+        250,
+        240
+      ]
+    },
+    {
+      "file": "82830100-rebel-antriebsmodulfabrik-map-v2.png",
+      "alphaBounds": [
+        6,
+        31,
+        250,
+        226
+      ]
+    },
+    {
+      "file": "71910100-rebel-orbitales-forschungslabor-map-v2.png",
+      "alphaBounds": [
+        6,
+        27,
+        250,
+        229
+      ]
+    },
+    {
+      "file": "21910100-rebel-orbital-fallstation-map-v2.png",
+      "alphaBounds": [
+        6,
+        24,
+        250,
+        232
+      ]
+    },
+    {
+      "file": "11910100-rebel-orbital-habitat-map-v2.png",
+      "alphaBounds": [
+        6,
+        25,
+        250,
+        231
+      ]
+    },
+    {
+      "file": "85130100-rebel-korvetten-werft-map-v2.png",
+      "alphaBounds": [
+        6,
+        22,
+        250,
+        234
+      ]
+    },
+    {
+      "file": "26010100-rebel-galazit-raffinerie-map-v2.png",
+      "alphaBounds": [
+        6,
+        22,
+        250,
+        233
+      ]
+    },
+    {
+      "file": "26020100-rebel-nitrium-raffinerie-map-v2.png",
+      "alphaBounds": [
+        6,
+        42,
+        250,
+        214
+      ]
+    },
+    {
+      "file": "26030100-rebel-magnesit-raffinerie-map-v2.png",
+      "alphaBounds": [
+        6,
+        24,
+        250,
+        231
+      ]
+    },
+    {
+      "file": "26040100-rebel-neuranium-raffinerie-map-v2.png",
+      "alphaBounds": [
+        6,
+        30,
+        250,
+        225
+      ]
+    },
+    {
+      "file": "26050100-rebel-talgonit-raffinerie-map-v2.png",
+      "alphaBounds": [
+        6,
+        43,
+        250,
+        213
+      ]
+    }
+  ],
+  "protectedCores": [
+    {
+      "batch": "imperials-components",
+      "ellipse": [
+        1153,
+        174,
+        18,
+        17
+      ],
+      "sourcePixelsUnchanged": 955
+    },
+    {
+      "batch": "imperials-components",
+      "ellipse": [
+        1153,
+        328,
+        18,
+        17
+      ],
+      "sourcePixelsUnchanged": 955
+    },
+    {
+      "batch": "imperials-holo",
+      "ellipse": [
+        744,
+        724,
+        54,
+        53
+      ],
+      "sourcePixelsUnchanged": 8979
+    },
+    {
+      "batch": "rebels-components",
+      "ellipse": [
+        1152,
+        317,
+        39,
+        39
+      ],
+      "sourcePixelsUnchanged": 4769
+    },
+    {
+      "batch": "rebels-components",
+      "ellipse": [
+        1347,
+        317,
+        39,
+        39
+      ],
+      "sourcePixelsUnchanged": 4769
+    },
+    {
+      "batch": "rebels-holo",
+      "ellipse": [
+        744,
+        725,
+        61,
+        59
+      ],
+      "sourcePixelsUnchanged": 11285
+    }
+  ],
+  "openings": [
+    {
+      "id": 85130100,
+      "sourcePoint": [
+        700,
+        740
+      ],
+      "runtimePoint": [
+        87,
+        128
+      ],
+      "alpha": 0
+    },
+    {
+      "id": 85130300,
+      "sourcePoint": [
+        760,
+        770
+      ],
+      "runtimePoint": [
+        127,
+        130
+      ],
+      "alpha": 0
+    },
+    {
+      "id": 81130300,
+      "sourcePoint": [
+        660,
+        270
+      ],
+      "runtimePoint": [
+        71,
+        126
+      ],
+      "alpha": 0
+    },
+    {
+      "id": 81130300,
+      "sourcePoint": [
+        860,
+        270
+      ],
+      "runtimePoint": [
+        183,
+        126
+      ],
+      "alpha": 0
+    }
+  ],
+  "result": "passed"
+}

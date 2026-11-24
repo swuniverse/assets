@@ -1,0 +1,164 @@
+{
+  "version": 1,
+  "faction": "GALACTIC_EMPIRE",
+  "batch": "imperials-modules",
+  "title": "Galaktisches Imperium · Modulfabriken",
+  "gameDataCommit": "27ffb84b3446db8796c14d5c618b6e3b30efb29e",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/imperials.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "source-alpha.png",
+  "grid": {
+    "columns": 2,
+    "rows": 1
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [
+        82810300,
+        82810399
+      ],
+      "label": "Waffenmodulfabrik",
+      "displayName": "Waffenmodulfabrik",
+      "slug": "waffenmodulfabrik",
+      "cell": -1,
+      "researchId": 281203,
+      "requires": [
+        {
+          "type": "REQUIRE_SOME",
+          "techIds": [
+            280103
+          ]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "unassigned-fields",
+      "permissionBuildingId": 82810300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Kompositionsvorschau (keine Feldfreigabe)",
+          "file": "generated/SWUfields/tC119.png"
+        }
+      ],
+      "file": "82810300-imperial-waffenmodulfabrik-map-v2.png",
+      "master": "masters/82810300-waffenmodulfabrik.png",
+      "production": [
+        {
+          "commodityId": 1810,
+          "amount": -1
+        }
+      ],
+      "previousFile": "82810300-imperials-waffenmodulfabrik-map-v1.png",
+      "approvedSample": true,
+      "approvedStyleMaster": "style/imperial/master-512.png"
+    },
+    {
+      "ids": [
+        82820300,
+        82820399
+      ],
+      "label": "Schildmodulfabrik",
+      "displayName": "Schildmodulfabrik",
+      "slug": "schildmodulfabrik",
+      "cell": 0,
+      "researchId": 282203,
+      "requires": [
+        {
+          "type": "REQUIRE_SOME",
+          "techIds": [
+            280103
+          ]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "unassigned-fields",
+      "permissionBuildingId": 82820300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Kompositionsvorschau (keine Feldfreigabe)",
+          "file": "generated/SWUfields/tC119.png"
+        }
+      ],
+      "file": "82820300-imperial-schildmodulfabrik-map-v2.png",
+      "master": "masters/82820300-schildmodulfabrik.png",
+      "production": [
+        {
+          "commodityId": 1810,
+          "amount": -1
+        }
+      ],
+      "previousFile": "82820300-imperials-schildmodulfabrik-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        43,
+        257,
+        499,
+        506
+      ]
+    },
+    {
+      "ids": [
+        82830300,
+        82830399
+      ],
+      "label": "Antriebsmodulfabrik",
+      "displayName": "Antriebsmodulfabrik",
+      "slug": "antriebsmodulfabrik",
+      "cell": 1,
+      "researchId": 283203,
+      "requires": [
+        {
+          "type": "REQUIRE_SOME",
+          "techIds": [
+            280103
+          ]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "unassigned-fields",
+      "permissionBuildingId": 82830300,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Kompositionsvorschau (keine Feldfreigabe)",
+          "file": "generated/SWUfields/tC119.png"
+        }
+      ],
+      "file": "82830300-imperial-antriebsmodulfabrik-map-v2.png",
+      "master": "masters/82830300-antriebsmodulfabrik.png",
+      "production": [
+        {
+          "commodityId": 1810,
+          "amount": -1
+        }
+      ],
+      "previousFile": "82830300-imperials-antriebsmodulfabrik-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        595,
+        215,
+        382,
+        579
+      ]
+    }
+  ],
+  "styleReference": "style/imperial-reference-magenta.png",
+  "originalSource": "edit-20261123-165332-1f238a-simple-v2-imperials-modules.png",
+  "generation": {
+    "tool": "edit_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.064,
+    "alphaMethod": "12% sampled-magenta chroma-key extraction, including enclosed orbital openings; original source preserved"
+  }
+}

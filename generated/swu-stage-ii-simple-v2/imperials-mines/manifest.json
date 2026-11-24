@@ -1,0 +1,381 @@
+{
+  "version": 1,
+  "faction": "GALACTIC_EMPIRE",
+  "batch": "imperials-mines",
+  "title": "Galaktisches Imperium · Spezialisierte Erzminen",
+  "gameDataCommit": "27ffb84b3446db8796c14d5c618b6e3b30efb29e",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/imperials.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "source-alpha.png",
+  "grid": {
+    "columns": 3,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [
+        16010103
+      ],
+      "label": "Galazit-Mine",
+      "displayName": "Cortosis-Mine",
+      "slug": "galazit-mine",
+      "cell": 0,
+      "researchId": 250203,
+      "requires": [
+        {
+          "type": "EXCLUDE",
+          "techIds": [
+            250303,
+            250403,
+            250503,
+            250603,
+            251203,
+            252203
+          ]
+        },
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            200203
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 16010103,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": 701,
+          "label": "701",
+          "file": "generated/fields/701.png"
+        },
+        {
+          "code": 702,
+          "label": "702",
+          "file": "generated/fields/702.png"
+        }
+      ],
+      "file": "16010103-imperial-galazit-mine-map-v2.png",
+      "master": "masters/16010103-galazit-mine.png",
+      "production": [
+        {
+          "commodityId": 12,
+          "amount": 8
+        },
+        {
+          "commodityId": 1512,
+          "amount": -1
+        }
+      ],
+      "previousFile": "16010103-imperials-galazit-mine-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        44,
+        76,
+        421,
+        354
+      ]
+    },
+    {
+      "ids": [
+        16020103
+      ],
+      "label": "Nitrium-Mine",
+      "displayName": "Laminanium-Mine",
+      "slug": "nitrium-mine",
+      "cell": 1,
+      "researchId": 250303,
+      "requires": [
+        {
+          "type": "EXCLUDE",
+          "techIds": [
+            250203,
+            250403,
+            250503,
+            250603,
+            251303,
+            252303
+          ]
+        },
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            200203
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 16020103,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": 701,
+          "label": "701",
+          "file": "generated/fields/701.png"
+        },
+        {
+          "code": 702,
+          "label": "702",
+          "file": "generated/fields/702.png"
+        }
+      ],
+      "file": "16020103-imperial-nitrium-mine-map-v2.png",
+      "master": "masters/16020103-nitrium-mine.png",
+      "production": [
+        {
+          "commodityId": 13,
+          "amount": 8
+        },
+        {
+          "commodityId": 1513,
+          "amount": -1
+        }
+      ],
+      "previousFile": "16020103-imperials-nitrium-mine-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        559,
+        86,
+        424,
+        343
+      ]
+    },
+    {
+      "ids": [
+        16030103
+      ],
+      "label": "Magnesit-Mine",
+      "displayName": "Quadranium-Mine",
+      "slug": "magnesit-mine",
+      "cell": 2,
+      "researchId": 250403,
+      "requires": [
+        {
+          "type": "EXCLUDE",
+          "techIds": [
+            250203,
+            250303,
+            250503,
+            250603,
+            251403,
+            252403
+          ]
+        },
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            200203
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 16030103,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": 701,
+          "label": "701",
+          "file": "generated/fields/701.png"
+        },
+        {
+          "code": 702,
+          "label": "702",
+          "file": "generated/fields/702.png"
+        }
+      ],
+      "file": "16030103-imperial-magnesit-mine-map-v2.png",
+      "master": "masters/16030103-magnesit-mine.png",
+      "production": [
+        {
+          "commodityId": 14,
+          "amount": 8
+        },
+        {
+          "commodityId": 1514,
+          "amount": -1
+        }
+      ],
+      "previousFile": "16030103-imperials-magnesit-mine-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        1064,
+        93,
+        429,
+        336
+      ]
+    },
+    {
+      "ids": [
+        16040103
+      ],
+      "label": "Neuranium-Mine",
+      "displayName": "Neuranium-Mine",
+      "slug": "neuranium-mine",
+      "cell": 3,
+      "researchId": 250503,
+      "requires": [
+        {
+          "type": "EXCLUDE",
+          "techIds": [
+            250203,
+            250303,
+            250403,
+            250603,
+            251503,
+            252503
+          ]
+        },
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            200203
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 16040103,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": 701,
+          "label": "701",
+          "file": "generated/fields/701.png"
+        },
+        {
+          "code": 702,
+          "label": "702",
+          "file": "generated/fields/702.png"
+        }
+      ],
+      "file": "16040103-imperial-neuranium-mine-map-v2.png",
+      "master": "masters/16040103-neuranium-mine.png",
+      "production": [
+        {
+          "commodityId": 15,
+          "amount": 8
+        },
+        {
+          "commodityId": 1515,
+          "amount": -1
+        }
+      ],
+      "previousFile": "16040103-imperials-neuranium-mine-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        42,
+        578,
+        417,
+        328
+      ]
+    },
+    {
+      "ids": [
+        16050103
+      ],
+      "label": "Talgonit-Mine",
+      "displayName": "Bronzium-Mine",
+      "slug": "talgonit-mine",
+      "cell": 4,
+      "researchId": 250603,
+      "requires": [
+        {
+          "type": "EXCLUDE",
+          "techIds": [
+            250203,
+            250303,
+            250403,
+            250503,
+            251603,
+            252603
+          ]
+        },
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            200203
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 16050103,
+      "previews": [
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": 701,
+          "label": "701",
+          "file": "generated/fields/701.png"
+        },
+        {
+          "code": 702,
+          "label": "702",
+          "file": "generated/fields/702.png"
+        }
+      ],
+      "file": "16050103-imperial-talgonit-mine-map-v2.png",
+      "master": "masters/16050103-talgonit-mine.png",
+      "production": [
+        {
+          "commodityId": 16,
+          "amount": 8
+        },
+        {
+          "commodityId": 1516,
+          "amount": -1
+        }
+      ],
+      "previousFile": "16050103-imperials-talgonit-mine-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        552,
+        632,
+        428,
+        274
+      ]
+    }
+  ],
+  "styleReference": "style/imperial-reference-magenta.png",
+  "originalSource": "edit-20261123-171019-5872de-simple-v2-imperials-mines.png",
+  "generation": {
+    "tool": "edit_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.0531,
+    "alphaMethod": "12% sampled-magenta chroma-key extraction, including enclosed orbital openings; original source preserved"
+  }
+}

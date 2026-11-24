@@ -1,0 +1,27 @@
+[
+  {
+    "file": "16010103-imperial-galazit-mine-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 78414
+  },
+  {
+    "file": "16020103-imperial-nitrium-mine-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 73410
+  },
+  {
+    "file": "16030103-imperial-magnesit-mine-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 78906
+  },
+  {
+    "file": "16040103-imperial-neuranium-mine-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 72346
+  },
+  {
+    "file": "16050103-imperial-talgonit-mine-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 66236
+  }
+]

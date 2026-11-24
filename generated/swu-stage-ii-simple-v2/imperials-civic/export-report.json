@@ -1,0 +1,22 @@
+[
+  {
+    "file": "13010300-imperial-siedlung-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 80232
+  },
+  {
+    "file": "23030300-imperial-klimakontrollzentrum-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 82721
+  },
+  {
+    "file": "23010300-imperial-klimakontroll-bantha-farm-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 66240
+  },
+  {
+    "file": "23020300-imperial-klimakontroll-nerf-zucht-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 79228
+  }
+]

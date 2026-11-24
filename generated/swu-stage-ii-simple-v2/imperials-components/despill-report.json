@@ -1,0 +1,25 @@
+{
+  "method": "Only purple colour spill connected to transparent backing; reviewed emissive cores protected with original source alpha",
+  "pixelsRemoved": 9390,
+  "pixelsAlphaRestored": 0,
+  "protectedRegions": [
+    {
+      "ellipse": [
+        1153,
+        174,
+        18,
+        17
+      ],
+      "reason": "Visually reviewed violet technical core inside the compound; preserve original source alpha"
+    },
+    {
+      "ellipse": [
+        1153,
+        328,
+        18,
+        17
+      ],
+      "reason": "Visually reviewed violet technical core inside the compound; preserve original source alpha"
+    }
+  ]
+}

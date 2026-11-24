@@ -1,0 +1,15 @@
+{
+  "batch": "rebels-civic",
+  "families": 4,
+  "ids": 17,
+  "data": true,
+  "research": true,
+  "terrain": true,
+  "unassignedFields": [
+    23010100,
+    23020100
+  ],
+  "rgba256": true,
+  "masters512": true,
+  "alpha": true
+}

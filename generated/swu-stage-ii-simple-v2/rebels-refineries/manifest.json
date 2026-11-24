@@ -1,0 +1,326 @@
+{
+  "version": 1,
+  "faction": "REBEL_ALLIANCE",
+  "batch": "rebels-refineries",
+  "title": "Rebellenallianz · Spezialisierte Raffinerien",
+  "gameDataCommit": "27ffb84b3446db8796c14d5c618b6e3b30efb29e",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/rebels.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "source-alpha.png",
+  "grid": {
+    "columns": 3,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [
+        26010100
+      ],
+      "label": "Galazit-Raffinerie",
+      "displayName": "Cortosis-Raffinerie",
+      "slug": "galazit-raffinerie",
+      "cell": 0,
+      "researchId": 254201,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            250201
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 26010100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "26010100-rebel-galazit-raffinerie-map-v2.png",
+      "master": "masters/26010100-galazit-raffinerie.png",
+      "production": [
+        {
+          "commodityId": 12,
+          "amount": -8
+        },
+        {
+          "commodityId": 22,
+          "amount": 1
+        }
+      ],
+      "previousFile": "26010100-rebels-galazit-raffinerie-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        42,
+        55,
+        437,
+        377
+      ]
+    },
+    {
+      "ids": [
+        26020100
+      ],
+      "label": "Nitrium-Raffinerie",
+      "displayName": "Laminanium-Raffinerie",
+      "slug": "nitrium-raffinerie",
+      "cell": 1,
+      "researchId": 254301,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            250301
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 26020100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "26020100-rebel-nitrium-raffinerie-map-v2.png",
+      "master": "masters/26020100-nitrium-raffinerie.png",
+      "production": [
+        {
+          "commodityId": 13,
+          "amount": -8
+        },
+        {
+          "commodityId": 23,
+          "amount": 1
+        }
+      ],
+      "previousFile": "26020100-rebels-nitrium-raffinerie-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        550,
+        136,
+        432,
+        304
+      ]
+    },
+    {
+      "ids": [
+        26030100
+      ],
+      "label": "Magnesit-Raffinerie",
+      "displayName": "Quadranium-Raffinerie",
+      "slug": "magnesit-raffinerie",
+      "cell": 2,
+      "researchId": 254401,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            250401
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 26030100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "26030100-rebel-magnesit-raffinerie-map-v2.png",
+      "master": "masters/26030100-magnesit-raffinerie.png",
+      "production": [
+        {
+          "commodityId": 14,
+          "amount": -8
+        },
+        {
+          "commodityId": 24,
+          "amount": 1
+        }
+      ],
+      "previousFile": "26030100-rebels-magnesit-raffinerie-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        1049,
+        82,
+        454,
+        384
+      ]
+    },
+    {
+      "ids": [
+        26040100
+      ],
+      "label": "Neuranium-Raffinerie",
+      "displayName": "Neuranium-Raffinerie",
+      "slug": "neuranium-raffinerie",
+      "cell": 3,
+      "researchId": 254501,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            250501
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 26040100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "26040100-rebel-neuranium-raffinerie-map-v2.png",
+      "master": "masters/26040100-neuranium-raffinerie.png",
+      "production": [
+        {
+          "commodityId": 15,
+          "amount": -8
+        },
+        {
+          "commodityId": 25,
+          "amount": 1
+        }
+      ],
+      "previousFile": "26040100-rebels-neuranium-raffinerie-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        41,
+        568,
+        439,
+        352
+      ]
+    },
+    {
+      "ids": [
+        26050100
+      ],
+      "label": "Talgonit-Raffinerie",
+      "displayName": "Bronzium-Raffinerie",
+      "slug": "talgonit-raffinerie",
+      "cell": 4,
+      "researchId": 254601,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            250601
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 26050100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "26050100-rebel-talgonit-raffinerie-map-v2.png",
+      "master": "masters/26050100-talgonit-raffinerie.png",
+      "production": [
+        {
+          "commodityId": 16,
+          "amount": -8
+        },
+        {
+          "commodityId": 26,
+          "amount": 1
+        }
+      ],
+      "previousFile": "26050100-rebels-talgonit-raffinerie-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        550,
+        601,
+        435,
+        303
+      ]
+    }
+  ],
+  "styleReference": "style/rebel-reference-magenta.png",
+  "originalSource": "edit-20261123-170557-693cc5-simple-v2-rebels-refineries.png",
+  "generation": {
+    "tool": "edit_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.053,
+    "alphaMethod": "12% sampled-magenta chroma-key extraction, including enclosed orbital openings; original source preserved"
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "file": "82810300-imperial-waffenmodulfabrik-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 90714
+  },
+  {
+    "file": "82820300-imperial-schildmodulfabrik-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 99293
+  },
+  {
+    "file": "82830300-imperial-antriebsmodulfabrik-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 69826
+  }
+]

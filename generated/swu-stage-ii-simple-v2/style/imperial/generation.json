@@ -1,0 +1,40 @@
+{
+  "model": "gpt-image-2",
+  "prompt": "Use case: precise-object-edit. Edit this Imperial weapons-module factory sprite.\nPreserve its TWO broad light-gray roof bays, two black-red laser-module service cradles, compact industrial foundation, clean smooth simple geometry, few dark insets and sparse red accents. Preserve the existing brightness and broad material faces; no added detail or gritty textures.\nChange ONLY camera and outer background.\nCamera: HIGH ORTHOGRAPHIC near-vertical aerial camera, elevation 80 degrees above the ground, see primarily roofs with only very shallow front walls. Broad low building footprint, no tall walls or low isometric view.\nOutside the exact compound silhouette: a SINGLE PERFECTLY UNIFORM FLAT PURE MAGENTA backing, RGB(255,0,255), hex #FF00FF. THIS IS A CHROMA-KEY BACKING, not a transparency preview: all outside pixels should be the same bright magenta. No checkerboard, no black, no gradient, no halo, no vignette, no lighting or shadow on the magenta. Preserve tight structural contact occlusion only within the facility.\nCenter the entire factory with at least 80px pure magenta clearance to all image edges. No cropping, no text, no new buildings, no spacecraft or people.",
+  "requested": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "n": 1,
+    "format": "png"
+  },
+  "applied": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "background": null,
+    "output_format": "png"
+  },
+  "images": [
+    {
+      "file_path": "/Users/TMUNDIN/git/github.com/swuniverse/core/output/imagegen/fz2-simple-style-v2/imperial-weapons/edit-20261123-163642-e9064f-imperial-weapons-simple-v2-fin.png",
+      "filename": "edit-20261123-163642-e9064f-imperial-weapons-simple-v2-fin.png",
+      "size_bytes": 1236876,
+      "mime_type": "image/png"
+    }
+  ],
+  "usage": {
+    "total_tokens": 3038,
+    "input_tokens": 1282,
+    "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 258
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+    }
+  },
+  "cost_usd_estimated": 0.0622,
+  "route": "direct",
+  "previewTool": "edit_image"
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-23",
+  "status": "approved",
+  "approval": "User: die neuen sind viel besser; save style for later buildings and apply remaining FZ2 series",
+  "items": [
+    {
+      "faction": "rebel",
+      "approvedBuildingId": 13010100,
+      "master": "style/rebel/master-512.png",
+      "png": "style/rebel/preview-256.png",
+      "reference": "style/rebel-reference-magenta.png",
+      "original": "style/rebel/edit-20261123-163504-dfbeda-rebel-settlement-simple-v2-fin.png",
+      "initialOriginal": "style/rebel/edit-20261123-163109-6de2d2-rebel-settlement-simple-v2.png"
+    },
+    {
+      "faction": "imperial",
+      "approvedBuildingId": 82810300,
+      "master": "style/imperial/master-512.png",
+      "png": "style/imperial/preview-256.png",
+      "reference": "style/imperial-reference-magenta.png",
+      "original": "style/imperial/edit-20261123-163642-e9064f-imperial-weapons-simple-v2-fin.png",
+      "initialOriginal": "style/imperial/edit-20261123-163401-222a21-imperial-weapons-simple-v2.png"
+    }
+  ]
+}

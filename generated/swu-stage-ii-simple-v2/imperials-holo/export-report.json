@@ -1,0 +1,22 @@
+[
+  {
+    "file": "41010300-imperial-kampftrainingslager-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 87084
+  },
+  {
+    "file": "42010300-imperial-holo-simulator-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 87251
+  },
+  {
+    "file": "42020300-imperial-holo-generator-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 93039
+  },
+  {
+    "file": "86000300-imperial-plasma-extraktor-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 70052
+  }
+]

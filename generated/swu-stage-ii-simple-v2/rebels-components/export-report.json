@@ -1,0 +1,27 @@
+[
+  {
+    "file": "37010100-rebel-hyperraum-spulen-fabrik-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 94239
+  },
+  {
+    "file": "37020100-rebel-laminanium-schaltkreis-fabrik-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 79310
+  },
+  {
+    "file": "37030100-rebel-phasenkonverter-fabrik-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 98346
+  },
+  {
+    "file": "37040100-rebel-speicherchip-fabrik-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 78875
+  },
+  {
+    "file": "37050100-rebel-mikrodyne-fabrik-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 85104
+  }
+]

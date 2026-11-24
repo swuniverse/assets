@@ -1,0 +1,39 @@
+{
+  "model": "gpt-image-2",
+  "prompt": "Use case: stylized-concept / style-transfer. Asset type: Star Wars SWUniverse colony-map building sprites.\nInput image: ONE USER-APPROVED SIMPLE STYLE REFERENCE ONLY. It establishes the smooth broad matte faces, clean chunky geometry, macro detail density, light-facing roofs, exact near-overhead camera, soft shading and palette. Create the NEW function-specific buildings listed below; never copy the reference subject or its layout.\nArt direction: simple pre-rendered 3D RTS game sprite. Broad clean roof plates, softly beveled or rounded macro forms, 5-8 readable structural masses per compound. Sparse thick functional machinery and dark recesses, no fine decorative texture. Restrained studio-like upper-left light and ambient occlusion only inside structural joints. Bright readable roof faces at 40px and 68px.\nCamera: HIGH ORTHOGRAPHIC NEAR-VERTICAL aerial view, elevation 80 degrees above the ground. Roofs dominate, front walls extremely shallow; match reference. Broad low colony footprints; no tall monuments or scenic camera.\nBackground: all space outside each silhouette must be a SINGLE PERFECTLY UNIFORM PURE MAGENTA CHROMA-KEY backing, RGB(255,0,255), hex #FF00FF. Paint magenta, not a transparency preview. No checkerboard, gradient, vignette, halo, fog, black backdrop or shadows on magenta. Preserve tight occlusion only within structures. OPEN ORBITAL DOCKS and gaps between orbital struts must show the SAME PURE MAGENTA as outside, never a dark painted void. No solid orbital floor or background plate.\nConstraints: no photorealism, gritty PBR, micro-panel grids, scratches, grunge, corrosion, stippled dirt, bolts everywhere, dense greebles or tangled pipe forests. No text, numbers, logos, watermark, borders, people, animals, vehicles, ships, stars, landscape or terrain. Surface facilities may retain only a compact functional paved foundation following the footprint.\nPalette: clean warm ivory-cream duracrete, slate-dark gray technical insets, very few muted rust-orange trims. Subtle broad material shading, not dirty weathering. Match approved cream reference.\nLayout: EXACTLY FOUR separate compounds on 1024x1024, 2x2 grid, each in its own 512x512 cell. Order TOP LEFT, TOP RIGHT, BOTTOM LEFT, BOTTOM RIGHT. Each compound at most 430px across with at least 35px solid magenta clearance to its cell edges. Preserve continuous empty magenta corridors along ALL grid boundaries; NEVER cross a cell boundary or share a foundation.\n1. Orbital research laboratory: free-floating compact multi-lobed scientific facility with three blue-glass lab modules, central instrument core and short radial connectors. Entire background uniform pure magenta background.\n2. Orbital food drop station: free-floating agricultural supply platform with broad enclosed green cultivation bays, central cargo-transfer hub and small closed supply capsules. No ships or landscape.\n3. Orbital habitat: free-floating habitation complex of four broad pressurized modules around a central life-support hub; compact solar wings and blue window strips. No ground, planet or stars.\n4. Corvette shipyard: large EMPTY open docking frame, two parallel service rails joined on one side to broad repair workshops. Interior dock must be OPEN PURE MAGENTA BACKGROUND, no floor plate, shadow plane, spacecraft, scaffolding filling the hole or star background.\nKeep the simplified geometry, clear functional silhouette and same camera across every compound.\n",
+  "requested": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "n": 1,
+    "format": "png"
+  },
+  "applied": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "background": null,
+    "output_format": "png"
+  },
+  "images": [
+    {
+      "file_path": "/Users/TMUNDIN/git/github.com/swuniverse/core/assets/generated/swu-stage-ii-simple-v2/rebels-orbital/edit-20261123-170050-36727e-simple-v2-rebels-orbital.png",
+      "filename": "edit-20261123-170050-36727e-simple-v2-rebels-orbital.png",
+      "size_bytes": 1111671,
+      "mime_type": "image/png"
+    }
+  ],
+  "usage": {
+    "total_tokens": 3503,
+    "input_tokens": 1747,
+    "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 723
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+    }
+  },
+  "cost_usd_estimated": 0.0645,
+  "route": "direct"
+}

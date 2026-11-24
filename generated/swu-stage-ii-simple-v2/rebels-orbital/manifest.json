@@ -1,0 +1,267 @@
+{
+  "version": 1,
+  "faction": "REBEL_ALLIANCE",
+  "batch": "rebels-orbital",
+  "title": "Rebellenallianz · Orbitale Infrastruktur",
+  "gameDataCommit": "27ffb84b3446db8796c14d5c618b6e3b30efb29e",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/rebels.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "source-alpha.png",
+  "grid": {
+    "columns": 2,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [
+        71910100,
+        71910199
+      ],
+      "label": "Orbitales Forschungslabor",
+      "displayName": "Orbitales Forschungslabor",
+      "slug": "orbitales-forschungslabor",
+      "cell": 0,
+      "researchId": 201201,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            270301
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 71910100,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        },
+        {
+          "code": 900,
+          "label": "900",
+          "file": "generated/fields/900.png"
+        },
+        {
+          "code": 901,
+          "label": "901",
+          "file": "generated/fields/901.png"
+        }
+      ],
+      "file": "71910100-rebel-orbitales-forschungslabor-map-v2.png",
+      "master": "masters/71910100-orbitales-forschungslabor.png",
+      "production": [
+        {
+          "commodityId": 1700,
+          "amount": 1
+        },
+        {
+          "commodityId": 1801,
+          "amount": -1
+        }
+      ],
+      "previousFile": "71910100-rebels-orbitales-forschungslabor-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        49,
+        76,
+        442,
+        366
+      ]
+    },
+    {
+      "ids": [
+        21910100,
+        21910199
+      ],
+      "label": "Orbital-Fallstation",
+      "displayName": "Orbital-Fallstation",
+      "slug": "orbital-fallstation",
+      "cell": 1,
+      "researchId": 271101,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            270301
+          ]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 21910100,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        },
+        {
+          "code": 900,
+          "label": "900",
+          "file": "generated/fields/900.png"
+        },
+        {
+          "code": 901,
+          "label": "901",
+          "file": "generated/fields/901.png"
+        }
+      ],
+      "file": "21910100-rebel-orbital-fallstation-map-v2.png",
+      "master": "masters/21910100-orbital-fallstation.png",
+      "production": [
+        {
+          "commodityId": 1300,
+          "amount": 56
+        },
+        {
+          "commodityId": 1801,
+          "amount": -1
+        }
+      ],
+      "previousFile": "21910100-rebels-orbital-fallstation-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        533,
+        78,
+        422,
+        360
+      ]
+    },
+    {
+      "ids": [
+        11910100,
+        11910199
+      ],
+      "label": "Orbital-Habitat",
+      "displayName": "Orbital-Habitat",
+      "slug": "orbital-habitat",
+      "cell": 2,
+      "researchId": 271301,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            270301
+          ]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 11910100,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        },
+        {
+          "code": 900,
+          "label": "900",
+          "file": "generated/fields/900.png"
+        },
+        {
+          "code": 901,
+          "label": "901",
+          "file": "generated/fields/901.png"
+        }
+      ],
+      "file": "11910100-rebel-orbital-habitat-map-v2.png",
+      "master": "masters/11910100-orbital-habitat.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": -1
+        }
+      ],
+      "previousFile": "11910100-rebels-orbital-habitat-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        46,
+        551,
+        444,
+        374
+      ]
+    },
+    {
+      "ids": [
+        85130100,
+        85130199
+      ],
+      "label": "Korvetten-Werft",
+      "displayName": "Korvetten-Werft",
+      "slug": "korvetten-werft",
+      "cell": 3,
+      "researchId": 275301,
+      "requires": [
+        {
+          "type": "REQUIRE_SOME",
+          "techIds": [
+            200201
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 85130100,
+      "previews": [
+        {
+          "code": "OO10",
+          "label": "Orbit",
+          "file": "generated/SWUfields/tOO10.png"
+        },
+        {
+          "code": 900,
+          "label": "900",
+          "file": "generated/fields/900.png"
+        },
+        {
+          "code": 901,
+          "label": "901",
+          "file": "generated/fields/901.png"
+        }
+      ],
+      "file": "85130100-rebel-korvetten-werft-map-v2.png",
+      "master": "masters/85130100-korvetten-werft.png",
+      "production": [
+        {
+          "commodityId": 1801,
+          "amount": -1
+        },
+        {
+          "commodityId": 1802,
+          "amount": -1
+        }
+      ],
+      "previousFile": "85130100-rebels-korvetten-werft-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        563,
+        561,
+        413,
+        359
+      ]
+    }
+  ],
+  "styleReference": "style/rebel-reference-magenta.png",
+  "originalSource": "edit-20261123-170050-36727e-simple-v2-rebels-orbital.png",
+  "generation": {
+    "tool": "edit_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.0645,
+    "alphaMethod": "12% sampled-magenta chroma-key extraction, including enclosed orbital openings; original source preserved"
+  }
+}

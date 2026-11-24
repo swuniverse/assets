@@ -1,0 +1,39 @@
+{
+  "model": "gpt-image-2",
+  "prompt": "Use case: stylized-concept / style-transfer. Asset type: Star Wars SWUniverse colony-map building sprites.\nInput image: ONE USER-APPROVED SIMPLE STYLE REFERENCE ONLY. It establishes the smooth broad matte faces, clean chunky geometry, macro detail density, light-facing roofs, exact near-overhead camera, soft shading and palette. Create the NEW function-specific buildings listed below; never copy the reference subject or its layout.\nArt direction: simple pre-rendered 3D RTS game sprite. Broad clean roof plates, softly beveled or rounded macro forms, 5-8 readable structural masses per compound. Sparse thick functional machinery and dark recesses, no fine decorative texture. Restrained studio-like upper-left light and ambient occlusion only inside structural joints. Bright readable roof faces at 40px and 68px.\nCamera: HIGH ORTHOGRAPHIC NEAR-VERTICAL aerial view, elevation 80 degrees above the ground. Roofs dominate, front walls extremely shallow; match reference. Broad low colony footprints; no tall monuments or scenic camera.\nBackground: all space outside each silhouette must be a SINGLE PERFECTLY UNIFORM PURE MAGENTA CHROMA-KEY backing, RGB(255,0,255), hex #FF00FF. Paint magenta, not a transparency preview. No checkerboard, gradient, vignette, halo, fog, black backdrop or shadows on magenta. Preserve tight occlusion only within structures. OPEN ORBITAL DOCKS and gaps between orbital struts must show the SAME PURE MAGENTA as outside, never a dark painted void. No solid orbital floor or background plate.\nConstraints: no photorealism, gritty PBR, micro-panel grids, scratches, grunge, corrosion, stippled dirt, bolts everywhere, dense greebles or tangled pipe forests. No text, numbers, logos, watermark, borders, people, animals, vehicles, ships, stars, landscape or terrain. Surface facilities may retain only a compact functional paved foundation following the footprint.\nPalette: bright light-neutral gray armor, graphite-black broad technical insets and sparse small red lamps. Large clean light-gray roof faces, match approved Imperial reference; do not darken the building or turn it tan.\nLayout: EXACTLY FOUR separate compounds on 1024x1024, 2x2 grid, each in its own 512x512 cell. Order TOP LEFT, TOP RIGHT, BOTTOM LEFT, BOTTOM RIGHT. Each compound at most 430px across with at least 35px solid magenta clearance to its cell edges. Preserve continuous empty magenta corridors along ALL grid boundaries; NEVER cross a cell boundary or share a foundation.\n1. Cargo container depot: broad low logistics yard, six large modular freight containers in clear rows with a short gantry crane and squat transfer office. No shipping vehicles or scenery.\n2. Spaceport: advanced broad low terminal complex with two large EMPTY circular landing pads, connected cargo concourse and compact control center; denser upgrade of the earlier starport. No ships.\n3. Production hall: wide low factory with three clear segmented roof bays, attached assembly annex and broad cargo doors; visible compact machinery, no cargo vehicles.\n4. Research center III: advanced low campus with three broad blue-glass laboratories around a squat central scientific reactor or sensor core; visibly developed from research center II, no monumental tower.\nKeep the simplified geometry, clear functional silhouette and same camera across every compound.\n",
+  "requested": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "n": 1,
+    "format": "png"
+  },
+  "applied": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "background": null,
+    "output_format": "png"
+  },
+  "images": [
+    {
+      "file_path": "/Users/TMUNDIN/git/github.com/swuniverse/core/assets/generated/swu-stage-ii-simple-v2/imperials-logistics/edit-20261123-170930-77320e-simple-v2-imperials-logistics.png",
+      "filename": "edit-20261123-170930-77320e-simple-v2-imperials-logistics.png",
+      "size_bytes": 1111976,
+      "mime_type": "image/png"
+    }
+  ],
+  "usage": {
+    "total_tokens": 3482,
+    "input_tokens": 1726,
+    "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 702
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+    }
+  },
+  "cost_usd_estimated": 0.0644,
+  "route": "direct"
+}

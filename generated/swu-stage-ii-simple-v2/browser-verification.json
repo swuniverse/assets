@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-24",
+  "tool": "dev-browser 1.0.0",
+  "method": "Headless Chrome; fixture imports real FieldCell and buildingImage from running Vite frontend",
+  "url": "http://localhost:5173/@fs/Users/TMUNDIN/git/github.com/swuniverse/core/assets/generated/swu-stage-ii-simple-v2/preview.html",
+  "result": "passed",
+  "families": 76,
+  "ids": 138,
+  "fieldCells": 138,
+  "imageElements": 576,
+  "imageLoading": true,
+  "statusCases": 112,
+  "noOverflow": true,
+  "errors": [],
+  "report": "BESTANDEN: 76 Familien \u00b7 138 Varianten \u00b7 576 Bilder geladen \u00b7 Orbit, numerische Felder und Geb\u00e4udezust\u00e4nde gepr\u00fcft",
+  "domResult": "passed",
+  "menuImages": 76,
+  "fieldPixels": 68,
+  "menuPixels": 40,
+  "screenshots": {
+    "variants": "browser-variants.png",
+    "states": "browser-states.png"
+  }
+}

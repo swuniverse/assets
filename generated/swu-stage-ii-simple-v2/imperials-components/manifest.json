@@ -1,0 +1,387 @@
+{
+  "version": 1,
+  "faction": "GALACTIC_EMPIRE",
+  "batch": "imperials-components",
+  "title": "Galaktisches Imperium · Spezialkomponenten",
+  "gameDataCommit": "27ffb84b3446db8796c14d5c618b6e3b30efb29e",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/imperials.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "source-alpha.png",
+  "grid": {
+    "columns": 3,
+    "rows": 2
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [
+        37010103
+      ],
+      "label": "Hyperraum-Spulen-Fabrik",
+      "displayName": "Hyperraum-Spulen-Fabrik",
+      "slug": "hyperraum-spulen-fabrik",
+      "cell": 0,
+      "researchId": 904103,
+      "requires": [
+        {
+          "type": "EXCLUDE",
+          "techIds": [
+            901103,
+            903103,
+            904203,
+            904303,
+            905103
+          ]
+        },
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            254203
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 37010103,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "37010103-imperial-hyperraum-spulen-fabrik-map-v2.png",
+      "master": "masters/37010103-hyperraum-spulen-fabrik.png",
+      "production": [
+        {
+          "commodityId": 22,
+          "amount": -1
+        },
+        {
+          "commodityId": 34,
+          "amount": 1
+        }
+      ],
+      "previousFile": "37010103-imperials-hyperraum-spulen-fabrik-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        43,
+        77,
+        444,
+        414
+      ]
+    },
+    {
+      "ids": [
+        37020103
+      ],
+      "label": "Laminanium-Schaltkreis-Fabrik",
+      "displayName": "Laminanium-Schaltkreis-Fabrik",
+      "slug": "laminanium-schaltkreis-fabrik",
+      "cell": 1,
+      "researchId": 903103,
+      "requires": [
+        {
+          "type": "EXCLUDE",
+          "techIds": [
+            901103,
+            903203,
+            903303,
+            904103,
+            905103
+          ]
+        },
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            254303
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 37020103,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "37020103-imperial-laminanium-schaltkreis-fabrik-map-v2.png",
+      "master": "masters/37020103-laminanium-schaltkreis-fabrik.png",
+      "production": [
+        {
+          "commodityId": 23,
+          "amount": -1
+        },
+        {
+          "commodityId": 33,
+          "amount": 1
+        }
+      ],
+      "previousFile": "37020103-imperials-laminanium-schaltkreis-fabrik-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        550,
+        66,
+        438,
+        422
+      ]
+    },
+    {
+      "ids": [
+        37030103
+      ],
+      "label": "Phasenkonverter-Fabrik",
+      "displayName": "Phasenkonverter-Fabrik",
+      "slug": "phasenkonverter-fabrik",
+      "cell": 2,
+      "researchId": 905103,
+      "requires": [
+        {
+          "type": "EXCLUDE",
+          "techIds": [
+            901103,
+            903103,
+            904103,
+            905203,
+            905303
+          ]
+        },
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            254403
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 37030103,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "37030103-imperial-phasenkonverter-fabrik-map-v2.png",
+      "master": "masters/37030103-phasenkonverter-fabrik.png",
+      "production": [
+        {
+          "commodityId": 24,
+          "amount": -1
+        },
+        {
+          "commodityId": 35,
+          "amount": 1
+        }
+      ],
+      "previousFile": "37030103-imperials-phasenkonverter-fabrik-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        1047,
+        67,
+        454,
+        428
+      ]
+    },
+    {
+      "ids": [
+        37040103
+      ],
+      "label": "Speicherchip-Fabrik",
+      "displayName": "Speicherchip-Fabrik",
+      "slug": "speicherchip-fabrik",
+      "cell": 3,
+      "researchId": 901103,
+      "requires": [
+        {
+          "type": "EXCLUDE",
+          "techIds": [
+            901203,
+            901303,
+            903103,
+            904103,
+            905103
+          ]
+        },
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            254503
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 37040103,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "37040103-imperial-speicherchip-fabrik-map-v2.png",
+      "master": "masters/37040103-speicherchip-fabrik.png",
+      "production": [
+        {
+          "commodityId": 25,
+          "amount": -1
+        },
+        {
+          "commodityId": 31,
+          "amount": 1
+        }
+      ],
+      "previousFile": "37040103-imperials-speicherchip-fabrik-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        48,
+        564,
+        415,
+        391
+      ]
+    },
+    {
+      "ids": [
+        37050103
+      ],
+      "label": "Mikrodyne-Fabrik",
+      "displayName": "Mikrodyne-Fabrik",
+      "slug": "mikrodyne-fabrik",
+      "cell": 4,
+      "researchId": 906103,
+      "requires": [
+        {
+          "type": "REQUIRE",
+          "techIds": [
+            254603,
+            254603
+          ]
+        }
+      ],
+      "effort": 30,
+      "researchCommodityId": 1702,
+      "placement": "normal",
+      "permissionBuildingId": 37050103,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Bauland",
+          "file": "generated/SWUfields/tC119.png"
+        },
+        {
+          "code": "C640",
+          "label": "Fels",
+          "file": "generated/SWUfields/tC640.png"
+        },
+        {
+          "code": "D819",
+          "label": "Wüste",
+          "file": "generated/SWUfields/tD819.png"
+        }
+      ],
+      "file": "37050103-imperial-mikrodyne-fabrik-map-v2.png",
+      "master": "masters/37050103-mikrodyne-fabrik.png",
+      "production": [
+        {
+          "commodityId": 26,
+          "amount": -1
+        },
+        {
+          "commodityId": 36,
+          "amount": 1
+        }
+      ],
+      "previousFile": "37050103-imperials-mikrodyne-fabrik-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        553,
+        570,
+        416,
+        382
+      ]
+    }
+  ],
+  "styleReference": "style/imperial-reference-magenta.png",
+  "originalSource": "edit-20261123-171234-17fa93-simple-v2-imperials-components.png",
+  "generation": {
+    "tool": "edit_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.053,
+    "alphaMethod": "12% sampled-magenta chroma-key extraction, including enclosed orbital openings; original source preserved"
+  },
+  "protectedAlphaRegions": [
+    {
+      "ellipse": [
+        1153,
+        174,
+        18,
+        17
+      ],
+      "reason": "Visually reviewed violet technical core inside the compound; preserve original source alpha"
+    },
+    {
+      "ellipse": [
+        1153,
+        328,
+        18,
+        17
+      ],
+      "reason": "Visually reviewed violet technical core inside the compound; preserve original source alpha"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "faction": "REBEL_ALLIANCE",
+  "batch": "rebels-modules",
+  "title": "Rebellenallianz · Modulfabriken",
+  "gameDataCommit": "27ffb84b3446db8796c14d5c618b6e3b30efb29e",
+  "buildingSource": "game-data/data/buildings/stu-buildings.yaml",
+  "researchSource": "game-data/data/research/rebels.yaml",
+  "terrainSource": "game-data/data/buildings/swu-field-build-categories.yaml",
+  "upgradeSource": "game-data/data/buildings/stu-building-upgrades.yaml",
+  "sourceSheet": "source-alpha.png",
+  "grid": {
+    "columns": 3,
+    "rows": 1
+  },
+  "canvasSize": 256,
+  "masterCanvasSize": 512,
+  "subjectMaxSize": 244,
+  "trimAlphaThresholdPercent": 1,
+  "items": [
+    {
+      "ids": [
+        82810100,
+        82810199
+      ],
+      "label": "Waffenmodulfabrik",
+      "displayName": "Waffenmodulfabrik",
+      "slug": "waffenmodulfabrik",
+      "cell": 0,
+      "researchId": 281201,
+      "requires": [
+        {
+          "type": "REQUIRE_SOME",
+          "techIds": [
+            280101
+          ]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "unassigned-fields",
+      "permissionBuildingId": 82810100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Kompositionsvorschau (keine Feldfreigabe)",
+          "file": "generated/SWUfields/tC119.png"
+        }
+      ],
+      "file": "82810100-rebel-waffenmodulfabrik-map-v2.png",
+      "master": "masters/82810100-waffenmodulfabrik.png",
+      "production": [
+        {
+          "commodityId": 1810,
+          "amount": -1
+        }
+      ],
+      "previousFile": "82810100-rebels-waffenmodulfabrik-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        23,
+        263,
+        467,
+        454
+      ]
+    },
+    {
+      "ids": [
+        82820100,
+        82820199
+      ],
+      "label": "Schildmodulfabrik",
+      "displayName": "Schildmodulfabrik",
+      "slug": "schildmodulfabrik",
+      "cell": 1,
+      "researchId": 282201,
+      "requires": [
+        {
+          "type": "REQUIRE_SOME",
+          "techIds": [
+            280101
+          ]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "unassigned-fields",
+      "permissionBuildingId": 82820100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Kompositionsvorschau (keine Feldfreigabe)",
+          "file": "generated/SWUfields/tC119.png"
+        }
+      ],
+      "file": "82820100-rebel-schildmodulfabrik-map-v2.png",
+      "master": "masters/82820100-schildmodulfabrik.png",
+      "production": [
+        {
+          "commodityId": 1810,
+          "amount": -1
+        }
+      ],
+      "previousFile": "82820100-rebels-schildmodulfabrik-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        527,
+        285,
+        470,
+        432
+      ]
+    },
+    {
+      "ids": [
+        82830100,
+        82830199
+      ],
+      "label": "Antriebsmodulfabrik",
+      "displayName": "Antriebsmodulfabrik",
+      "slug": "antriebsmodulfabrik",
+      "cell": 2,
+      "researchId": 283201,
+      "requires": [
+        {
+          "type": "REQUIRE_SOME",
+          "techIds": [
+            280101
+          ]
+        }
+      ],
+      "effort": 20,
+      "researchCommodityId": 1702,
+      "placement": "unassigned-fields",
+      "permissionBuildingId": 82830100,
+      "previews": [
+        {
+          "code": "C119",
+          "label": "Kompositionsvorschau (keine Feldfreigabe)",
+          "file": "generated/SWUfields/tC119.png"
+        }
+      ],
+      "file": "82830100-rebel-antriebsmodulfabrik-map-v2.png",
+      "master": "masters/82830100-antriebsmodulfabrik.png",
+      "production": [
+        {
+          "commodityId": 1810,
+          "amount": -1
+        }
+      ],
+      "previousFile": "82830100-rebels-antriebsmodulfabrik-map-v1.png",
+      "approvedSample": false,
+      "cropBox": [
+        1035,
+        365,
+        463,
+        370
+      ]
+    }
+  ],
+  "styleReference": "style/rebel-reference-magenta.png",
+  "originalSource": "edit-20261123-170234-572548-simple-v2-rebels-modules.png",
+  "generation": {
+    "tool": "edit_image",
+    "modelRequested": "gpt-image-2",
+    "quality": "medium",
+    "costEstimateUsd": 0.0526,
+    "alphaMethod": "12% sampled-magenta chroma-key extraction, including enclosed orbital openings; original source preserved"
+  }
+}

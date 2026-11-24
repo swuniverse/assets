@@ -1,0 +1,194 @@
+{
+  "date": "2026-11-23",
+  "scope": "All building families whose research costs FP II (commodity 1702), including research center III transition",
+  "families": 76,
+  "idCount": 138,
+  "approvedSamples": 2,
+  "newFamilies": 74,
+  "gameDataCommit": "27ffb84b3446db8796c14d5c618b6e3b30efb29e",
+  "mappingBaseline": "a5c232cf334fe0a1a812b5faf1b47c81bf53ca54",
+  "previousCatalogue": "assets/generated/swu-stage-ii-v1",
+  "styleGuide": "docs/art/building-style.md",
+  "batches": [
+    {
+      "slug": "rebels-civic",
+      "title": "Rebellenallianz · Siedlung und Klimaversorgung",
+      "ticket": ".scratch/stage-ii-simple-assets/issues/02-rebels-civic.md",
+      "manifest": "assets/generated/swu-stage-ii-simple-v2/rebels-civic/manifest.json",
+      "families": 4,
+      "idCount": 17,
+      "generateCount": 3,
+      "status": "claimed"
+    },
+    {
+      "slug": "rebels-energy",
+      "title": "Rebellenallianz · Fortgeschrittene Energie",
+      "ticket": ".scratch/stage-ii-simple-assets/issues/03-rebels-energy.md",
+      "manifest": "assets/generated/swu-stage-ii-simple-v2/rebels-energy/manifest.json",
+      "families": 4,
+      "idCount": 6,
+      "generateCount": 4,
+      "status": "claimed"
+    },
+    {
+      "slug": "rebels-logistics",
+      "title": "Rebellenallianz · Logistik, Produktion und Forschung",
+      "ticket": ".scratch/stage-ii-simple-assets/issues/04-rebels-logistics.md",
+      "manifest": "assets/generated/swu-stage-ii-simple-v2/rebels-logistics/manifest.json",
+      "families": 4,
+      "idCount": 7,
+      "generateCount": 4,
+      "status": "claimed"
+    },
+    {
+      "slug": "rebels-orbital",
+      "title": "Rebellenallianz · Orbitale Infrastruktur",
+      "ticket": ".scratch/stage-ii-simple-assets/issues/05-rebels-orbital.md",
+      "manifest": "assets/generated/swu-stage-ii-simple-v2/rebels-orbital/manifest.json",
+      "families": 4,
+      "idCount": 8,
+      "generateCount": 4,
+      "status": "claimed"
+    },
+    {
+      "slug": "rebels-modules",
+      "title": "Rebellenallianz · Modulfabriken",
+      "ticket": ".scratch/stage-ii-simple-assets/issues/06-rebels-modules.md",
+      "manifest": "assets/generated/swu-stage-ii-simple-v2/rebels-modules/manifest.json",
+      "families": 3,
+      "idCount": 6,
+      "generateCount": 3,
+      "status": "claimed"
+    },
+    {
+      "slug": "rebels-holo",
+      "title": "Rebellenallianz · Ausbildung, Holografie und Plasma",
+      "ticket": ".scratch/stage-ii-simple-assets/issues/07-rebels-holo.md",
+      "manifest": "assets/generated/swu-stage-ii-simple-v2/rebels-holo/manifest.json",
+      "families": 4,
+      "idCount": 10,
+      "generateCount": 4,
+      "status": "claimed"
+    },
+    {
+      "slug": "rebels-mines",
+      "title": "Rebellenallianz · Spezialisierte Erzminen",
+      "ticket": ".scratch/stage-ii-simple-assets/issues/08-rebels-mines.md",
+      "manifest": "assets/generated/swu-stage-ii-simple-v2/rebels-mines/manifest.json",
+      "families": 5,
+      "idCount": 5,
+      "generateCount": 5,
+      "status": "claimed"
+    },
+    {
+      "slug": "rebels-refineries",
+      "title": "Rebellenallianz · Spezialisierte Raffinerien",
+      "ticket": ".scratch/stage-ii-simple-assets/issues/09-rebels-refineries.md",
+      "manifest": "assets/generated/swu-stage-ii-simple-v2/rebels-refineries/manifest.json",
+      "families": 5,
+      "idCount": 5,
+      "generateCount": 5,
+      "status": "claimed"
+    },
+    {
+      "slug": "rebels-components",
+      "title": "Rebellenallianz · Spezialkomponenten",
+      "ticket": ".scratch/stage-ii-simple-assets/issues/10-rebels-components.md",
+      "manifest": "assets/generated/swu-stage-ii-simple-v2/rebels-components/manifest.json",
+      "families": 5,
+      "idCount": 5,
+      "generateCount": 5,
+      "status": "claimed"
+    },
+    {
+      "slug": "imperials-civic",
+      "title": "Galaktisches Imperium · Siedlung und Klimaversorgung",
+      "ticket": ".scratch/stage-ii-simple-assets/issues/11-imperials-civic.md",
+      "manifest": "assets/generated/swu-stage-ii-simple-v2/imperials-civic/manifest.json",
+      "families": 4,
+      "idCount": 17,
+      "generateCount": 4,
+      "status": "claimed"
+    },
+    {
+      "slug": "imperials-energy",
+      "title": "Galaktisches Imperium · Fortgeschrittene Energie",
+      "ticket": ".scratch/stage-ii-simple-assets/issues/12-imperials-energy.md",
+      "manifest": "assets/generated/swu-stage-ii-simple-v2/imperials-energy/manifest.json",
+      "families": 4,
+      "idCount": 6,
+      "generateCount": 4,
+      "status": "claimed"
+    },
+    {
+      "slug": "imperials-logistics",
+      "title": "Galaktisches Imperium · Logistik, Produktion und Forschung",
+      "ticket": ".scratch/stage-ii-simple-assets/issues/13-imperials-logistics.md",
+      "manifest": "assets/generated/swu-stage-ii-simple-v2/imperials-logistics/manifest.json",
+      "families": 4,
+      "idCount": 7,
+      "generateCount": 4,
+      "status": "claimed"
+    },
+    {
+      "slug": "imperials-orbital",
+      "title": "Galaktisches Imperium · Orbitale Infrastruktur",
+      "ticket": ".scratch/stage-ii-simple-assets/issues/14-imperials-orbital.md",
+      "manifest": "assets/generated/swu-stage-ii-simple-v2/imperials-orbital/manifest.json",
+      "families": 4,
+      "idCount": 8,
+      "generateCount": 4,
+      "status": "claimed"
+    },
+    {
+      "slug": "imperials-modules",
+      "title": "Galaktisches Imperium · Modulfabriken",
+      "ticket": ".scratch/stage-ii-simple-assets/issues/15-imperials-modules.md",
+      "manifest": "assets/generated/swu-stage-ii-simple-v2/imperials-modules/manifest.json",
+      "families": 3,
+      "idCount": 6,
+      "generateCount": 2,
+      "status": "claimed"
+    },
+    {
+      "slug": "imperials-holo",
+      "title": "Galaktisches Imperium · Ausbildung, Holografie und Plasma",
+      "ticket": ".scratch/stage-ii-simple-assets/issues/16-imperials-holo.md",
+      "manifest": "assets/generated/swu-stage-ii-simple-v2/imperials-holo/manifest.json",
+      "families": 4,
+      "idCount": 10,
+      "generateCount": 4,
+      "status": "claimed"
+    },
+    {
+      "slug": "imperials-mines",
+      "title": "Galaktisches Imperium · Spezialisierte Erzminen",
+      "ticket": ".scratch/stage-ii-simple-assets/issues/17-imperials-mines.md",
+      "manifest": "assets/generated/swu-stage-ii-simple-v2/imperials-mines/manifest.json",
+      "families": 5,
+      "idCount": 5,
+      "generateCount": 5,
+      "status": "claimed"
+    },
+    {
+      "slug": "imperials-refineries",
+      "title": "Galaktisches Imperium · Spezialisierte Raffinerien",
+      "ticket": ".scratch/stage-ii-simple-assets/issues/18-imperials-refineries.md",
+      "manifest": "assets/generated/swu-stage-ii-simple-v2/imperials-refineries/manifest.json",
+      "families": 5,
+      "idCount": 5,
+      "generateCount": 5,
+      "status": "claimed"
+    },
+    {
+      "slug": "imperials-components",
+      "title": "Galaktisches Imperium · Spezialkomponenten",
+      "ticket": ".scratch/stage-ii-simple-assets/issues/19-imperials-components.md",
+      "manifest": "assets/generated/swu-stage-ii-simple-v2/imperials-components/manifest.json",
+      "families": 5,
+      "idCount": 5,
+      "generateCount": 5,
+      "status": "claimed"
+    }
+  ]
+}

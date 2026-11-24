@@ -1,0 +1,22 @@
+[
+  {
+    "file": "71910300-imperial-orbitales-forschungslabor-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 58019
+  },
+  {
+    "file": "21910300-imperial-anti-grav-trainingszentrum-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 82073
+  },
+  {
+    "file": "11910300-imperial-orbital-habitat-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 66837
+  },
+  {
+    "file": "85130300-imperial-korvetten-werft-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 52500
+  }
+]

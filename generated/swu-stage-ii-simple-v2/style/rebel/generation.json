@@ -1,0 +1,40 @@
+{
+  "model": "gpt-image-2",
+  "prompt": "Use case: precise-object-edit. Edit this Rebel settlement sprite.\nPreserve its SIX-building layout, four low rectangular cream buildings, two cream domes, orange fabric shade, paved footprint, broad smooth simple geometry and all palette relationships.\nChange ONLY the camera and outside background.\nCamera: HIGH NEAR-VERTICAL ORTHOGRAPHIC aerial view, elevation 80 degrees above the ground. See MOSTLY ROOFS, about 85% roof and only 15% shallow front wall. Do not make the compound taller. No low isometric camera.\nOutside the exact compound silhouette: a SINGLE PERFECTLY UNIFORM FLAT PURE MAGENTA backing, RGB(255,0,255), hex #FF00FF, so it can be removed for a transparent game sprite. THIS IS NOT TRANSPARENT PREVIEW: paint the outside solid pure magenta. No checkerboard, no black backdrop, no gradient, no halo, no vignette, no scene lighting or shadow on the magenta. No loose shadow around the compound. Preserve only tight contact occlusion within the building/foundation.\nCenter the complete compound within the square, with at least 80px pure magenta clearance to all four edges. No cropping, no text, no additional objects.\nKeep the broad matte cream roofs clean, no added surface detail or realism.",
+  "requested": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "n": 1,
+    "format": "png"
+  },
+  "applied": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "background": null,
+    "output_format": "png"
+  },
+  "images": [
+    {
+      "file_path": "/Users/TMUNDIN/git/github.com/swuniverse/core/output/imagegen/fz2-simple-style-v2/rebel-settlement/edit-20261123-163504-dfbeda-rebel-settlement-simple-v2-fin.png",
+      "filename": "edit-20261123-163504-dfbeda-rebel-settlement-simple-v2-fin.png",
+      "size_bytes": 1198050,
+      "mime_type": "image/png"
+    }
+  ],
+  "usage": {
+    "total_tokens": 3052,
+    "input_tokens": 1296,
+    "input_tokens_details": {
+      "image_tokens": 1024,
+      "text_tokens": 272
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+    }
+  },
+  "cost_usd_estimated": 0.0622,
+  "route": "direct",
+  "previewTool": "edit_image"
+}

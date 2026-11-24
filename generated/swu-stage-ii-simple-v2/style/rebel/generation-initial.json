@@ -1,0 +1,40 @@
+{
+  "model": "gpt-image-2",
+  "prompt": "Input image role: FZ1 STYLE REFERENCE ONLY. Preserve its simple 3D rendering, clean broad cream surfaces, subdued accents, camera and lighting. Create the NEW FZ2 subject below, do not reproduce the original four buildings.\nUse case: stylized-concept / style-transfer.\nAsset type: one colony-map building sprite for the Star Wars browser strategy game SWUniverse.\nArt direction: match a SIMPLE pre-rendered 3D RTS sprite, with broad smooth matte surfaces, rounded or beveled macro forms, bright light-facing roofs, a few thick functional details and clean dark recesses. Readable at 40 pixels. The earlier FZ1 series has simple warm cream or light-gray roof masses and clear geometry; follow that level of simplification.\nCamera: high near-overhead orthographic, elevation about 75 degrees; roofs occupy most visible area, shallow front walls. Compact broad low colony parcel, same camera throughout. Center one isolated compound, about 820px across in a 1024px square with clear margin.\nRendering: restrained soft upper-left light and clean ambient occlusion only in structural joints. Smooth almost textureless roof faces, very limited broad panel seams, 5-8 main visual masses. Medium broad bevels, clean contours, no fine surface decoration.\nConstraints: NO photorealism, realistic PBR, gritty realism, etched micro-panel grid, bolts everywhere, scratches, grime, corrosion, surface grain, dirt stippling, dense greebles, crowded pipework, dramatic lighting, tiny freestanding decorations or tall towers. No text, logo, watermark, people, vehicles, spacecraft, terrain or scenery.\nBackground: genuine transparent alpha around the compound, never a painted checkerboard. If alpha cannot be rendered, use a single uniform pure magenta #ff00ff color outside the silhouette, without texture or shadows on the backdrop. Keep only a tight contact shadow.\nPalette: warm ivory cream duracrete, slate-blue dark-gray technical insets, a few muted rust-orange structural trim bands. Cream faces are clean and large; no stains or gritty weathering.\nSubject: FZ2 Rebel settlement, an advanced version of the simple FZ1 residential colony. Six low connected residential buildings: four broad cream rectangular blocks with soft beveled corners, two low smooth shallow domes. Arrange compactly around a small paved courtyard and one muted orange fabric shade between two buildings. Few doors and tiny dark window bands, only two or three short utility tanks. Attached narrow functional paved foundation following the footprint, no landscape. More residential capacity, same clean simple FZ1 finish. Not a realistic city or collectible miniature.\n",
+  "requested": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "n": 1,
+    "format": "png"
+  },
+  "applied": {
+    "size": "1024x1024",
+    "quality": "medium",
+    "background": null,
+    "output_format": "png"
+  },
+  "images": [
+    {
+      "file_path": "/Users/TMUNDIN/git/github.com/swuniverse/core/output/imagegen/fz2-simple-style-v2/rebel-settlement/edit-20261123-163109-6de2d2-rebel-settlement-simple-v2.png",
+      "filename": "edit-20261123-163109-6de2d2-rebel-settlement-simple-v2.png",
+      "size_bytes": 1797837,
+      "mime_type": "image/png"
+    }
+  ],
+  "usage": {
+    "total_tokens": 2555,
+    "input_tokens": 799,
+    "input_tokens_details": {
+      "image_tokens": 256,
+      "text_tokens": 543
+    },
+    "output_tokens": 1756,
+    "output_tokens_details": {
+      "image_tokens": 1756,
+      "text_tokens": 0
+    }
+  },
+  "cost_usd_estimated": 0.0574,
+  "route": "direct",
+  "previewTool": "edit_image"
+}

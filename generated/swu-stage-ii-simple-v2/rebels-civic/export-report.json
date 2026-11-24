@@ -1,0 +1,22 @@
+[
+  {
+    "file": "13010100-rebel-siedlung-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 90513
+  },
+  {
+    "file": "23030100-rebel-klimakontrollzentrum-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 91282
+  },
+  {
+    "file": "23010100-rebel-klimakontroll-farm-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 97461
+  },
+  {
+    "file": "23020100-rebel-klimakontroll-zuchtanlage-map-v2.png",
+    "facts": "256 256 False srgba 4.0",
+    "bytes": 94363
+  }
+]
